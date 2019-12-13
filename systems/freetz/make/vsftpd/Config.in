@@ -1,0 +1,23 @@
+config FREETZ_PACKAGE_VSFTPD
+	bool "vsftpd 3.0.2"
+	select FREETZ_LIB_libcrypt if ! FREETZ_PACKAGE_VSFTPD_STATIC
+	default n
+	help
+		A fast and secure FTP server
+
+config FREETZ_PACKAGE_VSFTPD_WITH_SSL
+	bool "build with SSL support"
+	depends on FREETZ_PACKAGE_VSFTPD
+	select FREETZ_LIB_libcrypto if ! FREETZ_PACKAGE_VSFTPD_STATIC
+	select FREETZ_LIB_libssl if ! FREETZ_PACKAGE_VSFTPD_STATIC
+	select FREETZ_OPENSSL_VERSION_PROMPT if FREETZ_PACKAGE_VSFTPD_STATIC
+	default n
+	help
+		This option enables SSL support for vsftpd.
+
+config FREETZ_PACKAGE_VSFTPD_STATIC
+	bool "Create statically linked binary"
+	depends on FREETZ_PACKAGE_VSFTPD
+	default n
+	help
+		Causes all libraries vsftpd depends on to be linked in statically.

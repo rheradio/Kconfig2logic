@@ -1,0 +1,84 @@
+#
+# Automatically generated file; DO NOT EDIT.
+# Fiasco configuration
+#
+
+#
+# Target configuration
+#
+# IA32 is not set
+AMD64=y
+# ARM is not set
+PF_PC=y
+# PF_UX is not set
+ABI_VF=y
+# IA32_486 is not set
+# IA32_586 is not set
+# IA32_686 is not set
+# IA32_P2 is not set
+# IA32_P3 is not set
+# IA32_P4 is not set
+# IA32_PM is not set
+# IA32_CORE2 is not set
+# IA32_CORE_I is not set
+# IA32_ATOM is not set
+# IA32_K6 is not set
+# IA32_K7 is not set
+# IA32_K8 is not set
+# IA32_K10 is not set
+# AMD64_K8 is not set
+# AMD64_CORE2 is not set
+# AMD64_CORE_I is not set
+# AMD64_ATOM is not set
+AMD64_K10=y
+# CPU_VIRT is not set
+# SCHED_PIT is not set
+# SCHED_RTC is not set
+SCHED_APIC=y
+# WORKAROUND_AMD_FPU_LEAK is not set
+
+#
+# Kernel options
+#
+MP=y
+MP_MAX_CPUS=4
+CONTEXT_8K=y
+ONE_SHOT=y
+SYNC_TSC=y
+FINE_GRAINED_CPUTIME=y
+SCHED_FIXED_PRIO=y
+VIRT_OBJ_SPACE=y
+
+#
+# Debugging
+#
+INLINE=y
+# NDEBUG is not set
+# NO_FRAME_PTR is not set
+# STACK_DEPTH is not set
+# LIST_ALLOC_SANITY is not set
+# BEFORE_IRET_SANITY is not set
+# IRQ_SPINNER is not set
+# WATCHDOG is not set
+SERIAL=y
+# JDB is not set
+# POWERSAVE_GETCHAR is not set
+# WARN_NONE is not set
+# WARN_WARNING is not set
+WARN_ANY=y
+
+#
+# Compiling
+#
+CC="gcc"
+CXX="OTHERVAL"
+HOST_CC="OTHERVAL"
+HOST_CXX="OTHERVAL"
+# MAINTAINER_MODE is not set
+LABEL="OTHERVAL"
+# EXPERIMENTAL is not set
+BIT64=y
+WARN_LEVEL=2
+XARCH="amd64"
+IA32_TARGET="AMD Opteron"
+ABI="vf"

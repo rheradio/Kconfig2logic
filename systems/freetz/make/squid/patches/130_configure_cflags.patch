@@ -1,0 +1,15 @@
+--- configure
++++ configure
+@@ -15698,10 +15698,10 @@
+         SQUID_CFLAGS="-Werror -Wall -Wpointer-arith -Wwrite-strings -Wcomments"
+ 	;;
+     *)
+-        SQUID_CFLAGS="-Werror -Wall -Wpointer-arith -Wwrite-strings -Wmissing-prototypes -Wmissing-declarations -Wcomments"
++        SQUID_CFLAGS="-Wpointer-arith -Wwrite-strings -Wmissing-prototypes -Wmissing-declarations -Wcomments"
+ 	;;
+     esac
+-    SQUID_CXXFLAGS="-Werror -Wall -Wpointer-arith -Wwrite-strings -Wcomments"
++    SQUID_CXXFLAGS="-Wpointer-arith -Wwrite-strings -Wcomments"
+ else
+     SQUID_CFLAGS=
+     SQUID_CXXFLAGS=

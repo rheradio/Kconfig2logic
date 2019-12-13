@@ -1,0 +1,24 @@
+config FREETZ_PACKAGE_VPNC
+	bool "Vpnc 0.5.3"
+	depends on FREETZ_LANG_DE || ! FREETZ_SELECTED_LANG_ONLY
+	select FREETZ_LIB_libgpg_error
+	select FREETZ_LIB_libgcrypt
+	default n
+	help
+		Cisco IPSec VPN Client
+
+config FREETZ_PACKAGE_VPNC_WITH_HYBRID_AUTH
+	bool "Hybrid auth"
+	depends on FREETZ_PACKAGE_VPNC
+	select FREETZ_LIB_libcrypto
+	default n
+
+config FREETZ_PACKAGE_VPNC_NAT_SUPPORT
+	bool "NAT support"
+	depends on \
+		FREETZ_PACKAGE_VPNC && \
+		FREETZ_PACKAGE_IPTABLES_IS_SELECTABLE
+	select FREETZ_PACKAGE_IPTABLES
+	default n
+	help
+		Enable NAT support for VPNC. This requires iptables!

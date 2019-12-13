@@ -1,0 +1,113 @@
+## This file is part of the coreboot project.
+##
+## Copyright (C) 2014 The ChromiumOS Authors.  All rights reserved.
+##
+## This program is free software; you can redistribute it and/or modify
+## it under the terms of the GNU General Public License as published by
+## the Free Software Foundation; version 2 of the License.
+##
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+##
+## You should have received a copy of the GNU General Public License
+## along with this program; if not, write to the Free Software
+## Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+##
+
+config VBOOT_STARTS_IN_BOOTBLOCK
+	bool "Vboot starts verifying in bootblock"
+	default n
+	depends on VBOOT_VERIFY_FIRMWARE
+	help
+	  Firmware verification happens during or at the end of bootblock.
+
+config VBOOT_STARTS_IN_ROMSTAGE
+	bool "Vboot starts verifying in romstage"
+	default n
+	depends on VBOOT_VERIFY_FIRMWARE && !VBOOT_STARTS_IN_BOOTBLOCK
+	help
+	  Firmware verification happens during or at the end of romstage.
+
+config VBOOT2_MOCK_SECDATA
+	bool "Mock secdata for firmware verification"
+	default n
+	depends on VBOOT_VERIFY_FIRMWARE
+	help
+	  Enabling VBOOT2_MOCK_SECDATA will mock secdata for the firmware
+	  verification to avoid access to a secdata storage (typically TPM).
+	  All operations for a secdata storage will be successful. This option
+	  can be used during development when a TPM is not present or broken.
+	  THIS SHOULD NOT BE LEFT ON FOR PRODUCTION DEVICES.
+
+config VBOOT_DISABLE_DEV_ON_RECOVERY
+	bool "Disable dev mode on recovery requests"
+	default n
+	depends on VBOOT_VERIFY_FIRMWARE
+	help
+	  When this option is enabled, the Chrome OS device leaves the
+	  developer mode as soon as recovery request is detected. This is
+	  handy on embedded devices with limited input capabilities.
+
+config SEPARATE_VERSTAGE
+	bool "Vboot verification is built into a separate stage"
+	default n
+	depends on VBOOT_VERIFY_FIRMWARE
+
+config RETURN_FROM_VERSTAGE
+	bool "The separate verification stage returns to its caller"
+	default n
+	depends on SEPARATE_VERSTAGE
+	help
+	  If this is set, the verstage returns back to the calling stage instead
+	  of exiting to the succeeding stage so that the verstage space can be
+	  reused by the succeeding stage. This is useful if a ram space is too
+	  small to fit both the verstage and the succeeding stage.
+
+# These VBOOT_X_INDEX are the position of X in FW_MAIN_A/B region. The index
+# table is created by cros_bundle_firmware at build time based on the positions
+# of the blobs listed in fmap.dts and stored at the top of FW_MAIN_A/B region.
+# Unfortunately, there is no programmatical link between the blob list and the
+# index number here.
+config VBOOT_ROMSTAGE_INDEX
+	hex "Romstage component index"
+	default 2
+	depends on VBOOT_VERIFY_FIRMWARE
+	help
+	  This is the index of the romstage component in the verified
+	  firmware block.
+
+config VBOOT_RAMSTAGE_INDEX
+	hex "Ramstage component index"
+	default 1
+	depends on VBOOT_VERIFY_FIRMWARE
+	help
+	  This is the index of the ramstage component in the verified
+	  firmware block.
+
+config VBOOT_REFCODE_INDEX
+	hex "Reference code firmware index"
+	default 1
+	depends on VBOOT_VERIFY_FIRMWARE
+	help
+	  This is the index of the reference code component in the verified
+	  firmware block.
+
+config VBOOT_BOOT_LOADER_INDEX
+	hex "Bootloader component index"
+	default 0
+	depends on VBOOT_VERIFY_FIRMWARE
+	help
+	  This is the index of the bootloader component in the verified
+	  firmware block.
+
+config VBOOT_DYNAMIC_WORK_BUFFER
+	bool "Vboot's work buffer is dynamically allocated."
+	default n
+	depends on VBOOT_VERIFY_FIRMWARE
+	help
+	  This option is used when there isn't enough pre-main memory
+	  ram to allocate the vboot work buffer. That means vboot verification
+	  is after memory init and requires main memory to back the work
+	  buffer.

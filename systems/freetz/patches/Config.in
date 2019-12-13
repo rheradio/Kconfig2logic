@@ -1,0 +1,1414 @@
+
+menu "Removal patches"
+
+comment "Removal patches ------------------------"
+
+config FREETZ_REMOVE_MICROVOIP_DSL
+	bool "Remove microvoip-dsl.bin"
+	depends on \
+		FREETZ_HAS_AVM_MICROVOIP_DSL && \
+		FREETZ_REMOVE_TELEPHONY
+	default n
+	help
+		Remove the files lib/modules/microvoip-dsl.bin and
+		lib/modules/2.6.13.1-*/kernel/drivers/atm/avm_atm/tiatm.ko
+		This saves about 590-700 KB of uncompressed data size.
+
+config FREETZ_REMOVE_ANNEX_B_FIRMWARE
+	bool "Remove Annex B firmware"
+	depends on \
+		FREETZ_SHOW_ADVANCED && \
+		FREETZ_TYPE_7270_V1
+	default n
+	help
+		Remove lib/modules/dsp_*/*-B-dsl.bin. This saves about
+		330-400 KB of uncompressed data size.
+
+config FREETZ_REMOVE_MULTI_ANNEX_FIRMWARE_DIFFS
+	bool "Remove 2nd Annex firmware"
+	depends on FREETZ_HAS_AVM_MULTI_ANNEX
+	default n
+	help
+		Remove the diffs to the prime firmware. This saves about
+		120-230 KB of uncompressed data size and 67 KB of bspatch.
+		Select this only if you don't want to switch the firmware.
+		See http://www.wehavemorefun.de/fritzbox/Multi-DSL-Firmware
+
+
+config FREETZ_REMOVE_MULTI_ANNEX_FIRMWARE_PRIME
+	bool "Remove 1st Annex firmware"
+	depends on FREETZ_SHOW_ADVANCED && \
+		FREETZ_HAS_AVM_MULTI_ANNEX && \
+		FREETZ_REMOVE_MULTI_ANNEX_FIRMWARE_DIFFS
+	default n
+	help
+		This saves about 340-790 KB of uncompressed data size. Removes
+		lib/modules/dsp_*/*-?-dsl.bin or lib/modules/*Vx180Code.bin.gz.
+		Select this only if you don't use the the DSL modem. See
+		http://www.wehavemorefun.de/fritzbox/Multi-DSL-Firmware
+
+
+config FREETZ_REMOVE_DSL_CONTROL
+	bool "Remove dsl_control"
+	depends on \
+		( \
+			FREETZ_REMOVE_ANNEX_A_FIRMWARE || \
+			FREETZ_REMOVE_ANNEX_B_FIRMWARE || \
+			FREETZ_REMOVE_MULTI_ANNEX_FIRMWARE_PRIME \
+		) && ( \
+			FREETZ_KERNEL_LAYOUT_AR9 || \
+			FREETZ_KERNEL_LAYOUT_VR9 \
+		)
+	default n
+	help
+		Removes /usr/sbin/dsl_control. This saves about
+		540-669 KB of uncompressed data size.
+		Select this only if you don't use the the DSL modem. See
+		http://wehavemorefun.de/fritzbox/Dsl_control
+
+menu "Remove piglet"
+# TODO: make menu invisible if none of the options is available
+
+	config FREETZ_REMOVE_PIGLET_V1
+	bool "Remove v1 piglet file(s)"
+	depends on \
+		(FREETZ_TYPE_7170 && ! FREETZ_TYPE_ALIEN_HARDWARE) || \
+		FREETZ_TYPE_W701V_7170 || \
+		FREETZ_TYPE_W900V_7170 || \
+		FREETZ_TYPE_IAD_3331_7170
+	help
+		The firmware of this model contains double piglet files. Which instance is needed depends
+		on the hardware version (v1 or v2) of your box. You can safely remove the
+		unneeded instance.
+
+		Hint: If "echo $HWRevision_BitFileCount" returns "1" you could select this patch.
+
+	config FREETZ_REMOVE_PIGLET_V2
+	bool "Remove v2 piglet file(s)"
+	depends on FREETZ_TYPE_7170
+	help
+		The firmware of this model contains double piglet files. Which instance is needed depends
+		on the hardware version (v1 or v2) of your box. You can safely remove the
+		unneeded instance.
+
+		Hint: If "echo $HWRevision_BitFileCount" returns "" (nothing) you could select this patch.
+
+	comment "WARNING: Both (v1 and v2) piglet files are selected for removal."
+		depends on \
+			FREETZ_REMOVE_PIGLET_V1 && \
+			FREETZ_REMOVE_PIGLET_V2
+
+
+	config FREETZ_REMOVE_PIGLET_ISDN
+	bool "Remove ISDN piglet file(s)"
+	depends on FREETZ_HAS_AVM_PIGLET_ISDN_AND_POTS
+	help
+		The firmware of this model contains separate piglet files for ISDN and POTS. Depending
+		on your type of fixed line usage you can safely remove the unneeded bitfile(s).
+
+		Hint: If you are using POTS fixed line you can try to select this
+		patch. Be careful! Sometimes even POTS models are using the ISDN files
+		and not the POTS ones. If your box ends up in a reboot cycle, you
+		should deselect this patch and maybe want to try the other one, even
+		if you are using POTS.
+
+	config FREETZ_REMOVE_PIGLET_POTS
+	bool "Remove POTS piglet file(s)"
+	depends on FREETZ_HAS_AVM_PIGLET_ISDN_AND_POTS
+	help
+		The firmware of this model contains separate piglet files for ISDN and POTS. Depending
+		on your type of fixed line usage you can safely remove the unneeded bitfile(s).
+
+		Hint: If you are using ISDN fixed line you could select this patch.
+
+	comment "WARNING: Both (ISDN and POTS) piglet files are selected for removal."
+		depends on \
+			FREETZ_REMOVE_PIGLET_ISDN && \
+			FREETZ_REMOVE_PIGLET_POTS
+
+endmenu
+
+config FREETZ_REMOVE_ASSISTANT
+	bool "Remove assistant (wizard)"
+	default n
+	depends on \
+	! ( \
+		( \
+		FREETZ_TYPE_5124 || \
+		FREETZ_TYPE_7140 || \
+		FREETZ_TYPE_7170 \
+		) \
+		&& FREETZ_TYPE_LANG_EN \
+	)
+	help
+		Removes the installation assistant from the web menu.
+
+config FREETZ_REMOVE_ASSISTANT_SIP
+	bool "Remove SIP assistant"
+	default n
+	depends on FREETZ_REMOVE_ASSISTANT
+	help
+		Removes the SIP configuration assistant (about 155kB uncompressed) from
+		the web menu. With this patch you can't create new phones, but change and
+		use existing ones.
+
+config FREETZ_REMOVE_AHA
+	bool "Remove AHA (AVM Home Automation)"
+	default n
+	depends on FREETZ_HAS_AVM_AHA
+	help
+		Remove the aha daemon and some related files.
+		Used for "Smart Home".
+
+		This patch only removes the files, not the settings in AVM's web interface.
+
+config FREETZ_REMOVE_AURA_USB
+	bool "Remove AURA (AVM USB Remote-Architecture)"
+	default n
+	depends on FREETZ_HAS_AVM_AURA_USB
+	help
+		Remove the aura-usb-daemon (remote USB connection, USB-Fernanschluss) and some
+		related files.
+
+		This patch only removes the files, not the settings in AVM's web interface.
+
+config FREETZ_REMOVE_USB_MODULE
+	bool "Remove ethernet-over-usb"
+	depends on FREETZ_HAS_USB_CLIENT
+	select FREETZ_REMOVE_CDROM_ISO if FREETZ_HAS_AVM_CDROM_ISO
+	default n
+	help
+		Removes avalanche_usb.ko to save 60kB uncompressed space.
+		This is the Ethernet-over-USB driver which provides also CDROM emulation.
+
+config FREETZ_REMOVE_NAS
+	bool "Remove NAS"
+	default n
+	depends on FREETZ_HAS_AVM_NAS
+	help
+		Removes the AVM NAS Webinterface and internal memory file (saves about 390 KB in compressed image).
+
+config FREETZ_REMOVE_MYFRITZ
+	bool "Remove MyFritz"
+	default n
+	depends on \
+		FREETZ_HAS_AVM_MYFRITZ && \
+		FREETZ_REMOVE_NAS
+	help
+		Removes the AVM MyFritz Webinterface. Saves about 1.1 MB uncompressed data size.
+
+config FREETZ_REMOVE_FHEM
+	bool "Remove FHEM"
+	default n
+	depends on FREETZ_HAS_AVM_FHEM
+	help
+		Removes the FHEM scripts and kernel modules (cdc_acm & ftdi_sio).
+		This saves about 100 KB, uncompressed.
+
+config FREETZ_REMOVE_AVM_VPN
+	bool "Remove VPN"
+	default n
+	depends on \
+		FREETZ_AVM_VERSION_05_2X_MIN || \
+		FREETZ_TYPE_2170 || \
+		FREETZ_TYPE_3170 || \
+		FREETZ_TYPE_7150 || \
+		(FREETZ_TYPE_7170 && FREETZ_TYPE_LANG_DE) || \
+		FREETZ_TYPE_7270_V1 || \
+		FREETZ_TYPE_7570
+	help
+		Remove AVM's vpn and some other related files
+		This patch removes the files and related Web UI entrys, but not the
+		vpn settings. This will save about 120kB compressed size.
+
+config FREETZ_REMOVE_WEBSRV
+	bool "Remove websrv"
+	depends on \
+		! FREETZ_AVM_VERSION_05_2X_MIN \
+		&& ! FREETZ_TYPE_2170 \
+		&& ! FREETZ_TYPE_3131 \
+		&& ! FREETZ_TYPE_3170 \
+		&& ! FREETZ_TYPE_5124 \
+		&& ! FREETZ_TYPE_5140 \
+		&& ! FREETZ_TYPE_7112 \
+		&& !(FREETZ_TYPE_7113 && FREETZ_TYPE_LANG_EN) \
+		&& !(FREETZ_TYPE_7140 && FREETZ_TYPE_LANG_EN) \
+		&& !(FREETZ_TYPE_7140 && FREETZ_TYPE_LANG_A_CH) \
+		&& ! FREETZ_TYPE_7141 \
+		&& ! FREETZ_TYPE_7170 \
+		&& ! FREETZ_TYPE_7270_V1 \
+		&& ! FREETZ_TYPE_7570 \
+		&& !(FREETZ_TYPE_300IP && FREETZ_TYPE_LANG_EN) \
+		&& !(FREETZ_TYPE_FON && FREETZ_TYPE_LANG_EN) \
+		&& !(FREETZ_TYPE_WLAN && FREETZ_TYPE_LANG_EN)
+	default n
+	help
+		Patch init scripts so BusyBox's httpd is used instead of AVM's websrv.
+		The websrv binary will be removed from the firmware image.
+
+		If "Remove UPnP daemon (igdd/upnpd)" patch is also selected, 'libwebsrv.so'
+		will be removed too, because only those two binaries use it.
+
+comment "No brandings available to remove"
+	depends on FREETZ_TYPE_W501V
+
+menu "Remove brandings"
+	depends on !FREETZ_TYPE_W501V
+
+comment "avm and tcom branding can't be removed"
+	depends on FREETZ_TYPE_ALIEN_HARDWARE
+
+config FREETZ_REMOVE_BRANDING_1und1
+	bool "1&1"
+	depends on \
+		FREETZ_TYPE_LANG_DE && \
+		( \
+		FREETZ_TYPE_CUSTOM || \
+		FREETZ_TYPE_FON || \
+		FREETZ_TYPE_5050 || \
+		FREETZ_TYPE_5140 || \
+		FREETZ_TYPE_WLAN || \
+		FREETZ_TYPE_7050 || \
+		FREETZ_TYPE_7112 || \
+		FREETZ_TYPE_7113 || \
+		FREETZ_TYPE_7141 || \
+		FREETZ_TYPE_7170 || \
+		FREETZ_TYPE_7240 || \
+		FREETZ_TYPE_7270 || \
+		FREETZ_TYPE_7312 || \
+		FREETZ_TYPE_7320 || \
+		FREETZ_TYPE_7330 || \
+		FREETZ_TYPE_7340 || \
+		FREETZ_TYPE_7360 || \
+		FREETZ_TYPE_7390 || \
+		FREETZ_TYPE_3020 || \
+		FREETZ_TYPE_3030 || \
+		FREETZ_TYPE_3130 \
+		)
+	default n
+	help
+		1&1 branding
+
+		Each branding provides the web UI templates for a certain manufacturer or OEM.
+
+		NOTE: Make sure not to remove the branding corresponding to the one defined
+		in your box's boot loader environment. It can be determined by calling the
+		following command from the box's shell prompt:
+
+		echo $(cat /proc/sys/urlader/firmware_version)
+
+config FREETZ_REMOVE_BRANDING_avm
+	bool "AVM"
+	depends on \
+		( \
+		FREETZ_TYPE_CUSTOM || \
+		FREETZ_TYPE_LANG_A_CH || \
+		FREETZ_TYPE_LANG_DE \
+		) \
+		&& ! FREETZ_TYPE_ALIEN_HARDWARE
+	default n
+	help
+		AVM branding
+
+		Each branding provides the web UI templates for a certain manufacturer or OEM.
+
+		NOTE: Make sure not to remove the branding corresponding to the one defined
+		in your box's boot loader environment. It can be determined by calling the
+		following command from the box's shell prompt:
+
+		echo $(cat /proc/sys/urlader/firmware_version)
+
+config FREETZ_REMOVE_BRANDING_avme
+	bool "AVM international"
+	depends on \
+		FREETZ_TYPE_CUSTOM || \
+		FREETZ_TYPE_LANG_EN
+	default n
+	help
+		AVM international branding
+
+		Each branding provides the web UI templates for a certain manufacturer or OEM.
+
+		NOTE: Make sure not to remove the branding corresponding to the one defined
+		in your box's boot loader environment. It can be determined by calling the
+		following command from the box's shell prompt:
+
+		echo $(cat /proc/sys/urlader/firmware_version)
+
+config FREETZ_REMOVE_BRANDING_otwo
+	bool "otwo"
+	depends on \
+		FREETZ_TYPE_7270_V3 || \
+		(FREETZ_TYPE_7390 && FREETZ_TYPE_LANG_DE && FREETZ_TYPE_FIRMWARE_LABOR)
+	default n
+	help
+		O2 branding
+		Each branding provides the web UI templates for a certain manufacturer or OEM.
+
+		NOTE: Make sure not to remove the branding corresponding to the one defined
+		in your box's boot loader environment. It can be determined by calling the
+		following command from the box's shell prompt:
+
+		echo $(cat /proc/sys/urlader/firmware_version)
+
+config FREETZ_REMOVE_BRANDING_aol
+	bool "AOL"
+	depends on \
+		FREETZ_TYPE_LANG_DE && \
+		( \
+		FREETZ_TYPE_300IP || \
+		FREETZ_TYPE_CUSTOM || \
+		FREETZ_TYPE_FON || \
+		FREETZ_TYPE_WLAN || \
+		FREETZ_TYPE_7140 \
+		)
+	default n
+	help
+		AOL branding
+
+		Each branding provides the web UI templates for a certain manufacturer or OEM.
+
+		NOTE: Make sure not to remove the branding corresponding to the one defined
+		in your box's boot loader environment. It can be determined by calling the
+		following command from the box's shell prompt:
+
+		echo $(cat /proc/sys/urlader/firmware_version)
+
+config FREETZ_REMOVE_BRANDING_arcor
+	bool "Arcor"
+	depends on FREETZ_TYPE_CUSTOM
+	default n
+	help
+		Arcor branding
+
+		Each branding provides the web UI templates for a certain manufacturer or OEM.
+
+		NOTE: Make sure not to remove the branding corresponding to the one defined
+		in your box's boot loader environment. It can be determined by calling the
+		following command from the box's shell prompt:
+
+		echo $(cat /proc/sys/urlader/firmware_version)
+
+config FREETZ_REMOVE_BRANDING_freenet
+	bool "Freenet"
+	depends on \
+		FREETZ_TYPE_LANG_DE && \
+		( \
+		FREETZ_TYPE_300IP || \
+		FREETZ_TYPE_CUSTOM || \
+		FREETZ_TYPE_FON || \
+		FREETZ_TYPE_7150 || \
+		FREETZ_TYPE_7112 || \
+		FREETZ_TYPE_7113 || \
+		FREETZ_TYPE_7141 \
+		)
+	default n
+	help
+		Freenet branding
+
+		Each branding provides the web UI templates for a certain manufacturer or OEM.
+
+		NOTE: Make sure not to remove the branding corresponding to the one defined
+		in your box's boot loader environment. It can be determined by calling the
+		following command from the box's shell prompt:
+
+		echo $(cat /proc/sys/urlader/firmware_version)
+
+#config FREETZ_REMOVE_BRANDING_tcom
+#	bool "T-Com"
+#	depends on \
+#		FREETZ_TYPE_LANG_DE && \
+#		( \
+#		FREETZ_TYPE_300IP || \
+#		FREETZ_TYPE_W501V || \
+#		FREETZ_TYPE_ALIEN_HARDWARE \
+#		)
+#	default n
+#	help
+#		T-Com branding
+#
+#		Each branding provides the web UI templates for a certain manufacturer or OEM.
+#
+#		NOTE: Make sure not to remove the branding corresponding to the one defined
+#		in your box's boot loader environment. It can be determined by calling the
+#		following command from the box's shell prompt:
+#
+#		echo $(cat /proc/sys/urlader/firmware_version)
+
+config FREETZ_REMOVE_BRANDING_versatel
+	bool "Versatel"
+	depends on FREETZ_TYPE_3131
+	default n
+	help
+		Versatel branding
+
+		Each branding provides the web UI templates for a certain manufacturer or OEM.
+
+		NOTE: Make sure not to remove the branding corresponding to the one defined
+		in your box's boot loader environment. It can be determined by calling the
+		following command from the box's shell prompt:
+
+		echo $(cat /proc/sys/urlader/firmware_version)
+
+endmenu
+
+config FREETZ_REMOVE_CAPIOVERTCP
+	bool "Remove CAPIoverTCP"
+	depends on FREETZ_HAS_AVM_PHONE
+	default n
+	help
+		Remove CAPIoverTCP (capiotcp_server). Use this if you don't want to use
+		Fritz!Fax or any other program that uses AVM's CAPIoverTCP. This is similar
+		to rcapid, but independant.
+		This will save about 15kB uncompressed size.
+
+config FREETZ_REMOVE_CHRONYD
+	bool "Remove chronyd"
+	depends on FREETZ_HAS_AVM_CHRONYD
+	default n
+	help
+		Removes AVM's time synchronization tool (chrony) and related files.
+		This will save about 220kB uncompressed size.
+
+config FREETZ_REMOVE_CDROM_ISO
+	bool "Remove cdrom.iso"
+	depends on FREETZ_HAS_AVM_CDROM_ISO
+	default n
+	help
+		Removes the file /lib/modules/cdrom.iso to save 270kB uncompressed space.
+
+config FREETZ_REMOVE_DECT
+	bool "Remove DECT"
+	depends on FREETZ_HAS_AVM_DECT
+	select FREETZ_REMOVE_AHA if FREETZ_HAS_AVM_AHA
+	default n
+	help
+		Remove dect files (modules, dect_manager and dect related Web UI).
+		This saves 20K compressed size on W900V and 360k on 7240/7270.
+		WARNING: While *configuring* telephony ctlmgr may crash and corrupt
+		you settings!
+
+config FREETZ_REMOVE_DECT_UPDATE
+	bool "Remove dect_update"
+	depends on FREETZ_TYPE_7150
+	default n
+	help
+		Remove /usr/bin/dect_update. This utility is only needed to
+		update the dect firmware.
+		This will save about 32kB uncompressed size.
+
+config FREETZ_REMOVE_DSLD
+	bool "Remove dsld"
+	default n
+	select FREETZ_REMOVE_UPNP
+	select FREETZ_REMOVE_KIDS if ! \
+		( \
+		FREETZ_TYPE_5140 || \
+		FREETZ_TYPE_7112 || \
+		FREETZ_TYPE_7113 || \
+		FREETZ_TYPE_W501V \
+		)
+	help
+		Remove DSL daemon (dsld), if you are planning to use your box as a simple
+		IP client in ATA mode.
+
+		ATTENTION: You won't be able to use your box as a modem nor a router anymore.
+		As well do *not* use this option if your ATA mode box uses PPoE passthrough,
+		because in this case dsld is still needed! Furthermore, selecting this patch
+		also selects the UPnP patch, because UPnP must be deactivated anyway for
+		IP clients, otherwise dsld will be used again.
+		You can find the UPnP settings in the German web UI under
+		  Einstellungen
+		    System
+		      Netzwerkeinstellungen
+		        Statusinformationen ueber UPnP uebertragen (empfohlen)
+		Thirdly, the usermand patch will also be selected if you activate this option,
+		because kernel module userman.ko always depends on kdsldmod.ko which is
+		stripped by this patch.
+
+config FREETZ_REMOVE_SHOWDSLDSTAT
+	bool "Remove showdsldstat"
+	default n
+	help
+		Removes the showdsldstat utility which shows you the cpmac mode, connect time,
+		external ip, route and dns servers. Also the state of IPv6, voip and tr069.
+		Unsure a.t.m. if this tool is required by other AVM programs!
+		AVM-WebDAV will be patched to not depend on showdsldstat (hopefully).
+
+config FREETZ_REMOVE_DTRACE
+	bool "Remove dtrace"
+	depends on \
+		FREETZ_AVM_VERSION_05_2X_MIN || \
+		FREETZ_TYPE_5124 || \
+		FREETZ_TYPE_7150 || \
+		FREETZ_TYPE_7113 || \
+		FREETZ_TYPE_7141 || \
+		FREETZ_TYPE_7170 || \
+		FREETZ_TYPE_7270_V1 || \
+		FREETZ_TYPE_7570
+	default y
+	help
+		Remove /usr/bin/dtrace. This utility is only needed to trace ISDN D-channel.
+		This will save about 87kB uncompressed size.
+
+config FREETZ_REMOVE_FTPD
+	bool "Remove ftpd"
+	depends on \
+		FREETZ_HAS_AVM_USB_HOST || \
+		FREETZ_TYPE_7112_7170 || \
+		FREETZ_TYPE_7113_7170 || \
+		FREETZ_TYPE_W701V_7170
+	default n
+	help
+		Remove FTP daemon (ftpd)
+		This patch removes AVM's ftp daemon. The regular options in AVM's Webinterface
+		are still present. If you select this item your USB drives won't be accessible
+		through ftp anymore. But you can use Freetz bftpd/vsftpd package to grant ftp
+		access to the devices.
+
+config FREETZ_REMOVE_HELP
+	bool "Remove help"
+	default n
+	help
+		Removes the (offline) help pages from the web menu.
+
+config FREETZ_REMOVE_LIBFUSE
+	bool "Remove libfuse.so"
+	depends on \
+		( \
+			FREETZ_TYPE_7570 || \
+			FREETZ_TYPE_7270_V1 \
+		)
+	select FREETZ_REMOVE_NTFS if FREETZ_HAS_AVM_NTFS && !FREETZ_AVMPLUGINS_NTFS
+	select FREETZ_REMOVE_WEBDAV if FREETZ_HAS_AVM_WEBDAV
+	default n
+	help
+		This removes libfuse.so and saves about 132 KB (uncompressed).
+		NTFS and Webdav are also removed.
+
+config FREETZ_REMOVE_ISOFS
+	bool "Remove isofs.ko"
+	default n
+	depends on FREETZ_HAS_AVM_ISOFS
+	help
+		Remove isofs.ko (about 35 kB uncompressed).
+
+config FREETZ_REMOVE_JFFS2
+	bool "Remove jffs2.ko"
+	depends on FREETZ_HAS_AVM_JFFS2
+	default n
+	help
+		If your AVM firmware contains the JFFS2 kernel module (jffs2.ko), this patch
+		removes it, saving 144-192 kB of uncompressed firmware space. Use this patch
+		if you have space problems in your firmware ("image too big").
+
+		Please note that every functionality based on JFFS2, such as telephone
+		answering machine (tam) storage without USB storage media, will no longer
+		work. But if you have space problems to begin with, JFFS would be too small
+		to store anything anyway. In either case it is preferable to store phone
+		calls, fax documents etc. on a USB storage medium.
+
+		This patch does *not* change any scripts which might require JFFS, so use at
+		your own risk and test the firmware after flashing it onto your device.
+
+config FREETZ_REMOVE_RAMZSWAP
+	bool "Remove ramzswap.ko"
+	default n
+	depends on FREETZ_HAS_AVM_RAMZSWAP
+	help
+		Remove ramzswap.ko (about 35 kB uncompressed).
+
+config FREETZ_REMOVE_LSOF
+	bool "Remove lsof"
+	depends on FREETZ_HAS_AVM_LSOF
+	default n
+	help
+		Remove /bin/lsof binary.
+		This saves about 48 KB compressed space in kernel.image.
+
+config FREETZ_REMOVE_SOCAT
+	bool "Remove socat"
+	depends on FREETZ_HAS_AVM_SOCAT
+	default y
+	help
+		Remove /sbin/socat binary.
+		This saves about 247 KB compressed space in kernel.image.
+
+config FREETZ_REMOVE_MEDIASRV
+	bool "Remove mediasrv"
+	depends on \
+		(FREETZ_HAS_AVM_USB_HOST && !FREETZ_TYPE_7270_V1) || \
+		FREETZ_TYPE_7112_7170 || \
+		FREETZ_TYPE_7113_7170 || \
+		FREETZ_TYPE_W701V_7170
+	default n
+	help
+		Remove the MediaServer-daemon (mediasrv) and some other related files.
+		This patch hides also the MediaServer options in the Web UI, so you must
+		disable it before flashing the new image.
+		Saves compressed 230 KB on a 7270_V2 and 40 KB on a 7170.
+
+config FREETZ_REMOVE_MINID
+	bool "Remove minid (Fritz!Mini and MT-D/F)"
+	default n
+	depends on FREETZ_HAS_AVM_MINID
+	help
+		Remove the mini-daemon (minid) and some other related files. This patch
+		removes Fritz!Mini and MT-D/F support and all Web UI entrys.
+		Saves compressed 660 KB on a 7270_V3 and 460 KB on a 7170.
+
+		ATTENTION: You must remove all Fritz!Mini's from your Fritz!Box configuration
+		and delete all Mini users with the Gini! software to avoid complications.
+
+config FREETZ_REMOVE_FAT
+	bool "Remove FAT"
+	depends on \
+			! FREETZ_AUTOMOUNT_FAT && \
+			FREETZ_HAS_AVM_USB_HOST && \
+			! FREETZ_TYPE_7270_16
+	default n
+	help
+		Remove FAT modules
+		This patch will remove fat.ko, vfat.ko and msdos.ko.
+		Be careful, mounting volumes with this filesystem will not work.
+		It saves about 80-135K compressed space in kernel.image.
+
+config FREETZ_REMOVE_NTFS
+	bool "Remove NTFS"
+	depends on \
+			FREETZ_HAS_AVM_NTFS && \
+			! FREETZ_AVMPLUGINS_NTFS
+	default n
+	help
+		Remove NTFS support
+		This patch will remove ntfs-3g dependent files from the firmware.
+		Be careful, mounting volumes with this filesystem will not work.
+		It saves about 118K compressed space in kernel.image.
+
+config FREETZ_REMOVE_PRINTSERV
+	bool "Remove printserv"
+	depends on \
+		FREETZ_HAS_AVM_USB_HOST || \
+		FREETZ_TYPE_7112_7170 || \
+		FREETZ_TYPE_7113_7170 || \
+		FREETZ_TYPE_W701V_7170
+	default n
+	help
+		Remove /sbin/printserv daemon. Select this patch if you don't want to
+		connect a printer to your box or if you plan to use usb/ip package.
+		Saves about 8 KB of compressed space.
+
+config FREETZ_REMOVE_PRINTSERV_MODULE
+	bool "Remove usblp.ko"
+	depends on FREETZ_REMOVE_PRINTSERV && \
+		! FREETZ_MODULE_usblp
+	default n
+	help
+		Remove usblp kernel module. Without this module it's not possible to run
+		a printer on your box. Saves about 12 KB of compressed space.
+
+config FREETZ_REMOVE_RUNCLOCK
+	bool "Remove run_clock"
+	default n
+	help
+		Remove /bin/run_clock (operating hours meter) daemon.
+		This saves about 5K compressed space in kernel.image.
+
+config FREETZ_REMOVE_SAMBA
+	bool "Remove Samba (smbd/nmbd)"
+	depends on \
+		!FREETZ_PACKAGE_SAMBA_SMBD && \
+		( \
+			(FREETZ_HAS_AVM_USB_HOST && !FREETZ_TYPE_7270_V1) || \
+			FREETZ_TYPE_7112_7170 || \
+			FREETZ_TYPE_7113_7170 || \
+			FREETZ_TYPE_W701V_7170 \
+		)
+	default n
+	help
+		Remove Samba daemons (smbd, and nmbd if available)
+		This patch removes only the daemons. The regular options in AVM's webinterface
+		are still present.
+
+config FREETZ_REMOVE_STRACE
+	bool "Remove strace"
+	depends on FREETZ_HAS_AVM_STRACE
+	default n
+	help
+		Remove /usr/bin/strace binary.
+		This saves about 72 KB compressed space in kernel.image.
+
+config FREETZ_REMOVE_SUPPORT
+	bool "Remove support-files"
+	default n
+	help
+		Remove the support-files which can be taken by http://fritz.box/html/support.html
+
+config FREETZ_REMOVE_SUPPORT_EVENTSDUMP
+	bool "Remove eventsdump"
+	depends on FREETZ_REMOVE_SUPPORT
+	default n
+	help
+		Remove the eventsdump binary, saves about 6kB (uncompressed).
+		With the file you could dump AVM's "Ereignisse" to the console.
+		Seem to be use only by AVM's support-files.
+
+config FREETZ_REMOVE_TR069
+	bool "Remove tr069" if FREETZ_SHOW_ADVANCED
+	depends on FREETZ_HAS_AVM_TR069
+	select FREETZ_AVMDAEMON_DISABLE_TR069
+	default n
+	help
+		Removes libtr069 to save space. This also removes libtr064.
+
+config FREETZ_REMOVE_TR069_FWUPDATE
+	bool "Remove fwupdate"
+	depends on FREETZ_REMOVE_TR069 && FREETZ_HAS_AVM_TR069_FWUPDATE
+	default n
+	help
+		Removes the file /usr/bin/tr069fwupdate, needed for
+		updating the firmware in MT-D devices
+
+config FREETZ_REMOVE_UMTSD
+	bool "Remove UMTS (USB GSM)"
+	depends on FREETZ_HAS_AVM_UMTS
+	default n
+	help
+		Remove UMTS support
+		This patch will remove UMTS-dependent files from firmware.
+		It saves about 12K compressed space in kernel.image.
+
+config FREETZ_REMOVE_UPNP
+	bool "Remove UPnP (igdd/upnpd)"
+	select FREETZ_AVMDAEMON_DISABLE_IGD
+	select FREETZ_REMOVE_UPNP_LIBS if \
+		FREETZ_TYPE_2170 || \
+		FREETZ_TYPE_300IP || \
+		FREETZ_TYPE_FON || \
+		FREETZ_TYPE_5010 || \
+		FREETZ_TYPE_5050 || \
+		FREETZ_TYPE_5140 || \
+		FREETZ_TYPE_WLAN || \
+		FREETZ_TYPE_7050 || \
+		FREETZ_TYPE_7113 || \
+		(FREETZ_TYPE_7140 && FREETZ_TYPE_LANG_DE) || \
+		FREETZ_TYPE_W501V || \
+		FREETZ_TYPE_3020 || \
+		FREETZ_TYPE_3030 || \
+		FREETZ_TYPE_3130
+	select FREETZ_REMOVE_TR069 if FREETZ_HAS_AVM_TR069
+	select FREETZ_REMOVE_AURA_USB if FREETZ_HAS_AVM_AURA_USB
+	default n
+	help
+		Remove Universal Plug'n'Play daemon 'igdd/upnpd' and some more files used by
+		it from firmware. Patch init scripts so they can cope with the
+		non-existent binary.
+
+		ATTENTION: Fritz!Fax relies on UPnP.
+		Make sure you deactivate all UPnP features in the web menu before
+		updating the firmware with this option. It may not be harmful not
+		to deactivate it, but there is no guarantee.
+		You can find the settings in the German web UI under
+		  Einstellungen
+		    System
+		      Netzwerkeinstellungen
+		        Statusinformationen ueber UPnP uebertragen (empfohlen)
+
+config FREETZ_REMOVE_UPNP_LIBS
+	bool
+	depends on FREETZ_REMOVE_UPNP
+	default n
+
+config FREETZ_REMOVE_KIDS
+	bool "Remove kids (usermand/contfiltd)"
+	depends on \
+		! FREETZ_TYPE_5140 && \
+		! FREETZ_TYPE_7112 && \
+		! FREETZ_TYPE_7113 && \
+		! FREETZ_TYPE_W501V
+	default n
+	help
+		Remove userman/contfiltd files (Kindersicherung)
+
+config FREETZ_REMOVE_QOS
+	bool "Remove QoS (tc)"
+	default n
+	help
+		Removes tc and some kernel modules.
+		The command tc is used by dsld.
+
+config FREETZ_REMOVE_AVM_E2FSPROGS
+	bool "Remove e2fsprogs"
+	depends on FREETZ_HAS_AVM_E2FSPROGS
+	default y if FREETZ_PATCH_FREETZMOUNT
+	default n
+	help
+		Removes the e2fsprogs files (blkid, fsck, mkfs) and
+		libraries. Saves about 220KB of compressed space.
+
+config FREETZ_REMOVE_VOIPD
+	bool "Remove VoIP"
+	depends on FREETZ_HAS_AVM_PHONE
+	default n
+	help
+		This removes the integrated sip-client and -server and the releated Web menu,
+		normal telefon use (ISDN, POTS and DECT) is not affected. This saves 250 KB
+		on a 7170/7270 of compressed firmware size.
+
+		ATTENTION: You must remove all sip phone numbers and all sip clients before
+		flashing this image. Afterward there is no possibility to remove these numbers
+		because the Web UI is also removed.
+
+config FREETZ_REMOVE_TELEPHONY
+	bool "Remove telephony"
+	depends on FREETZ_HAS_AVM_PHONE
+	select FREETZ_REMOVE_DECT if FREETZ_HAS_AVM_DECT
+	select FREETZ_REMOVE_VOIPD
+	select FREETZ_REMOVE_DTRACE
+	select FREETZ_REMOVE_CAPIOVERTCP
+	select FREETZ_REMOVE_MINID if FREETZ_HAS_AVM_MINID
+	default n
+	help
+		Radically remove a lot of telephony-related files. This patch saves about
+		2.370 KB or 2.3 MB of uncompressed data size in the firmware image. This
+		means savings of about 700 KB of compressed firmware size.
+
+		ATTENTION: Currently there have not been a whole lot of tests concerning
+		side effects. The patch was successfully tested on a W701V IP client with
+		removed UPnP/dsld/userman. If it still works for boxes including those
+		functionalities, is unknown. Feel free to test it.
+
+config FREETZ_REMOVE_WEBDAV
+	bool "Remove WebDAV"
+	depends on FREETZ_HAS_AVM_WEBDAV
+	default n
+	help
+		Remove WebDAV (Online-Speicher) feature. Saves about 510 KB of
+		uncompressed data size.
+		On 7270v1 only scripts, links and a 10KB library.
+
+config FREETZ_REMOVE_WLAN
+	bool "Remove WLAN"
+	depends on FREETZ_SHOW_ADVANCED && \
+		FREETZ_HAS_AVM_WLAN
+	default n
+	help
+		Radically remove a lot of wlan-related files. This patch saves about
+		700 kb of uncomrpessed data size in the firmware image.
+
+		WARNING: Do not enable Wlan, you will get a reboot loop!
+
+endmenu # "Removal patches" #
+
+
+
+menu "Other patches"
+
+comment "Web menu patches -----------------------"
+
+config FREETZ_PATCH_VCC
+	bool "Patch 2nd VCC"
+	depends on FREETZ_HAS_AVM_PHONE && FREETZ_TYPE_LANG_DE && !FREETZ_AVM_VERSION_05_5X
+	default n
+	help
+		Patches the setting for 2nd VCC into web menu. It also adds two additional
+		settings (PCR & SCR) not available in the original AVM firmware.
+
+		Please also note that it is not possible to change the value of traffic_class
+		setting via the web-interface. You have to do it some other way (e.g. using
+		FBEditor or nvi ar7.cfg).
+
+		Warning: Please read up on what each VCC setting means before setting/changing it.
+		Besides not working wrong values may cause additional costs for you as your provider
+		may treat it as simultaneous dial-in attempts (Doppeleinwahl).
+
+		The correct values for an 1&1-Komplettanschluss are:
+		  VPI = 1;
+		  VCI = 35;
+		  traffic_class = atm_traffic_class_CBR;
+		  pcr = 603;
+		  scr = 0;
+
+config FREETZ_PATCH_ATA
+	bool "Patch ATA"
+	default n
+	help
+		Patches the ATA mode configuration pages into the web menu.
+
+		The ATA-Mode (better: IP-Client Mode) disables the DSL modem
+		and routing and reduces the power consumption of a box.
+
+		Some models disable this feature, most models have brandings
+		or environment configuration which disable the IP-Client Mode.
+		This patch forces the ATA-Mode to be enabled.
+
+		ATA will not work with some 7170/7140 due to limited hardware,
+		see http://wiki.ip-phone-forum.de/gateways:avm:fbf:kabel
+
+config FREETZ_PATCH_ENUM
+	bool "Patch enum"
+	depends on \
+		FREETZ_TYPE_LANG_DE && \
+		( \
+		FREETZ_TYPE_FON || \
+		FREETZ_TYPE_300IP || \
+		FREETZ_TYPE_5050 || \
+		FREETZ_TYPE_WLAN || \
+		FREETZ_TYPE_7050 || \
+		FREETZ_TYPE_7140 \
+		)
+	default n
+	help
+		Patches the enum configuration pages into the web menu.
+
+config FREETZ_PATCH_DSL_EXPERT
+	bool "Patch extended DSL settings"
+	depends on \
+		! FREETZ_REMOVE_DSLD && \
+		! FREETZ_AVM_VERSION_05_5X && \
+		( \
+			FREETZ_TYPE_3270 || \
+			FREETZ_TYPE_3370 || \
+			FREETZ_TYPE_6840 || \
+			FREETZ_TYPE_7240 || \
+			FREETZ_TYPE_7270_16 || \
+			FREETZ_TYPE_7312 || \
+			FREETZ_TYPE_7320 || \
+			FREETZ_TYPE_7330 || \
+			FREETZ_TYPE_7340 || \
+			FREETZ_TYPE_7360 || \
+			FREETZ_TYPE_7390 || \
+			FREETZ_TYPE_7570 \
+			|| \
+			FREETZ_TYPE_7112 || \
+			FREETZ_TYPE_7270_V1 \
+			|| \
+			FREETZ_TYPE_5113 || \
+			FREETZ_TYPE_5124 || \
+			FREETZ_TYPE_7113 || \
+			FREETZ_TYPE_7140 || \
+			FREETZ_TYPE_7141 || \
+			FREETZ_TYPE_7170 \
+		)
+
+	default n
+	help
+		Patches the extended dsl-settings from labor-dsl into all-in-one-firmwares.
+
+config FREETZ_ADD_REGEXT_GUI
+	bool "Patch GUI to enable external SIP connections"
+	depends on \
+		FREETZ_TYPE_7570 || \
+		( ! FREETZ_AVM_VERSION_05_5X && \
+			FREETZ_TYPE_LANG_DE && ( \
+				FREETZ_TYPE_7170 || \
+				FREETZ_TYPE_7240 || \
+				FREETZ_TYPE_7270 || \
+				FREETZ_TYPE_7390 \
+			) \
+		)
+	default n
+	help
+		Patches the WebUI and add a checkbox to enable setting "reg_from_outside" in the voip.conf.
+
+config FREETZ_PATCH_GSMVOICE
+	bool "Patch GSM voice"
+	depends on \
+		FREETZ_HAS_AVM_UMTS && \
+		! FREETZ_REMOVE_UMTSD && \
+		! FREETZ_TYPE_7270_V1
+	default n
+	help
+		Patches the WebUI to allow voice-over-GSM.
+		Highly experimental! Your UMTS stick has to support it.
+		Webif: Internet > Mobilfunk > Telefonie ueber Mobilfunk
+
+#config FREETZ_PATCH_INTERNATIONAL
+#	bool "Patch international"
+#	depends on FREETZ_HAS_AVM_PHONE && FREETZ_TYPE_LANG_DE
+#	default y
+#	help
+#		Reveals some options from the international firmware in the web menu.
+
+config FREETZ_PATCH_ALARMCLOCK
+	bool "Patch third alarm-clock"
+	depends on ( \
+		FREETZ_TYPE_7150 || \
+		FREETZ_TYPE_7112 || \
+		FREETZ_TYPE_7141 || \
+		(FREETZ_TYPE_7170 && FREETZ_TYPE_LANG_DE) || \
+		FREETZ_TYPE_7270_V1 || \
+		FREETZ_TYPE_7570 \
+		)
+	default n
+	help
+		Adds a third alarm-clock to AVM-Webinterface
+
+config FREETZ_PATCH_SIGNED
+	bool "Patch web menu signed message"
+	default n
+	help
+		Hides the "unsupported changes" message from the web interface.
+
+if FREETZ_HAS_AVM_USB_HOST
+comment "USB patches --------------------"
+
+config FREETZ_PATCH_FREETZMOUNT
+	bool "FREETZMOUNT: Patch AVMs hotplug scripts, USB storage names, ..."
+	select FREETZ_USBSTORAGE_AUTOMOUNT
+	select FREETZ_BUSYBOX_BLKID if FREETZ_REMOVE_AVM_E2FSPROGS || ! FREETZ_HAS_AVM_E2FSPROGS
+	select FREETZ_BUSYBOX_FEATURE_BLKID_TYPE if FREETZ_REMOVE_AVM_E2FSPROGS || ! FREETZ_HAS_AVM_E2FSPROGS
+	select FREETZ_BUSYBOX_VOLUMEID
+	default y
+	help
+		1. Replaces and deselects usb-storage patch.
+		   - The names of USB storage directories can be defined by WebIF (default uStorXY) (or by volume LABEL).
+		2. Replaces and deselects autorun.sh/autoend.sh patch.
+		   - autorun/autoend behaviour can be activated/deactivated via WebIF.
+		   - autorun/autoend are useful to start/terminate applications located on USB devices, eg
+		     apache, samba or even swapfiles, after connecting or before disconnecting of USB devices.
+		3. Auto-mounted USB storage devices will be fully accessible, eg it is now possible to put
+		   user home directories for (e.g. for FTP) on a FAT32-formatted partition and permit shell
+		   and FTP users to actually write to their own home directories.
+		4. Avoid deleting whole filesystems on USB devices.
+		5. Enhanced behaviour during mounting and unmounting.
+		6. Provides mount-by-label feature.
+
+		It is highly recommended to select this patch.
+
+config FREETZ_USBSTORAGE_AUTOMOUNT
+	bool "Automount filesystems"
+	depends on FREETZ_PATCH_FREETZMOUNT
+	default y
+	help
+		The filesystems ext2, ext3, ext4, fat, hfs, hfs+, ntfs and reiserfs and swap are mounted
+		automatically. Detection is done by blkid utility . It depends on the original firmware
+		which of the following points you have to select.
+
+if FREETZ_USBSTORAGE_AUTOMOUNT
+config FREETZ_AUTOMOUNT_EXT2
+	bool "ext2"
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_EXT
+	select FREETZ_MODULE_ext2
+	default n
+	help
+		This adds ext2 module to your firmware.
+
+config FREETZ_AUTOMOUNT_EXT3
+	bool "ext3"
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_EXT
+	select FREETZ_MODULE_ext3 if ! FREETZ_HAS_AVM_EXT3
+	default y if FREETZ_HAS_AVM_EXT3
+	default n
+	help
+		This adds ext3 module to your firmware.
+
+config FREETZ_AUTOMOUNT_EXT4
+	bool "ext4"
+	depends on FREETZ_KERNEL_VERSION_2_6_28_MIN
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_EXT
+	select FREETZ_MODULE_ext4
+	default n
+	help
+		This adds ext4 module to your firmware.
+
+config FREETZ_AUTOMOUNT_FAT
+	bool "fat"
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_FAT
+	default y
+	help
+		This enables detection of fat partitions.
+
+config FREETZ_AUTOMOUNT_HFS
+	bool "HFS"
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_HFS
+	select FREETZ_MODULE_hfs
+	default n
+	help
+		This adds hfs module to your firmware.
+
+config FREETZ_AUTOMOUNT_HFS_PLUS
+	bool "HFS+"
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_HFS
+	select FREETZ_MODULE_hfsplus
+	default n
+	help
+		This adds hfs+ module to your firmware.
+
+config FREETZ_AUTOMOUNT_LUKS
+	bool "luks"
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_LUKS
+	default n
+	help
+		This enables detection (not mounting) of luks partitions.
+
+config FREETZ_AUTOMOUNT_NTFS
+	bool "NTFS"
+	select FREETZ_PACKAGE_NTFS if FREETZ_REMOVE_NTFS || ! FREETZ_HAS_AVM_NTFS
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_NTFS
+	default y if FREETZ_HAS_AVM_NTFS && ! FREETZ_REMOVE_NTFS
+	default n
+	help
+		This adds ntfs-3g mount helper to your firmware.
+
+config FREETZ_AUTOMOUNT_REISER_FS
+	bool "ReiserFS"
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_REISERFS
+	select FREETZ_MODULE_reiserfs
+	default n
+	help
+		This adds reiserfs module to your firmware.
+
+config FREETZ_AUTOMOUNT_LINUXSWAP
+	bool "swap"
+	select FREETZ_BUSYBOX_FEATURE_VOLUMEID_LINUXSWAP
+	default n
+	help
+		This enables detection of linux-swap partitions.
+
+endif
+
+config FREETZ_PATCH_MAXDEVCOUNT
+	bool "Raise the count of connectable usb device to 9"
+	default n
+	help
+		Use this patch if you would connect more than 3 device to the box
+
+config FREETZ_PATCH_MULTIPLE_PRINTERS
+	bool "Add support for multiple printers"
+	depends on ! FREETZ_REMOVE_PRINTSERV && \
+		( \
+		( FREETZ_TYPE_7140 && ! FREETZ_TYPE_LANG_DE ) || \
+		FREETZ_TYPE_7570 || \
+		FREETZ_TYPE_5124 || \
+		FREETZ_TYPE_2170 || \
+		FREETZ_TYPE_3131 || \
+		FREETZ_TYPE_3170 || \
+		FREETZ_TYPE_7141 || \
+		FREETZ_TYPE_7150 || \
+		FREETZ_TYPE_7170 || \
+		FREETZ_TYPE_7270_V1 \
+		)
+		# no patch available atm: 7140_DE 2070 3070 3050 3130
+	select FREETZ_BUSYBOX_HEXDUMP
+	default n
+	help
+		Use this patch if you want to use more than one printer.
+
+endif
+
+config FREETZ_MODIFY_UMTSD
+	bool "Modify umtsd: only for known modems"
+	depends on FREETZ_HAS_AVM_UMTS && FREETZ_HAS_AVM_UDEV && ! FREETZ_REMOVE_UMTSD
+	default n
+	help
+		AVM's umtsd will only be started if a *known* umts modem is
+		detected. So your /dev/ttyUSB? could be used by other programs.
+
+config FREETZ_CUSTOM_UDEV_RULES
+	bool "Enable custom UDEV rules"
+	depends on FREETZ_HAS_AVM_UDEV
+	default n
+	help
+		You could use own rules for UDEV.
+
+comment "Replacement patches --------------------"
+
+comment "Replace OpenSSL libraries (not available, requires openssl-0.9.8)"
+	depends on FREETZ_SHOW_ADVANCED && \
+		!( FREETZ_HAS_AVM_OPENSSL_LIBS && FREETZ_LIB_libcrypto && FREETZ_OPENSSL_VERSION_0 )
+
+config FREETZ_REPLACE_SSL_LIBS
+	bool "Replace OpenSSL libraries"
+	depends on FREETZ_SHOW_ADVANCED && \
+		FREETZ_HAS_AVM_OPENSSL_LIBS && FREETZ_LIB_libcrypto && FREETZ_OPENSSL_VERSION_0
+	select FREETZ_LIB_libssl
+	default n
+	help
+		Use this option only if you are running out of space and if you
+		really know, what you are doing.
+		Activating this option may cause an unstable system, uncontrolled reboots
+		and other side effects.
+
+		Activating this option saves about 400KB in the image.
+
+config FREETZ_REPLACE_DTRACE
+	bool "Replace dtrace"
+	depends on FREETZ_REMOVE_DTRACE
+	default n
+	help
+		Dtrace will be replaced by a symlink to /tmp/flash/mod/dtrace.
+		Activating this option lets you execute a custom action via
+		phone using #97*3* keycode sequence.
+
+config FREETZ_REPLACE_ONLINECHANGED
+	bool "Replace onlinechanged - EXPERIMENTAL"
+	depends on FREETZ_SHOW_ADVANCED
+	default n
+	help
+		AVM's built-in onlinechanged is not reliably called on some DSL boxes for
+		unknown reasons (see http://www.ip-phone-forum.de/showthread.php?t=231873).
+		On boxes behind a NAT, e.g. on many IP clients, behind cable routers etc.,
+		onlinechanged is not triggered either because dsld is not responsible for the
+		connection. Thus, services on such boxes cannot be reinitialised automatically
+		after the external IP address has changed.
+
+		This is where this patch can be useful: It starts a shell script
+		/sbin/ip_watchdog via /etc/inittab and makes sure the script is automatically
+		restarted (via "respawn") in case it is terminated accidentally. The script
+		periodically (60 s) checks the external IP via /usr/bin/get_ip and calls AVM's
+		and Freetz's onlinechanged scripts via /bin/onlinechanged.sh if the IP has
+		changed. At the same time the patch ensures that AVM's master script
+		/bin/onlinechanged is empty, so the scripts are not called twice.
+
+		Who should use this patch? First of all users with boxes configured for NAT
+		who cannot profit from AVM onlinechanged at all. Secondly users having
+		problems with AVM onlinechanged being called unreliably on their DSL boxes.
+
+		Limitations: Environment variable IPADDR is set as usual, but no other
+		variables set by AVM multid in original onlinechanged such as NETMASK,
+		GATEWAY, DNS1, DNS2. They are currently not used by AVM or Freetz scripts
+		anyway, so this limitation should not be a problem. Another difference to AVM
+		onlinechanged is that this solution only calls "onlinechanged online",
+		never "onlinechanged offline". This also should not be a problem, but you
+		should be aware of it.
+
+comment "Additional patches ---------------------"
+
+config FREETZ_ADD_ETCSERVICES
+	bool "Add /etc/services"
+	default y
+	select FREETZ_PACKAGE_MOD_ETCSERVICES
+	help
+		Adds /etc/services file.
+		Used eg by netstat to display names of IP-ports.
+
+config FREETZ_ADD_ANNEX_A_FIRMWARE
+	bool "Add Annex A firmware file"
+	depends on FREETZ_TYPE_7270_V1
+	default n
+	help
+		Add lib/modules/dsp_ur8/ur8-A-dsl.bin. This costs about 400 KB of
+		uncompressed data size. But you can remove Annex B file if you
+		plan to use Annex A.
+
+config FREETZ_ENFORCE_URLADER_SETTINGS
+	bool "Enforce urlader environment"
+	depends on FREETZ_SHOW_ADVANCED
+	default n
+	help
+		Enforce some urlader (Adam2/EVA) environment variables.
+		 * useful for tcom boxes having non-AVM standard settings in bootloader
+		   (my_ipaddress, firmware_version, ProductID)
+		 * useful for people that do clear mtd3/mtd4 often.
+		This settings are enforced at the beginnig of the boot process.
+
+config FREETZ_ENFORCE_URLADER_SETTING_MY_IPADDRESS
+	depends on FREETZ_ENFORCE_URLADER_SETTINGS
+	string "Enforce my_ipaddress variable"
+	default "192.168.178.1"
+	help
+		This is the AVM default, enforce to also to reseller boxes, eg. from T-Com
+		If this is empty the urlader setting won't be touched.
+
+config FREETZ_ENFORCE_URLADER_SETTING_FIRMWARE_VERSION
+	depends on FREETZ_ENFORCE_URLADER_SETTINGS
+	string "Enforce firmware_version variable"
+	default "avm" if FREETZ_TYPE_IAD_3331_7170
+	help
+		Choose wisely. Your image beeing built must support this.
+		Typical settings are eg.: avm, avme, tcom, 1und1, ...
+		If this is empty the urlader setting won't be touched.
+
+config FREETZ_ENFORCE_URLADER_SETTING_PRODUCTID
+	depends on FREETZ_ENFORCE_URLADER_SETTINGS
+	string "Enforce ProductID variable"
+	default ""
+	help
+		Choose wisely. Your image beeing built must support this.
+		Typical settings are eg.: Fritz_Box_DECT_7270, Fritz_Box_DECT_W920V
+		If this is empty the urlader setting won't be touched.
+
+comment "Misc patches ---------------------------"
+
+config FREETZ_PATCH_W920V_LED_MODULE
+	bool "Change LED semantics to W920V"
+	default y
+	depends on FREETZ_TYPE_W920V_7570
+	help
+		If Y is choosen, this changes the semantics of the LEDs on the front
+		panel of your 7570/W920V box fitting the descriptions of the W920V.
+
+config FREETZ_DISABLE_SERIAL_CONSOLE
+	bool "Disable console on serial port"
+	default n
+	help
+		Choose this if you do not want your Box to start a console/shell on
+		its serial port (/dev/ttyS0). This is particularly helpful if you
+		want to use the serial port exclusively with another application,
+		e.g. minicom.
+
+comment "AVM daemons ----------------------------"
+
+config FREETZ_AVMDAEMON_DISABLE_IGD
+	bool "Disable igd/upnp"
+	default n
+	help
+		Disables dsld's IGD & multid's UPNP-device
+
+config FREETZ_AVMDAEMON_DISABLE_NTP
+	bool "Disable ntp client"
+	default n
+	help
+		Disables multid's basic NTP client
+
+config FREETZ_AVMDAEMON_DISABLE_IGM
+	bool "Disable IGMP"
+	default n
+	help
+		Disables multid's IGMP proxy
+
+config FREETZ_AVMDAEMON_DISABLE_TR069
+	bool "Disable tr069"
+	depends on FREETZ_HAS_AVM_TR069
+	default n
+	help
+		Disables multid's tr069discover
+
+config FREETZ_AVMDAEMON_DISABLE_MULTIDPORTS
+	bool "Disable services by preload"
+	select FREETZ_LIB_libmultid
+	default n
+	help
+		This disables some ports bindings of multid
+		by remapping them to higher ones.
+
+config FREETZ_AVMDAEMON_DISABLE_DNS
+	bool "Disable DNS"
+	depends on FREETZ_AVMDAEMON_DISABLE_MULTIDPORTS
+	select FREETZ_LIB_libmultid_WITH_DNS
+	default n
+	help
+		Remaps multid's binding of the DNS ports, so another
+		dns-server could be used, avm's dynamic-dns updater
+		and timesync works correct.
+
+config FREETZ_AVMDAEMON_DISABLE_DHCP
+	bool "Disable DHCP"
+	depends on FREETZ_AVMDAEMON_DISABLE_MULTIDPORTS
+	select FREETZ_LIB_libmultid_WITH_DHCP
+	default n
+	help
+		Remaps multid's binding of the DHCP port. Don't
+		forget to set up a server for the guest-wlan too.
+
+config FREETZ_AVMDAEMON_DISABLE_LLMNR
+	bool "Disable LLMNR"
+	depends on FREETZ_AVMDAEMON_DISABLE_MULTIDPORTS
+	select FREETZ_LIB_libmultid_WITH_LLMNR
+	default n
+	help
+		Remaps multid's binding of both LLMNR ("Link-
+		local Multicast Name Resolution) ports.
+
+endmenu # "Other patches" #

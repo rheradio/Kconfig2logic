@@ -1,0 +1,44 @@
+config FREETZ_PACKAGE_NCFTP
+	bool "ncftp 3.2.5 (binaries only)"
+	default n
+	help
+		NcFTP is a free program that use the File Transfer Protocol.
+		The purpose of ncftp is to provide a powerful and flexible
+		interface to the Internet standard File Transfer Protocol.
+		Although the program appears to be rather spartan, you'll
+		find that ncftp has a wealth of valuable performance and
+		usage features. The program was designed with an emphasis
+		on usability, and it does as much as it can for you
+		automatically so you can do what you expect to do with a
+		file transfer program, which is transfer files between two
+		interconnected systems.
+		WWW: http://www.ncftp.com/ncftp/
+
+config FREETZ_PACKAGE_NCFTP_WITH_NCFTPGET
+	bool "ncftpget (binary only)"
+	depends on FREETZ_PACKAGE_NCFTP
+	default n
+	help
+		This option adds ncftpget
+
+config FREETZ_PACKAGE_NCFTP_WITH_NCFTPPUT
+	bool "ncftpput (binary only)"
+	depends on FREETZ_PACKAGE_NCFTP
+	default n
+	help
+		This option adds ncftpput
+
+config FREETZ_PACKAGE_NCFTP_WITH_NCFTPBATCH
+	bool "ncftpbatch (binary only)"
+	depends on FREETZ_PACKAGE_NCFTP
+	default n
+	help
+		This option adds ncftpbatch
+
+config FREETZ_PACKAGE_NCFTP_WITH_NCFTPLS
+	bool "ncftpls (binary only)"
+	depends on FREETZ_PACKAGE_NCFTP
+	default n
+	help
+		This option adds ncftpls
+

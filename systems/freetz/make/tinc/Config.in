@@ -1,0 +1,24 @@
+config FREETZ_PACKAGE_TINC
+	bool "Tinc 1.0.19"
+	default n
+	select FREETZ_LIB_liblzo2 if ! FREETZ_PACKAGE_TINC_STATIC
+	select FREETZ_LIB_libcrypto if ! FREETZ_PACKAGE_TINC_STATIC
+	select FREETZ_LIB_libssl if ! FREETZ_PACKAGE_TINC_STATIC
+	select FREETZ_OPENSSL_VERSION_PROMPT if FREETZ_PACKAGE_TINC_STATIC
+	select FREETZ_LIB_libz if ! FREETZ_PACKAGE_TINC_STATIC
+	help
+		Tinc is a Virtual Private Network (VPN) daemon that uses tunneling
+		and encryption to create a secure private network between hosts on
+		the Internet.
+
+config FREETZ_PACKAGE_TINC_STATIC
+	bool "Statically link libraries"
+	depends on FREETZ_PACKAGE_TINC
+	default n
+	help
+		Tinc needs the following shared libraries which can be linked in statically
+		by activating this switch:
+		- liblzo2.so
+		- libcrypto.so
+		- libssl.so
+		- libz.so

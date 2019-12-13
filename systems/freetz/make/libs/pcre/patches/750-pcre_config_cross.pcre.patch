@@ -1,0 +1,52 @@
+--- pcre-config.in
++++ pcre-config.in
+@@ -3,6 +3,8 @@
+ prefix=@prefix@
+ exec_prefix=@exec_prefix@
+ exec_prefix_set=no
++includedir=@includedir@
++libdir=@libdir@
+ 
+ cflags="[--cflags]"
+ 
+@@ -35,16 +37,16 @@
+ libR=
+ case `uname -s` in
+   *SunOS*)
+-  libR=" -R@libdir@"
++  libR=" -R${libdir}"
+   ;;
+   *BSD*)
+-  libR=" -Wl,-R@libdir@"
++  libR=" -Wl,-R${libdir}"
+   ;;
+ esac
+ 
+ libS=
+-if test @libdir@ != /usr/lib ; then
+-  libS=-L@libdir@
++if test ${libdir} != /usr/lib ; then
++  libS=-L${libdir}
+ fi
+ 
+ while test $# -gt 0; do
+@@ -74,15 +76,15 @@
+       echo @PACKAGE_VERSION@
+       ;;
+     --cflags)
+-      if test @includedir@ != /usr/include ; then
+-        includes=-I@includedir@
++      if test ${includedir} != /usr/include ; then
++        includes=-I${includedir}
+       fi
+       echo $includes @PCRE_STATIC_CFLAG@
+       ;;
+     --cflags-posix)
+       if test @enable_pcre8@ = yes ; then
+-        if test @includedir@ != /usr/include ; then
+-          includes=-I@includedir@
++        if test ${includedir} != /usr/include ; then
++          includes=-I${includedir}
+         fi
+         echo $includes @PCRE_STATIC_CFLAG@
+       else

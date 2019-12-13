@@ -1,0 +1,20 @@
+config EXTERNAL_FREETZ_PACKAGE_IMAGEMAGICK
+	depends on EXTERNAL_ENABLED && FREETZ_PACKAGE_IMAGEMAGICK
+	boolean "ImageMagick"
+	default n
+	help
+		external these file(s):
+		 /usr/lib/freetz/libMagickWand-6-Q16.so.1.0.0
+		 /usr/lib/freetz/libMagickCore-6-Q16.so.1.0.0
+		 /usr/bin/animate
+		 /usr/bin/conjure
+		 /usr/bin/convert
+		 /usr/bin/compare
+		 /usr/bin/composite
+		 /usr/bin/display
+		 /usr/bin/identify
+		 /usr/bin/import
+		 /usr/bin/mogrify
+		 /usr/bin/montage
+		 /usr/bin/stream
+		 /etc/ImageMagick

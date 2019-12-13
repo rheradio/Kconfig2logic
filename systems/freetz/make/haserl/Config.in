@@ -1,0 +1,20 @@
+config select_FREETZ_PACKAGE_HASERL
+	bool "haserl 0.9.29 (binary only)"
+	default y
+	help
+		Haserl is a small program that uses shell or Lua script to create
+		cgi web scripts. It is intended for environments where PHP or ruby
+		are too big. A typical use is to run cgi scripts in an embedded
+		environment, using a small web server, such as mini-httpd, lighty,
+		or the server built into busybox.
+
+config FREETZ_PACKAGE_HASERL
+	bool
+
+config FREETZ_PACKAGE_HASERL_WITH_LUA
+	bool "with lua support"
+	depends on FREETZ_PACKAGE_HASERL
+	select FREETZ_LIB_liblua
+	default n
+	help
+		Build haserl with lua support.

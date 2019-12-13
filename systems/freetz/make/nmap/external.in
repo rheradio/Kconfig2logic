@@ -1,0 +1,10 @@
+config EXTERNAL_FREETZ_PACKAGE_NMAP
+	depends on EXTERNAL_ENABLED && FREETZ_PACKAGE_NMAP
+	bool "nmap"
+	default n
+	help
+		externals these file(s):
+		 /usr/bin/nmap
+		 /usr/bin/ncat
+		 /usr/bin/nping
+		 /usr/share/nmap/nmap-*

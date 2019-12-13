@@ -1,0 +1,158 @@
+This is a patch for Pygments 1.4 (Debian package 'python-pygments').
+Tested with Ubuntu Oneiric (11.10), package version 1.4+dfsg-1ubuntu1.
+Tested in Trac 0.12.3dev-r10806 on freetz.org (2011-10-28)
+
+(C) 2011 Alexander Kriegisch (http://scrum-master.de)
+
+Purpose: enable Pygments (and our freetz.org Trac system, respectively) to
+syntax-highlight Kconfig files. More details are in the Python code comments
+within the patch itself.
+
+How to apply:
+  - Install Pygments
+  - Apply patch with sudo or as root (attention: your pygments location might
+    be somewhere else, so you might have to adjust the -p parameter and the
+    working directory):
+    sudo patch -p 0 < kconfig.pygments.patch
+  - Update the Pygments lexer database:
+    sudo sh -c "cd /usr/share/pyshared/pygments/lexers; python /usr/share/pyshared/pygments/lexers/_mapping.py"
+  - Trac configuration (if applicable):
+      * Do this for every Kconfig file in your SVN repository:
+        svn propset svn:mime-type text/x-kconfig <file_name>
+        svn commit <file_name>
+      * As an alternative to the previous step and in order to stay independent
+        of SVN-specific properties, apply this patch to your Trac installation:
+        tools/development/mime_map_patterns.trac.patch
+        Then follow the configuration instructions in the patch header.
+      * Add this to trac.ini, section [mimeviewer]:
+        mime_map = (...),text/x-kconfig:kconfig
+        pygments_modes = (...),text/x-kconfig:kconfig:7
+        tab_width = 4    (or whatever you like)
+      * Note: Trac uses tab expansion before highlighting. Because tab_width is
+        user-configurable and function 'rx_indent' must know about the value
+        for semantic reasons, I am using a dirty hack here: introspection as a
+        way to find out Trac's tab_width and adjust KconfigLexer's tab_width to
+        it. But at least this way we do not need to manually edit other.py each
+        time the Trac setting is changed by an admin unaware of this patch.
+
+How to test:
+  - Smaller sample HTML output:
+    pygmentize -O full -o Config.html Config.in
+  - Bigger sample HTML output:
+    pygmentize -O full -o Config.html Config.in.cache
+  - Then view the results in a web browser.
+  - If pygmentize works, configure Trac and check if your repository files and
+    wiki code blocks are correctly rendered in Trac.
+  - A wiki code block can look like this (shebang + MIME type):
+    {{{
+    #!text/x-kconfig
+    ...
+    }}}
+  - A wiki codeblock can also more simply look like this (shebang + keyword):
+    {{{
+    #!kconfig
+    ...
+    }}}
+
+This patch was initially developed for the Freetz project (http://freetz.org)
+
+
+--- /usr/share/pyshared/pygments/lexers/other.py	2011-01-03 16:57:54.000000000 +0100
++++ /usr/share/pyshared/pygments/lexers/other.py	2011-10-31 03:36:03.000000000 +0100
+@@ -19,7 +19,7 @@
+ from pygments.lexers.web import HtmlLexer
+ 
+ 
+-__all__ = ['SqlLexer', 'MySqlLexer', 'SqliteConsoleLexer', 'BrainfuckLexer',
++__all__ = ['KconfigLexer', 'SqlLexer', 'MySqlLexer', 'SqliteConsoleLexer', 'BrainfuckLexer',
+            'BashLexer', 'BatchLexer', 'BefungeLexer', 'RedcodeLexer',
+            'MOOCodeLexer', 'SmalltalkLexer', 'TcshLexer', 'LogtalkLexer',
+            'GnuplotLexer', 'PovrayLexer', 'AppleScriptLexer',
+@@ -30,6 +30,87 @@
+ 
+ line_re  = re.compile('.*?\n')
+ 
++import inspect
++
++def rx_indent(level):
++	# Kconfig *always* interprets a tab as 8 spaces, so this is the default.
++	# Edit this if you are in an environment where KconfigLexer gets expanded
++	# input (tabs expanded to spaces) and the expansion tab width is != 8.
++	# Value range here is 2 <= {tab_width} <= 8.
++	tab_width = 8;
++	# Special case: Pygments is called by Trac.
++	# Inspect call-stack and find out the value of Mimeviewer.tab_width which
++	# has previously been read from trac.ini, [mimeviewer], tab_width.
++	for frame in inspect.stack():
++		if frame[1].endswith('/trac/mimeview/api.py'):
++			tab_width=inspect.getargvalues(frame[0]).locals['self'].tab_width
++			#print "Detected by introspection: tab_width =", tab_width
++			break
++	# Regex matching a given indentation {level}, assuming that indentation is
++	# a multiple of {tab_width}. In other cases there might be problems.
++	return r'(?:\t| {1,%s}\t| {%s}){%s}.*\n' % (tab_width-1, tab_width, level);
++
++class KconfigLexer(RegexLexer):
++	name = 'Kconfig'
++	aliases = ['kconfig', 'kbuild', 'menuconfig', 'linux-config', 'kernel-config']
++	# Adjust this if new kconfig file names appear in your environment
++	filenames = ['*Config.in*', 'external.in*', 'standard-modules.in']
++	mimetypes = ['text/x-kconfig']
++	# No re.MULTILINE, indentation-aware help text needs line-by-line handling
++	flags = 0;
++
++	def call_indent(level):
++		# If indentation >= {level} is detected, enter state 'indent{level}'.
++		# Attention: This heuristic is not perfect, but should work for 99% of
++		# files with clean indentation (i.e. multiples of {tab_width}).
++		return (rx_indent(level), String.Doc, 'indent%s' % level);
++
++	def do_indent(level):
++		# Print paragraphs of indentation level >= {level} as String.Doc,
++		# ignoring blank lines. Then return to 'root' state.
++		return [
++			(rx_indent(level), String.Doc),
++			(r'\s*\n', Text),
++			(r'', Generic, '#pop:2')
++		];
++
++	tokens = {
++		'root': [
++			(r'\s+', Text),
++			(r'#.*?\n', Comment.Single),
++			(r'(mainmenu|config|menuconfig|choice|endchoice|comment|menu|endmenu|visible if|if|endif|source|prompt|select|depends on|default|range|option)\b', Keyword),
++			(r'(---help---|help)[\t ]*\n', Keyword, 'help'),
++			(r'(bool|tristate|string|hex|int|defconfig_list|modules|env)\b', Name.Builtin),
++			(r'[!=&|]', Operator),
++			(r'[()]', Punctuation),
++			(r'[0-9]+', Number.Integer),
++			(r"'(''|[^'])*'", String.Single),
++			(r'"(""|[^"])*"', String.Double),
++			(r'\S+', Text),
++		],
++		# Help text is indented, multi-line and ends when a lower indentation level is detected.
++		'help': [
++			# Skip blank lines after help token, if any
++			(r'\s*\n', Text),
++			# Determine first help text line's indentation level (max. 7) and
++			# enter corresponding lexer state to handle the rest
++			call_indent(7),
++			call_indent(6),
++			call_indent(5),
++			call_indent(4),
++			call_indent(3),
++			call_indent(2),
++			call_indent(1),
++		],
++		# Handle help text for indentation levels 7 to 1
++		'indent7' : do_indent(7),
++		'indent6' : do_indent(6),
++		'indent5' : do_indent(5),
++		'indent4' : do_indent(4),
++		'indent3' : do_indent(3),
++		'indent2' : do_indent(2),
++		'indent1' : do_indent(1),
++	}
+ 
+ class SqlLexer(RegexLexer):
+     """

@@ -1,0 +1,36 @@
+config FREETZ_PACKAGE_TINYPROXY
+	bool "Tinyproxy 1.8.2"
+	default n
+	help
+		Tinyproxy is a lightweight HTTP and HTTPS proxy.
+		http://tinyproxy.sourceforge.net
+
+config FREETZ_PACKAGE_TINYPROXY_WITH_TRANSPARENT_PROXY
+	bool "Enable transparent proxying"
+	depends on FREETZ_PACKAGE_TINYPROXY
+	default y
+
+config FREETZ_PACKAGE_TINYPROXY_WITH_FILTER
+	bool "Enable filtering support"
+	depends on FREETZ_PACKAGE_TINYPROXY
+	default y
+
+config FREETZ_PACKAGE_TINYPROXY_WITH_UPSTREAM
+	bool "Enable upstream support"
+	depends on FREETZ_PACKAGE_TINYPROXY
+	default n
+
+#config FREETZ_PACKAGE_TINYPROXY_WITH_SOCKS
+#	bool "Enable SOCKS support"
+#	depends on FREETZ_PACKAGE_TINYPROXY
+#	default n
+
+config FREETZ_PACKAGE_TINYPROXY_WITH_REVERSE
+	bool "Enable reverse proxy support"
+	depends on FREETZ_PACKAGE_TINYPROXY
+	default n
+
+config FREETZ_PACKAGE_TINYPROXY_STATIC
+	bool "Build statically linked binary"
+	depends on FREETZ_PACKAGE_TINYPROXY
+	default n

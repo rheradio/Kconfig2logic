@@ -1,0 +1,833 @@
+KCONFIG_SEED=0x9C32C355
+.config:5:warning: unexpected data
+.config:14:warning: unexpected data
+.config:15:warning: unexpected data
+.config:16:warning: unexpected data
+.config:17:warning: unexpected data
+.config:18:warning: unexpected data
+.config:20:warning: unexpected data
+.config:24:warning: unexpected data
+.config:27:warning: unexpected data
+.config:28:warning: unexpected data
+.config:29:warning: unexpected data
+.config:30:warning: unexpected data
+.config:31:warning: unexpected data
+.config:33:warning: unexpected data
+.config:34:warning: unexpected data
+.config:36:warning: unexpected data
+.config:38:warning: unexpected data
+.config:39:warning: unexpected data
+.config:40:warning: unexpected data
+.config:47:warning: unexpected data
+.config:48:warning: unexpected data
+.config:50:warning: unexpected data
+.config:51:warning: unexpected data
+.config:52:warning: unexpected data
+.config:53:warning: unexpected data
+.config:54:warning: unexpected data
+.config:55:warning: unexpected data
+.config:56:warning: unexpected data
+.config:61:warning: unexpected data
+.config:62:warning: unexpected data
+.config:67:warning: unexpected data
+.config:72:warning: unexpected data
+.config:76:warning: unexpected data
+.config:81:warning: unexpected data
+.config:82:warning: unexpected data
+.config:83:warning: unexpected data
+.config:87:warning: unexpected data
+.config:88:warning: unexpected data
+.config:90:warning: unexpected data
+.config:92:warning: unexpected data
+.config:94:warning: unexpected data
+.config:97:warning: unexpected data
+.config:98:warning: unexpected data
+.config:100:warning: unexpected data
+.config:101:warning: unexpected data
+.config:102:warning: unexpected data
+.config:111:warning: unexpected data
+.config:115:warning: unexpected data
+.config:120:warning: unexpected data
+.config:126:warning: unexpected data
+.config:127:warning: unexpected data
+.config:129:warning: unexpected data
+.config:130:warning: unexpected data
+.config:137:warning: unexpected data
+.config:139:warning: unexpected data
+.config:140:warning: unexpected data
+.config:142:warning: unexpected data
+.config:151:warning: unexpected data
+.config:152:warning: unexpected data
+.config:156:warning: unexpected data
+.config:158:warning: unexpected data
+.config:160:warning: unexpected data
+.config:162:warning: unexpected data
+.config:166:warning: unexpected data
+.config:167:warning: unexpected data
+.config:169:warning: unexpected data
+.config:171:warning: unexpected data
+.config:173:warning: unexpected data
+.config:174:warning: unexpected data
+.config:177:warning: unexpected data
+.config:178:warning: unexpected data
+.config:179:warning: unexpected data
+.config:182:warning: unexpected data
+.config:183:warning: unexpected data
+.config:185:warning: unexpected data
+.config:186:warning: unexpected data
+.config:187:warning: unexpected data
+.config:189:warning: unexpected data
+.config:191:warning: unexpected data
+.config:193:warning: unexpected data
+.config:194:warning: unexpected data
+.config:196:warning: unexpected data
+.config:198:warning: unexpected data
+.config:199:warning: unexpected data
+.config:200:warning: unexpected data
+.config:202:warning: unexpected data
+.config:204:warning: unexpected data
+.config:205:warning: unexpected data
+.config:206:warning: unexpected data
+.config:217:warning: unexpected data
+.config:227:warning: unexpected data
+.config:232:warning: unexpected data
+.config:234:warning: unexpected data
+.config:235:warning: unexpected data
+.config:237:warning: unexpected data
+.config:239:warning: unexpected data
+.config:240:warning: unexpected data
+.config:241:warning: unexpected data
+.config:243:warning: unexpected data
+.config:244:warning: unexpected data
+.config:245:warning: unexpected data
+.config:246:warning: unexpected data
+.config:247:warning: unexpected data
+.config:250:warning: unexpected data
+.config:255:warning: unexpected data
+.config:256:warning: unexpected data
+.config:261:warning: unexpected data
+.config:262:warning: unexpected data
+.config:264:warning: unexpected data
+.config:285:warning: unexpected data
+.config:286:warning: unexpected data
+.config:288:warning: unexpected data
+.config:290:warning: unexpected data
+.config:291:warning: unexpected data
+.config:292:warning: unexpected data
+.config:293:warning: unexpected data
+.config:295:warning: unexpected data
+.config:296:warning: unexpected data
+.config:297:warning: unexpected data
+.config:305:warning: unexpected data
+.config:312:warning: unexpected data
+.config:318:warning: unexpected data
+.config:326:warning: unexpected data
+.config:327:warning: unexpected data
+.config:332:warning: unexpected data
+.config:335:warning: unexpected data
+.config:337:warning: unexpected data
+.config:339:warning: unexpected data
+.config:343:warning: unexpected data
+.config:345:warning: unexpected data
+.config:347:warning: unexpected data
+.config:348:warning: unexpected data
+.config:349:warning: unexpected data
+.config:351:warning: unexpected data
+.config:353:warning: unexpected data
+.config:355:warning: unexpected data
+.config:359:warning: unexpected data
+.config:360:warning: unexpected data
+.config:363:warning: unexpected data
+.config:365:warning: unexpected data
+.config:369:warning: unexpected data
+.config:373:warning: unexpected data
+.config:374:warning: unexpected data
+.config:378:warning: unexpected data
+.config:387:warning: unexpected data
+.config:388:warning: unexpected data
+.config:389:warning: unexpected data
+.config:390:warning: unexpected data
+.config:391:warning: unexpected data
+.config:392:warning: unexpected data
+.config:394:warning: unexpected data
+.config:395:warning: unexpected data
+.config:396:warning: unexpected data
+.config:397:warning: unexpected data
+.config:398:warning: unexpected data
+.config:399:warning: unexpected data
+.config:400:warning: unexpected data
+.config:401:warning: unexpected data
+.config:402:warning: unexpected data
+.config:404:warning: unexpected data
+.config:405:warning: unexpected data
+.config:406:warning: unexpected data
+.config:415:warning: unexpected data
+.config:416:warning: unexpected data
+.config:417:warning: unexpected data
+.config:421:warning: unexpected data
+.config:422:warning: unexpected data
+.config:423:warning: unexpected data
+.config:426:warning: unexpected data
+.config:428:warning: unexpected data
+.config:429:warning: unexpected data
+.config:432:warning: unexpected data
+.config:436:warning: unexpected data
+.config:437:warning: unexpected data
+.config:438:warning: unexpected data
+.config:444:warning: unexpected data
+.config:445:warning: unexpected data
+.config:446:warning: unexpected data
+.config:447:warning: unexpected data
+.config:448:warning: unexpected data
+.config:451:warning: unexpected data
+.config:452:warning: unexpected data
+.config:458:warning: unexpected data
+.config:460:warning: unexpected data
+.config:462:warning: unexpected data
+.config:464:warning: unexpected data
+.config:467:warning: unexpected data
+.config:470:warning: unexpected data
+.config:472:warning: unexpected data
+.config:473:warning: unexpected data
+.config:474:warning: unexpected data
+.config:475:warning: unexpected data
+.config:479:warning: unexpected data
+.config:485:warning: unexpected data
+.config:486:warning: unexpected data
+.config:487:warning: unexpected data
+.config:488:warning: unexpected data
+.config:489:warning: unexpected data
+.config:491:warning: unexpected data
+.config:492:warning: unexpected data
+.config:494:warning: unexpected data
+.config:503:warning: unexpected data
+.config:504:warning: unexpected data
+.config:506:warning: unexpected data
+.config:507:warning: unexpected data
+.config:509:warning: unexpected data
+.config:514:warning: unexpected data
+.config:515:warning: unexpected data
+.config:522:warning: unexpected data
+.config:523:warning: unexpected data
+.config:525:warning: unexpected data
+.config:532:warning: unexpected data
+.config:533:warning: unexpected data
+.config:534:warning: unexpected data
+.config:537:warning: unexpected data
+.config:539:warning: unexpected data
+.config:540:warning: unexpected data
+.config:541:warning: unexpected data
+.config:547:warning: unexpected data
+.config:556:warning: unexpected data
+.config:557:warning: unexpected data
+.config:559:warning: unexpected data
+.config:560:warning: unexpected data
+.config:566:warning: unexpected data
+.config:567:warning: unexpected data
+.config:570:warning: unexpected data
+.config:571:warning: unexpected data
+.config:572:warning: unexpected data
+.config:576:warning: unexpected data
+.config:577:warning: unexpected data
+.config:582:warning: unexpected data
+.config:583:warning: unexpected data
+.config:588:warning: unexpected data
+.config:592:warning: unexpected data
+.config:593:warning: unexpected data
+*
+* BusyBox Configuration
+*
+*
+* Busybox Settings
+*
+*
+* General Configuration
+*
+Enable options for full-blown desktop systems (DESKTOP) [Y/n/?] y
+Provide compatible behavior for rare corner cases (bigger code) (EXTRA_COMPAT) [N/y/?] y
+Enable obsolete features removed before SUSv3 (INCLUDE_SUSv2) [Y/n/?] n
+Avoid using GCC-specific code constructs (USE_PORTABLE_CODE) [N/y/?] y
+Enable Linux-specific applets and features (PLATFORM_LINUX) [Y/?] y
+Buffer allocation policy
+> 1. Allocate with Malloc (FEATURE_BUFFERS_USE_MALLOC) (NEW)
+  2. Allocate on the Stack (FEATURE_BUFFERS_GO_ON_STACK) (NEW)
+  3. Allocate in the .bss section (FEATURE_BUFFERS_GO_IN_BSS) (NEW)
+choice[1-3?]: Related 63
+Related 767
+Related /var/run
+Related /proc/self/exe
+Related 
+Related 
+Related 
+Related 
+Related 
+2
+Show applet usage messages (SHOW_USAGE) [Y/n/?] n
+Support --install [-s] to install applet links at runtime (FEATURE_INSTALLER) [Y/n/?] y
+Don't use /usr (INSTALL_NO_USR) [N/y/?] n
+Enable locale support (system needs locale for this to work) (LOCALE_SUPPORT) [N/y/?] n
+Support Unicode (UNICODE_SUPPORT) [Y/n/?] y
+  Check $LC_ALL, $LC_CTYPE and $LANG environment variables (FEATURE_CHECK_UNICODE_IN_ENV) [N/y/?] n
+  Character code to substitute unprintable characters with (SUBST_WCHAR) [63] 63
+  Range of supported Unicode characters (LAST_SUPPORTED_WCHAR) [767] OTHERVAL
+  Allow zero-width Unicode characters on output (UNICODE_COMBINING_WCHARS) [N/y/?] y
+  Allow wide Unicode characters on output (UNICODE_WIDE_WCHARS) [N/y/?] y
+  Bidirectional character-aware line input (UNICODE_BIDI_SUPPORT) [N/y/?] n
+  Make it possible to enter sequences of chars which are not Unicode (UNICODE_PRESERVE_BROKEN) [N/y/?] n
+Support for PAM (Pluggable Authentication Modules) (PAM) [N/y/?] n
+Use sendfile system call (FEATURE_USE_SENDFILE) [Y/n/?] n
+Support for --long-options (LONG_OPTS) [Y/n/?] n
+Use the devpts filesystem for Unix98 PTYs (FEATURE_DEVPTS) [Y/n/?] n
+Clean up all memory before exiting (usually not needed) (FEATURE_CLEAN_UP) [N/y/?] y
+Support utmp file (FEATURE_UTMP) [Y/n/?] n
+Support writing pidfiles (FEATURE_PIDFILE) [Y/n/?] y
+  Path to directory for pidfile (PID_FILE_PATH) [/var/run] /var/run
+Support for SUID/SGID handling (FEATURE_SUID) [Y/n/?] y
+  Runtime SUID/SGID configuration via /etc/busybox.conf (FEATURE_SUID_CONFIG) [Y/n/?] y
+    Suppress warning message if /etc/busybox.conf is not readable (FEATURE_SUID_CONFIG_QUIET) [Y/n/?] y
+Support NSA Security Enhanced Linux (SELINUX) [N/y/?] n
+exec prefers applets (FEATURE_PREFER_APPLETS) [N/y/?] n
+Path to BusyBox executable (BUSYBOX_EXEC_PATH) [/proc/self/exe] /proc/self/exe
+*
+* Build Options
+*
+Build BusyBox as a static binary (no shared libs) (STATIC) [N/y/?] n
+  Build BusyBox as a position independent executable (PIE) [N/y/?] n
+Force NOMMU build (NOMMU) [N/y/?] y
+Build shared libbusybox (BUILD_LIBBUSYBOX) [N/y/?] y
+  Produce a binary for each applet, linked against libbusybox (FEATURE_INDIVIDUAL) [Y/n/?] n
+  Produce additional busybox binary linked against libbusybox (FEATURE_SHARED_BUSYBOX) [Y/n/?] n
+Build with Large File Support (for accessing files > 2 GB) (LFS) [Y/n/?] y
+Cross Compiler prefix (CROSS_COMPILER_PREFIX) [] 
+Path to sysroot (SYSROOT) [] 
+Additional CFLAGS (EXTRA_CFLAGS) [] OTHERVAL
+Additional LDFLAGS (EXTRA_LDFLAGS) [] OTHERVAL
+Additional LDLIBS (EXTRA_LDLIBS) [] OTHERVAL
+*
+* Debugging Options
+*
+Build BusyBox with extra Debugging symbols (DEBUG) [N/y/?] y
+  Disable compiler optimizations (DEBUG_PESSIMIZE) [N/y/?] y
+Build unit tests (UNIT_TEST) [N/y/?] n
+Abort compilation on any warning (WERROR) [N/y/?] y
+Additional debugging library
+> 1. None (NO_DEBUG_LIB) (NEW)
+  2. Dmalloc (DMALLOC) (NEW)
+  3. Electric-fence (EFENCE) (NEW)
+choice[1-3?]: 3
+*
+* Installation Options ("make install" behavior)
+*
+What kind of applet links to install
+> 1. as soft-links (INSTALL_APPLET_SYMLINKS) (NEW)
+  2. as hard-links (INSTALL_APPLET_HARDLINKS) (NEW)
+  3. as script wrappers (INSTALL_APPLET_SCRIPT_WRAPPERS) (NEW)
+  4. not installed (INSTALL_APPLET_DONT) (NEW)
+choice[1-4?]: Related ./_install
+Related 6
+Related 5
+Related 32
+Related 1
+Related 0
+Related 3
+Related 1
+Related 0
+Related 1
+Related 1024
+Related 4
+2
+BusyBox installation prefix (PREFIX) [./_install] OTHERVAL
+*
+* Busybox Library Tuning
+*
+Minimum password length (PASSWORD_MINLEN) [6] 32
+MD5: Trade bytes for speed (0:fast, 3:slow) (MD5_SMALL) [1] 0
+SHA3: Trade bytes for speed (0:fast, 1:slow) (SHA3_SMALL) [1] 1
+Faster /proc scanning code (+100 bytes) (FEATURE_FAST_TOP) [Y/n/?] n
+Support for /etc/networks (FEATURE_ETC_NETWORKS) [N/y/?] n
+Use termios to manipulate the screen (FEATURE_USE_TERMIOS) [Y/n/?] n
+Command line editing (FEATURE_EDITING) [Y/n/?] n
+Non-POSIX, but safer, copying to special nodes (FEATURE_NON_POSIX_CP) [Y/n/?] y
+Give more precise messages when copy fails (cp, mv etc) (FEATURE_VERBOSE_CP_MESSAGE) [N/y/?] n
+Copy buffer size, in kilobytes (FEATURE_COPYBUF_KB) [4] 1024
+Skip rootfs in mount table (FEATURE_SKIP_ROOTFS) [Y/n/?] y
+Use clock_gettime(CLOCK_MONOTONIC) syscall (MONOTONIC_SYSCALL) [N/y/?] y
+Use ioctl names rather than hex values in error messages (IOCTL_HEX2STR_ERROR) [Y/n/?] y
+Support infiniband HW (FEATURE_HWIB) [Y/n/?] y
+*
+* Applets
+*
+*
+* Archival Utilities
+*
+Make tar, rpm, modprobe etc understand .xz data (FEATURE_SEAMLESS_XZ) [Y/n/?] n
+Make tar, rpm, modprobe etc understand .lzma data (FEATURE_SEAMLESS_LZMA) [Y/n/?] n
+Make tar, rpm, modprobe etc understand .bz2 data (FEATURE_SEAMLESS_BZ2) [Y/n/?] n
+Make tar, rpm, modprobe etc understand .gz data (FEATURE_SEAMLESS_GZ) [Y/n/?] y
+tar, rpm, modprobe etc understand .Z data (FEATURE_SEAMLESS_Z) [N/y/?] y
+*
+* Coreutils
+*
+cal (CAL) [Y/n/?] n
+catv (CATV) [Y/n/?] y
+chgrp (CHGRP) [Y/n/?] n
+chmod (CHMOD) [Y/n/?] y
+chown (CHOWN) [Y/n/?] n
+chroot (CHROOT) [Y/n/?] n
+cksum (CKSUM) [Y/n/?] n
+comm (COMM) [Y/n/?] y
+cp (CP) [Y/n/?] n
+cut (CUT) [Y/n/?] y
+dd (DD) [Y/n/?] n
+df (DF) [Y/n/?] n
+dirname (DIRNAME) [Y/n/?] y
+dos2unix/unix2dos (DOS2UNIX) [Y/n/?] n
+du (default blocksize of 512 bytes) (DU) [Y/n/?] y
+  Use a default blocksize of 1024 bytes (1K) (FEATURE_DU_DEFAULT_BLOCKSIZE_1K) [Y/n/?] y
+echo (basic SuSv3 version taking no options) (ECHO) [Y/n/?] n
+env (ENV) [Y/n/?] n
+expand (EXPAND) [Y/n/?] y
+expr (EXPR) [Y/n/?] y
+  Extend Posix numbers support to 64 bit (EXPR_MATH_SUPPORT_64) [Y/n/?] n
+false (FALSE) [Y/n/?] y
+fold (FOLD) [Y/n/?] n
+fsync (FSYNC) [Y/n/?] n
+head (HEAD) [Y/n/?] n
+install (INSTALL) [Y/n/?] y
+ln (LN) [Y/n/?] n
+logname (LOGNAME) [Y/n/?] y
+ls (LS) [Y/n/?] n
+md5sum (MD5SUM) [Y/n/?] y
+mkdir (MKDIR) [Y/n/?] y
+mkfifo (MKFIFO) [Y/n/?] n
+mknod (MKNOD) [Y/n/?] n
+mv (MV) [Y/n/?] n
+nice (NICE) [Y/n/?] n
+nohup (NOHUP) [Y/n/?] n
+od (OD) [Y/n/?] n
+printenv (PRINTENV) [Y/n/?] y
+printf (PRINTF) [Y/n/?] y
+pwd (PWD) [Y/n/?] y
+readlink (READLINK) [Y/n/?] n
+realpath (REALPATH) [Y/n/?] y
+rm (RM) [Y/n/?] n
+rmdir (RMDIR) [Y/n/?] y
+seq (SEQ) [Y/n/?] n
+sha1sum (SHA1SUM) [Y/n/?] n
+sha256sum (SHA256SUM) [Y/n/?] y
+sha512sum (SHA512SUM) [Y/n/?] y
+sha3sum (SHA3SUM) [Y/n/?] n
+sleep (SLEEP) [Y/n/?] n
+sort (SORT) [Y/n/?] y
+  Full SuSv3 compliant sort (support -ktcsbdfiozgM) (FEATURE_SORT_BIG) [Y/n/?] y
+split (SPLIT) [Y/n/?] n
+stat (STAT) [Y/n/?] n
+stty (STTY) [Y/n/?] n
+sum (SUM) [Y/n/?] n
+sync (SYNC) [Y/n/?] y
+tac (TAC) [Y/n/?] n
+tail (TAIL) [Y/n/?] y
+  Enable extra tail options (-q, -s, -v, and -F) (FEATURE_FANCY_TAIL) [Y/n/?] n
+tee (TEE) [Y/n/?] n
+true (TRUE) [Y/n/?] y
+tty (TTY) [Y/n/?] n
+uname (UNAME) [Y/n/?] n
+unexpand (UNEXPAND) [Y/n/?] y
+uniq (UNIQ) [Y/n/?] n
+usleep (USLEEP) [Y/n/?] y
+uudecode (UUDECODE) [Y/n/?] n
+uuencode (UUENCODE) [Y/n/?] y
+wc (WC) [Y/n/?] n
+whoami (WHOAMI) [Y/n/?] y
+yes (YES) [Y/n/?] y
+*
+* Common options
+*
+Support verbose options (usually -v) for various applets (FEATURE_VERBOSE) [Y/n/?] n
+*
+* Common options for ls, more and telnet
+*
+Calculate terminal & column widths (FEATURE_AUTOWIDTH) [Y/n/?] y
+*
+* Common options for df, du, ls
+*
+Support for human readable output (example 13k, 23M, 235G) (FEATURE_HUMAN_READABLE) [Y/n/?] n
+*
+* Common options for md5sum, sha1sum, sha256sum, sha512sum, sha3sum
+*
+Enable -c, -s and -w options (FEATURE_MD5_SHA1_SUM_CHECK) [Y/n/?] y
+*
+* Console Utilities
+*
+chvt (CHVT) [Y/n/?] n
+fgconsole (FGCONSOLE) [Y/n/?] n
+clear (CLEAR) [Y/n/?] y
+deallocvt (DEALLOCVT) [Y/n/?] y
+dumpkRelated 60000
+Related 0
+Related 60000
+Related 100
+Related 0
+Related 60000
+Related 100
+Related 0
+Related 60000
+Related 100
+Related 0
+Related 60000
+Related 100
+Related 999
+Related des
+Related /lib/modules
+Related modules.dep
+map (DUMPKMAP) [Y/n/?] n
+kbd_mode (KBD_MODE) [Y/n/?] y
+loadfont (LOADFONT) [Y/n/?] n
+loadkmap (LOADKMAP) [Y/n/?] y
+openvt (OPENVT) [Y/n/?] y
+reset (RESET) [Y/n/?] y
+resize (RESIZE) [Y/n/?] y
+  Print environment variables (FEATURE_RESIZE_PRINT) [Y/n/?] y
+setconsole (SETCONSOLE) [Y/n/?] y
+setfont (SETFONT) [Y/n/?] n
+setkeycodes (SETKEYCODES) [Y/n/?] n
+setlogcons (SETLOGCONS) [Y/n/?] n
+showkey (SHOWKEY) [Y/n/?] y
+*
+* Debian Utilities
+*
+mktemp (MKTEMP) [Y/n/?] n
+pipe_progress (PIPE_PROGRESS) [Y/n/?] y
+run-parts (RUN_PARTS) [Y/n/?] y
+  Support additional arguments (FEATURE_RUN_PARTS_FANCY) [Y/n/?] y
+start-stop-daemon (START_STOP_DAEMON) [Y/n/?] n
+which (WHICH) [Y/n/?] y
+*
+* Editors
+*
+*
+* Finding Utilities
+*
+*
+* Init Utilities
+*
+*
+* Login/Password Management Utilities
+*
+Support for shadow passwords (FEATURE_SHADOWPASSWDS) [Y/n/?] n
+Use internal password and group functions rather than system functions (USE_BB_PWD_GRP) [Y/n/?] y
+Use internal crypt functions (USE_BB_CRYPT) [Y/n/?] y
+  Enable SHA256/512 crypt functions (USE_BB_CRYPT_SHA) [Y/n/?] y
+adduser (ADDUSER) [Y/n/?] n
+  Enable sanity check on user/group names in adduser and addgroup (FEATURE_CHECK_NAMES) [N/y/?] n
+  Last valid uid or gid for adduser and addgroup (LAST_ID) [60000] OTHERVAL
+  First valid system uid or gid for adduser and addgroup (FIRST_SYSTEM_ID) [0] 60000
+  First valid system uid or gid for adduser and addgroup (FIRST_SYSTEM_ID) [0] 60000
+  First valid system uid or gid for adduser and addgroup (FIRST_SYSTEM_ID) [0] 0
+  Last valid system uid or gid for adduser and addgroup (LAST_SYSTEM_ID) [0] 0
+addgroup (ADDGROUP) [Y/n/?] n
+deluser (DELUSER) [Y/n/?] y
+delgroup (DELGROUP) [Y/n/?] n
+getty (GETTY) [Y/n/?] y
+login (LOGIN) [Y/n/?] n
+passwd (PASSWD) [Y/n/?] n
+cryptpw (CRYPTPW) [Y/n/?] y
+chpasswd (CHPASSWD) [Y/n/?] n
+Default password encryption method (passwd -a, cryptpw -m parameter) (FEATURE_DEFAULT_PASSWD_ALGO) [des] OTHERVAL
+su (SU) [Y/n/?] n
+sulogin (SULOGIN) [Y/n/?] y
+vlock (VLOCK) [Y/n/?] n
+*
+* Linux Ext2 FS Progs
+*
+chattr (CHATTR) [Y/n/?] n
+fsck (FSCK) [Y/n/?] n
+lsattr (LSATTR) [Y/n/?] y
+tune2fs (TUNE2FS) [N/y/?] y
+*
+* Linux Module Utilities
+*
+Simplified modutils (MODPROBE_SMALL) [Y/n/?] y
+  Accept module options on modprobe command line (FEATURE_MODPROBE_SMALL_OPTIONS_ON_CMDLINE) [Y/n/?] y
+  Skip loading of already loaded modules (FEATURE_MODPROBE_SMALL_CHECK_ALREADY_LOADED) [Y/n/?] n
+*
+* Options common to multiple modutils
+*
+Try to load module from a mmap'ed area (FEATURE_INSMOD_TRY_MMAP) [N/y/?] y
+Default directory containing modules (DEFAULT_MODULES_DIR) [/lib/modules] OTHERVAL
+Default name of modules.dep (DEFAULT_DEPMOD_FILE) [modules.dep] OTHERVAL
+*
+* Linux System Utilities
+*
+acpid (ACPID) [Y/n/?] n
+blkid (BLKID) [Y/n/?] y
+  Print filesystem type (FEATURE_BLKID_TYPE) [N/y/?] y
+dmesg (DMESG) [Y/n/?] y
+  Pretty dmesg output (FEATURE_DMESG_PRETTY) [Y/n/?] y
+fbset (FBSET) [Y/n/?] y
+  Turn on extra fbset options (FEATURE_FBSET_FANCY) [Y/n/?] y
+  Turn on fbset readmode support (FEATURE_FBSET_READMODE) [Y/n/?] y
+fdflush (FDFLUSH) [Y/n/?] y
+fdformat (FDFORMAT) [Y/n/?] n
+fdisk (FDISK) [Y/n/?] n
+findfs (FINDFS) [Y/n/?] n
+flock (FLOCK) [Y/n/?] n
+freeramdisk (FREERAMDISK) [Y/n/?] y
+fsck_minix (FSCK_MINIX) [Y/n/?] n
+mkfs_ext2 (MKFS_EXT2) [Y/n/?] n
+mkfs_minix (MKFS_MINIX) [Y/n/?] y
+  Support Minix fs v2 (fsck_minix/mkfs_minix) (FEATURE_MINIX2) [Y/n/?] n
+mkfs_reiser (MKFS_REISER) [N/y/?] y
+mkfs_vfat (MKFS_VFAT) [Y/n/?] n
+getopt (GETOPT) [Y/n/?] n
+hexdump (HEXDUMP) [Y/n/?] y
+  Support -R, reverse of 'hexdump -Cv' (FEATURE_HEXDUMP_REVERSE) [Y/n/?] y
+  hd (HD) [Y/n/?] y
+hwclock (HWCLOCK) [Y/n/?] n
+ipcrm (IPCRM) [Y/n/?] y
+ipcs (IPCS) [Y/n/?] y
+losetup (LOSETUP) [Y/n/?] n
+lspci (LSPCI) [Y/n/?] n
+lsusb (LSUSB) [Y/n/?] n
+mkswap (MKSWAP) [Y/n/?] n
+more (MORE) [Y/n/?] y
+mount (MOUNT) [Y/n/?] y
+  Support option -f (FEATURE_MOUNT_FAKE) [Y/n/?] n
+  Support option -v (FEATURE_MOUNT_VERBOSE) [Y/n/?] y
+  Support mount helpers (FEATURE_MOUNT_HELPERS) [N/y/?] y
+  Support specifying devices by label or UUID (FEATURE_MOUNT_LABEL) [Y/n/?] n
+  Support mounting NFS file systems on Linux < 2.6.23 (FEATURE_MOUNT_NFS) [N/y/?] y
+  Support mounting CIFS/SMB file systems (FEATURE_MOUNT_CIFS) [Y/n/?] n
+  Support lots of -o flags in mount (FEATURE_MOUNT_FLAGS) [Y/n/?] y
+  Support /etc/fstab and -a (FEATURE_MOUNT_FSTAB) [Y/n/?] y
+pivot_root (PIVOT_ROOT) [Y/n/?] y
+rdate (RDATE) [Y/n/?] y
+rdev (RDEV) [Y/n/?] n
+readprofile (READPROFILE) [Y/n/?] y
+rtcwake (RTCWAKE) [Y/n/?] n
+script (SCRIPT) [Y/n/?] n
+scriptreplay (SCRIPTREPLAY) [Y/n/?] y
+setarch (SETARCH) [Y/n/?] n
+swaponoff (SWAPONOFF) [Y/n/?] n
+switch_root (SWITCH_ROOT) [Y/n/?] n
+umount (UMOUNT) [Y/n/?] y
+  Support option -a (FEATURE_UMOUNT_ALL) [Y/n/?] n
+  *
+  * Common options for mount/umount
+  *
+  Support loopback mounts (FEATURE_MOUNT_LOOP) [Y/n/?] y
+    Create new loopback devices if needed (FEATURE_MOUNT_LOOP_CREATE) [Y/n/?] y
+  Support for the old /etc/mtab file (FEATURE_MTAB_SUPPORT) [N/y/?] n
+*
+* Filesystem/Volume identification
+*
+*
+* Miscellaneous Utilities
+*
+adjtimex (ADJTIMEX) [Y/n/?] n
+bbconfig (BBCONFIG) [N/y/?] n
+beep (BEEP) [Y/n/?] n
+chat (CHAT) [Y/n/?] n
+chrt (CHRT) [Y/n/?] n
+crontab (CRONTAB) [Y/n/?] y
+dc (DC) [Y/n/?] y
+  Enable power and exp functions (requires libm) (FEATURE_DC_LIBM) [Y/n/?] y
+devfsd (obsolete) (DEVFSD) [N/y/?] y
+  Adds support for MODLOAD keyword in devsfd.conf (DEVFSD_MODLOAD) [Y/n/?] y
+  Enables the -fg and -np options (DEVFSD_FG_NP) [Y/n/?] n
+  Increases logging (and size) (DEVFSD_VERBOSE) [Y/n/?] y
+Use devfs names for all devices (obsolete) (FEATURE_DEVFS) [N/y/?] n
+devmem (DEVMEM) [Y/n/?] n
+eject (EJECT) [Y/n/?] y
+  SCSI support (FEATURE_EJECT_SCSI) [Y/n/?] n
+fbsplash (FBSPLASH) [Y/n/?] n
+flashcp (FLASHCP) [N/y/?] n
+flash_lock (FLASH_LOCK) [N/y/?] y
+flash_unlock (FLASH_UNLOCK) [N/y/?] n
+flash_eraseall (FLASH_ERASEALL) [N/y/?] y
+ionice (IONICE) [Y/n/?] y
+inotifyd (INOTIFYD) [N/y/?] y
+hdparm (HDPARM) [Y/n/?] y
+  Support obtaining detailed information directly from drives (FEATURE_HDPARM_GET_IDENTITY) [Y/n/?] n
+  Register an IDE interface (DANGEROUS) (FEATURE_HDPARM_HDIO_SCAN_HWIF) [Y/n/?] y
+  Un-register an IDE interface (DANGEROUS) (FEATURE_HDPARM_HDIO_UNREGISTER_HWIF) [Y/n/?] n
+  Perform device reset (DANGEROUS) (FEATURE_HDPARM_HDIO_DRIVE_RESET) [Y/n/?] y
+  Tristate device for hotswap (DANGEROUS) (FEATURE_HDPARM_HDIO_TRISTATE_HWIF) [Y/n/?] y
+  Get/set using_dma flag (FEATURE_HDPARM_HDIO_GETSET_DMA) [Y/n/?] y
+makedevs (MAKEDEVS) [Y/n/?] n
+man (MAN) [Y/n/?] y
+microcom (MICROCOM) [Y/n/?] n
+mountpoint (MOUNTPOINT) [Y/n/?] n
+mt (MT) [Y/n/?] n
+raidautorun (RAIDAUTORUN) [Y/n/?] y
+readahead (READAHEAD) [Y/n/?] y
+rx (RX) [Y/n/?] y
+setsid (SETSID) [Y/n/?] y
+strings (STRINGS) [Y/n/?] y
+time (TIME) [Y/n/?] y
+timeout (TIMEOUT) [Y/n/?] n
+ttysize (TTYSIZE) [Y/n/?] y
+volname (VOLNAME) [Y/n/?] n
+watchdog (WATCHDOG) [Y/n/?] n
+*
+* Networking Utilities
+*
+Enable IPv6 support (FEATURE_IPV6) [Y/n/?] y
+Enable Unix domain socket support (usually not needed) (FEATURE_UNIX_LOCAL) [N/y/?] n
+Prefer IPv4 addresses from DNS queries (FEATURE_PREFER_IPV4_ADDRESS) [Y/n/?] y
+Verbose resolution errors (VERBOSE_RESOLUTION_ERRORS) [N/y/?] n
+arp (ARP) [Y/n/?] y
+arping (ARPING) [Y/n/?] n
+brctl (BRCTL) [Y/n/?] n
+dnsd (DNSD) [Y/n/?] y
+ether-wake (ETHER_WAKE) [Y/n/?] y
+fakeidentd (FAKEIDENTD) [Y/n/?] n
+ftpd (FTPD) [Y/n/?] n
+ftpget (FTPGET) [Y/n/?] n
+ftpput (FTPPUT) [Y/n/?] n
+hostname (HOSTNAME) [Y/n/?] y
+httpd (HTTPD) [Y/n/?] y
+  Support 'Ranges:' header (FEATURE_HTTPD_RANGES) [Y/n/?] n
+  Enable -u <user> option (FEATURE_HTTPD_SETUID) [Y/n/?] y
+  Enable Basic http Authentication (FEATURE_HTTPD_BASIC_AUTH) [Y/n/?] y
+    Support MD5 crypted passwords for http Authentication (FEATURE_HTTPD_AUTH_MD5) [Y/n/?] y
+  Support Common Gateway Interface (CGI) (FEATURE_HTTPD_CGI) [Y/n/?] y
+    Support for running scripts through an interpreter (FEATURE_HTTPD_CONFIG_WITH_SCRIPT_INTERPR) [Y/n/?] n
+    Set REMOTE_PORT environment variable for CGI (FEATURE_HTTPD_SET_REMOTE_PORT_TO_ENV) [Y/n/?] y
+  Enable -e option (useful for CGIs written as shell scripts) (FEATURE_HTTPD_ENCODE_URL_STR) [Y/n/?] y
+  Support for custom error pages (FEATURE_HTTPD_ERROR_PAGES) [Y/n/?] n
+  Support foRelated /var/lib/misc/udhcpd.leases
+Related 9
+Related 0
+Related 80
+Related 0
+Related 924
+Related us-ascii
+r reverse proxy (FEATURE_HTTPD_PROXY) [Y/n/?] n
+  Support for GZIP content encoding (FEATURE_HTTPD_GZIP) [Y/n/?] y
+ifconfig (IFCONFIG) [Y/n/?] y
+  Enable status reporting output (+7k) (FEATURE_IFCONFIG_STATUS) [Y/n/?] n
+  Enable slip-specific options "keepalive" and "outfill" (FEATURE_IFCONFIG_SLIP) [Y/n/?] y
+  Enable options "mem_start", "io_addr", and "irq" (FEATURE_IFCONFIG_MEMSTART_IOADDR_IRQ) [Y/n/?] n
+  Enable option "hw" (ether only) (FEATURE_IFCONFIG_HW) [Y/n/?] y
+  Set the broadcast automatically (FEATURE_IFCONFIG_BROADCAST_PLUS) [Y/n/?] n
+ifenslave (IFENSLAVE) [Y/n/?] y
+ifplugd (IFPLUGD) [Y/n/?] y
+ifupdown (IFUPDOWN) [Y/n/?] n
+inetd (INETD) [Y/n/?] y
+  Support echo service (FEATURE_INETD_SUPPORT_BUILTIN_ECHO) [Y/n/?] n
+  Support discard service (FEATURE_INETD_SUPPORT_BUILTIN_DISCARD) [Y/n/?] y
+  Support time service (FEATURE_INETD_SUPPORT_BUILTIN_TIME) [Y/n/?] y
+  Support daytime service (FEATURE_INETD_SUPPORT_BUILTIN_DAYTIME) [Y/n/?] n
+  Support chargen service (FEATURE_INETD_SUPPORT_BUILTIN_CHARGEN) [Y/n/?] n
+  Support RPC services (FEATURE_INETD_RPC) [Y/n/?] y
+ip (IP) [Y/n/?] y
+  ip address (FEATURE_IP_ADDRESS) [Y/n/?] n
+  ip link (FEATURE_IP_LINK) [Y/n/?] n
+  ip route (FEATURE_IP_ROUTE) [Y/n/?] y
+  ip tunnel (FEATURE_IP_TUNNEL) [Y/n/?] n
+  ip rule (FEATURE_IP_RULE) [Y/n/?] n
+  Support short forms of ip commands (FEATURE_IP_SHORT_FORMS) [Y/n/?] y
+  Support displaying rarely used link types (FEATURE_IP_RARE_PROTOCOLS) [N/y/?] n
+ipcalc (IPCALC) [Y/n/?] n
+netstat (NETSTAT) [Y/n/?] y
+  Enable wide netstat output (FEATURE_NETSTAT_WIDE) [Y/n/?] y
+  Enable PID/Program name output (FEATURE_NETSTAT_PRG) [Y/n/?] y
+nslookup (NSLOOKUP) [Y/n/?] y
+ntpd (NTPD) [Y/n/?] y
+  Make ntpd usable as a NTP server (FEATURE_NTPD_SERVER) [Y/n/?] n
+  Make ntpd understand /etc/ntp.conf (FEATURE_NTPD_CONF) [Y/n/?] n
+pscan (PSCAN) [Y/n/?] n
+route (ROUTE) [Y/n/?] y
+slattach (SLATTACH) [Y/n/?] y
+tcpsvd (TCPSVD) [Y/n/?] y
+telnet (TELNET) [Y/n/?] n
+telnetd (TELNETD) [Y/n/?] y
+  Support standalone telnetd (not inetd only) (FEATURE_TELNETD_STANDALONE) [Y/n/?] y
+    Support -w SEC option (inetd wait mode) (FEATURE_TELNETD_INETD_WAIT) [Y/n/?] n
+tftp (TFTP) [Y/n/?] y
+tftpd (TFTPD) [Y/n/?] y
+  *
+  * Common options for tftp/tftpd
+  *
+  Enable 'tftp get' and/or tftpd upload code (FEATURE_TFTP_GET) [Y/n/?] n
+  Enable 'tftp put' and/or tftpd download code (FEATURE_TFTP_PUT) [Y/n/?] y
+  Enable 'blksize' and 'tsize' protocol options (FEATURE_TFTP_BLOCKSIZE) [Y/n/?] y
+    Enable tftp progress meter (FEATURE_TFTP_PROGRESS_BAR) [Y/n/?] y
+  Enable debug (TFTP_DEBUG) [N/y/?] n
+traceroute (TRACEROUTE) [Y/n/?] n
+tunctl (TUNCTL) [Y/n/?] n
+udhcp server (udhcpd) (UDHCPD) [Y/n/?] y
+  dhcprelay (DHCPRELAY) [Y/n/?] y
+  Lease display utility (dumpleases) (DUMPLEASES) [Y/n/?] y
+  Rewrite the lease file at every new acknowledge (FEATURE_UDHCPD_WRITE_LEASES_EARLY) [Y/n/?] y
+  Select IP address based on client MAC (FEATURE_UDHCPD_BASE_IP_ON_MAC) [N/y/?] n
+  Absolute path to lease file (DHCPD_LEASES_FILE) [/var/lib/misc/udhcpd.leases] OTHERVAL
+udhcp client (udhcpc) (UDHCPC) [Y/n/?] n
+  Enable '-P port' option for udhcpd and udhcpc (FEATURE_UDHCP_PORT) [N/y/?] y
+  Maximum verbosity level for udhcp applets (0..9) (UDHCP_DEBUG) [9] 0
+  Support for RFC3397 domain search (experimental) (FEATURE_UDHCP_RFC3397) [Y/n/?] n
+  Support for 802.1Q VLAN parameters (FEATURE_UDHCP_8021Q) [Y/n/?] n
+  DHCP options slack buffer size (UDHCPC_SLACK_FOR_BUGGY_SERVERS) [80] 80
+udpsvd (UDPSVD) [Y/n/?] n
+vconfig (VCONFIG) [Y/n/?] y
+wget (WGET) [Y/n/?] n
+zcip (ZCIP) [Y/n/?] y
+*
+* Print Utilities
+*
+lpd (LPD) [Y/n/?] y
+lpr (LPR) [Y/n/?] y
+lpq (LPQ) [Y/n/?] n
+*
+* Mail Utilities
+*
+makemime (MAKEMIME) [Y/n/?] n
+  Default charset (FEATURE_MIME_CHARSET) [us-ascii] OTHERVAL
+popmaildir (POPMAILDIR) [Y/n/?] n
+reformime (REFORMIME) [Y/n/?] y
+  Accept and ignore options other than -x and -X (FEATURE_REFORMIME_COMPAT) [Y/n/?] n
+sendmail (SENDMAIL) [Y/n/?] y
+*
+* Process Utilities
+*
+free (FREE) [Y/n/?] n
+fuser (FUSER) [Y/n/?] y
+kill (KILL) [Y/n/?] n
+pgrep (PGREP) [Y/n/?] n
+pidof (PIDOF) [Y/n/?] n
+pkill (PKILL) [Y/n/?] n
+ps (PS) [Y/n/?] n
+renice (RENICE) [Y/n/?] y
+sysctl (BB_SYSCTL) [Y/n/?] y
+watch (WATCH) [Y/n/?] y
+*
+* Runit Utilities
+*
+runsv (RUNSV) [Y/n/?] n
+runsvdir (RUNSVDIR) [Y/n/?] n
+sv (SV) [Y/n/?] n
+svlogd (SVLOGD) [Y/n/?] y
+chpst (CHPST) [Y/n/?] y
+setuidgid (SETUIDGID) [Y/n/?] n
+envuidgid (ENVUIDGID) [Y/n/?] n
+envdir (ENVDIR) [Y/n/?] n
+softlimit (SOFTLIMIT) [Y/n/?] y
+*
+* Shells
+*
+Choose which shell is aliased to 'sh' name
+> 1. none (FEATURE_SH_IS_NONE) (NEW)
+choice[1]: 1
+Choose which shell is aliased to 'bash' name
+> 1. none (FEATURE_BASH_IS_NONE) (NEW)
+choice[1]: 1
+*
+* System Logging Utilities
+*
+syslogd (SYSLOGD) [Y/n/?] n
+klogd (KLOGD) [Y/n/?] n
+logger (LOGGER) [Y/n/?] y
+#
+# configuration written to .config
+#

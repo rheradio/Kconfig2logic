@@ -1,0 +1,11 @@
+--- configure
++++ configure
+@@ -18241,8 +18241,6 @@
+                         CPPFLAGS="-I${bdbdir}/include${subdir} $CPPFLAGS"
+                         LDFLAGS="-L$bdblibdir $LDFLAGS"
+ 
+-                                                                                                                                                                        eval export $shlibpath_var=$bdblibdir
+-
+     atalk_cv_bdb_version=no
+     maj=$atalk_cv_bdb_MAJOR
+     min=$atalk_cv_bdb_MINOR

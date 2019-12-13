@@ -1,0 +1,13 @@
+config FREETZ_PACKAGE_SUNDTEK
+	bool "Sundtek DVB driver 130210.134617"
+	select FREETZ_LIB_libdl
+	select FREETZ_LIB_libpthread
+	select FREETZ_LIB_librt if FREETZ_TARGET_ARCH_BE
+	default n
+	help
+		Sundtek closed-source linux driver daemon & client.
+		To use this driver you have to run:
+		export LD_PRELOAD=/usr/lib/libmediaclient.so
+
+comment "CAUTION: Use 'replace kernel' to avoid mem leak!"
+	depends on FREETZ_PACKAGE_SUNDTEK && FREETZ_KERNEL_VERSION_2_6_19 && !FREETZ_REPLACE_KERNEL

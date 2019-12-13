@@ -1,0 +1,30 @@
+--- curl-config.in
++++ curl-config.in
+@@ -23,6 +23,7 @@
+ 
+ prefix=@prefix@
+ exec_prefix=@exec_prefix@
++libdir=@libdir@
+ includedir=@includedir@
+ cppflag_curl_staticlib=@CPPFLAG_CURL_STATICLIB@
+ 
+@@ -142,8 +143,8 @@
+         ;;
+ 
+     --libs)
+-        if test "X@libdir@" != "X/usr/lib" -a "X@libdir@" != "X/usr/lib64"; then
+-           CURLLIBDIR="-L@libdir@ "
++	if test "X${libdir}" != "X/usr/lib" -a "X${libdir}" != "X/usr/lib64"; then
++	   CURLLIBDIR="-L${libdir} "
+         else
+            CURLLIBDIR=""
+         fi
+@@ -155,7 +156,7 @@
+         ;;
+ 
+     --static-libs)
+-        echo @libdir@/libcurl.@libext@ @LDFLAGS@ @LIBCURL_LIBS@
++	echo ${libdir}/libcurl.@libext@ @LDFLAGS@ @LIBCURL_LIBS@
+         ;;
+ 
+     --configure)

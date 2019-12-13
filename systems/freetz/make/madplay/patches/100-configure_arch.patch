@@ -1,0 +1,26 @@
+--- configure.ac
++++ configure.ac
+@@ -99,10 +99,6 @@
+ 	-mno-cygwin)
+ 	    shift
+ 	    ;;
+-	-m*)
+-	    arch="$arch $1"
+-	    shift
+-	    ;;
+ 	-fomit-frame-pointer)
+ 	    shift
+ 	    ;;
+--- configure
++++ configure
+@@ -19053,10 +19053,6 @@
+ 	-mno-cygwin)
+ 	    shift
+ 	    ;;
+-	-m*)
+-	    arch="$arch $1"
+-	    shift
+-	    ;;
+ 	-fomit-frame-pointer)
+ 	    shift
+ 	    ;;

@@ -1,0 +1,215 @@
+Kconfig2Logic /Users/david/product_lines/Implementacion/myKconf/systems/toybox 
+Before treatment. 12 variables
+------------------------------------------------
+Name TOYBOX file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
+otherBit synFalse
+condition for TOYBOX: synFalse
+*******
+Internal? 1 simple? 1 dummy? 1 artificial? 1
+selectCondition synFalse
+userInput       synFalse
+defaultsCondition TOYBOX
+depStack 
+innerIf  TOYBOX
+outerIf  TOYBOX
+------------------------------------------------
+Name TOYBOX_SUID file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_SUID: synTrue
+*******
+Internal? 0 simple? 1 dummy? 0 artificial? 0
+selectCondition synFalse
+userInput       synTrue
+defaultsCondition TOYBOX_SUID
+depStack 
+innerIf  synTrue
+outerIf  synTrue
+------------------------------------------------
+Name TOYBOX_SELINUX file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_SELINUX: synTrue
+*******
+Internal? 0 simple? 0 dummy? 0 artificial? 0
+selectCondition synFalse
+userInput       synTrue
+defaultsCondition not TOYBOX_SELINUX
+depStack 
+innerIf  synTrue
+outerIf  synTrue
+------------------------------------------------
+Name TOYBOX_FLOAT file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_FLOAT: synTrue
+*******
+Internal? 0 simple? 1 dummy? 0 artificial? 0
+selectCondition synFalse
+userInput       synTrue
+defaultsCondition TOYBOX_FLOAT
+depStack 
+innerIf  synTrue
+outerIf  synTrue
+------------------------------------------------
+Name TOYBOX_HELP file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_HELP: synTrue
+*******
+Internal? 0 simple? 1 dummy? 0 artificial? 0
+selectCondition synFalse
+userInput       synTrue
+defaultsCondition TOYBOX_HELP
+depStack 
+innerIf  synTrue
+outerIf  synTrue
+------------------------------------------------
+Name TOYBOX_HELP_DASHDASH file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies TOYBOX_HELP
+otherBit TOYBOX_HELP
+condition for TOYBOX_HELP_DASHDASH: TOYBOX_HELP
+*******
+Internal? 0 simple? 1 dummy? 0 artificial? 0
+selectCondition synFalse
+userInput       TOYBOX_HELP
+defaultsCondition if TOYBOX_HELP then TOYBOX_HELP_DASHDASH else not TOYBOX_HELP_DASHDASH
+depStack 
+innerIf  if not TOYBOX_HELP then (if TOYBOX_HELP then TOYBOX_HELP_DASHDASH else not TOYBOX_HELP_DASHDASH)
+outerIf  if not TOYBOX_HELP then (if TOYBOX_HELP then TOYBOX_HELP_DASHDASH else not TOYBOX_HELP_DASHDASH)
+------------------------------------------------
+Name TOYBOX_I18N file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_I18N: synTrue
+*******
+Internal? 0 simple? 1 dummy? 0 artificial? 0
+selectCondition synFalse
+userInput       synTrue
+defaultsCondition TOYBOX_I18N
+depStack 
+innerIf  synTrue
+outerIf  synTrue
+------------------------------------------------
+Name TOYBOX_FREE file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_FREE: synTrue
+*******
+Internal? 0 simple? 0 dummy? 0 artificial? 0
+selectCondition synFalse
+userInput       synTrue
+defaultsCondition not TOYBOX_FREE
+depStack 
+innerIf  synTrue
+outerIf  synTrue
+------------------------------------------------
+Name TOYBOX_NORECURSE file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_NORECURSE: synTrue
+*******
+Internal? 0 simple? 0 dummy? 0 artificial? 0
+selectCondition synFalse
+userInput       synTrue
+defaultsCondition not TOYBOX_NORECURSE
+depStack 
+innerIf  synTrue
+outerIf  synTrue
+------------------------------------------------
+Name TOYBOX_DEBUG file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+mapAlternative size 1
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_DEBUG: synTrue
+*******
+Internal? 0 simple? 0 dummy? 0 artificial? 0
+selectCondition synFalse
+userInput       synTrue
+defaultsCondition not TOYBOX_DEBUG
+depStack 
+innerIf  synTrue
+outerIf  synTrue
+------------------------------------------------
+Name TOYBOX_UID_SYS file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_UID_SYS: synTrue
+dependencies synTrue
+userInput       synTrue
+defaultsCondition not TOYBOX_UID_SYS
+depStack 
+innerIf TOYBOX_UID_SYS
+outerIf TOYBOX_UID_SYS
+3 TOYBOX_UID_SYS_EQ_100 -> TOYBOX_UID_SYS
+3 TOYBOX_UID_SYS_EQ_OTHERVAL -> TOYBOX_UID_SYS
+------------------------------------------------
+Name TOYBOX_UID_USR file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+comesFromEnvironment 0
+ vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
+otherBit synTrue
+condition for TOYBOX_UID_USR: synTrue
+dependencies synTrue
+userInput       synTrue
+defaultsCondition not TOYBOX_UID_USR
+depStack 
+innerIf TOYBOX_UID_USR
+outerIf TOYBOX_UID_USR
+3 TOYBOX_UID_USR_EQ_500 -> TOYBOX_UID_USR
+3 TOYBOX_UID_USR_EQ_OTHERVAL -> TOYBOX_UID_USR
+Simplify Constraints
+1 We set var                                             TOYBOX from                                                       TOYBOX to true   expression (1) TOYBOX
+1 We set var                                     TOYBOX_UID_SYS from                                               TOYBOX_UID_SYS to true   expression (3) TOYBOX_UID_SYS
+1 We set var                                     TOYBOX_UID_USR from                                               TOYBOX_UID_USR to true   expression (8) TOYBOX_UID_USR
+Numchanges       3 otherConstraints 8
+Numchanges       0 otherConstraints 8
+Only one component
+Simplify Constraints
+Numchanges       0 otherConstraints 8
+At least 3 variables are always true
+At least 0 variables are always false 
+Writing variables in order of occurrence to toybox.var
+Writing expressions to toybox.exp
+Symbols in symbolTable 16
+Symbols file /Users/david/product_lines/Implementacion/myKconf/systems/toybox/symbols
+
+Files processed      : 5
+If blocks processed  : 0
+Choices processed    : 0
+Choice members       : 0
+Configs processed    : 12
+Menus processed      : 1
+Main menus processed : 1
+Menuconfig processed : 0
+
+ boolean:     10 variables
+     int:      2 variables
+Time:   6 ms. (6 ms)
+Error: signal 11:
+0   Kconfig2Logic                       0x00000001015a7737 _Z7handleri + 39
+1   libsystem_platform.dylib            0x00007fff701bbb5d _sigtramp + 29
+2   ???                                 0x322d8b7028831149 0x0 + 3615699389680652617
+3   Kconfig2Logic                       0x00000001015a8b93 main + 5155
+4   libdyld.dylib                       0x00007fff6ffd03d5 start + 1
+5   ???                                 0x0000000000000002 0x0 + 2

@@ -1,0 +1,69 @@
+KCONFIG_SEED=0x2C87B370
+sym_expand_string_value(Toybox Configuration) =Toybox Configuration
+.config:13:warning: unexpected data
+.config:14:warning: unexpected data
+.config:15:warning: unexpected data
+.config:16:warning: unexpected data
+.config:17:warning: unexpected data
+.config:18:warning: unexpected data
+.config:19:warning: unexpected data
+.config:20:warning: unexpected data
+.config:21:warning: unexpected data
+.config:23:warning: unexpected data
+.config:24:warning: unexpected data
+*
+* Toybox Configuration
+*
+*
+* 
+*
+*
+* Toybox global settings
+*
+SUID support (TOYBOX_SUID) [Y/n/?] n
+SELinux support (TOYBOX_SELINUX) [N/y/?] y
+Floating point support (TOYBOX_FLOAT) [Y/n/?] y
+Help messages (TOYBOX_HELP) [Y/n/?] n
+Internationalization support (TOYBOX_I18N) [Y/n/?] n
+Free memory unnecessarily (TOYBOX_FREE) [N/y/?] y
+Disable recursive execution (TOYBOX_NORECURSE) [N/y/?] y
+Debugging tests (TOYBOX_DEBUG) [N/y/?] n
+First system UID (TOYBOX_UID_SYS) [100] 100
+First user UID (TOYBOX_UID_USR) [500] 500
+#
+# configuration written to .config
+#
+Logic2BDD -min-nodes 10000 -base toybox.1027 -cudd -constraint-reorder minspan /Users/david/product_lines/Implementacion/myKconf/orderings/toybox.var toybox.1027.exp 
+Read 21 expressions
+There are 21 expressions 
+Simplify Constraints.There are 21 constraints to simplify
+1 We set var                                   TOYBOX_NORECURSE from                                             TOYBOX_NORECURSE to true  expression (1) TOYBOX_NORECURSE
+2 We set var                                        TOYBOX_HELP from                                                  TOYBOX_HELP to false  expression (2) not TOYBOX_HELP
+2 We set var                               TOYBOX_HELP_DASHDASH from                                         TOYBOX_HELP_DASHDASH to false  expression (4) not TOYBOX_HELP_DASHDASH
+2 We set var                                        TOYBOX_SUID from                                                  TOYBOX_SUID to false  expression (5) not TOYBOX_SUID
+1 We set var                                             TOYBOX from                                                       TOYBOX to true  expression (6) TOYBOX
+1 We set var                                     TOYBOX_SELINUX from                                               TOYBOX_SELINUX to true  expression (7) TOYBOX_SELINUX
+2 We set var                                        TOYBOX_I18N from                                                  TOYBOX_I18N to false  expression (8) not TOYBOX_I18N
+1 We set var                                       TOYBOX_FLOAT from                                                 TOYBOX_FLOAT to true  expression (9) TOYBOX_FLOAT
+1 We set var                                        TOYBOX_FREE from                                                  TOYBOX_FREE to true  expression (10) TOYBOX_FREE
+2 We set var                                       TOYBOX_DEBUG from                                                 TOYBOX_DEBUG to false  expression (11) not TOYBOX_DEBUG
+1 We set var                              TOYBOX_UID_SYS_EQ_100 from                                        TOYBOX_UID_SYS_EQ_100 to true  expression (12) TOYBOX_UID_SYS_EQ_100
+1 We set var                              TOYBOX_UID_USR_EQ_500 from                                        TOYBOX_UID_USR_EQ_500 to true  expression (13) TOYBOX_UID_USR_EQ_500
+1 We set var                                     TOYBOX_UID_SYS from                                               TOYBOX_UID_SYS to true  expression (16) TOYBOX_UID_SYS
+1 We set var                                     TOYBOX_UID_USR from                                               TOYBOX_UID_USR to true  expression (19) TOYBOX_UID_USR
+2 We set var                         TOYBOX_UID_SYS_EQ_OTHERVAL from                                   TOYBOX_UID_SYS_EQ_OTHERVAL to false  expression (15) not TOYBOX_UID_SYS_EQ_OTHERVAL
+2 We set var                         TOYBOX_UID_USR_EQ_OTHERVAL from                                   TOYBOX_UID_USR_EQ_OTHERVAL to false  expression (17) not TOYBOX_UID_USR_EQ_OTHERVAL
+17 constraints 
+And now there are 17 expressions 
+16 components. Biggest 1 number of variables 16
+[13:34:51] Cnstr #     1   5% [    0   16    1]: TOYBOX                                                       Nodes        2           1 ms. total           1 ms.
+[13:34:51] Cnstr #     2  11% [    0   16    1]: TOYBOX                                                       Nodes        2           0 ms. total           1 ms.
+[13:34:51] Cnstr #     3  17% [    0   16    1]: not TOYBOX_SUID                                              Nodes        3           0 ms. total           1 ms.
+[13:34:51] Cnstr #     4  23% [    0   16    1]: TOYBOX_SELINUX                                               Nodes        4           0 ms. total           1 ms.
+[13:34:51] Cnstr #     5  29% [    0   16    1]: TOYBOX_FLOAT                                                 Nodes        5           0 ms. total           1 ms.
+[13:34:51] Cnstr #     6  35% [    0   16    1]: not TOYBOX_HELP                                              Nodes        6           0 ms. total           1 ms.
+[13:34:51] Cnstr #     7  41% [    0   16    1]: not TOYBOX_HELP_DASHDASH                                     Nodes        7           0 ms. total           1 ms.
+[13:34:51] Cnstr #     8  47% [    0   16    1]: not TOYBOX_I18N                                              Nodes        8           0 ms. total           1 ms.
+[13:34:51] Cnstr #     9  52% [    0   16    1]: TOYBOX_FREE                                                  Nodes        9           0 ms. total           1 ms.
+[13:34:51] Cnstr #    10  58% [    0   16    1]: TOYBOX_NORECURSE                                             Nodes       10           0 ms. total           1 ms.
+[13:34:51] Cnstr #    11  64% [    0   16    1]: not TOYBOX_DEBUG                                             Nodes       11

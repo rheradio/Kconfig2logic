@@ -1,0 +1,178 @@
+
+# WARNING this is the kernel version of the (older) sources
+
+config FREETZ_KERNEL_VERSION_2_6_13
+	bool
+	default y if ! ( \
+		FREETZ_KERNEL_VERSION_2_6_19 || \
+		FREETZ_KERNEL_VERSION_2_6_28 || \
+		FREETZ_KERNEL_VERSION_2_6_32 \
+	)
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_19
+	bool
+	default y if \
+		FREETZ_TYPE_7270_V1 || \
+		FREETZ_TYPE_7570
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_28
+	bool
+	default y if \
+		FREETZ_TYPE_7340 || \
+		FREETZ_TYPE_7390
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_32
+	bool
+	default y if \
+		FREETZ_TYPE_3270 || \
+		FREETZ_TYPE_3370 || \
+		FREETZ_TYPE_3390 || \
+		FREETZ_TYPE_6810 || \
+		FREETZ_TYPE_6840 || \
+		FREETZ_TYPE_7240 || \
+		FREETZ_TYPE_7270_16 || \
+		FREETZ_TYPE_7312 || \
+		FREETZ_TYPE_7320 || \
+		FREETZ_TYPE_7330 || \
+		FREETZ_TYPE_7360
+	default n
+
+config FREETZ_KERNEL_VERSION
+	string
+	default "2.6.13.1"  if FREETZ_KERNEL_VERSION_2_6_13
+	default "2.6.19.2"  if FREETZ_KERNEL_VERSION_2_6_19
+	default "2.6.28"    if FREETZ_KERNEL_VERSION_2_6_28
+	default "2.6.32"    if FREETZ_KERNEL_VERSION_2_6_32
+
+config FREETZ_KERNEL_VERSION_2_6_13_MIN
+	bool
+	default y if \
+		FREETZ_KERNEL_VERSION_2_6_13 || \
+		FREETZ_KERNEL_VERSION_2_6_19_MIN
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_19_MIN
+	bool
+	default y if \
+		FREETZ_KERNEL_VERSION_2_6_19 || \
+		FREETZ_KERNEL_VERSION_2_6_28_MIN
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_28_MIN
+	bool
+	default y if \
+		FREETZ_KERNEL_VERSION_2_6_28 || \
+		FREETZ_KERNEL_VERSION_2_6_32_MIN
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_32_MIN
+	bool
+	default y if \
+		FREETZ_KERNEL_VERSION_2_6_32
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_13_MAX
+	bool
+	default y if \
+		FREETZ_KERNEL_VERSION_2_6_13
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_19_MAX
+	bool
+	default y if \
+		FREETZ_KERNEL_VERSION_2_6_13_MAX || \
+		FREETZ_KERNEL_VERSION_2_6_19
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_28_MAX
+	bool
+	default y if \
+		FREETZ_KERNEL_VERSION_2_6_19_MAX || \
+		FREETZ_KERNEL_VERSION_2_6_28
+	default n
+
+config FREETZ_KERNEL_VERSION_2_6_32_MAX
+	bool
+	default y if \
+		FREETZ_KERNEL_VERSION_2_6_28_MAX || \
+		FREETZ_KERNEL_VERSION_2_6_32
+	default n
+
+config FREETZ_KERNEL_LAYOUT_AR7
+	bool
+	default y if \
+		FREETZ_TYPE_300IP || \
+		FREETZ_TYPE_FON || \
+		FREETZ_TYPE_WLAN || \
+		FREETZ_TYPE_3020 || \
+		FREETZ_TYPE_3030 || \
+		FREETZ_TYPE_5010 || \
+		FREETZ_TYPE_5050 || \
+		FREETZ_TYPE_7050
+
+config FREETZ_KERNEL_LAYOUT_AR9
+	bool
+	default y if \
+		FREETZ_TYPE_7312 || \
+		FREETZ_TYPE_7320 || \
+		FREETZ_TYPE_7330
+
+config FREETZ_KERNEL_LAYOUT_IKS
+	bool
+	default y if \
+		FREETZ_TYPE_7340 || \
+		FREETZ_TYPE_7390
+
+config FREETZ_KERNEL_LAYOUT_OHIO
+	bool
+	default y if \
+		FREETZ_TYPE_2170 || \
+		FREETZ_TYPE_3130 || \
+		FREETZ_TYPE_3131 || \
+		FREETZ_TYPE_3170 || \
+		FREETZ_TYPE_5124 || \
+		FREETZ_TYPE_5140 || \
+		FREETZ_TYPE_7112 || \
+		FREETZ_TYPE_7113 || \
+		FREETZ_TYPE_7140 || \
+		FREETZ_TYPE_7141 || \
+		FREETZ_TYPE_7150 || \
+		FREETZ_TYPE_7170 || \
+		FREETZ_TYPE_W501V
+
+config FREETZ_KERNEL_LAYOUT_UR8
+	bool
+	default y if \
+		FREETZ_TYPE_3270 || \
+		FREETZ_TYPE_7240 || \
+		FREETZ_TYPE_7270 || \
+		FREETZ_TYPE_7570
+
+config FREETZ_KERNEL_LAYOUT_VR9
+	bool
+	default y if \
+		FREETZ_TYPE_3370 || \
+		FREETZ_TYPE_3390 || \
+		FREETZ_TYPE_6810 || \
+		FREETZ_TYPE_6840 || \
+		FREETZ_TYPE_7360
+
+config FREETZ_KERNEL_LAYOUT
+	string
+	default "ar7"	if FREETZ_KERNEL_LAYOUT_AR7
+	default "ar9"	if FREETZ_KERNEL_LAYOUT_AR9
+	default "iks"	if FREETZ_KERNEL_LAYOUT_IKS
+	default "ohio"	if FREETZ_KERNEL_LAYOUT_OHIO
+	default "ur8"	if FREETZ_KERNEL_LAYOUT_UR8
+	default "vr9"	if FREETZ_KERNEL_LAYOUT_VR9
+
+config FREETZ_MODULES_KVER
+	string
+	default "2.6.13.1-ar7"	if FREETZ_KERNEL_VERSION_2_6_13 && FREETZ_KERNEL_LAYOUT_AR7
+	default "2.6.13.1-ohio"	if FREETZ_KERNEL_VERSION_2_6_13 && FREETZ_KERNEL_LAYOUT_OHIO
+	default "2.6.19.2"		if FREETZ_KERNEL_VERSION_2_6_19
+	default "2.6.28.10"		if FREETZ_KERNEL_VERSION_2_6_28
+	default "2.6.32.41"		if FREETZ_KERNEL_VERSION_2_6_32

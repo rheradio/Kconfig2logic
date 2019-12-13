@@ -1,0 +1,24 @@
+comment "Cifsmount (not available, needs replace kernel)"
+	depends on !FREETZ_REPLACE_KERNEL && FREETZ_KERNEL_VERSION_2_6_28_MIN
+
+config FREETZ_PACKAGE_CIFSMOUNT
+	bool "Cifsmount 5.8"
+	depends on FREETZ_REPLACE_KERNEL || FREETZ_KERNEL_VERSION_2_6_19_MAX
+	select FREETZ_MODULE_cifs
+	default n
+	help
+		User space helper for mounting remote CIFS shares + CGI web interface
+		for easy configuration of up to three mounts incl. (auto-) start/stop.
+
+		CIFS is an extended version of SMB, the well-known protocol used by
+		MS Windows and Samba for sharing folders, files and printers.
+		Thus, cifsmount is a replacement for smbmount, having the advantage
+		of being significantly smaller than smbmount. So if you want to mount
+		Windows or Samba shares from your router box, this package is for you.
+
+config FREETZ_PACKAGE_CIFSMOUNT_REMOVE_WEBIF
+	bool "remove webinterface"
+	depends on FREETZ_PACKAGE_CIFSMOUNT
+	default n
+	help
+		This option removes the webinterface

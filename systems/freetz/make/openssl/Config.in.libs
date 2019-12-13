@@ -1,0 +1,62 @@
+config FREETZ_LIB_libcrypto
+	bool "OpenSSL cryptographic library (libcrypto.so)"
+	select FREETZ_LIB_libdl
+	select FREETZ_OPENSSL_VERSION_PROMPT
+	default n
+	help
+		crypto - OpenSSL cryptographic library
+
+		The OpenSSL crypto library implements a wide range of cryptographic
+		algorithms used in various Internet standards. The services provided by
+		this library are used by the OpenSSL implementations of SSL, TLS and
+		S/MIME, and they have also been used to implement SSH, OpenPGP, and
+		other cryptographic standards.
+
+		libcrypto consists of a number of sub-libraries that implement the
+		individual algorithms. The functionality includes symmetric encryption,
+		public key cryptography and key agreement, certificate handling,
+		cryptographic hash functions and a cryptographic pseudo-random number
+		generator.
+
+config FREETZ_LIB_libssl
+	bool "OpenSSL SSL/TLS library (libssl.so)"
+	depends on FREETZ_LIB_libcrypto
+	select FREETZ_LIB_libdl
+	default n
+	help
+		SSL - OpenSSL SSL/TLS library
+
+		The OpenSSL ssl library implements the Secure Sockets Layer (SSL v2/v3)
+		and Transport Layer Security (TLS v1) protocols. It provides a rich API.
+
+config FREETZ_OPENSSL_VERSION_PROMPT
+	bool
+	default n
+
+choice
+
+	depends on FREETZ_OPENSSL_VERSION_PROMPT
+	prompt "OpenSSL version"
+	default FREETZ_OPENSSL_VERSION_0
+
+	config FREETZ_OPENSSL_VERSION_0
+	bool "0.9.8y"
+	help
+	    - is smaller than 1.0.x (about 142kB)
+	    - could be used (with some limitations) as a replacement for AVM's OpenSSL library
+	    - contains no assembler optimized code
+
+	config FREETZ_OPENSSL_VERSION_1
+	bool "1.0.1g"
+	help
+	    - is bigger than 0.9.8 (about 142kB)
+	    - could NOT be used as a replacement for AVM's OpenSSL library
+	    - contains assembler optimized code giving performance improvements of up to 30%
+
+endchoice
+
+config FREETZ_OPENSSL_SHLIB_VERSION
+	depends on FREETZ_OPENSSL_VERSION_PROMPT
+	string
+	default "0.9.8" if FREETZ_OPENSSL_VERSION_0
+	default "1.0.0" if FREETZ_OPENSSL_VERSION_1

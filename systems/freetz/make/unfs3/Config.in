@@ -1,0 +1,9 @@
+comment "unfs3 (not available, you have selected incompatible package nfsd)"
+	depends on FREETZ_PACKAGE_NFSD_CGI
+
+config FREETZ_PACKAGE_UNFS3
+	bool "unfs3 0.9.22"
+	depends on !FREETZ_PACKAGE_NFSD_CGI
+	select FREETZ_PACKAGE_PORTMAP
+	help
+		Userspace NFS v3 Server.

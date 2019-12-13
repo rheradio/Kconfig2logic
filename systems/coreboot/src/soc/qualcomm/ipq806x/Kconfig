@@ -1,0 +1,38 @@
+config SOC_QC_IPQ806X
+	bool
+	default n
+	select ARCH_BOOTBLOCK_ARMV7
+	select ARCH_VERSTAGE_ARMV7
+	select ARCH_ROMSTAGE_ARMV7
+	select ARCH_RAMSTAGE_ARMV7
+	select BOOTBLOCK_CONSOLE
+	select CHROMEOS_VBNV_FLASH
+	select HAVE_UART_SPECIAL
+	select SPI_ATOMIC_SEQUENCING
+	select GENERIC_GPIO_LIB
+
+if SOC_QC_IPQ806X
+
+config CBFS_SIZE
+	hex "Size of CBFS filesystem in ROM"
+	default ROM_SIZE
+	help
+	  CBFS size needs to match the size of memory allocated to the
+	  coreboot blob elsewhere in the system. Make sure this config option
+	  is fine tuned in the board config file.
+
+config MBN_ENCAPSULATION
+	depends on USE_BLOBS
+	bool "bootblock encapsulation for ipq8064"
+	default y
+
+config SBL_BLOB
+	depends on USE_BLOBS
+	string "file name of the Qualcomm SBL blob"
+	default "3rdparty/blobs/cpu/qualcomm/ipq806x/uber-sbl.mbn"
+	help
+	  The path and filename of the binary blob containing
+	  ipq806x early initialization code, as supplied by the
+	  vendor.
+
+endif

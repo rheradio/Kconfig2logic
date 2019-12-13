@@ -1,0 +1,12 @@
+config FREETZ_PACKAGE_NHIPT
+	bool "NHIPT Iptables CGI 0.8.3a - EXPERIMENTAL"
+	default n
+
+	# Be visible only if iptables is selected
+	depends on FREETZ_PACKAGE_IPTABLES
+
+	# select standard set of iptable modules and libs
+	select FREETZ_PACKAGE_IPTABLES_STANDARD_MODULES
+
+	help
+		New Iptables configuration interface.

@@ -1,0 +1,15 @@
+config EXTERNAL_FREETZ_PACKAGE_AVAHI
+	depends on EXTERNAL_ENABLED && FREETZ_PACKAGE_AVAHI
+	bool "avahi"
+	default n
+	help
+		externals these file(s):
+		 /usr/sbin/avahi-daemon
+
+config EXTERNAL_FREETZ_PACKAGE_AVAHI_WITH_DNSCONFD
+	depends on EXTERNAL_ENABLED && FREETZ_PACKAGE_AVAHI && FREETZ_PACKAGE_AVAHI_WITH_DNSCONFD
+	bool "avahi_dnsconfd"
+	default n
+	help
+		externals these file(s):
+		 /usr/sbin/avahi-dnsconfd

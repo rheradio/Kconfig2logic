@@ -1,0 +1,9 @@
+config FREETZ_PACKAGE_NDAS
+	bool "ndas 1.1-22 (binary only)"
+	depends on FREETZ_TARGET_ARCH_LE
+	select FREETZ_MODULE_ndas_block
+	select FREETZ_MODULE_ndas_core
+	select FREETZ_MODULE_ndas_sal
+	default n
+	help
+		Network Direct Attached Storage (NDAS)

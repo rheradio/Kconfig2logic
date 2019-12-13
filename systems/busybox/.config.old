@@ -1,0 +1,602 @@
+#
+# Automatically generated file; DO NOT EDIT.
+# BusyBox Configuration
+#
+HAVE_DOT_CONFIG=y
+
+#
+# Busybox Settings
+#
+
+#
+# General Configuration
+#
+DESKTOP=y
+# EXTRA_COMPAT is not set
+INCLUDE_SUSv2=y
+USE_PORTABLE_CODE=y
+PLATFORM_LINUX=y
+# FEATURE_BUFFERS_USE_MALLOC is not set
+# FEATURE_BUFFERS_GO_ON_STACK is not set
+FEATURE_BUFFERS_GO_IN_BSS=y
+# SHOW_USAGE is not set
+FEATURE_INSTALLER=y
+# INSTALL_NO_USR is not set
+# LOCALE_SUPPORT is not set
+# UNICODE_SUPPORT is not set
+# PAM is not set
+FEATURE_USE_SENDFILE=y
+# LONG_OPTS is not set
+FEATURE_DEVPTS=y
+FEATURE_CLEAN_UP=y
+# FEATURE_UTMP is not set
+FEATURE_PIDFILE=y
+PID_FILE_PATH="OTHERVAL"
+# FEATURE_SUID is not set
+SELINUX=y
+FEATURE_PREFER_APPLETS=y
+BUSYBOX_EXEC_PATH="/proc/self/exe"
+FEATURE_SYSLOG=y
+# FEATURE_HAVE_RPC is not set
+
+#
+# Build Options
+#
+# STATIC is not set
+PIE=y
+# NOMMU is not set
+# LFS is not set
+CROSS_COMPILER_PREFIX=""
+SYSROOT=""
+EXTRA_CFLAGS=""
+EXTRA_LDFLAGS="OTHERVAL"
+EXTRA_LDLIBS=""
+
+#
+# Debugging Options
+#
+DEBUG=y
+# DEBUG_PESSIMIZE is not set
+UNIT_TEST=y
+# WERROR is not set
+# NO_DEBUG_LIB is not set
+DMALLOC=y
+# EFENCE is not set
+
+#
+# Installation Options ("make install" behavior)
+#
+# INSTALL_APPLET_SYMLINKS is not set
+# INSTALL_APPLET_HARDLINKS is not set
+# INSTALL_APPLET_SCRIPT_WRAPPERS is not set
+INSTALL_APPLET_DONT=y
+PREFIX="OTHERVAL"
+
+#
+# Busybox Library Tuning
+#
+PASSWORD_MINLEN=32
+MD5_SMALL=3
+SHA3_SMALL=OTHERVAL
+FEATURE_FAST_TOP=y
+# FEATURE_ETC_NETWORKS is not set
+# FEATURE_EDITING is not set
+# FEATURE_NON_POSIX_CP is not set
+FEATURE_VERBOSE_CP_MESSAGE=y
+FEATURE_COPYBUF_KB=4
+FEATURE_SKIP_ROOTFS=y
+# MONOTONIC_SYSCALL is not set
+# IOCTL_HEX2STR_ERROR is not set
+# FEATURE_HWIB is not set
+
+#
+# Applets
+#
+
+#
+# Archival Utilities
+#
+FEATURE_SEAMLESS_XZ=y
+# FEATURE_SEAMLESS_LZMA is not set
+# FEATURE_SEAMLESS_BZ2 is not set
+FEATURE_SEAMLESS_GZ=y
+# FEATURE_SEAMLESS_Z is not set
+
+#
+# Coreutils
+#
+# CAL is not set
+CATV=y
+# CHGRP is not set
+# CHMOD is not set
+# CHOWN is not set
+# CHROOT is not set
+# CKSUM is not set
+COMM=y
+CP=y
+CUT=y
+# DD is not set
+# DF is not set
+# DIRNAME is not set
+# DOS2UNIX is not set
+DU=y
+# FEATURE_DU_DEFAULT_BLOCKSIZE_1K is not set
+ECHO=y
+# FEATURE_FANCY_ECHO is not set
+ENV=y
+# EXPAND is not set
+# EXPR is not set
+FALSE=y
+FOLD=y
+# FSYNC is not set
+HEAD=y
+# FEATURE_FANCY_HEAD is not set
+INSTALL=y
+# LN is not set
+LOGNAME=y
+LS=y
+# FEATURE_LS_FILETYPES is not set
+# FEATURE_LS_FOLLOWLINKS is not set
+FEATURE_LS_RECURSIVE=y
+# FEATURE_LS_SORTFILES is not set
+FEATURE_LS_TIMESTAMPS=y
+# FEATURE_LS_USERNAME is not set
+# MD5SUM is not set
+# MKDIR is not set
+# MKFIFO is not set
+MKNOD=y
+MV=y
+# NICE is not set
+NOHUP=y
+OD=y
+# PRINTENV is not set
+PRINTF=y
+PWD=y
+# READLINK is not set
+REALPATH=y
+RM=y
+RMDIR=y
+SEQ=y
+SHA1SUM=y
+# SHA256SUM is not set
+SHA512SUM=y
+# SHA3SUM is not set
+SLEEP=y
+FEATURE_FANCY_SLEEP=y
+FEATURE_FLOAT_SLEEP=y
+# SORT is not set
+# SPLIT is not set
+STAT=y
+FEATURE_STAT_FORMAT=y
+# STTY is not set
+SUM=y
+SYNC=y
+TAC=y
+TAIL=y
+FEATURE_FANCY_TAIL=y
+TEE=y
+FEATURE_TEE_USE_BLOCK_IO=y
+# TRUE is not set
+TTY=y
+UNAME=y
+UNEXPAND=y
+UNIQ=y
+# USLEEP is not set
+# UUDECODE is not set
+# UUENCODE is not set
+# WC is not set
+# WHOAMI is not set
+YES=y
+
+#
+# Common options
+#
+# FEATURE_VERBOSE is not set
+
+#
+# Common options for cp and mv
+#
+# FEATURE_PRESERVE_HARDLINKS is not set
+
+#
+# Common options for ls, more and telnet
+#
+FEATURE_AUTOWIDTH=y
+
+#
+# Common options for df, du, ls
+#
+FEATURE_HUMAN_READABLE=y
+
+#
+# Common options for md5sum, sha1sum, sha256sum, sha512sum, sha3sum
+#
+# FEATURE_MD5_SHA1_SUM_CHECK is not set
+
+#
+# Console Utilities
+#
+CHVT=y
+FGCONSOLE=y
+CLEAR=y
+# DEALLOCVT is not set
+# DUMPKMAP is not set
+KBD_MODE=y
+# LOADFONT is not set
+LOADKMAP=y
+OPENVT=y
+# RESET is not set
+RESIZE=y
+FEATURE_RESIZE_PRINT=y
+# SETCONSOLE is not set
+# SETFONT is not set
+# SETKEYCODES is not set
+SETLOGCONS=y
+# SHOWKEY is not set
+
+#
+# Debian Utilities
+#
+MKTEMP=y
+# PIPE_PROGRESS is not set
+RUN_PARTS=y
+# FEATURE_RUN_PARTS_FANCY is not set
+# START_STOP_DAEMON is not set
+WHICH=y
+
+#
+# Editors
+#
+
+#
+# Finding Utilities
+#
+
+#
+# Init Utilities
+#
+
+#
+# Login/Password Management Utilities
+#
+# FEATURE_SHADOWPASSWDS is not set
+USE_BB_PWD_GRP=y
+USE_BB_CRYPT=y
+# USE_BB_CRYPT_SHA is not set
+ADDUSER=y
+FEATURE_CHECK_NAMES=y
+LAST_ID=60000
+FIRST_SYSTEM_ID=100
+LAST_SYSTEM_ID=100
+ADDGROUP=y
+FEATURE_ADDUSER_TO_GROUP=y
+DELUSER=y
+# DELGROUP is not set
+# GETTY is not set
+# LOGIN is not set
+# PASSWD is not set
+CRYPTPW=y
+CHPASSWD=y
+FEATURE_DEFAULT_PASSWD_ALGO="des"
+# SU is not set
+SULOGIN=y
+# VLOCK is not set
+
+#
+# Linux Ext2 FS Progs
+#
+# CHATTR is not set
+# FSCK is not set
+LSATTR=y
+TUNE2FS=y
+
+#
+# Linux Module Utilities
+#
+# MODPROBE_SMALL is not set
+INSMOD=y
+RMMOD=y
+LSMOD=y
+FEATURE_LSMOD_PRETTY_2_6_OUTPUT=y
+# MODPROBE is not set
+# DEPMOD is not set
+
+#
+# Options common to multiple modutils
+#
+# FEATURE_2_4_MODULES is not set
+# FEATURE_INSMOD_TRY_MMAP is not set
+FEATURE_CHECK_TAINTED_MODULE=y
+
+#
+# Linux System Utilities
+#
+# ACPID is not set
+BLKID=y
+FEATURE_BLKID_TYPE=y
+DMESG=y
+# FEATURE_DMESG_PRETTY is not set
+FBSET=y
+# FEATURE_FBSET_FANCY is not set
+# FEATURE_FBSET_READMODE is not set
+# FDFLUSH is not set
+# FDFORMAT is not set
+FDISK=y
+# FDISK_SUPPORT_LARGE_DISKS is not set
+FEATURE_FDISK_WRITABLE=y
+# FEATURE_AIX_LABEL is not set
+# FEATURE_SGI_LABEL is not set
+# FEATURE_SUN_LABEL is not set
+FEATURE_OSF_LABEL=y
+FEATURE_GPT_LABEL=y
+FEATURE_FDISK_ADVANCED=y
+FINDFS=y
+FLOCK=y
+FREERAMDISK=y
+# FSCK_MINIX is not set
+MKFS_EXT2=y
+MKFS_MINIX=y
+FEATURE_MINIX2=y
+MKFS_REISER=y
+MKFS_VFAT=y
+# GETOPT is not set
+HEXDUMP=y
+FEATURE_HEXDUMP_REVERSE=y
+# HD is not set
+# HWCLOCK is not set
+IPCRM=y
+IPCS=y
+# LOSETUP is not set
+# LSPCI is not set
+LSUSB=y
+MKSWAP=y
+# FEATURE_MKSWAP_UUID is not set
+# MORE is not set
+# MOUNT is not set
+# PIVOT_ROOT is not set
+# RDATE is not set
+RDEV=y
+READPROFILE=y
+# RTCWAKE is not set
+SCRIPT=y
+SCRIPTREPLAY=y
+SETARCH=y
+# SWAPONOFF is not set
+# SWITCH_ROOT is not set
+UMOUNT=y
+FEATURE_UMOUNT_ALL=y
+
+#
+# Common options for mount/umount
+#
+# FEATURE_MOUNT_LOOP is not set
+# FEATURE_MTAB_SUPPORT is not set
+VOLUMEID=y
+
+#
+# Filesystem/Volume identification
+#
+
+#
+# Miscellaneous Utilities
+#
+ADJTIMEX=y
+# BBCONFIG is not set
+BEEP=y
+FEATURE_BEEP_FREQ=4000
+FEATURE_BEEP_LENGTH_MS=OTHERVAL
+# CHAT is not set
+CHRT=y
+CRONTAB=y
+# DC is not set
+# DEVFSD is not set
+FEATURE_DEVFS=y
+DEVMEM=y
+EJECT=y
+# FEATURE_EJECT_SCSI is not set
+FBSPLASH=y
+FLASHCP=y
+FLASH_LOCK=y
+FLASH_UNLOCK=y
+FLASH_ERASEALL=y
+# IONICE is not set
+# INOTIFYD is not set
+# FEATURE_LAST_SMALL is not set
+# FEATURE_LAST_FANCY is not set
+# HDPARM is not set
+# MAKEDEVS is not set
+# FEATURE_MAKEDEVS_LEAF is not set
+# FEATURE_MAKEDEVS_TABLE is not set
+# MAN is not set
+# MICROCOM is not set
+# MOUNTPOINT is not set
+MT=y
+# RAIDAUTORUN is not set
+RX=y
+SETSID=y
+# STRINGS is not set
+TIME=y
+TIMEOUT=y
+TTYSIZE=y
+# VOLNAME is not set
+WATCHDOG=y
+
+#
+# Networking Utilities
+#
+FEATURE_IPV6=y
+# FEATURE_UNIX_LOCAL is not set
+# FEATURE_PREFER_IPV4_ADDRESS is not set
+VERBOSE_RESOLUTION_ERRORS=y
+ARP=y
+# ARPING is not set
+BRCTL=y
+FEATURE_BRCTL_FANCY=y
+FEATURE_BRCTL_SHOW=y
+# DNSD is not set
+# ETHER_WAKE is not set
+# FAKEIDENTD is not set
+# FTPD is not set
+# FTPGET is not set
+FTPPUT=y
+# HOSTNAME is not set
+HTTPD=y
+FEATURE_HTTPD_RANGES=y
+FEATURE_HTTPD_SETUID=y
+# FEATURE_HTTPD_BASIC_AUTH is not set
+FEATURE_HTTPD_CGI=y
+FEATURE_HTTPD_CONFIG_WITH_SCRIPT_INTERPR=y
+FEATURE_HTTPD_SET_REMOTE_PORT_TO_ENV=y
+# FEATURE_HTTPD_ENCODE_URL_STR is not set
+FEATURE_HTTPD_ERROR_PAGES=y
+FEATURE_HTTPD_PROXY=y
+# FEATURE_HTTPD_GZIP is not set
+IFCONFIG=y
+FEATURE_IFCONFIG_STATUS=y
+# FEATURE_IFCONFIG_SLIP is not set
+# FEATURE_IFCONFIG_MEMSTART_IOADDR_IRQ is not set
+# FEATURE_IFCONFIG_HW is not set
+FEATURE_IFCONFIG_BROADCAST_PLUS=y
+# IFENSLAVE is not set
+# IFPLUGD is not set
+IFUPDOWN=y
+IFUPDOWN_IFSTATE_PATH="/var/run/ifstate"
+# FEATURE_IFUPDOWN_IP is not set
+# FEATURE_IFUPDOWN_IFCONFIG_BUILTIN is not set
+# FEATURE_IFUPDOWN_IPV4 is not set
+FEATURE_IFUPDOWN_IPV6=y
+FEATURE_IFUPDOWN_MAPPING=y
+FEATURE_IFUPDOWN_EXTERNAL_DHCP=y
+# INETD is not set
+# IP is not set
+IPCALC=y
+FEATURE_IPCALC_FANCY=y
+NETSTAT=y
+FEATURE_NETSTAT_WIDE=y
+# FEATURE_NETSTAT_PRG is not set
+NSLOOKUP=y
+# NTPD is not set
+PSCAN=y
+ROUTE=y
+SLATTACH=y
+# TCPSVD is not set
+# TELNET is not set
+TELNETD=y
+# FEATURE_TELNETD_STANDALONE is not set
+# TFTP is not set
+TFTPD=y
+
+#
+# Common options for tftp/tftpd
+#
+# FEATURE_TFTP_GET is not set
+FEATURE_TFTP_PUT=y
+FEATURE_TFTP_BLOCKSIZE=y
+TFTP_DEBUG=y
+TRACEROUTE=y
+TRACEROUTE6=y
+FEATURE_TRACEROUTE_VERBOSE=y
+# FEATURE_TRACEROUTE_SOURCE_ROUTE is not set
+# FEATURE_TRACEROUTE_USE_ICMP is not set
+TUNCTL=y
+# FEATURE_TUNCTL_UG is not set
+UDHCPD=y
+DHCPRELAY=y
+# DUMPLEASES is not set
+FEATURE_UDHCPD_WRITE_LEASES_EARLY=y
+# FEATURE_UDHCPD_BASE_IP_ON_MAC is not set
+DHCPD_LEASES_FILE="OTHERVAL"
+UDHCPC=y
+# FEATURE_UDHCPC_ARPING is not set
+# FEATURE_UDHCPC_SANITIZEOPT is not set
+# FEATURE_UDHCP_PORT is not set
+UDHCP_DEBUG=0
+# FEATURE_UDHCP_RFC3397 is not set
+# FEATURE_UDHCP_8021Q is not set
+UDHCPC_DEFAULT_SCRIPT="/usr/share/udhcpc/default.script"
+UDHCPC_SLACK_FOR_BUGGY_SERVERS=80
+IFUPDOWN_UDHCPC_CMD_OPTIONS="-R -n"
+# UDPSVD is not set
+# VCONFIG is not set
+# WGET is not set
+ZCIP=y
+
+#
+# Print Utilities
+#
+# LPD is not set
+# LPR is not set
+LPQ=y
+
+#
+# Mail Utilities
+#
+# MAKEMIME is not set
+# POPMAILDIR is not set
+# REFORMIME is not set
+# SENDMAIL is not set
+
+#
+# Process Utilities
+#
+# FREE is not set
+# FUSER is not set
+KILL=y
+# KILLALL is not set
+# KILLALL5 is not set
+PGREP=y
+# PIDOF is not set
+PKILL=y
+# PS is not set
+# RENICE is not set
+BB_SYSCTL=y
+WATCH=y
+
+#
+# Runit Utilities
+#
+RUNSV=y
+# RUNSVDIR is not set
+# SV is not set
+# SVLOGD is not set
+CHPST=y
+# SETUIDGID is not set
+# ENVUIDGID is not set
+# ENVDIR is not set
+SOFTLIMIT=y
+
+#
+# SELinux Utilities
+#
+# CHCON is not set
+GETENFORCE=y
+GETSEBOOL=y
+LOAD_POLICY=y
+# MATCHPATHCON is not set
+# RESTORECON is not set
+# RUNCON is not set
+SELINUXENABLED=y
+SETENFORCE=y
+# SETFILES is not set
+SETSEBOOL=y
+# SESTATUS is not set
+
+#
+# Shells
+#
+FEATURE_SH_IS_NONE=y
+FEATURE_BASH_IS_NONE=y
+
+#
+# System Logging Utilities
+#
+SYSLOGD=y
+FEATURE_ROTATE_LOGFILE=y
+# FEATURE_REMOTE_LOG is not set
+# FEATURE_SYSLOGD_DUP is not set
+# FEATURE_SYSLOGD_CFG is not set
+FEATURE_SYSLOGD_READ_BUFFER_SIZE=20000
+# FEATURE_IPC_SYSLOG is not set
+# FEATURE_KMSG_SYSLOG is not set
+# KLOGD is not set
+LOGGER=y

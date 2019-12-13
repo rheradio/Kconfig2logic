@@ -1,0 +1,29 @@
+config FREETZ_PACKAGE_DIGITEMP
+	bool "digitemp 3.0.6 (binary only)"
+	default n
+	help
+		digitemp for 1-wire modules
+
+		You could use RRDstats for data collection and visualisation
+
+comment "CAUTION: Use 'replace kernel' to avoid mem leak!"
+	depends on FREETZ_PACKAGE_DIGITEMP && FREETZ_KERNEL_VERSION_2_6_19 && !FREETZ_REPLACE_KERNEL
+
+choice
+	prompt "digitemp"
+	default FREETZ_PACKAGE_DIGITEMP_DS9097
+	depends on FREETZ_PACKAGE_DIGITEMP
+	help
+		digitemp for 1-wire modules
+
+config FREETZ_PACKAGE_DIGITEMP_DS2490
+	select FREETZ_LIB_libusb_0
+	bool "digitemp for ds2490 (USB)"
+
+config FREETZ_PACKAGE_DIGITEMP_DS9097U
+	bool "digitemp for ds9097u"
+
+config FREETZ_PACKAGE_DIGITEMP_DS9097
+	bool "digitemp for ds9097"
+
+endchoice

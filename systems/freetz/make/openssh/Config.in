@@ -1,0 +1,94 @@
+menu "OpenSSH"
+config FREETZ_PACKAGE_OPENSSH
+	bool
+	select FREETZ_LIB_libcrypt if ! FREETZ_PACKAGE_OPENSSH_STATIC
+	select FREETZ_LIB_libcrypto if ! FREETZ_PACKAGE_OPENSSH_STATIC
+	select FREETZ_OPENSSL_VERSION_PROMPT if FREETZ_PACKAGE_OPENSSH_STATIC
+	select FREETZ_LIB_libutil if ! FREETZ_PACKAGE_OPENSSH_STATIC
+	select FREETZ_LIB_libz if ! FREETZ_PACKAGE_OPENSSH_STATIC
+	select FREETZ_PACKAGE_AUTHORIZED_KEYS
+	depends on FREETZ_PACKAGE_OPENSSH_sshd \
+		|| FREETZ_PACKAGE_OPENSSH_ssh \
+		|| FREETZ_PACKAGE_OPENSSH_scp \
+		|| FREETZ_PACKAGE_OPENSSH_CLIENTUTILS \
+		|| FREETZ_PACKAGE_OPENSSH_KEYUTILS \
+		|| FREETZ_PACKAGE_OPENSSH_sftp \
+		|| FREETZ_PACKAGE_OPENSSH_sftp_server
+	default n
+
+config FREETZ_PACKAGE_OPENSSH_sshd
+	bool "Build OpenSSH server (sshd)"
+	select FREETZ_PACKAGE_OPENSSH
+	default n
+
+comment "Build OpenSSH client (ssh) (not available, provided by dropbear)"
+	depends on FREETZ_PACKAGE_DROPBEAR && !FREETZ_PACKAGE_DROPBEAR_SERVER_ONLY
+config FREETZ_PACKAGE_OPENSSH_ssh
+	bool "Build OpenSSH client (ssh)"
+	depends on !FREETZ_PACKAGE_DROPBEAR || FREETZ_PACKAGE_DROPBEAR_SERVER_ONLY
+	select FREETZ_PACKAGE_OPENSSH
+	default n
+
+comment "Build OpenSSH secure copy utility (scp) (not available, provided by dropbear)"
+	depends on FREETZ_PACKAGE_DROPBEAR && !FREETZ_PACKAGE_DROPBEAR_SERVER_ONLY
+config FREETZ_PACKAGE_OPENSSH_scp
+	bool "Build OpenSSH secure copy utility (scp)"
+	depends on !FREETZ_PACKAGE_DROPBEAR || FREETZ_PACKAGE_DROPBEAR_SERVER_ONLY
+	select FREETZ_PACKAGE_OPENSSH
+	select FREETZ_PACKAGE_OPENSSH_ssh
+	default n
+
+config FREETZ_PACKAGE_OPENSSH_CLIENTUTILS
+	bool "Build OpenSSH client utilities (ssh-add, ssh-agent)"
+	select FREETZ_PACKAGE_OPENSSH
+	select FREETZ_PACKAGE_OPENSSH_ssh_add
+	select FREETZ_PACKAGE_OPENSSH_ssh_agent
+	default n
+
+config FREETZ_PACKAGE_OPENSSH_ssh_add
+	bool
+config FREETZ_PACKAGE_OPENSSH_ssh_agent
+	bool
+
+config FREETZ_PACKAGE_OPENSSH_KEYUTILS
+	bool "Build OpenSSH key utilities (ssh-keygen, ssh-keysign, ssh-keyscan)"
+	select FREETZ_PACKAGE_OPENSSH
+	select FREETZ_PACKAGE_OPENSSH_ssh_keygen
+	select FREETZ_PACKAGE_OPENSSH_ssh_keysign
+	select FREETZ_PACKAGE_OPENSSH_ssh_keyscan
+	default n
+
+config FREETZ_PACKAGE_OPENSSH_ssh_keygen
+	bool
+config FREETZ_PACKAGE_OPENSSH_ssh_keysign
+	bool
+config FREETZ_PACKAGE_OPENSSH_ssh_keyscan
+	bool
+
+config FREETZ_PACKAGE_OPENSSH_sftp
+	bool "Build OpenSSH SFTP client (sftp)"
+	select FREETZ_PACKAGE_OPENSSH
+	default n
+
+config FREETZ_PACKAGE_OPENSSH_sftp_server
+	bool "Build OpenSSH SFTP server (sftp-server)"
+	select FREETZ_PACKAGE_OPENSSH
+	default n
+
+comment "Build statically linked binaries ---"
+	depends on FREETZ_PACKAGE_OPENSSH
+
+config FREETZ_PACKAGE_OPENSSH_STATIC
+	bool "Statically link OpenSSH binaries"
+	depends on FREETZ_PACKAGE_OPENSSH
+	default n
+	help
+		OpenSSH needs the following shared libraries which
+		can be linked in statically by activating this switch:
+		- libcrypt
+		- libcrypto
+		- libdl
+		- libutil
+		- libz
+
+endmenu

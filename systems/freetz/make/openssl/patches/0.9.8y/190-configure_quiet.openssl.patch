@@ -1,0 +1,13 @@
+--- Configure
++++ Configure
+@@ -868,6 +868,10 @@
+ 				{
+ 				$baseaddr="$1";
+ 				}
++			elsif (/^--quiet$/)
++				{
++				$quiet=1
++				}
+ 			else
+ 				{
+ 				print STDERR $usage;

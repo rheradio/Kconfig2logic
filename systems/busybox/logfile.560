@@ -1,0 +1,1781 @@
+KCONFIG_SEED=0x7C26F991
+.config:5:warning: unexpected data
+.config:14:warning: unexpected data
+.config:17:warning: unexpected data
+.config:18:warning: unexpected data
+.config:20:warning: unexpected data
+.config:22:warning: unexpected data
+.config:24:warning: unexpected data
+.config:25:warning: unexpected data
+.config:26:warning: unexpected data
+.config:31:warning: unexpected data
+.config:32:warning: unexpected data
+.config:35:warning: unexpected data
+.config:36:warning: unexpected data
+.config:37:warning: unexpected data
+.config:38:warning: unexpected data
+.config:39:warning: unexpected data
+.config:41:warning: unexpected data
+.config:42:warning: unexpected data
+.config:43:warning: unexpected data
+.config:50:warning: unexpected data
+.config:52:warning: unexpected data
+.config:53:warning: unexpected data
+.config:54:warning: unexpected data
+.config:55:warning: unexpected data
+.config:56:warning: unexpected data
+.config:57:warning: unexpected data
+.config:62:warning: unexpected data
+.config:63:warning: unexpected data
+.config:65:warning: unexpected data
+.config:67:warning: unexpected data
+.config:73:warning: unexpected data
+.config:77:warning: unexpected data
+.config:82:warning: unexpected data
+.config:83:warning: unexpected data
+.config:84:warning: unexpected data
+.config:85:warning: unexpected data
+.config:86:warning: unexpected data
+.config:87:warning: unexpected data
+.config:88:warning: unexpected data
+.config:89:warning: unexpected data
+.config:90:warning: unexpected data
+.config:91:warning: unexpected data
+.config:97:warning: unexpected data
+.config:98:warning: unexpected data
+.config:99:warning: unexpected data
+.config:101:warning: unexpected data
+.config:111:warning: unexpected data
+.config:112:warning: unexpected data
+.config:113:warning: unexpected data
+.config:114:warning: unexpected data
+.config:120:warning: unexpected data
+.config:129:warning: unexpected data
+.config:132:warning: unexpected data
+.config:133:warning: unexpected data
+.config:134:warning: unexpected data
+.config:135:warning: unexpected data
+.config:141:warning: unexpected data
+.config:143:warning: unexpected data
+.config:148:warning: unexpected data
+.config:149:warning: unexpected data
+.config:151:warning: unexpected data
+.config:152:warning: unexpected data
+.config:153:warning: unexpected data
+.config:159:warning: unexpected data
+.config:162:warning: unexpected data
+.config:163:warning: unexpected data
+.config:164:warning: unexpected data
+.config:169:warning: unexpected data
+.config:170:warning: unexpected data
+.config:172:warning: unexpected data
+.config:174:warning: unexpected data
+.config:175:warning: unexpected data
+.config:176:warning: unexpected data
+.config:177:warning: unexpected data
+.config:179:warning: unexpected data
+.config:180:warning: unexpected data
+.config:181:warning: unexpected data
+.config:184:warning: unexpected data
+.config:186:warning: unexpected data
+.config:189:warning: unexpected data
+.config:194:warning: unexpected data
+.config:197:warning: unexpected data
+.config:201:warning: unexpected data
+.config:202:warning: unexpected data
+.config:207:warning: unexpected data
+.config:212:warning: unexpected data
+.config:222:warning: unexpected data
+.config:227:warning: unexpected data
+.config:229:warning: unexpected data
+.config:230:warning: unexpected data
+.config:231:warning: unexpected data
+.config:232:warning: unexpected data
+.config:234:warning: unexpected data
+.config:235:warning: unexpected data
+.config:236:warning: unexpected data
+.config:240:warning: unexpected data
+.config:241:warning: unexpected data
+.config:242:warning: unexpected data
+.config:247:warning: unexpected data
+.config:249:warning: unexpected data
+.config:251:warning: unexpected data
+.config:272:warning: unexpected data
+.config:275:warning: unexpected data
+.config:276:warning: unexpected data
+.config:277:warning: unexpected data
+.config:278:warning: unexpected data
+.config:279:warning: unexpected data
+.config:280:warning: unexpected data
+.config:282:warning: unexpected data
+.config:283:warning: unexpected data
+.config:287:warning: unexpected data
+.config:290:warning: unexpected data
+.config:291:warning: unexpected data
+.config:292:warning: unexpected data
+.config:293:warning: unexpected data
+.config:294:warning: unexpected data
+.config:295:warning: unexpected data
+.config:309:warning: unexpected data
+.config:310:warning: unexpected data
+.config:316:warning: unexpected data
+.config:317:warning: unexpected data
+.config:318:warning: unexpected data
+.config:324:warning: unexpected data
+.config:331:warning: unexpected data
+.config:335:warning: unexpected data
+.config:337:warning: unexpected data
+.config:341:warning: unexpected data
+.config:342:warning: unexpected data
+.config:343:warning: unexpected data
+.config:347:warning: unexpected data
+.config:349:warning: unexpected data
+.config:351:warning: unexpected data
+.config:353:warning: unexpected data
+.config:355:warning: unexpected data
+.config:356:warning: unexpected data
+.config:357:warning: unexpected data
+.config:358:warning: unexpected data
+.config:359:warning: unexpected data
+.config:362:warning: unexpected data
+.config:364:warning: unexpected data
+.config:373:warning: unexpected data
+.config:374:warning: unexpected data
+.config:375:warning: unexpected data
+.config:377:warning: unexpected data
+.config:379:warning: unexpected data
+.config:381:warning: unexpected data
+.config:382:warning: unexpected data
+.config:383:warning: unexpected data
+.config:387:warning: unexpected data
+.config:388:warning: unexpected data
+.config:389:warning: unexpected data
+.config:390:warning: unexpected data
+.config:391:warning: unexpected data
+.config:395:warning: unexpected data
+.config:396:warning: unexpected data
+.config:401:warning: unexpected data
+.config:410:warning: unexpected data
+.config:414:warning: unexpected data
+.config:417:warning: unexpected data
+.config:418:warning: unexpected data
+.config:419:warning: unexpected data
+.config:420:warning: unexpected data
+.config:421:warning: unexpected data
+.config:431:warning: unexpected data
+.config:432:warning: unexpected data
+.config:434:warning: unexpected data
+.config:435:warning: unexpected data
+.config:436:warning: unexpected data
+.config:438:warning: unexpected data
+.config:439:warning: unexpected data
+.config:441:warning: unexpected data
+.config:442:warning: unexpected data
+.config:443:warning: unexpected data
+.config:447:warning: unexpected data
+.config:449:warning: unexpected data
+.config:450:warning: unexpected data
+.config:452:warning: unexpected data
+.config:454:warning: unexpected data
+.config:455:warning: unexpected data
+.config:459:warning: unexpected data
+.config:460:warning: unexpected data
+.config:465:warning: unexpected data
+.config:466:warning: unexpected data
+.config:467:warning: unexpected data
+.config:470:warning: unexpected data
+.config:471:warning: unexpected data
+.config:472:warning: unexpected data
+.config:473:warning: unexpected data
+.config:474:warning: unexpected data
+.config:475:warning: unexpected data
+.config:477:warning: unexpected data
+.config:478:warning: unexpected data
+.config:484:warning: unexpected data
+.config:485:warning: unexpected data
+.config:486:warning: unexpected data
+.config:489:warning: unexpected data
+.config:493:warning: unexpected data
+.config:496:warning: unexpected data
+.config:508:warning: unexpected data
+.config:509:warning: unexpected data
+.config:510:warning: unexpected data
+.config:519:warning: unexpected data
+.config:520:warning: unexpected data
+.config:522:warning: unexpected data
+.config:524:warning: unexpected data
+.config:525:warning: unexpected data
+.config:526:warning: unexpected data
+.config:527:warning: unexpected data
+.config:528:warning: unexpected data
+.config:530:warning: unexpected data
+.config:533:warning: unexpected data
+.config:534:warning: unexpected data
+.config:539:warning: unexpected data
+.config:542:warning: unexpected data
+.config:552:warning: unexpected data
+.config:553:warning: unexpected data
+.config:558:warning: unexpected data
+.config:563:warning: unexpected data
+.config:564:warning: unexpected data
+.config:565:warning: unexpected data
+.config:566:warning: unexpected data
+.config:567:warning: unexpected data
+*
+* BusyBox Configuration
+*
+*
+* Busybox Settings
+*
+*
+* General Configuration
+*
+Enable options for full-blown desktop systems (DESKTOP) [Y/n/?] y
+Provide compatible behavior for rare corner cases (bigger code) (EXTRA_COMPAT) [N/y/?] y
+Enable obsolete features removed before SUSv3 (INCLUDE_SUSv2) [Y/n/?] y
+Avoid using GCC-specific code constructs (USE_PORTABLE_CODE) [N/y/?] y
+Enable Linux-specific applets and features (PLATFORM_LINUX) [Y/?] y
+Buffer allocation policy
+> 1. Allocate with Malloc (FEATURE_BUFFERS_USE_MALLOC) (NEW)
+  2. Allocate on the Stack (FEATURE_BUFFERS_GO_ON_STACK) (NEW)
+  3. Allocate in the .bss section (FEATURE_BUFFERS_GO_IN_BSS) (NEW)
+choice[1-3?]: Related 63
+Related 767
+Related /var/run
+Related /proc/self/exe
+Related 
+Related 
+Related 
+Related 
+Related 
+2
+Show applet usage messages (SHOW_USAGE) [Y/n/?] n
+Support --install [-s] to install applet links at runtime (FEATURE_INSTALLER) [Y/n/?] n
+Don't use /usr (INSTALL_NO_USR) [N/y/?] n
+Enable locale support (system needs locale for this to work) (LOCALE_SUPPORT) [N/y/?] n
+Support Unicode (UNICODE_SUPPORT) [Y/n/?] y
+  Check $LC_ALL, $LC_CTYPE and $LANG environment variables (FEATURE_CHECK_UNICODE_IN_ENV) [N/y/?] n
+  Character code to substitute unprintable characters with (SUBST_WCHAR) [63] 63
+  Range of supported Unicode characters (LAST_SUPPORTED_WCHAR) [767] 767
+  Allow zero-width Unicode characters on output (UNICODE_COMBINING_WCHARS) [N/y/?] y
+  Allow wide Unicode characters on output (UNICODE_WIDE_WCHARS) [N/y/?] n
+  Bidirectional character-aware line input (UNICODE_BIDI_SUPPORT) [N/y/?] y
+    In bidi input, support non-ASCII neutral chars too (UNICODE_NEUTRAL_TABLE) [N/y/?] n
+  Make it possible to enter sequences of chars which are not Unicode (UNICODE_PRESERVE_BROKEN) [N/y/?] y
+Support for PAM (Pluggable Authentication Modules) (PAM) [N/y/?] y
+Use sendfile system call (FEATURE_USE_SENDFILE) [Y/n/?] n
+Support for --long-options (LONG_OPTS) [Y/n/?] y
+Use the devpts filesystem for Unix98 PTYs (FEATURE_DEVPTS) [Y/n/?] y
+Clean up all memory before exiting (usually not needed) (FEATURE_CLEAN_UP) [N/y/?] n
+Support utmp file (FEATURE_UTMP) [Y/n/?] n
+Support writing pidfiles (FEATURE_PIDFILE) [Y/n/?] y
+  Path to directory for pidfile (PID_FILE_PATH) [/var/run] OTHERVAL
+Support for SUID/SGID handling (FEATURE_SUID) [Y/n/?] n
+Support NSA Security Enhanced Linux (SELINUX) [N/y/?] y
+exec prefers applets (FEATURE_PREFER_APPLETS) [N/y/?] y
+Path to BusyBox executable (BUSYBOX_EXEC_PATH) [/proc/self/exe] /proc/self/exe
+*
+* Build Options
+*
+Build BusyBox as a static binary (no shared libs) (STATIC) [N/y/?] y
+Force NOMMU build (NOMMU) [N/y/?] n
+Build with Large File Support (for accessing files > 2 GB) (LFS) [Y/n/?] n
+Cross Compiler prefix (CROSS_COMPILER_PREFIX) [] 
+Path to sysroot (SYSROOT) [] OTHERVAL
+Additional CFLAGS (EXTRA_CFLAGS) [] OTHERVAL
+Additional LDFLAGS (EXTRA_LDFLAGS) [] 
+Additional LDLIBS (EXTRA_LDLIBS) [] OTHERVAL
+*
+* Debugging Options
+*
+Build BusyBox with extra Debugging symbols (DEBUG) [N/y/?] n
+Build unit tests (UNIT_TEST) [N/y/?] n
+Abort compilation on any warning (WERROR) [N/y/?] y
+Additional debugging library
+> 1. None (NO_DEBUG_LIB) (NEW)
+  2. Dmalloc (DMALLOC) (NEW)
+  3. Electric-fence (EFENCE) (NEW)
+choice[1-3?]: 3
+*
+* Installation Options ("make install" behavior)
+*
+What kind of applet links to install
+> 1. as soft-links (INSTALL_APPLET_SYMLINKS) (NEW)
+  2. as hard-links (INSTALL_APPLET_HARDLINKS) (NEW)
+  3. as script wrappers (INSTALL_APPLET_SCRIPT_WRAPPERS) (NEW)
+  4. not installed (INSTALL_APPLET_DONT) (NEW)
+choice[1-4?]: 3
+/bin/sh applet link
+> 1. as soft-link (INSTALL_SH_APPLET_SYMLINK) (NEW)
+  2. as hard-link (INSTALL_SH_APPLET_HARDLINK) (NEW)
+  3. as script wrapper (INSTALL_SH_APPLET_SCRIPT_WRAPPER) (NEW)
+choice[1-3?]: Related ./_install
+Related 6
+Related 5
+Related 32
+Related 1
+Related 0
+Related 3
+Related 1
+Related 0
+Related 1
+Related 1024
+Related 4
+2
+BusyBox installation prefix (PREFIX) [./_install] ./_install
+*
+* Busybox Library Tuning
+*
+Minimum password length (PASSWORD_MINLEN) [6] 6
+MD5: Trade bytes for speed (0:fast, 3:slow) (MD5_SMALL) [1] 1
+SHA3: Trade bytes for speed (0:fast, 1:slow) (SHA3_SMALL) [1] 1
+Faster /proc scanning code (+100 bytes) (FEATURE_FAST_TOP) [Y/n/?] n
+Support for /etc/networks (FEATURE_ETC_NETWORKS) [N/y/?] y
+Use termios to manipulate the screen (FEATURE_USE_TERMIOS) [Y/n/?] y
+Command line editing (FEATURE_EDITING) [Y/n/?] n
+Non-POSIX, but safer, copying to special nodes (FEATURE_NON_POSIX_CP) [Y/n/?] n
+Give more precise messages when copy fails (cp, mv etc) (FEATURE_VERBOSE_CP_MESSAGE) [N/y/?] n
+Copy buffer size, in kilobytes (FEATURE_COPYBUF_KB) [4] 1
+Skip rootfs in mount table (FEATURE_SKIP_ROOTFS) [Y/n/?] y
+Use clock_gettime(CLOCK_MONOTONIC) syscall (MONOTONIC_SYSCALL) [N/y/?] n
+Use ioctl names rather than hex values in error messages (IOCTL_HEX2STR_ERROR) [Y/n/?] n
+Support infiniband HW (FEATURE_HWIB) [Y/n/?] n
+*
+* Applets
+*
+*
+* Archival Utilities
+*
+Make tar, rpm, modprobe etc understand .xz data (FEATURE_SEAMLESS_XZ) [Y/n/?] y
+Make tar, rpm, modprobe etc understand .lzma data (FEATURE_SEAMLESS_LZMA) [Y/n/?] n
+Make tar, rpm, modprobe etc understand .bz2 data (FEATURE_SEAMLESS_BZ2) [Y/n/?] n
+Make tar, rpm, modprobe etc understand .gz data (FEATURE_SEAMLESS_GZ) [Y/n/?] y
+tar, rpm, modprobe etc understand .Z data (FEATURE_SEAMLESS_Z) [N/y/?] y
+*
+* Coreutils
+*
+cal (CAL) [Y/n/?] n
+catv (CATV) [Y/n/?] y
+chgrp (CHGRP) [Y/n/?] n
+chmod (CHMOD) [Y/n/?] y
+chown (CHOWN) [Y/n/?] n
+chroot (CHROOT) [Y/n/?] y
+cksum (CKSUM) [Y/n/?] y
+comm (COMM) [Y/n/?] n
+cp (CP) [Y/n/?] n
+cut (CUT) [Y/n/?] n
+dd (DD) [Y/n/?] y
+  Enable DD signal handling for status reporting (FEATURE_DD_SIGNAL_HANDLING) [Y/n/?] n
+  Enable ibs, obs and conv options (FEATURE_DD_IBS_OBS) [Y/n/?] y
+df (DF) [Y/n/?] y
+  Enable -a, -i, -B (FEATURE_DF_FANCY) [Y/n/?] y
+dirname (DIRNAME) [Y/n/?] y
+dos2unix/unix2dos (DOS2UNIX) [Y/n/?] n
+du (default blocksize of 512 bytes) (DU) [Y/n/?] y
+  Use a default blocksize of 1024 bytes (1K) (FEATURE_DU_DEFAULT_BLOCKSIZE_1K) [Y/n/?] n
+echo (basic SuSv3 version taking no options) (ECHO) [Y/n/?] y
+  Enable echo options (-n and -e) (FEATURE_FANCY_ECHO) [Y/n/?] y
+env (ENV) [Y/n/?] y
+  Enable long options (FEATURE_ENV_LONG_OPTIONS) [Y/n/?] y
+expand (EXPAND) [Y/n/?] y
+  Enable long options (FEATURE_EXPAND_LONG_OPTIONS) [Y/n/?] y
+expr (EXPR) [Y/n/?] y
+  Extend Posix numbers support to 64 bit (EXPR_MATH_SUPPORT_64) [Y/n/?] y
+false (FALSE) [Y/n/?] y
+fold (FOLD) [Y/n/?] y
+fsync (FSYNC) [Y/n/?] n
+head (HEAD) [Y/n/?] n
+install (INSTALL) [Y/n/?] y
+  Enable long options (FEATURE_INSTALL_LONG_OPTIONS) [Y/n/?] y
+ln (LN) [Y/n/?] n
+logname (LOGNAME) [Y/n/?] y
+ls (LS) [Y/n/?] n
+md5sum (MD5SUM) [Y/n/?] y
+mkdir (MKDIR) [Y/n/?] y
+  Enable long options (FEATURE_MKDIR_LONG_OPTIONS) [Y/n/?] n
+mkfifo (MKFIFO) [Y/n/?] n
+mknod (MKNOD) [Y/n/?] y
+mv (MV) [Y/n/?] y
+  Enable long options (FEATURE_MV_LONG_OPTIONS) [Y/n/?] n
+nice (NICE) [Y/n/?] n
+nohup (NOHUP) [Y/n/?] y
+od (OD) [Y/n/?] y
+printenv (PRINTENV) [Y/n/?] y
+printf (PRINTF) [Y/n/?] y
+pwd (PWD) [Y/n/?] y
+readlink (READLINK) [Y/n/?] y
+  Enable canonicalization by following all symlinks (-f) (FEATURE_READLINK_FOLLOW) [Y/n/?] y
+realpath (REALPATH) [Y/n/?] y
+rm (RM) [Y/n/?] n
+rmdir (RMDIR) [Y/n/?] n
+seq (SEQ) [Y/n/?] n
+sha1sum (SHA1SUM) [Y/n/?] y
+sha256sum (SHA256SUM) [Y/n/?] y
+sha512sum (SHA512SUM) [Y/n/?] n
+sha3sum (SHA3SUM) [Y/n/?] n
+sleep (SLEEP) [Y/n/?] n
+sort (SORT) [Y/n/?] n
+split (SPLIT) [Y/n/?] n
+stat (STAT) [Y/n/?] y
+  Enable custom formats (-c) (FEATURE_STAT_FORMAT) [Y/n/?] n
+stty (STTY) [Y/n/?] y
+sum (SUM) [Y/n/?] n
+sync (SYNC) [Y/n/?] y
+tac (TAC) [Y/n/?] n
+tail (TAIL) [Y/n/?] n
+tee (TEE) [Y/n/?] n
+true (TRUE) [Y/n/?] n
+tty (TTY) [Y/n/?] y
+uname (UNAME) [Y/n/?] n
+unexpand (UNEXPAND) [Y/n/?] y
+  Enable long options (FEATURE_UNEXPAND_LONG_OPTIONS) [Y/n/?] y
+uniq (UNIQ) [Y/n/?] n
+usleep (USLEEP) [Y/n/?] n
+uudecode (UUDECODE) [Y/n/?] n
+uuencode (UUENCODE) [Y/n/?] y
+wc (WC) [Y/n/?] y
+  Support very large files in wc (FEATURE_WC_Related 
+Related 60000
+Related 0
+Related 60000
+Related 100
+Related 0
+Related 60000
+Related 100
+Related 999
+Related 0
+Related 60000
+Related 100
+Related 999
+Related 0
+Related 60000
+Related 100
+Related 999
+Related 0
+Related 60000
+Related 100
+Related 999
+Related 0
+Related 60000
+Related 100
+Related 999
+Related 0
+Related 60000
+Related 100
+Related 999
+Related 0
+Related 60000
+Related 100
+Related 999
+Related des
+LARGE) [Y/n/?] n
+whoami (WHOAMI) [Y/n/?] y
+yes (YES) [Y/n/?] y
+*
+* Common options
+*
+Support verbose options (usually -v) for various applets (FEATURE_VERBOSE) [Y/n/?] n
+*
+* Common options for cp and mv
+*
+Preserve hard links (FEATURE_PRESERVE_HARDLINKS) [Y/n/?] n
+*
+* Common options for ls, more and telnet
+*
+Calculate terminal & column widths (FEATURE_AUTOWIDTH) [Y/n/?] y
+*
+* Common options for df, du, ls
+*
+Support for human readable output (example 13k, 23M, 235G) (FEATURE_HUMAN_READABLE) [Y/n/?] n
+*
+* Common options for md5sum, sha1sum, sha256sum, sha512sum, sha3sum
+*
+Enable -c, -s and -w options (FEATURE_MD5_SHA1_SUM_CHECK) [Y/n/?] y
+*
+* Console Utilities
+*
+chvt (CHVT) [Y/n/?] y
+fgconsole (FGCONSOLE) [Y/n/?] n
+clear (CLEAR) [Y/n/?] n
+deallocvt (DEALLOCVT) [Y/n/?] y
+dumpkmap (DUMPKMAP) [Y/n/?] n
+kbd_mode (KBD_MODE) [Y/n/?] y
+loadfont (LOADFONT) [Y/n/?] n
+loadkmap (LOADKMAP) [Y/n/?] y
+openvt (OPENVT) [Y/n/?] y
+reset (RESET) [Y/n/?] n
+resize (RESIZE) [Y/n/?] y
+  Print environment variables (FEATURE_RESIZE_PRINT) [Y/n/?] n
+setconsole (SETCONSOLE) [Y/n/?] y
+  Enable long options (FEATURE_SETCONSOLE_LONG_OPTIONS) [Y/n/?] n
+setfont (SETFONT) [Y/n/?] y
+  Support reading textual screen maps (FEATURE_SETFONT_TEXTUAL_MAP) [Y/n/?] y
+  Default directory for console-tools files (DEFAULT_SETFONT_DIR) [] 
+setkeycodes (SETKEYCODES) [Y/n/?] y
+setlogcons (SETLOGCONS) [Y/n/?] y
+showkey (SHOWKEY) [Y/n/?] n
+*
+* Common options for loadfont and setfont
+*
+Support for PSF2 console fonts (FEATURE_LOADFONT_PSF2) [Y/n/?] y
+Support for old (raw) console fonts (FEATURE_LOADFONT_RAW) [Y/n/?] n
+*
+* Debian Utilities
+*
+mktemp (MKTEMP) [Y/n/?] y
+pipe_progress (PIPE_PROGRESS) [Y/n/?] n
+run-parts (RUN_PARTS) [Y/n/?] n
+start-stop-daemon (START_STOP_DAEMON) [Y/n/?] n
+which (WHICH) [Y/n/?] n
+*
+* Editors
+*
+*
+* Finding Utilities
+*
+*
+* Init Utilities
+*
+*
+* Login/Password Management Utilities
+*
+Support for shadow passwords (FEATURE_SHADOWPASSWDS) [Y/n/?] y
+Use internal password and group functions rather than system functions (USE_BB_PWD_GRP) [Y/n/?] y
+  Use internal shadow password functions (USE_BB_SHADOW) [Y/n/?] y
+Use internal crypt functions (USE_BB_CRYPT) [Y/n/?] y
+  Enable SHA256/512 crypt functions (USE_BB_CRYPT_SHA) [Y/n/?] n
+adduser (ADDUSER) [Y/n/?] n
+  Enable sanity check on user/group names in adduser and addgroup (FEATURE_CHECK_NAMES) [N/y/?] n
+  Last valid uid or gid for adduser and addgroup (LAST_ID) [60000] 60000
+  First valid system uid or gid for adduser and addgroup (FIRST_SYSTEM_ID) [100] 60000
+  Last valid system uid or gid for adduser and addgroup (LAST_SYSTEM_ID) [60000] 0
+  Last valid system uid or gid for adduser and addgroup (LAST_SYSTEM_ID) [60000] 999
+  Last valid system uid or gid for adduser and addgroup (LAST_SYSTEM_ID) [60000] 100
+  Last valid system uid or gid for adduser and addgroup (LAST_SYSTEM_ID) [60000] 999
+  Last valid system uid or gid for adduser and addgroup (LAST_SYSTEM_ID) [60000] OTHERVAL
+  Last valid system uid or gid for adduser and addgroup (LAST_SYSTEM_ID) [60000] 999
+  Last valid system uid or gid for adduser and addgroup (LAST_SYSTEM_ID) [60000] 60000
+addgroup (ADDGROUP) [Y/n/?] n
+deluser (DELUSER) [Y/n/?] y
+delgroup (DELGROUP) [Y/n/?] y
+  Support for removing users from groups (FEATURE_DEL_USER_FROM_GROUP) [Y/n/?] n
+getty (GETTY) [Y/n/?] y
+login (LOGIN) [Y/n/?] y
+  Run logged in session in a child process (LOGIN_SESSION_AS_CHILD) [Y/n/?] n
+  Support for login scripts (LOGIN_SCRIPTS) [Y/n/?] n
+  Support for /etc/nologin (FEATURE_NOLOGIN) [Y/n/?] n
+  Support for /etc/securetty (FEATURE_SECURETTY) [Y/n/?] y
+passwd (PASSWD) [Y/n/?] n
+cryptpw (CRYPTPW) [Y/n/?] y
+chpasswd (CHPASSWD) [Y/n/?] n
+Default password encryption method (passwd -a, cryptpw -m parameter) (FEATURE_DEFAULT_PASSWD_ALGO) [des] OTHERVAL
+su (SU) [Y/n/?] y
+  Enable su to write to syslog (FEATURE_SU_SYSLOG) [Y/n] n
+  Enable su to check user's shell to be listed in /etc/shells (FEATURE_SU_CHECKS_SHELLS) [Y/n] n
+sulogin (SULOGIN) [Y/n/?] y
+vlock (VLOCK) [Y/n/?] n
+*
+* Linux Ext2 FS Progs
+*
+chattr (CHATTR) [Y/n/?] n
+fsck (FSCK) [Y/n/?] y
+lsattr (LSATTR) [YRelated /lib/modules
+Related modules.dep
+/n/?] y
+tune2fs (TUNE2FS) [N/y/?] n
+*
+* Linux Module Utilities
+*
+Simplified modutils (MODPROBE_SMALL) [Y/n/?] n
+  insmod (INSMOD) [N/y/?] n
+  rmmod (RMMOD) [N/y/?] n
+  lsmod (LSMOD) [N/y/?] y
+    Pretty output (FEATURE_LSMOD_PRETTY_2_6_OUTPUT) [N/y/?] y
+  modprobe (MODPROBE) [N/y/?] y
+    Blacklist support (FEATURE_MODPROBE_BLACKLIST) [N/y/?] n
+  depmod (DEPMOD) [N/y/?] y
+*
+* Options common to multiple modutils
+*
+Support version 2.2/2.4 Linux kernels (FEATURE_2_4_MODULES) [N/y/?] y
+Enable module version checking (FEATURE_INSMOD_VERSION_CHECKING) [N/y/?] y
+Add module symbols to kernel symbol table (FEATURE_INSMOD_KSYMOOPS_SYMBOLS) [N/y/?] n
+In kernel memory optimization (uClinux only) (FEATURE_INSMOD_LOADINKMEM) [N/y/?] y
+Support tainted module checking with new kernels (FEATURE_CHECK_TAINTED_MODULE) [Y/n/?] y
+Support for module.aliases file (FEATURE_MODUTILS_ALIAS) [Y/n/?] n
+Support for module.symbols file (FEATURE_MODUTILS_SYMBOLS) [Y/n/?] n
+Default directory containing modules (DEFAULT_MODULES_DIR) [/lib/modules] OTHERVAL
+Default name of modules.dep (DEFAULT_DEPMOD_FILE) [modules.dep] modules.dep
+*
+* Linux System Utilities
+*
+acpid (ACPID) [Y/n/?] n
+blkid (BLKID) [Y/n/?] n
+dmesg (DMESG) [Y/n/?] y
+  Pretty dmesg output (FEATURE_DMESG_PRETTY) [Y/n/?] n
+fbset (FBSET) [Y/n/?] y
+  Turn on extra fbset options (FEATURE_FBSET_FANCY) [Y/n/?] n
+  Turn on fbset readmode support (FEATURE_FBSET_READMODE) [Y/n/?] y
+fdflush (FDFLUSH) [Y/n/?] y
+fdformat (FDFORMAT) [Y/n/?] n
+fdisk (FDISK) [Y/n/?] n
+findfs (FINDFS) [Y/n/?] y
+flock (FLOCK) [Y/n/?] n
+freeramdisk (FREERAMDISK) [Y/n/?] y
+fsck_minix (FSCK_MINIX) [Y/n/?] y
+mkfs_ext2 (MKFS_EXT2) [Y/n/?] n
+mkfs_minix (MKFS_MINIX) [Y/n/?] y
+  Support Minix fs v2 (fsck_minix/mkfs_minix) (FEATURE_MINIX2) [Y/n/?] n
+mkfs_reiser (MKFS_REISER) [N/y/?] n
+mkfs_vfat (MKFS_VFAT) [Y/n/?] y
+getopt (GETOPT) [Y/n/?] y
+  Support option -l (FEATURE_GETOPT_LONG) [Y/n/?] n
+hexdump (HEXDUMP) [Y/n/?] n
+hwclock (HWCLOCK) [Y/n/?] y
+  Support long options (--hctosys,...) (FEATURE_HWCLOCK_LONG_OPTIONS) [Y/n/?] y
+  Use FHS /var/lib/hwclock/adjtime (FEATURE_HWCLOCK_ADJTIME_FHS) [N/y/?] y
+ipcrm (IPCRM) [Y/n/?] y
+ipcs (IPCS) [Y/n/?] n
+losetup (LOSETUP) [Y/n/?] y
+lspci (LSPCI) [Y/n/?] n
+lsusb (LSUSB) [Y/n/?] y
+mkswap (MKSWAP) [Y/n/?] y
+  UUID support (FEATURE_MKSWAP_UUID) [Y/n/?] y
+more (MORE) [Y/n/?] y
+mount (MOUNT) [Y/n/?] n
+pivot_root (PIVOT_ROOT) [Y/n/?] n
+rdate (RDATE) [Y/n/?] n
+rdev (RDEV) [Y/n/?] n
+readprofile (READPROFILE) [Y/n/?] y
+rtcwake (RTCWAKE) [Y/n/?] y
+script (SCRIPT) [Y/n/?] y
+scriptreplay (SCRIPTREPLAY) [Y/n/?] y
+setarch (SETARCH) [Y/n/?] y
+swaponoff (SWAPONOFF) [Y/n/?] y
+  Support discard option -d (FEATURE_SWAPON_DISCARD) [Y/n/?] n
+  Support priority option -p (FEATURE_SWAPON_PRI) [Y/n/?] y
+switch_root (SWITCH_ROOT) [Y/n/?] n
+umount (UMOUNT) [Y/n/?] n
+*
+* Filesystem/Volume identification
+*
+*
+* Miscellaneous Utilities
+*
+adjtimex (ADJTIMEX) [Y/n/?] y
+bbconfig (BBCONFIG) [N/y/?] n
+beep (BEEP) [Y/n/?] n
+chat (CHAT) [Y/n/?] n
+chrt (CHRT) [Y/n/?] y
+crontab (CRONTAB) [Y/n/?] n
+dc (DC) [Y/n/?] n
+devfsd (obsolete) (DEVFSD) [N/y/?] y
+  Adds support for MODLOAD keyword in devsfd.conf (DEVFSD_MODLOAD) [Y/n/?] n
+  Enables the -fg and -np options (DEVFSD_FG_NP) [Y/n/?] y
+  Increases logging (and size) (DEVFSD_VERBOSE) [Y/n/?] y
+Use devfs names for all devices (obsolete) (FEATURE_DEVFS) [N/y/?] n
+devmem (DEVMEM) [Y/n/?] n
+eject (EJECT) [Y/n/?] y
+  SCSI support (FEATURE_EJECT_SCSI) [Y/n/?] n
+fbsplash (FBSPLASH) [Y/n/?] y
+flashcp (FLASHCP) [N/y/?] y
+flash_lock (FLASH_LOCK) [N/y/?] y
+flash_unlock (FLASH_UNLOCK) [N/y/?] n
+flash_eraseall (FLASH_ERASEALL) [N/y/?] n
+ionice (IONICE) [Y/n/?] n
+inotifyd (INOTIFYD) [N/y/?] y
+hdparm (HDPARM) [Y/n/?] y
+  Support obtaining detailed information directly from drives (FEATURE_HDPARM_GET_IDENTITY) [Y/n/?] n
+  Register an IDE interface (DANGEROUS) (FEATURE_HDPARM_HDIO_SCAN_HWIF) [Y/n/?] n
+  Un-register an IDE interface (DANGEROUS) (FEATURE_HDPARM_HDIO_UNREGISTER_HWIF) [Y/n/?] n
+  Perform device reset (DANGEROUS) (FEATURE_HDPARM_HDIO_DRIVE_RESET) [Y/n/?] y
+  Tristate device for hotswap (DARelated /var/lib/misc/udhcpd.leases
+Related 9
+Related 0
+Related /usr/share/udhcpc/default.script
+Related 80
+Related 0
+Related 924
+NGEROUS) (FEATURE_HDPARM_HDIO_TRISTATE_HWIF) [Y/n/?] n
+  Get/set using_dma flag (FEATURE_HDPARM_HDIO_GETSET_DMA) [Y/n/?] n
+makedevs (MAKEDEVS) [Y/n/?] n
+man (MAN) [Y/n/?] n
+microcom (MICROCOM) [Y/n/?] y
+mountpoint (MOUNTPOINT) [Y/n/?] n
+mt (MT) [Y/n/?] n
+raidautorun (RAIDAUTORUN) [Y/n/?] n
+rx (RX) [Y/n/?] y
+setsid (SETSID) [Y/n/?] n
+strings (STRINGS) [Y/n/?] y
+time (TIME) [Y/n/?] n
+timeout (TIMEOUT) [Y/n/?] n
+ttysize (TTYSIZE) [Y/n/?] y
+volname (VOLNAME) [Y/n/?] y
+watchdog (WATCHDOG) [Y/n/?] y
+*
+* Networking Utilities
+*
+Enable IPv6 support (FEATURE_IPV6) [Y/n/?] y
+Enable Unix domain socket support (usually not needed) (FEATURE_UNIX_LOCAL) [N/y/?] y
+Prefer IPv4 addresses from DNS queries (FEATURE_PREFER_IPV4_ADDRESS) [Y/n/?] y
+Verbose resolution errors (VERBOSE_RESOLUTION_ERRORS) [N/y/?] n
+arp (ARP) [Y/n/?] n
+arping (ARPING) [Y/n/?] y
+brctl (BRCTL) [Y/n/?] n
+dnsd (DNSD) [Y/n/?] n
+ether-wake (ETHER_WAKE) [Y/n/?] y
+fakeidentd (FAKEIDENTD) [Y/n/?] y
+ftpd (FTPD) [Y/n/?] n
+ftpget (FTPGET) [Y/n/?] n
+ftpput (FTPPUT) [Y/n/?] y
+  Enable long options in ftpget/ftpput (FEATURE_FTPGETPUT_LONG_OPTIONS) [Y/n/?] n
+hostname (HOSTNAME) [Y/n/?] y
+httpd (HTTPD) [Y/n/?] n
+ifconfig (IFCONFIG) [Y/n/?] n
+ifenslave (IFENSLAVE) [Y/n/?] y
+ifplugd (IFPLUGD) [Y/n/?] n
+ifupdown (IFUPDOWN) [Y/n/?] n
+inetd (INETD) [Y/n/?] y
+  Support echo service (FEATURE_INETD_SUPPORT_BUILTIN_ECHO) [Y/n/?] y
+  Support discard service (FEATURE_INETD_SUPPORT_BUILTIN_DISCARD) [Y/n/?] n
+  Support time service (FEATURE_INETD_SUPPORT_BUILTIN_TIME) [Y/n/?] n
+  Support daytime service (FEATURE_INETD_SUPPORT_BUILTIN_DAYTIME) [Y/n/?] n
+  Support chargen service (FEATURE_INETD_SUPPORT_BUILTIN_CHARGEN) [Y/n/?] y
+  Support RPC services (FEATURE_INETD_RPC) [Y/n/?] n
+ip (IP) [Y/n/?] n
+ipcalc (IPCALC) [Y/n/?] y
+  Fancy IPCALC, more options, adds 1 kbyte (FEATURE_IPCALC_FANCY) [Y/n/?] n
+  Enable long options (FEATURE_IPCALC_LONG_OPTIONS) [Y/n/?] n
+netstat (NETSTAT) [Y/n/?] y
+  Enable wide netstat output (FEATURE_NETSTAT_WIDE) [Y/n/?] n
+  Enable PID/Program name output (FEATURE_NETSTAT_PRG) [Y/n/?] y
+nslookup (NSLOOKUP) [Y/n/?] n
+ntpd (NTPD) [Y/n/?] n
+pscan (PSCAN) [Y/n/?] y
+route (ROUTE) [Y/n/?] n
+slattach (SLATTACH) [Y/n/?] y
+tcpsvd (TCPSVD) [Y/n/?] y
+telnet (TELNET) [Y/n/?] y
+  Pass TERM type to remote host (FEATURE_TELNET_TTYPE) [Y/n/?] y
+  Pass USER type to remote host (FEATURE_TELNET_AUTOLOGIN) [Y/n/?] n
+telnetd (TELNETD) [Y/n/?] y
+  Support standalone telnetd (not inetd only) (FEATURE_TELNETD_STANDALONE) [Y/n/?] n
+tftp (TFTP) [Y/n/?] n
+tftpd (TFTPD) [Y/n/?] n
+traceroute (TRACEROUTE) [Y/n/?] n
+tunctl (TUNCTL) [Y/n/?] n
+udhcp server (udhcpd) (UDHCPD) [Y/n/?] y
+  dhcprelay (DHCPRELAY) [Y/n/?] y
+  Lease display utility (dumpleases) (DUMPLEASES) [Y/n/?] y
+  Rewrite the lease file at every new acknowledge (FEATURE_UDHCPD_WRITE_LEASES_EARLY) [Y/n/?] y
+  Select IP address based on client MAC (FEATURE_UDHCPD_BASE_IP_ON_MAC) [N/y/?] y
+  Absolute path to lease file (DHCPD_LEASES_FILE) [/var/lib/misc/udhcpd.leases] /var/lib/misc/udhcpd.leases
+udhcp client (udhcpc) (UDHCPC) [Y/n/?] y
+  Verify that the offered address is free, using ARP ping (FEATURE_UDHCPC_ARPING) [Y/n/?] n
+  Do not pass malformed host and domain names (FEATURE_UDHCPC_SANITIZEOPT) [Y/n/?] n
+  Enable '-P port' option for udhcpd and udhcpc (FEATURE_UDHCP_PORT) [N/y/?] y
+  Maximum verbosity level for udhcp applets (0..9) (UDHCP_DEBUG) [9] OTHERVAL
+  Support for RFC3397 domain search (experimental) (FEATURE_UDHCP_RFC3397) [Y/n/?] n
+  Support for 802.1Q VLAN parameters (FEATURE_UDHCP_8021Q) [Y/n/?] y
+  Absolute path to config script (UDHCPC_DEFAULT_SCRIPT) [/usr/share/udhcpc/default.script] OTHERVAL
+  DHCP options slack buffer size (UDHCPC_SLACK_FOR_BUGGY_SERVERS) [80] 924
+udpsvd (UDPSVD) [Y/n/?] n
+vconfig (VCONFIG) [Y/n/?] n
+wget (WGET) [Y/n/?] y
+  Enable a nifty process meter (+2k) (FEATURE_WGET_STATUSBAR) [Y/n/?] y
+  Enable HTTP authentication (FEATURE_WGET_AUTHENTICATION) [Y/n/?] y
+  Enable long options (FEATURE_WGET_LONG_OPTIONS) [Y/n/?] n
+  Enable timeout option -T SEC (FEATURE_WGET_TIMEOUT) [Y/n/?] n
+zcip (ZCIP) [Y/n/?] y
+Related us-ascii
+Related /var/service
+*
+* Print Utilities
+*
+lpd (LPD) [Y/n/?] y
+lpr (LPR) [Y/n/?] y
+lpq (LPQ) [Y/n/?] y
+*
+* Mail Utilities
+*
+makemime (MAKEMIME) [Y/n/?] n
+  Default charset (FEATURE_MIME_CHARSET) [us-ascii] us-ascii
+popmaildir (POPMAILDIR) [Y/n/?] y
+  Allow message filters and custom delivery program (FEATURE_POPMAILDIR_DELIVERY) [Y/n/?] y
+reformime (REFORMIME) [Y/n/?] y
+  Accept and ignore options other than -x and -X (FEATURE_REFORMIME_COMPAT) [Y/n/?] y
+sendmail (SENDMAIL) [Y/n/?] y
+*
+* Process Utilities
+*
+free (FREE) [Y/n/?] n
+fuser (FUSER) [Y/n/?] y
+kill (KILL) [Y/n/?] y
+  killall (KILLALL) [Y/n/?] n
+  killall5 (KILLALL5) [Y/n] y
+pgrep (PGREP) [Y/n/?] n
+pidof (PIDOF) [Y/n/?] n
+pkill (PKILL) [Y/n/?] n
+ps (PS) [Y/n/?] n
+renice (RENICE) [Y/n/?] y
+sysctl (BB_SYSCTL) [Y/n/?] n
+watch (WATCH) [Y/n/?] y
+*
+* Runit Utilities
+*
+runsv (RUNSV) [Y/n/?] n
+runsvdir (RUNSVDIR) [Y/n/?] y
+  Enable scrolling argument log (FEATURE_RUNSVDIR_LOG) [N/y/?] y
+sv (SV) [Y/n/?] y
+  Default directory for services (SV_DEFAULT_SERVICE_DIR) [/var/service] /var/service
+svlogd (SVLOGD) [Y/n/?] y
+chpst (CHPST) [Y/n/?] n
+setuidgid (SETUIDGID) [Y/n/?] y
+envuidgid (ENVUIDGID) [Y/n/?] n
+envdir (ENVDIR) [Y/n/?] y
+softlimit (SOFTLIMIT) [Y/n/?] y
+*
+* SELinux Utilities
+*
+chcon (CHCON) [N/y/?] y
+  Enable long options (FEATURE_CHCON_LONG_OPTIONS) [Y/n/?] y
+getenforce (GETENFORCE) [N/y/?] y
+getsebool (GETSEBOOL) [N/y/?] y
+load_policy (LOAD_POLICY) [N/y/?] n
+matchpathcon (MATCHPATHCON) [N/y/?] n
+restorecon (RESTORECON) [N/y/?] n
+runcon (RUNCON) [N/y/?] n
+selinuxenabled (SELINUXENABLED) [N/y/?] y
+setenforce (SETENFORCE) [N/y/?] y
+setfiles (SETFILES) [N/y/?] n
+setsebool (SETSEBOOL) [N/y/?] y
+sestatus (SESTATUS) [N/y/?] n
+*
+* Shells
+*
+Choose which shell is aliased to 'sh' name
+> 1. none (FEATURE_SH_IS_NONE) (NEW)
+choice[1]: 1
+Choose which shell is aliased to 'bash' name
+> 1. none (FEATURE_BASH_IS_NONE) (NEW)
+choice[1]: 1
+*
+* System Logging Utilities
+*
+syslogd (SYSLOGD) [Y/n/?] n
+klogd (KLOGD) [Y/n/?] n
+logger (LOGGER) [Y/n/?] y
+#
+# configuration written to .config
+#
+Logic2BDD -base busybox.560 -min-nodes 1000000 -cudd -constraint-reorder minspan /Users/david/product_lines/Implementacion/myKconf/orderings/busybox.var busybox.560.exp 
+Read 1185 expressions
+There are 1185 expressions 
+Simplify Constraints.There are 1185 constraints to simplify
+1 We set var                                               KILL from                                                         KILL to true  expression (1) KILL
+2 We set var                        FEATURE_TRACEROUTE_USE_ICMP from                                  FEATURE_TRACEROUTE_USE_ICMP to false  expression (2) not FEATURE_TRACEROUTE_USE_ICMP
+1 We set var                          PID_FILE_PATH_EQ_OTHERVAL from                                    PID_FILE_PATH_EQ_OTHERVAL to true  expression (3) PID_FILE_PATH_EQ_OTHERVAL
+2 We set var                             FEATURE_TAB_COMPLETION from                                       FEATURE_TAB_COMPLETION to false  expression (4) not FEATURE_TAB_COMPLETION
+2 We set var                                    DEBUG_PESSIMIZE from                                              DEBUG_PESSIMIZE to false  expression (5) not DEBUG_PESSIMIZE
+1 We set var                       FEATURE_INSTALL_LONG_OPTIONS from                                 FEATURE_INSTALL_LONG_OPTIONS to true  expression (6) FEATURE_INSTALL_LONG_OPTIONS
+1 We set var                                             LOGGER from                                                       LOGGER to true  expression (7) LOGGER
+2 We set var                                              WHICH from                                                        WHICH to false  expression (8) not WHICH
+1 We set var                                    FEATURE_PIDFILE from                                              FEATURE_PIDFILE to true  expression (9) FEATURE_PIDFILE
+1 We set var   DHCPD_LEASES_FILE_EQ_/var/lib/misc/udhcpd.leases from             DHCPD_LEASES_FILE_EQ_/var/lib/misc/udhcpd.leases to true  expression (10) DHCPD_LEASES_FILE_EQ_/var/lib/misc/udhcpd.leases
+2 We set var                                        RAIDAUTORUN from                                                  RAIDAUTORUN to false  expression (11) not RAIDAUTORUN
+1 We set var                                             LSATTR from                                                       LSATTR to true  expression (12) LSATTR
+1 We set var                                FEATURE_SEAMLESS_GZ from                                          FEATURE_SEAMLESS_GZ to true  expression (13) FEATURE_SEAMLESS_GZ
+2 We set var                                    SH_MATH_SUPPORT from                                              SH_MATH_SUPPORT to false  expression (14) not SH_MATH_SUPPORT
+1 We set var                           UNICODE_COMBINING_WCHARS from                                     UNICODE_COMBINING_WCHARS to true  expression (15) UNICODE_COMBINING_WCHARS
+2 We set var                                           UUDECODE from                                                     UUDECODE to false  expression (16) not UUDECODE
+2 We set var                                 FEATURE_EJECT_SCSI from                                           FEATURE_EJECT_SCSI to false  expression (17) not FEATURE_EJECT_SCSI
+2 We set var                              FEATURE_SH_STANDALONE from                                        FEATURE_SH_STANDALONE to false  expression (18) not FEATURE_SH_STANDALONE
+1 We set var                                       FEATURE_IPV6 from                                                 FEATURE_IPV6 to true  expression (19) FEATURE_IPV6
+2 We set var               FEATURE_IFCONFIG_MEMSTART_IOADDR_IRQ from                         FEATURE_IFCONFIG_MEMSTART_IOADDR_IRQ to false  expression (20) not FEATURE_IFCONFIG_MEMSTART_IOADDR_IRQ
+1 We set var                                             OPENVT from                                                       OPENVT to true  expression (21) OPENVT
+2 We set var                                             IONICE from                                                       IONICE to false  expression (22) not IONICE
+2 We set var                                        SWITCH_ROOT from                                                  SWITCH_ROOT to false  expression (23) not SWITCH_ROOT
+2 We set var                                FEATURE_BRCTL_FANCY from                                          FEATURE_BRCTL_FANCY to false  expression (24) not FEATURE_BRCTL_FANCY
+1 We set var                             FEATURE_PREFER_APPLETS from                                       FEATURE_PREFER_APPLETS to true  expression (25) FEATURE_PREFER_APPLETS
+2 We set var                                FEATURE_HTTPD_PROXY from                                          FEATURE_HTTPD_PROXY to false  expression (26) not FEATURE_HTTPD_PROXY
+1 We set var                                           ADJTIMEX from                                                     ADJTIMEX to true  expression (27) ADJTIMEX
+1 We set var                                              WATCH from                                                        WATCH to true  expression (28) WATCH
+2 We set var                             FEATURE_MAKEDEVS_TABLE from                                       FEATURE_MAKEDEVS_TABLE to false  expression (29) not FEATURE_MAKEDEVS_TABLE
+2 We set var                            FEATURE_EDITING_MAX_LEN from                                      FEATURE_EDITING_MAX_LEN to false  expression (30) not FEATURE_EDITING_MAX_LEN
+2 We set var                                FEATURE_BASH_IS_ASH from                                          FEATURE_BASH_IS_ASH to false  expression (31) not FEATURE_BASH_IS_ASH
+2 We set var                                           IFCONFIG from                                                     IFCONFIG to false  expression (32) not IFCONFIG
+2 We set var                                    FEATURE_IP_LINK from                                              FEATURE_IP_LINK to false  expression (33) not FEATURE_IP_LINK
+2 We set var                             FEATURE_ROTATE_LOGFILE from                                       FEATURE_ROTATE_LOGFILE to false  expression (34) not FEATURE_ROTATE_LOGFILE
+2 We set var                             FEATURE_MODUTILS_ALIAS from                                       FEATURE_MODUTILS_ALIAS to false  expression (35) not FEATURE_MODUTILS_ALIAS
+1 We set var                                           SENDMAIL from                                                     SENDMAIL to true  expression (36) SENDMAIL
+2 We set var                                 FEATURE_MOUNT_LOOP from                                           FEATURE_MOUNT_LOOP to false  expression (37) not FEATURE_MOUNT_LOOP
+1 We set var                                              MKDIR from                                                        MKDIR to true  expression (38) MKDIR
+1 We set var                         FEATURE_CHCON_LONG_OPTIONS from                                   FEATURE_CHCON_LONG_OPTIONS to true  expression (39) FEATURE_CHCON_LONG_OPTIONS
+2 We set var                                UNICODE_WIDE_WCHARS from                                          UNICODE_WIDE_WCHARS to false  expression (40) not UNICODE_WIDE_WCHARS
+2 We set var                           FEATURE_TELNET_AUTOLOGIN from                                     FEATURE_TELNET_AUTOLOGIN to false  expression (41) not FEATURE_TELNET_AUTOLOGIN
+2 We set var                                  FEATURE_SH_IS_ASH from                                            FEATURE_SH_IS_ASH to false  expression (42) not FEATURE_SH_IS_ASH
+2 We set var                                            HEXDUMP from                                                      HEXDUMP to false  expression (43) not HEXDUMP
+1 We set var                                FEATURE_SEAMLESS_XZ from                                          FEATURE_SEAMLESS_XZ to true  expression (44) FEATURE_SEAMLESS_XZ
+1 We set var                               FEATURE_TELNET_TTYPE from                                         FEATURE_TELNET_TTYPE to true  expression (45) FEATURE_TELNET_TTYPE
+1 We set var                               UNICODE_BIDI_SUPPORT from                                         UNICODE_BIDI_SUPPORT to true  expression (46) UNICODE_BIDI_SUPPORT
+1 We set var                                               CATV from                                                         CATV to true  expression (47) CATV
+1 We set var                  UDHCPC_DEFAULT_SCRIPT_EQ_OTHERVAL from                            UDHCPC_DEFAULT_SCRIPT_EQ_OTHERVAL to true  expression (48) UDHCPC_DEFAULT_SCRIPT_EQ_OTHERVAL
+2 We set var                          FEATURE_WGET_LONG_OPTIONS from                                    FEATURE_WGET_LONG_OPTIONS to false  expression (49) not FEATURE_WGET_LONG_OPTIONS
+2 We set var                                    FEATURE_DC_LIBM from                                              FEATURE_DC_LIBM to false  expression (50) not FEATURE_DC_LIBM
+1 We set var                                            VOLNAME from                                                      VOLNAME to true  expression (51) VOLNAME
+1 We set var                               PASSWORD_MINLEN_EQ_6 from                                         PASSWORD_MINLEN_EQ_6 to true  expression (52) PASSWORD_MINLEN_EQ_6
+2 We set var                                         TFTP_DEBUG from                                                   TFTP_DEBUG to false  expression (53) not TFTP_DEBUG
+1 We set var                         FEATURE_MD5_SHA1_SUM_CHECK from                                   FEATURE_MD5_SHA1_SUM_CHECK to true  expression (54) FEATURE_MD5_SHA1_SUM_CHECK
+2 We set var                                           IFUPDOWN from                                                     IFUPDOWN to false  expression (55) not IFUPDOWN
+1 We set var                            UNICODE_PRESERVE_BROKEN from                                      UNICODE_PRESERVE_BROKEN to true  expression (56) UNICODE_PRESERVE_BROKEN
+2 We set var                                    FIRST_SYSTEM_ID from                                              FIRST_SYSTEM_ID to false  expression (57) not FIRST_SYSTEM_ID
+2 We set var                                               IPCS from                                                         IPCS to false  expression (58) not IPCS
+2 We set var                                   BUILD_LIBBUSYBOX from                                             BUILD_LIBBUSYBOX to false  expression (59) not BUILD_LIBBUSYBOX
+2 We set var                                               FTPD from                                                         FTPD to false  expression (60) not FTPD
+1 We set var                                  USE_PORTABLE_CODE from                                            USE_PORTABLE_CODE to true  expression (61) USE_PORTABLE_CODE
+2 We set var                                 FEATURE_REMOTE_LOG from                                           FEATURE_REMOTE_LOG to false  expression (62) not FEATURE_REMOTE_LOG
+1 We set var                                        FREERAMDISK from                                                  FREERAMDISK to true  expression (63) FREERAMDISK
+2 We set var                        FEATURE_EDITING_SAVEHISTORY from                                  FEATURE_EDITING_SAVEHISTORY to false  expression (64) not FEATURE_EDITING_SAVEHISTORY
+2 We set var                             FEATURE_FDISK_WRITABLE from                                       FEATURE_FDISK_WRITABLE to false  expression (65) not FEATURE_FDISK_WRITABLE
+2 We set var                                  FEATURE_BEEP_FREQ from                                            FEATURE_BEEP_FREQ to false  expression (66) not FEATURE_BEEP_FREQ
+2 We set var                           FEATURE_HTTPD_BASIC_AUTH from                                     FEATURE_HTTPD_BASIC_AUTH to false  expression (67) not FEATURE_HTTPD_BASIC_AUTH
+1 We set var                                        SETKEYCODES from                                                  SETKEYCODES to true  expression (68) SETKEYCODES
+1 We set var                                    UNICODE_SUPPORT from                                              UNICODE_SUPPORT to true  expression (69) UNICODE_SUPPORT
+2 We set var                               FEATURE_ACPID_COMPAT from                                         FEATURE_ACPID_COMPAT to false  expression (70) not FEATURE_ACPID_COMPAT
+2 We set var                                           UNIX2DOS from                                                     UNIX2DOS to false  expression (71) not UNIX2DOS
+2 We set var                                                SEQ from                                                          SEQ to false  expression (72) not SEQ
+2 We set var                       FEATURE_DD_THIRD_STATUS_LINE from                                 FEATURE_DD_THIRD_STATUS_LINE to false  expression (73) not FEATURE_DD_THIRD_STATUS_LINE
+1 We set var                   FEATURE_MIME_CHARSET_EQ_us-ascii from                             FEATURE_MIME_CHARSET_EQ_us-ascii to true  expression (74) FEATURE_MIME_CHARSET_EQ_us-ascii
+1 We set var                                              LSUSB from                                                        LSUSB to true  expression (75) LSUSB
+2 We set var                                   FEATURE_TFTP_PUT from                                             FEATURE_TFTP_PUT to false  expression (76) not FEATURE_TFTP_PUT
+2 We set var                                       FEATURE_WTMP from                                                 FEATURE_WTMP to false  expression (77) not FEATURE_WTMP
+2 We set var                                                 PS from                                                           PS to false  expression (78) not PS
+2 We set var                          FEATURE_PASSWD_WEAK_CHECK from                                    FEATURE_PASSWD_WEAK_CHECK to false  expression (79) not FEATURE_PASSWD_WEAK_CHECK
+1 We set var                                               SYNC from                                                         SYNC to true  expression (80) SYNC
+2 We set var                                   FEATURE_CLEAN_UP from                                             FEATURE_CLEAN_UP to false  expression (81) not FEATURE_CLEAN_UP
+1 We set var                                               CHRT from                                                         CHRT to true  expression (82) CHRT
+1 We set var                                             STATIC from                                                       STATIC to true  expression (83) STATIC
+2 We set var                          FEATURE_TFTP_PROGRESS_BAR from                                    FEATURE_TFTP_PROGRESS_BAR to false  expression (84) not FEATURE_TFTP_PROGRESS_BAR
+2 We set var                               FEATURE_NON_POSIX_CP from                                         FEATURE_NON_POSIX_CP to false  expression (85) not FEATURE_NON_POSIX_CP
+2 We set var                                       FEATURE_UTMP from                                                 FEATURE_UTMP to false  expression (86) not FEATURE_UTMP
+2 We set var                                             FTPGET from                                                       FTPGET to false  expression (87) not FTPGET
+2 We set var                                              RMMOD from                                                        RMMOD to false  expression (88) not RMMOD
+2 We set var                                               TAIL from                                                         TAIL to false  expression (89) not TAIL
+2 We set var                                          RUN_PARTS from                                                    RUN_PARTS to false  expression (90) not RUN_PARTS
+1 We set var                        LAST_SUPPORTED_WCHAR_EQ_767 from                                  LAST_SUPPORTED_WCHAR_EQ_767 to true  expression (91) LAST_SUPPORTED_WCHAR_EQ_767
+1 We set var                                               MORE from                                                         MORE to true  expression (92) MORE
+2 We set var                                               DNSD from                                                         DNSD to false  expression (93) not DNSD
+2 We set var                                              UNAME from                                                        UNAME to false  expression (94) not UNAME
+1 We set var                                           FBSPLASH from                                                     FBSPLASH to true  expression (95) FBSPLASH
+2 We set var                                                TAC from                                                          TAC to false  expression (97) not TAC
+2 We set var                                        LOAD_POLICY from                                                  LOAD_POLICY to false  expression (98) not LOAD_POLICY
+2 We set var                         FEATURE_MODPROBE_BLACKLIST from                                   FEATURE_MODPROBE_BLACKLIST to false  expression (99) not FEATURE_MODPROBE_BLACKLIST
+2 We set var                          FEATURE_SUID_CONFIG_QUIET from                                    FEATURE_SUID_CONFIG_QUIET to false  expression (100) not FEATURE_SUID_CONFIG_QUIET
+1 We set var                                                 MV from                                                           MV to true  expression (101) MV
+1 We set var                                    HAVE_DOT_CONFIG from                                              HAVE_DOT_CONFIG to true  expression (102) HAVE_DOT_CONFIG
+2 We set var                    FEATURE_FTPD_ACCEPT_BROKEN_LIST from                              FEATURE_FTPD_ACCEPT_BROKEN_LIST to false  expression (103) not FEATURE_FTPD_ACCEPT_BROKEN_LIST
+2 We set var                                              PKILL from                                                        PKILL to false  expression (104) not PKILL
+2 We set var                                           DOS2UNIX from                                                     DOS2UNIX to false  expression (105) not DOS2UNIX
+2 We set var                                               CHAT from                                                         CHAT to false  expression (106) not CHAT
+2 We set var                               FEATURE_USE_SENDFILE from                                         FEATURE_USE_SENDFILE to false  expression (107) not FEATURE_USE_SENDFILE
+1 We set var                                             MKTEMP from                                                       MKTEMP to true  expression (108) MKTEMP
+2 We set var                               FEATURE_LS_FILETYPES from                                         FEATURE_LS_FILETYPES to false  expression (109) not FEATURE_LS_FILETYPES
+2 We set var                                       FEATURE_SUID from                                                 FEATURE_SUID to false  expression (110) not FEATURE_SUID
+2 We set var                        IFUPDOWN_UDHCPC_CMD_OPTIONS from                                  IFUPDOWN_UDHCPC_CMD_OPTIONS to false  expression (111) not IFUPDOWN_UDHCPC_CMD_OPTIONS
+1 We set var                                           READLINK from                                                     READLINK to true  expression (112) READLINK
+2 We set var                                            DMALLOC from                                                      DMALLOC to false  expression (113) not DMALLOC
+1 We set var                                          SETSEBOOL from                                                    SETSEBOOL to true  expression (114) SETSEBOOL
+2 We set var                                              NOMMU from                                                        NOMMU to false  expression (115) not NOMMU
+1 We set var                                                 DF from                                                           DF to true  expression (116) DF
+2 We set var                                           RUNLEVEL from                                                     RUNLEVEL to false  expression (117) not RUNLEVEL
+2 We set var                                  FEATURE_FTP_WRITE from                                            FEATURE_FTP_WRITE to false  expression (118) not FEATURE_FTP_WRITE
+1 We set var                                 FEATURE_UDHCP_PORT from                                           FEATURE_UDHCP_PORT to true  expression (119) FEATURE_UDHCP_PORT
+2 We set var                              FEATURE_CHAT_TTY_HIFI from                                        FEATURE_CHAT_TTY_HIFI to false  expression (120) not FEATURE_CHAT_TTY_HIFI
+2 We set var                                   FEATURE_IP_ROUTE from                                             FEATURE_IP_ROUTE to false  expression (121) not FEATURE_IP_ROUTE
+1 We set var                        FEATURE_BUFFERS_GO_ON_STACK from                                  FEATURE_BUFFERS_GO_ON_STACK to true  expression (122) FEATURE_BUFFERS_GO_ON_STACK
+2 We set var                                                LFS from                                                          LFS to false  expression (123) not LFS
+2 We set var                   FEATURE_SYSLOGD_READ_BUFFER_SIZE from                             FEATURE_SYSLOGD_READ_BUFFER_SIZE to false  expression (124) not FEATURE_SYSLOGD_READ_BUFFER_SIZE
+1 We set var                                         SETLOGCONS from                                                   SETLOGCONS to true  expression (125) SETLOGCONS
+2 We set var                                           SESTATUS from                                                     SESTATUS to false  expression (126) not SESTATUS
+2 We set var                                      LOGIN_SCRIPTS from                                                LOGIN_SCRIPTS to false  expression (127) not LOGIN_SCRIPTS
+1 We set var                                             SCRIPT from                                                       SCRIPT to true  expression (128) SCRIPT
+1 We set var                       FEATURE_CHECK_TAINTED_MODULE from                                 FEATURE_CHECK_TAINTED_MODULE to true  expression (129) FEATURE_CHECK_TAINTED_MODULE
+1 We set var                            FEATURE_COPYBUF_KB_EQ_1 from                                      FEATURE_COPYBUF_KB_EQ_1 to true  expression (130) FEATURE_COPYBUF_KB_EQ_1
+1 We set var                                           RUNSVDIR from                                                     RUNSVDIR to true  expression (131) RUNSVDIR
+2 We set var                          FEATURE_MOUNT_LOOP_CREATE from                                    FEATURE_MOUNT_LOOP_CREATE to false  expression (132) not FEATURE_MOUNT_LOOP_CREATE
+2 We set var                                             IPADDR from                                                       IPADDR to false  expression (133) not IPADDR
+2 We set var                  FEATURE_IFUPDOWN_IFCONFIG_BUILTIN from                            FEATURE_IFUPDOWN_IFCONFIG_BUILTIN to false  expression (134) not FEATURE_IFUPDOWN_IFCONFIG_BUILTIN
+2 We set var                                FEATURE_SPLIT_FANCY from                                          FEATURE_SPLIT_FANCY to false  expression (135) not FEATURE_SPLIT_FANCY
+2 We set var                                 FEATURE_LAST_FANCY from                                           FEATURE_LAST_FANCY to false  expression (136) not FEATURE_LAST_FANCY
+2 We set var                FEATURE_HDPARM_HDIO_UNREGISTER_HWIF from                          FEATURE_HDPARM_HDIO_UNREGISTER_HWIF to false  expression (137) not FEATURE_HDPARM_HDIO_UNREGISTER_HWIF
+1 We set var                                       DEVFSD_FG_NP from                                                 DEVFSD_FG_NP to true  expression (138) DEVFSD_FG_NP
+1 We set var                             FEATURE_WGET_STATUSBAR from                                       FEATURE_WGET_STATUSBAR to true  expression (139) FEATURE_WGET_STATUSBAR
+1 We set var                       DEFAULT_SETFONT_DIR_EQ_EMPTY from                                 DEFAULT_SETFONT_DIR_EQ_EMPTY to true  expression (140) DEFAULT_SETFONT_DIR_EQ_EMPTY
+2 We set var                                    FEATURE_PS_LONG from                                              FEATURE_PS_LONG to false  expression (141) not FEATURE_PS_LONG
+2 We set var                                             IPRULE from                                                       IPRULE to false  expression (142) not IPRULE
+1 We set var                                             RESIZE from                                                       RESIZE to true  expression (143) RESIZE
+1 We set var                                                YES from                                                          YES to true  expression (144) YES
+2 We set var                                                ARP from                                                          ARP to false  expression (145) not ARP
+2 We set var                          FEATURE_BUFFERS_GO_IN_BSS from                                    FEATURE_BUFFERS_GO_IN_BSS to false  expression (146) not FEATURE_BUFFERS_GO_IN_BSS
+2 We set var                                            ADDUSER from                                                      ADDUSER to false  expression (147) not ADDUSER
+2 We set var                                  FEATURE_SUN_LABEL from                                            FEATURE_SUN_LABEL to false  expression (148) not FEATURE_SUN_LABEL
+1 We set var                                               FOLD from                                                         FOLD to true  expression (149) FOLD
+2 We set var                        FEATURE_LS_COLOR_IS_DEFAULT from                                  FEATURE_LS_COLOR_IS_DEFAULT to false  expression (150) not FEATURE_LS_COLOR_IS_DEFAULT
+2 We set var                                        TRACEROUTE6 from                                                  TRACEROUTE6 to false  expression (151) not TRACEROUTE6
+2 We set var                                FEATURE_SYSLOGD_DUP from                                          FEATURE_SYSLOGD_DUP to false  expression (152) not FEATURE_SYSLOGD_DUP
+2 We set var                                  FEATURE_HTTPD_CGI from                                            FEATURE_HTTPD_CGI to false  expression (153) not FEATURE_HTTPD_CGI
+1 We set var                                            SHA1SUM from                                                      SHA1SUM to true  expression (154) SHA1SUM
+2 We set var                                 FEATURE_FANCY_TAIL from                                           FEATURE_FANCY_TAIL to false  expression (155) not FEATURE_FANCY_TAIL
+2 We set var                                   FEATURE_SORT_BIG from                                             FEATURE_SORT_BIG to false  expression (156) not FEATURE_SORT_BIG
+2 We set var                                          FGCONSOLE from                                                    FGCONSOLE to false  expression (157) not FGCONSOLE
+2 We set var                                             USLEEP from                                                       USLEEP to false  expression (158) not USLEEP
+2 We set var                                               NICE from                                                         NICE to false  expression (159) not NICE
+2 We set var                                INSTALL_APPLET_DONT from                                          INSTALL_APPLET_DONT to false  expression (160) not INSTALL_APPLET_DONT
+2 We set var                                    FEATURE_IP_RULE from                                              FEATURE_IP_RULE to false  expression (161) not FEATURE_IP_RULE
+2 We set var                                            VCONFIG from                                                      VCONFIG to false  expression (162) not VCONFIG
+2 We set var                                  FEATURE_TUNCTL_UG from                                            FEATURE_TUNCTL_UG to false  expression (163) not FEATURE_TUNCTL_UG
+2 We set var                                FEATURE_MOUNT_FLAGS from                                          FEATURE_MOUNT_FLAGS to false  expression (164) not FEATURE_MOUNT_FLAGS
+1 We set var                 DEFAULT_DEPMOD_FILE_EQ_modules.dep from                           DEFAULT_DEPMOD_FILE_EQ_modules.dep to true  expression (165) DEFAULT_DEPMOD_FILE_EQ_modules.dep
+2 We set var                                              HTTPD from                                                        HTTPD to false  expression (166) not HTTPD
+2 We set var                                         TRACEROUTE from                                                   TRACEROUTE to false  expression (167) not TRACEROUTE
+2 We set var                                                TEE from                                                          TEE to false  expression (168) not TEE
+1 We set var                                             UDHCPC from                                                       UDHCPC to true  expression (169) UDHCPC
+1 We set var                                 FEATURE_SWAPON_PRI from                                           FEATURE_SWAPON_PRI to true  expression (170) FEATURE_SWAPON_PRI
+2 We set var                                FEATURE_FANCY_SLEEP from                                          FEATURE_FANCY_SLEEP to false  expression (171) not FEATURE_FANCY_SLEEP
+1 We set var                                     MD5_SMALL_EQ_1 from                                               MD5_SMALL_EQ_1 to true  expression (172) MD5_SMALL_EQ_1
+2 We set var                                               BEEP from                                                         BEEP to false  expression (173) not BEEP
+2 We set var                   INSTALL_SH_APPLET_SCRIPT_WRAPPER from                             INSTALL_SH_APPLET_SCRIPT_WRAPPER to false  expression (174) not INSTALL_SH_APPLET_SCRIPT_WRAPPER
+2 We set var                                               TFTP from                                                         TFTP to false  expression (175) not TFTP
+2 We set var                                              FDISK from                                                        FDISK to false  expression (176) not FDISK
+2 We set var                                 SH_MATH_SUPPORT_64 from                                           SH_MATH_SUPPORT_64 to false  expression (177) not SH_MATH_SUPPORT_64
+2 We set var                               FEATURE_WGET_TIMEOUT from                                         FEATURE_WGET_TIMEOUT to false  expression (178) not FEATURE_WGET_TIMEOUT
+1 We set var                                             IPCALC from                                                       IPCALC to true  expression (179) IPCALC
+2 We set var                                              MOUNT from                                                        MOUNT to false  expression (180) not MOUNT
+2 We set var                               FEATURE_RESIZE_PRINT from                                         FEATURE_RESIZE_PRINT to false  expression (181) not FEATURE_RESIZE_PRINT
+2 We set var                               FEATURE_BASH_IS_HUSH from                                         FEATURE_BASH_IS_HUSH to false  expression (182) not FEATURE_BASH_IS_HUSH
+1 We set var                                               EXPR from                                                         EXPR to true  expression (183) EXPR
+2 We set var                                      FEATURE_DEVFS from                                                FEATURE_DEVFS to false  expression (184) not FEATURE_DEVFS
+1 We set var                    DEFAULT_MODULES_DIR_EQ_OTHERVAL from                              DEFAULT_MODULES_DIR_EQ_OTHERVAL to true  expression (185) DEFAULT_MODULES_DIR_EQ_OTHERVAL
+2 We set var                       FEATURE_ADDUSER_LONG_OPTIONS from                                 FEATURE_ADDUSER_LONG_OPTIONS to false  expression (186) not FEATURE_ADDUSER_LONG_OPTIONS
+2 We set var                                                 CP from                                                           CP to false  expression (187) not CP
+1 We set var                                          DHCPRELAY from                                                    DHCPRELAY to true  expression (188) DHCPRELAY
+1 We set var                                           MICROCOM from                                                     MICROCOM to true  expression (189) MICROCOM
+2 We set var                                  FEATURE_IP_TUNNEL from                                            FEATURE_IP_TUNNEL to false  expression (190) not FEATURE_IP_TUNNEL
+2 We set var                                              CHPST from                                                        CHPST to false  expression (191) not CHPST
+1 We set var                               PREFIX_EQ_./_install from                                         PREFIX_EQ_./_install to true  expression (192) PREFIX_EQ_./_install
+2 We set var                           FEATURE_IFUPDOWN_MAPPING from                                     FEATURE_IFUPDOWN_MAPPING to false  expression (193) not FEATURE_IFUPDOWN_MAPPING
+2 We set var                          FEATURE_HTTPD_ERROR_PAGES from                                    FEATURE_HTTPD_ERROR_PAGES to false  expression (194) not FEATURE_HTTPD_ERROR_PAGES
+1 We set var                                 FEATURE_FANCY_ECHO from                                           FEATURE_FANCY_ECHO to true  expression (195) FEATURE_FANCY_ECHO
+2 We set var                           FEATURE_CHAT_IMPLICIT_CR from                                     FEATURE_CHAT_IMPLICIT_CR to false  expression (196) not FEATURE_CHAT_IMPLICIT_CR
+2 We set var                                             RUNCON from                                                       RUNCON to false  expression (197) not RUNCON
+2 We set var                                              SPLIT from                                                        SPLIT to false  expression (198) not SPLIT
+2 We set var                          INSTALL_SH_APPLET_SYMLINK from                                    INSTALL_SH_APPLET_SYMLINK to false  expression (199) not INSTALL_SH_APPLET_SYMLINK
+2 We set var                         FEATURE_TELNETD_STANDALONE from                                   FEATURE_TELNETD_STANDALONE to false  expression (200) not FEATURE_TELNETD_STANDALONE
+2 We set var                                FEATURE_SYSLOGD_CFG from                                          FEATURE_SYSLOGD_CFG to false  expression (201) not FEATURE_SYSLOGD_CFG
+2 We set var                             FEATURE_TFTP_BLOCKSIZE from                                       FEATURE_TFTP_BLOCKSIZE to false  expression (202) not FEATURE_TFTP_BLOCKSIZE
+2 We set var                                              RESET from                                                        RESET to false  expression (203) not RESET
+2 We set var                                           BBCONFIG from                                                     BBCONFIG to false  expression (204) not BBCONFIG
+2 We set var                                  FEATURE_MOUNT_NFS from                                            FEATURE_MOUNT_NFS to false  expression (205) not FEATURE_MOUNT_NFS
+1 We set var                        FEATURE_SETFONT_TEXTUAL_MAP from                                  FEATURE_SETFONT_TEXTUAL_MAP to true  expression (206) FEATURE_SETFONT_TEXTUAL_MAP
+1 We set var                                           SLATTACH from                                                     SLATTACH to true  expression (207) SLATTACH
+1 We set var                          FEATURE_INSMOD_LOADINKMEM from                                    FEATURE_INSMOD_LOADINKMEM to true  expression (208) FEATURE_INSMOD_LOADINKMEM
+1 We set var                                 FEATURE_UNIX_LOCAL from                                           FEATURE_UNIX_LOCAL to true  expression (209) FEATURE_UNIX_LOCAL
+1 We set var                            FEATURE_READLINK_FOLLOW from                                      FEATURE_READLINK_FOLLOW to true  expression (210) FEATURE_READLINK_FOLLOW
+1 We set var                                               WGET from                                                         WGET to true  expression (211) WGET
+1 We set var                                                 RX from                                                           RX to true  expression (212) RX
+2 We set var                          FEATURE_IP_RARE_PROTOCOLS from                                    FEATURE_IP_RARE_PROTOCOLS to false  expression (213) not FEATURE_IP_RARE_PROTOCOLS
+1 We set var                                           VOLUMEID from                                                     VOLUMEID to true  expression (214) VOLUMEID
+1 We set var                           EXTRA_CFLAGS_EQ_OTHERVAL from                                     EXTRA_CFLAGS_EQ_OTHERVAL to true  expression (215) EXTRA_CFLAGS_EQ_OTHERVAL
+1 We set var                                             ENVDIR from                                                       ENVDIR to true  expression (216) ENVDIR
+2 We set var                                           LOADFONT from                                                     LOADFONT to false  expression (217) not LOADFONT
+1 We set var                                FEATURE_USE_TERMIOS from                                          FEATURE_USE_TERMIOS to true  expression (218) FEATURE_USE_TERMIOS
+2 We set var                    FEATURE_SETCONSOLE_LONG_OPTIONS from                              FEATURE_SETCONSOLE_LONG_OPTIONS to false  expression (219) not FEATURE_SETCONSOLE_LONG_OPTIONS
+2 We set var                               FEATURE_MTAB_SUPPORT from                                         FEATURE_MTAB_SUPPORT to false  expression (220) not FEATURE_MTAB_SUPPORT
+1 We set var                                              NOHUP from                                                        NOHUP to true  expression (221) NOHUP
+2 We set var                                                 IP from                                                           IP to false  expression (222) not IP
+1 We set var                BUSYBOX_EXEC_PATH_EQ_/proc/self/exe from                          BUSYBOX_EXEC_PATH_EQ_/proc/self/exe to true  expression (223) BUSYBOX_EXEC_PATH_EQ_/proc/self/exe
+2 We set var                                              LSPCI from                                                        LSPCI to false  expression (224) not LSPCI
+2 We set var                                               HEAD from                                                         HEAD to false  expression (225) not HEAD
+2 We set var                                       MATCHPATHCON from                                                 MATCHPATHCON to false  expression (226) not MATCHPATHCON
+2 We set var                                             UMOUNT from                                                       UMOUNT to false  expression (227) not UMOUNT
+1 We set var                                            DIRNAME from                                                      DIRNAME to true  expression (228) DIRNAME
+1 We set var              FEATURE_INETD_SUPPORT_BUILTIN_CHARGEN from                        FEATURE_INETD_SUPPORT_BUILTIN_CHARGEN to true  expression (229) FEATURE_INETD_SUPPORT_BUILTIN_CHARGEN
+2 We set var                                              CLEAR from                                                        CLEAR to false  expression (230) not CLEAR
+2 We set var                                 FEATURE_MOUNT_FAKE from                                           FEATURE_MOUNT_FAKE to false  expression (231) not FEATURE_MOUNT_FAKE
+2 We set var                         FEATURE_MKDIR_LONG_OPTIONS from                                   FEATURE_MKDIR_LONG_OPTIONS to false  expression (232) not FEATURE_MKDIR_LONG_OPTIONS
+2 We set var                                     LOCALE_SUPPORT from                                               LOCALE_SUPPORT to false  expression (233) not LOCALE_SUPPORT
+2 We set var                                            TIMEOUT from                                                      TIMEOUT to false  expression (234) not TIMEOUT
+1 We set var                                FEATURE_NETSTAT_PRG from                                          FEATURE_NETSTAT_PRG to true  expression (235) FEATURE_NETSTAT_PRG
+2 We set var                               FEATURE_HTTPD_RANGES from                                         FEATURE_HTTPD_RANGES to false  expression (236) not FEATURE_HTTPD_RANGES
+1 We set var                                            STRINGS from                                                      STRINGS to true  expression (237) STRINGS
+1 We set var                           FEATURE_REFORMIME_COMPAT from                                     FEATURE_REFORMIME_COMPAT to true  expression (238) FEATURE_REFORMIME_COMPAT
+2 We set var                                    FEATURE_EDITING from                                              FEATURE_EDITING to false  expression (239) not FEATURE_EDITING
+1 We set var                                            SULOGIN from                                                      SULOGIN to true  expression (240) SULOGIN
+2 We set var                                              RDATE from                                                        RDATE to false  expression (241) not RDATE
+1 We set var                                            FDFLUSH from                                                      FDFLUSH to true  expression (242) FDFLUSH
+2 We set var                                                SUM from                                                          SUM to false  expression (243) not SUM
+1 We set var                                              CKSUM from                                                        CKSUM to true  expression (244) CKSUM
+1 We set var                                  SUBST_WCHAR_EQ_63 from                                            SUBST_WCHAR_EQ_63 to true  expression (245) SUBST_WCHAR_EQ_63
+2 We set var                       FEATURE_EDITING_FANCY_PROMPT from                                 FEATURE_EDITING_FANCY_PROMPT to false  expression (246) not FEATURE_EDITING_FANCY_PROMPT
+1 We set var                                           KILLALL5 from                                                     KILLALL5 to true  expression (247) KILLALL5
+2 We set var                                   FEATURE_HAVE_RPC from                                             FEATURE_HAVE_RPC to false  expression (248) not FEATURE_HAVE_RPC
+2 We set var                                             SETSID from                                                       SETSID to false  expression (249) not SETSID
+2 We set var                                     INSTALL_NO_USR from                                               INSTALL_NO_USR to false  expression (250) not INSTALL_NO_USR
+2 We set var                            FEATURE_MV_LONG_OPTIONS from                                      FEATURE_MV_LONG_OPTIONS to false  expression (251) not FEATURE_MV_LONG_OPTIONS
+2 We set var                    FEATURE_LOGREAD_REDUCED_LOCKING from                              FEATURE_LOGREAD_REDUCED_LOCKING to false  expression (252) not FEATURE_LOGREAD_REDUCED_LOCKING
+1 We set var                                  FEATURE_SECURETTY from                                            FEATURE_SECURETTY to true  expression (253) FEATURE_SECURETTY
+2 We set var                 FEATURE_INETD_SUPPORT_BUILTIN_TIME from                           FEATURE_INETD_SUPPORT_BUILTIN_TIME to false  expression (254) not FEATURE_INETD_SUPPORT_BUILTIN_TIME
+1 We set var                                FEATURE_UDHCP_8021Q from                                          FEATURE_UDHCP_8021Q to true  expression (255) FEATURE_UDHCP_8021Q
+1 We set var                                             EFENCE from                                                       EFENCE to true  expression (256) EFENCE
+2 We set var                                   FEATURE_TFTP_GET from                                             FEATURE_TFTP_GET to false  expression (257) not FEATURE_TFTP_GET
+2 We set var                              FEATURE_VERBOSE_USAGE from                                        FEATURE_VERBOSE_USAGE to false  expression (258) not FEATURE_VERBOSE_USAGE
+2 We set var                            FEATURE_INSMOD_TRY_MMAP from                                      FEATURE_INSMOD_TRY_MMAP to false  expression (259) not FEATURE_INSMOD_TRY_MMAP
+2 We set var                     FEATURE_IPC_SYSLOG_BUFFER_SIZE from                               FEATURE_IPC_SYSLOG_BUFFER_SIZE to false  expression (260) not FEATURE_IPC_SYSLOG_BUFFER_SIZE
+2 We set var                                 FEATURE_SH_IS_HUSH from                                           FEATURE_SH_IS_HUSH to false  expression (261) not FEATURE_SH_IS_HUSH
+2 We set var                                           FDFORMAT from                                                     FDFORMAT to false  expression (262) not FDFORMAT
+2 We set var                                             MKFIFO from                                                       MKFIFO to false  expression (263) not MKFIFO
+1 We set var                                            DESKTOP from                                                      DESKTOP to true  expression (264) DESKTOP
+2 We set var                               FEATURE_SEAMLESS_BZ2 from                                         FEATURE_SEAMLESS_BZ2 to false  expression (265) not FEATURE_SEAMLESS_BZ2
+2 We set var                                      PIPE_PROGRESS from                                                PIPE_PROGRESS to false  expression (266) not PIPE_PROGRESS
+2 We set var                        FEATURE_RUNCON_LONG_OPTIONS from                                  FEATURE_RUNCON_LONG_OPTIONS to false  expression (267) not FEATURE_RUNCON_LONG_OPTIONS
+2 We set var                                         RESTORECON from                                                   RESTORECON to false  expression (268) not RESTORECON
+2 We set var                              FEATURE_LS_TIMESTAMPS from                                        FEATURE_LS_TIMESTAMPS to false  expression (269) not FEATURE_LS_TIMESTAMPS
+1 We set var                      FEATURE_UNEXPAND_LONG_OPTIONS from                                FEATURE_UNEXPAND_LONG_OPTIONS to true  expression (270) FEATURE_UNEXPAND_LONG_OPTIONS
+1 We set var                                                ENV from                                                          ENV to true  expression (271) ENV
+1 We set var                                               STAT from                                                         STAT to true  expression (272) STAT
+1 We set var                                                LPD from                                                          LPD to true  expression (273) LPD
+2 We set var                          VERBOSE_RESOLUTION_ERRORS from                                    VERBOSE_RESOLUTION_ERRORS to false  expression (274) not VERBOSE_RESOLUTION_ERRORS
+2 We set var                                 FEATURE_BRCTL_SHOW from                                           FEATURE_BRCTL_SHOW to false  expression (275) not FEATURE_BRCTL_SHOW
+2 We set var                                           IPTUNNEL from                                                     IPTUNNEL to false  expression (276) not IPTUNNEL
+1 We set var                                             TELNET from                                                       TELNET to true  expression (277) TELNET
+2 We set var                      FEATURE_ADDGROUP_LONG_OPTIONS from                                FEATURE_ADDGROUP_LONG_OPTIONS to false  expression (278) not FEATURE_ADDGROUP_LONG_OPTIONS
+2 We set var                                  FEATURE_SU_SYSLOG from                                            FEATURE_SU_SYSLOG to false  expression (279) not FEATURE_SU_SYSLOG
+2 We set var                              FEATURE_IFUPDOWN_IPV4 from                                        FEATURE_IFUPDOWN_IPV4 to false  expression (280) not FEATURE_IFUPDOWN_IPV4
+2 We set var                             FEATURE_IP_SHORT_FORMS from                                       FEATURE_IP_SHORT_FORMS to false  expression (281) not FEATURE_IP_SHORT_FORMS
+2 We set var                                                 LS from                                                           LS to false  expression (282) not LS
+2 We set var                                  START_STOP_DAEMON from                                            START_STOP_DAEMON to false  expression (283) not START_STOP_DAEMON
+2 We set var                                           DUMPKMAP from                                                     DUMPKMAP to false  expression (284) not DUMPKMAP
+1 We set var                                             PRINTF from                                                       PRINTF to true  expression (285) PRINTF
+2 We set var                                FEATURE_MOUNT_FSTAB from                                          FEATURE_MOUNT_FSTAB to false  expression (286) not FEATURE_MOUNT_FSTAB
+1 We set var                                            LOGNAME from                                                      LOGNAME to true  expression (287) LOGNAME
+2 We set var                               FEATURE_LS_RECURSIVE from                                         FEATURE_LS_RECURSIVE to false  expression (288) not FEATURE_LS_RECURSIVE
+2 We set var                                              BLKID from                                                        BLKID to false  expression (289) not BLKID
+2 We set var                                              PGREP from                                                        PGREP to false  expression (290) not PGREP
+1 We set var                                          LONG_OPTS from                                                    LONG_OPTS to true  expression (291) LONG_OPTS
+2 We set var                                                MAN from                                                          MAN to false  expression (292) not MAN
+2 We set var                                          SHA512SUM from                                                    SHA512SUM to false  expression (293) not SHA512SUM
+2 We set var                                          BB_SYSCTL from                                                    BB_SYSCTL to false  expression (294) not BB_SYSCTL
+1 We set var                                            SETFONT from                                                      SETFONT to true  expression (295) SETFONT
+2 We set var                      FEATURE_SETFILES_CHECK_OPTION from                                FEATURE_SETFILES_CHECK_OPTION to false  expression (296) not FEATURE_SETFILES_CHECK_OPTION
+2 We set var                                             PASSWD from                                                       PASSWD to false  expression (297) not PASSWD
+2 We set var                                 FEATURE_ALLOW_EXEC from                                           FEATURE_ALLOW_EXEC to false  expression (298) not FEATURE_ALLOW_EXEC
+2 We set var                                                CAL from                                                          CAL to false  expression (299) not CAL
+1 We set var                            UDHCP_DEBUG_EQ_OTHERVAL from                                      UDHCP_DEBUG_EQ_OTHERVAL to true  expression (300) UDHCP_DEBUG_EQ_OTHERVAL
+2 We set var                                       FEATURE_HWIB from                                                 FEATURE_HWIB to false  expression (301) not FEATURE_HWIB
+1 We set var                  FEATURE_UDHCPD_WRITE_LEASES_EARLY from                            FEATURE_UDHCPD_WRITE_LEASES_EARLY to true  expression (302) FEATURE_UDHCPD_WRITE_LEASES_EARLY
+1 We set var                                           INOTIFYD from                                                     INOTIFYD to true  expression (303) INOTIFYD
+1 We set var                                 FEATURE_SH_IS_NONE from                                           FEATURE_SH_IS_NONE to true  expression (304) FEATURE_SH_IS_NONE
+2 We set var                             FEATURE_LS_FOLLOWLINKS from                                       FEATURE_LS_FOLLOWLINKS to false  expression (305) not FEATURE_LS_FOLLOWLINKS
+2 We set var                    FEATURE_TRACEROUTE_SOURCE_ROUTE from                              FEATURE_TRACEROUTE_SOURCE_ROUTE to false  expression (306) not FEATURE_TRACEROUTE_SOURCE_ROUTE
+1 We set var                                  FEATURE_AUTOWIDTH from                                            FEATURE_AUTOWIDTH to true  expression (307) FEATURE_AUTOWIDTH
+1 We set var                                         FAKEIDENTD from                                                   FAKEIDENTD to true  expression (308) FAKEIDENTD
+1 We set var                                           WATCHDOG from                                                     WATCHDOG to true  expression (309) WATCHDOG
+2 We set var                                FEATURE_IFUPDOWN_IP from                                          FEATURE_IFUPDOWN_IP to false  expression (310) not FEATURE_IFUPDOWN_IP
+2 We set var                                            CRONTAB from                                                      CRONTAB to false  expression (311) not CRONTAB
+1 We set var                                         FLASH_LOCK from                                                   FLASH_LOCK to true  expression (312) FLASH_LOCK
+2 We set var                                              BRCTL from                                                        BRCTL to false  expression (313) not BRCTL
+2 We set var                                               LAST from                                                         LAST to false  expression (314) not LAST
+2 We set var                                 FEATURE_HTTPD_GZIP from                                           FEATURE_HTTPD_GZIP to false  expression (315) not FEATURE_HTTPD_GZIP
+2 We set var          FEATURE_MODPROBE_SMALL_OPTIONS_ON_CMDLINE from                    FEATURE_MODPROBE_SMALL_OPTIONS_ON_CMDLINE to false  expression (316) not FEATURE_MODPROBE_SMALL_OPTIONS_ON_CMDLINE
+1 We set var                     CROSS_COMPILER_PREFIX_EQ_EMPTY from                               CROSS_COMPILER_PREFIX_EQ_EMPTY to true  expression (317) CROSS_COMPILER_PREFIX_EQ_EMPTY
+1 We set var                                                 WC from                                                           WC to true  expression (318) WC
+1 We set var                                             GETOPT from                                                       GETOPT to true  expression (319) GETOPT
+1 We set var                                                PAM from                                                          PAM to true  expression (320) PAM
+2 We set var                                FEATURE_STAT_FORMAT from                                          FEATURE_STAT_FORMAT to false  expression (321) not FEATURE_STAT_FORMAT
+2 We set var                                        MKFS_REISER from                                                  MKFS_REISER to false  expression (322) not MKFS_REISER
+2 We set var                               FEATURE_LS_SORTFILES from                                         FEATURE_LS_SORTFILES to false  expression (323) not FEATURE_LS_SORTFILES
+2 We set var                        FEATURE_HDPARM_GET_IDENTITY from                                  FEATURE_HDPARM_GET_IDENTITY to false  expression (324) not FEATURE_HDPARM_GET_IDENTITY
+1 We set var                                              CHMOD from                                                        CHMOD to true  expression (325) CHMOD
+1 We set var             SV_DEFAULT_SERVICE_DIR_EQ_/var/service from                       SV_DEFAULT_SERVICE_DIR_EQ_/var/service to true  expression (326) SV_DEFAULT_SERVICE_DIR_EQ_/var/service
+2 We set var                                 FEATURE_LAST_SMALL from                                           FEATURE_LAST_SMALL to false  expression (327) not FEATURE_LAST_SMALL
+1 We set var                        FEATURE_POPMAILDIR_DELIVERY from                                  FEATURE_POPMAILDIR_DELIVERY to true  expression (328) FEATURE_POPMAILDIR_DELIVERY
+2 We set var                                          UNIT_TEST from                                                    UNIT_TEST to false  expression (329) not UNIT_TEST
+1 We set var                                       USE_BB_CRYPT from                                                 USE_BB_CRYPT to true  expression (330) USE_BB_CRYPT
+2 We set var                              FEATURE_MAKEDEVS_LEAF from                                        FEATURE_MAKEDEVS_LEAF to false  expression (331) not FEATURE_MAKEDEVS_LEAF
+2 We set var                                              TFTPD from                                                        TFTPD to false  expression (332) not TFTPD
+1 We set var                                           REALPATH from                                                     REALPATH to true  expression (333) REALPATH
+2 We set var                                   FEATURE_WC_LARGE from                                             FEATURE_WC_LARGE to false  expression (334) not FEATURE_WC_LARGE
+2 We set var                            FEATURE_EDITING_HISTORY from                                      FEATURE_EDITING_HISTORY to false  expression (335) not FEATURE_EDITING_HISTORY
+2 We set var                                               UNIQ from                                                         UNIQ to false  expression (336) not UNIQ
+1 We set var                                     PLATFORM_LINUX from                                               PLATFORM_LINUX to true  expression (337) PLATFORM_LINUX
+2 We set var                                    FEATURE_PS_TIME from                                              FEATURE_PS_TIME to false  expression (338) not FEATURE_PS_TIME
+1 We set var                                            HWCLOCK from                                                      HWCLOCK to true  expression (339) HWCLOCK
+2 We set var                              FEATURE_KLOGD_KLOGCTL from                                        FEATURE_KLOGD_KLOGCTL to false  expression (340) not FEATURE_KLOGD_KLOGCTL
+2 We set var                          FEATURE_COMPRESS_BBCONFIG from                                    FEATURE_COMPRESS_BBCONFIG to false  expression (341) not FEATURE_COMPRESS_BBCONFIG
+1 We set var                                              DMESG from                                                        DMESG to true  expression (342) DMESG
+2 We set var                                                 MT from                                                           MT to false  expression (343) not MT
+1 We set var                                              MKNOD from                                                        MKNOD to true  expression (344) MKNOD
+2 We set var                                         MOUNTPOINT from                                                   MOUNTPOINT to false  expression (345) not MOUNTPOINT
+1 We set var                                         SETCONSOLE from                                                   SETCONSOLE to true  expression (346) SETCONSOLE
+2 We set var                                            KILLALL from                                                      KILLALL to false  expression (347) not KILLALL
+1 We set var                    FEATURE_LSMOD_PRETTY_2_6_OUTPUT from                              FEATURE_LSMOD_PRETTY_2_6_OUTPUT to true  expression (348) FEATURE_LSMOD_PRETTY_2_6_OUTPUT
+1 We set var                               FEATURE_RUNSVDIR_LOG from                                         FEATURE_RUNSVDIR_LOG to true  expression (349) FEATURE_RUNSVDIR_LOG
+2 We set var                                              SLEEP from                                                        SLEEP to false  expression (350) not SLEEP
+1 We set var                                             WERROR from                                                       WERROR to true  expression (351) WERROR
+2 We set var                       FEATURE_EDITING_SAVE_ON_EXIT from                                 FEATURE_EDITING_SAVE_ON_EXIT to false  expression (352) not FEATURE_EDITING_SAVE_ON_EXIT
+2 We set var                     FEATURE_IFUPDOWN_EXTERNAL_DHCP from                               FEATURE_IFUPDOWN_EXTERNAL_DHCP to false  expression (353) not FEATURE_IFUPDOWN_EXTERNAL_DHCP
+2 We set var                                FEATURE_GETOPT_LONG from                                          FEATURE_GETOPT_LONG to false  expression (354) not FEATURE_GETOPT_LONG
+2 We set var             FEATURE_START_STOP_DAEMON_LONG_OPTIONS from                       FEATURE_START_STOP_DAEMON_LONG_OPTIONS to false  expression (355) not FEATURE_START_STOP_DAEMON_LONG_OPTIONS
+1 We set var                              FEATURE_LOADFONT_PSF2 from                                        FEATURE_LOADFONT_PSF2 to true  expression (356) FEATURE_LOADFONT_PSF2
+1 We set var                                           LOADKMAP from                                                     LOADKMAP to true  expression (357) LOADKMAP
+1 We set var                                            INSTALL from                                                      INSTALL to true  expression (358) INSTALL
+1 We set var                                              FUSER from                                                        FUSER to true  expression (359) FUSER
+2 We set var                                FEATURE_MOUNT_LABEL from                                          FEATURE_MOUNT_LABEL to false  expression (360) not FEATURE_MOUNT_LABEL
+1 We set var                                            SELINUX from                                                      SELINUX to true  expression (361) SELINUX
+2 We set var                            FEATURE_INSMOD_LOAD_MAP from                                      FEATURE_INSMOD_LOAD_MAP to false  expression (362) not FEATURE_INSMOD_LOAD_MAP
+2 We set var                                  FEATURE_INSTALLER from                                            FEATURE_INSTALLER to false  expression (363) not FEATURE_INSTALLER
+2 We set var                         FEATURE_PRESERVE_HARDLINKS from                                   FEATURE_PRESERVE_HARDLINKS to false  expression (364) not FEATURE_PRESERVE_HARDLINKS
+2 We set var                                FEATURE_FBSET_FANCY from                                          FEATURE_FBSET_FANCY to false  expression (365) not FEATURE_FBSET_FANCY
+2 We set var                                           CHPASSWD from                                                     CHPASSWD to false  expression (366) not CHPASSWD
+2 We set var                                              VLOCK from                                                        VLOCK to false  expression (367) not VLOCK
+2 We set var                            FEATURE_SH_HISTFILESIZE from                                      FEATURE_SH_HISTFILESIZE to false  expression (368) not FEATURE_SH_HISTFILESIZE
+2 We set var                                              KLOGD from                                                        KLOGD to false  expression (369) not KLOGD
+2 We set var                         FEATURE_TELNETD_INETD_WAIT from                                   FEATURE_TELNETD_INETD_WAIT to false  expression (370) not FEATURE_TELNETD_INETD_WAIT
+2 We set var                                                 HD from                                                           HD to false  expression (371) not HD
+2 We set var                              FEATURE_MOUNT_HELPERS from                                        FEATURE_MOUNT_HELPERS to false  expression (372) not FEATURE_MOUNT_HELPERS
+1 We set var                                         ETHER_WAKE from                                                   ETHER_WAKE to true  expression (373) ETHER_WAKE
+2 We set var                                             INSMOD from                                                       INSMOD to false  expression (374) not INSMOD
+1 We set var                        FEATURE_WGET_AUTHENTICATION from                                  FEATURE_WGET_AUTHENTICATION to true  expression (375) FEATURE_WGET_AUTHENTICATION
+1 We set var                                             MKSWAP from                                                       MKSWAP to true  expression (376) MKSWAP
+1 We set var                                           KBD_MODE from                                                     KBD_MODE to true  expression (377) KBD_MODE
+1 We set var                                             RENICE from                                                       RENICE to true  expression (378) RENICE
+2 We set var                                             CHATTR from                                                       CHATTR to false  expression (379) not CHATTR
+1 We set var                                            NETSTAT from                                                      NETSTAT to true  expression (380) NETSTAT
+2 We set var               FEATURE_HTTPD_SET_REMOTE_PORT_TO_ENV from                         FEATURE_HTTPD_SET_REMOTE_PORT_TO_ENV to false  expression (381) not FEATURE_HTTPD_SET_REMOTE_PORT_TO_ENV
+1 We set var                                                 OD from                                                           OD to true  expression (382) OD
+1 We set var                         INSTALL_SH_APPLET_HARDLINK from                                   INSTALL_SH_APPLET_HARDLINK to true  expression (383) INSTALL_SH_APPLET_HARDLINK
+2 We set var                        FEATURE_USERNAME_COMPLETION from                                  FEATURE_USERNAME_COMPLETION to false  expression (384) not FEATURE_USERNAME_COMPLETION
+2 We set var                         FEATURE_UDHCPC_SANITIZEOPT from                                   FEATURE_UDHCPC_SANITIZEOPT to false  expression (385) not FEATURE_UDHCPC_SANITIZEOPT
+1 We set var                                            RTCWAKE from                                                      RTCWAKE to true  expression (386) RTCWAKE
+1 We set var                                                TTY from                                                          TTY to true  expression (387) TTY
+2 We set var                                FEATURE_LS_USERNAME from                                          FEATURE_LS_USERNAME to false  expression (388) not FEATURE_LS_USERNAME
+1 We set var                                                 DU from                                                           DU to true  expression (389) DU
+1 We set var                       FEATURE_HWCLOCK_LONG_OPTIONS from                                 FEATURE_HWCLOCK_LONG_OPTIONS to true  expression (390) FEATURE_HWCLOCK_LONG_OPTIONS
+1 We set var                                                PWD from                                                          PWD to true  expression (391) PWD
+1 We set var                                      INCLUDE_SUSv2 from                                                INCLUDE_SUSv2 to true  expression (392) INCLUDE_SUSv2
+2 We set var                    FEATURE_DU_DEFAULT_BLOCKSIZE_1K from                              FEATURE_DU_DEFAULT_BLOCKSIZE_1K to false  expression (393) not FEATURE_DU_DEFAULT_BLOCKSIZE_1K
+2 We set var                                             DEVMEM from                                                       DEVMEM to false  expression (394) not DEVMEM
+2 We set var                                               COMM from                                                         COMM to false  expression (395) not COMM
+1 We set var                                             HDPARM from                                                       HDPARM to true  expression (396) HDPARM
+2 We set var                                  FEATURE_INETD_RPC from                                            FEATURE_INETD_RPC to false  expression (397) not FEATURE_INETD_RPC
+2 We set var                       FEATURE_HTTPD_ENCODE_URL_STR from                                 FEATURE_HTTPD_ENCODE_URL_STR to false  expression (398) not FEATURE_HTTPD_ENCODE_URL_STR
+2 We set var                            FEATURE_CP_LONG_OPTIONS from                                      FEATURE_CP_LONG_OPTIONS to false  expression (399) not FEATURE_CP_LONG_OPTIONS
+2 We set var                                            TUNE2FS from                                                      TUNE2FS to false  expression (400) not TUNE2FS
+2 We set var                            FEATURE_IFCONFIG_STATUS from                                      FEATURE_IFCONFIG_STATUS to false  expression (401) not FEATURE_IFCONFIG_STATUS
+2 We set var                                  FEATURE_SGI_LABEL from                                            FEATURE_SGI_LABEL to false  expression (402) not FEATURE_SGI_LABEL
+1 We set var                                          SHA256SUM from                                                    SHA256SUM to true  expression (403) SHA256SUM
+1 We set var                                               CHVT from                                                         CHVT to true  expression (404) CHVT
+2 We set var                             FEATURE_HTTPD_AUTH_MD5 from                                       FEATURE_HTTPD_AUTH_MD5 to false  expression (405) not FEATURE_HTTPD_AUTH_MD5
+2 We set var                                              FLOCK from                                                        FLOCK to false  expression (406) not FLOCK
+2 We set var                                 FEATURE_MOUNT_CIFS from                                           FEATURE_MOUNT_CIFS to false  expression (407) not FEATURE_MOUNT_CIFS
+2 We set var                                     FEATURE_MINIX2 from                                               FEATURE_MINIX2 to false  expression (408) not FEATURE_MINIX2
+1 We set var                                     FEATURE_DEVPTS from                                               FEATURE_DEVPTS to true  expression (409) FEATURE_DEVPTS
+2 We set var                             FEATURE_FDISK_ADVANCED from                                       FEATURE_FDISK_ADVANCED to false  expression (410) not FEATURE_FDISK_ADVANCED
+1 We set var                                            DELUSER from                                                      DELUSER to true  expression (411) DELUSER
+1 We set var                                              LSMOD from                                                        LSMOD to true  expression (412) LSMOD
+2 We set var                       FEATURE_EDITING_ASK_TERMINAL from                                 FEATURE_EDITING_ASK_TERMINAL to false  expression (413) not FEATURE_EDITING_ASK_TERMINAL
+2 We set var                                                 DC from                                                           DC to false  expression (414) not DC
+1 We set var                                              FBSET from                                                        FBSET to true  expression (415) FBSET
+2 We set var                       FEATURE_INSMOD_LOAD_MAP_FULL from                                 FEATURE_INSMOD_LOAD_MAP_FULL to false  expression (416) not FEATURE_INSMOD_LOAD_MAP_FULL
+2 We set var                                            SHA3SUM from                                                      SHA3SUM to false  expression (417) not SHA3SUM
+1 We set var                                         FSCK_MINIX from                                                   FSCK_MINIX to true  expression (418) FSCK_MINIX
+2 We set var                              FEATURE_UDHCP_RFC3397 from                                        FEATURE_UDHCP_RFC3397 to false  expression (419) not FEATURE_UDHCP_RFC3397
+1 We set var                                         MKFS_MINIX from                                                   MKFS_MINIX to true  expression (420) MKFS_MINIX
+1 We set var                                          DEALLOCVT from                                                    DEALLOCVT to true  expression (421) DEALLOCVT
+2 We set var                               FEATURE_HTTPD_SETUID from                                         FEATURE_HTTPD_SETUID to false  expression (422) not FEATURE_HTTPD_SETUID
+2 We set var                        FEATURE_DEL_USER_FROM_GROUP from                                  FEATURE_DEL_USER_FROM_GROUP to false  expression (423) not FEATURE_DEL_USER_FROM_GROUP
+2 We set var                             FEATURE_COMPRESS_USAGE from                                       FEATURE_COMPRESS_USAGE to false  expression (424) not FEATURE_COMPRESS_USAGE
+2 We set var                                FEATURE_CHECK_NAMES from                                          FEATURE_CHECK_NAMES to false  expression (425) not FEATURE_CHECK_NAMES
+2 We set var                                                 RM from                                                           RM to false  expression (426) not RM
+2 We set var                                                 LN from                                                           LN to false  expression (427) not LN
+1 We set var            FEATURE_DEFAULT_PASSWD_ALGO_EQ_OTHERVAL from                      FEATURE_DEFAULT_PASSWD_ALGO_EQ_OTHERVAL to true  expression (428) FEATURE_DEFAULT_PASSWD_ALGO_EQ_OTHERVAL
+2 We set var                                FEATURE_NTPD_SERVER from                                          FEATURE_NTPD_SERVER to false  expression (429) not FEATURE_NTPD_SERVER
+2 We set var                               FEATURE_LOADFONT_RAW from                                         FEATURE_LOADFONT_RAW to false  expression (430) not FEATURE_LOADFONT_RAW
+2 We set var                                 FEATURE_EDITING_VI from                                           FEATURE_EDITING_VI to false  expression (431) not FEATURE_EDITING_VI
+2 We set var                                            SHOWKEY from                                                      SHOWKEY to false  expression (432) not SHOWKEY
+2 We set var                                  FEATURE_GPT_LABEL from                                            FEATURE_GPT_LABEL to false  expression (433) not FEATURE_GPT_LABEL
+1 We set var                                           MODPROBE from                                                     MODPROBE to true  expression (434) MODPROBE
+2 We set var                                                CUT from                                                          CUT to false  expression (435) not CUT
+2 We set var                            FEATURE_RUN_PARTS_FANCY from                                      FEATURE_RUN_PARTS_FANCY to false  expression (436) not FEATURE_RUN_PARTS_FANCY
+2 We set var                       FEATURE_CHECK_UNICODE_IN_ENV from                                 FEATURE_CHECK_UNICODE_IN_ENV to false  expression (437) not FEATURE_CHECK_UNICODE_IN_ENV
+2 We set var                          FDISK_SUPPORT_LARGE_DISKS from                                    FDISK_SUPPORT_LARGE_DISKS to false  expression (438) not FDISK_SUPPORT_LARGE_DISKS
+2 We set var                              FEATURE_MOUNT_VERBOSE from                                        FEATURE_MOUNT_VERBOSE to false  expression (439) not FEATURE_MOUNT_VERBOSE
+1 We set var                                                LPR from                                                          LPR to true  expression (440) LPR
+1 We set var                                          SETUIDGID from                                                    SETUIDGID to true  expression (441) SETUIDGID
+2 We set var                             LOGIN_SESSION_AS_CHILD from                                       LOGIN_SESSION_AS_CHILD to false  expression (442) not LOGIN_SESSION_AS_CHILD
+2 We set var                                 FEATURE_FANCY_HEAD from                                           FEATURE_FANCY_HEAD to false  expression (443) not FEATURE_FANCY_HEAD
+2 We set var                               FEATURE_NETSTAT_WIDE from                                         FEATURE_NETSTAT_WIDE to false  expression (444) not FEATURE_NETSTAT_WIDE
+1 We set var                                             MD5SUM from                                                       MD5SUM to true  expression (445) MD5SUM
+2 We set var                              FEATURE_SEAMLESS_LZMA from                                        FEATURE_SEAMLESS_LZMA to false  expression (446) not FEATURE_SEAMLESS_LZMA
+1 We set var                                              FALSE from                                                        FALSE to true  expression (447) FALSE
+1 We set var                                              LOGIN from                                                        LOGIN to true  expression (448) LOGIN
+1 We set var                                       SCRIPTREPLAY from                                                 SCRIPTREPLAY to true  expression (449) SCRIPTREPLAY
+1 We set var                                          GETSEBOOL from                                                    GETSEBOOL to true  expression (450) GETSEBOOL
+2 We set var                                             IPLINK from                                                       IPLINK to false  expression (451) not IPLINK
+1 We set var                                SYSROOT_EQ_OTHERVAL from                                          SYSROOT_EQ_OTHERVAL to true  expression (452) SYSROOT_EQ_OTHERVAL
+2 We set var                                         SHOW_USAGE from                                                   SHOW_USAGE to false  expression (453) not SHOW_USAGE
+2 We set var                               FEATURE_PIDOF_SINGLE from                                         FEATURE_PIDOF_SINGLE to false  expression (454) not FEATURE_PIDOF_SINGLE
+1 We set var                                     FEATURE_SYSLOG from                                               FEATURE_SYSLOG to true  expression (455) FEATURE_SYSLOG
+2 We set var                                 FEATURE_IP_ADDRESS from                                           FEATURE_IP_ADDRESS to false  expression (456) not FEATURE_IP_ADDRESS
+2 We set var                                           MAKEDEVS from                                                     MAKEDEVS to false  expression (457) not MAKEDEVS
+1 We set var                              FEATURE_SHADOWPASSWDS from                                        FEATURE_SHADOWPASSWDS to true  expression (458) FEATURE_SHADOWPASSWDS
+2 We set var                    FEATURE_INSMOD_KSYMOOPS_SYMBOLS from                              FEATURE_INSMOD_KSYMOOPS_SYMBOLS to false  expression (459) not FEATURE_INSMOD_KSYMOOPS_SYMBOLS
+1 We set var                                           PRINTENV from                                                     PRINTENV to true  expression (460) PRINTENV
+1 We set var                        FEATURE_EXPAND_LONG_OPTIONS from                                  FEATURE_EXPAND_LONG_OPTIONS to true  expression (461) FEATURE_EXPAND_LONG_OPTIONS
+1 We set var                                            SETARCH from                                                      SETARCH to true  expression (462) SETARCH
+1 We set var                                           DELGROUP from                                                     DELGROUP to true  expression (463) DELGROUP
+2 We set var                              FEATURE_IFCONFIG_SLIP from                                        FEATURE_IFCONFIG_SLIP to false  expression (464) not FEATURE_IFCONFIG_SLIP
+2 We set var                          FEATURE_CHAT_SEND_ESCAPES from                                    FEATURE_CHAT_SEND_ESCAPES to false  expression (465) not FEATURE_CHAT_SEND_ESCAPES
+1 We set var                        FEATURE_HWCLOCK_ADJTIME_FHS from                                  FEATURE_HWCLOCK_ADJTIME_FHS to true  expression (466) FEATURE_HWCLOCK_ADJTIME_FHS
+2 We set var                             FEATURE_CHAT_CLR_ABORT from                                       FEATURE_CHAT_CLR_ABORT to false  expression (467) not FEATURE_CHAT_CLR_ABORT
+2 We set var                                    FEATURE_NOLOGIN from                                              FEATURE_NOLOGIN to false  expression (468) not FEATURE_NOLOGIN
+2 We set var                                            LOGREAD from                                                      LOGREAD to false  expression (469) not LOGREAD
+2 We set var                               UNICODE_USING_LOCALE from                                         UNICODE_USING_LOCALE to false  expression (470) not UNICODE_USING_LOCALE
+2 We set var                             FEATURE_SHARED_BUSYBOX from                                       FEATURE_SHARED_BUSYBOX to false  expression (471) not FEATURE_SHARED_BUSYBOX
+2 We set var                                     DEVFSD_MODLOAD from                                               DEVFSD_MODLOAD to false  expression (472) not DEVFSD_MODLOAD
+1 We set var                                             DEVFSD from                                                       DEVFSD to true  expression (473) DEVFSD
+2 We set var                                  FEATURE_NTPD_CONF from                                            FEATURE_NTPD_CONF to false  expression (474) not FEATURE_NTPD_CONF
+1 We set var                                     SELINUXENABLED from                                               SELINUXENABLED to true  expression (475) SELINUXENABLED
+2 We set var                                              FSYNC from                                                        FSYNC to false  expression (476) not FSYNC
+2 We set var                                IOCTL_HEX2STR_ERROR from                                          IOCTL_HEX2STR_ERROR to false  expression (477) not IOCTL_HEX2STR_ERROR
+2 We set var                     FEATURE_RUN_PARTS_LONG_OPTIONS from                               FEATURE_RUN_PARTS_LONG_OPTIONS to false  expression (478) not FEATURE_RUN_PARTS_LONG_OPTIONS
+1 We set var                                               ECHO from                                                         ECHO to true  expression (479) ECHO
+1 We set var                                               ZCIP from                                                         ZCIP to true  expression (480) ZCIP
+1 We set var                                            TELNETD from                                                      TELNETD to true  expression (481) TELNETD
+1 We set var                                            FLASHCP from                                                      FLASHCP to true  expression (482) FLASHCP
+2 We set var                                               TRUE from                                                         TRUE to false  expression (483) not TRUE
+2 We set var                              IFUPDOWN_IFSTATE_PATH from                                        IFUPDOWN_IFSTATE_PATH to false  expression (484) not IFUPDOWN_IFSTATE_PATH
+2 We set var                                               RDEV from                                                         RDEV to false  expression (485) not RDEV
+1 We set var                                               FSCK from                                                         FSCK to true  expression (486) FSCK
+1 We set var                               FEATURE_ETC_NETWORKS from                                         FEATURE_ETC_NETWORKS to true  expression (487) FEATURE_ETC_NETWORKS
+2 We set var                             FEATURE_SWAPON_DISCARD from                                       FEATURE_SWAPON_DISCARD to false  expression (488) not FEATURE_SWAPON_DISCARD
+1 We set var                                             DEPMOD from                                                       DEPMOD to true  expression (489) DEPMOD
+2 We set var                                              CHGRP from                                                        CHGRP to false  expression (490) not CHGRP
+1 We set var                                     USE_BB_PWD_GRP from                                               USE_BB_PWD_GRP to true  expression (491) USE_BB_PWD_GRP
+1 We set var                                          MKFS_VFAT from                                                    MKFS_VFAT to true  expression (492) MKFS_VFAT
+1 We set var                                FEATURE_2_4_MODULES from                                          FEATURE_2_4_MODULES to true  expression (493) FEATURE_2_4_MODULES
+2 We set var                    FEATURE_START_STOP_DAEMON_FANCY from                              FEATURE_START_STOP_DAEMON_FANCY to false  expression (494) not FEATURE_START_STOP_DAEMON_FANCY
+2 We set var                         FEATURE_RMDIR_LONG_OPTIONS from                                   FEATURE_RMDIR_LONG_OPTIONS to false  expression (495) not FEATURE_RMDIR_LONG_OPTIONS
+1 We set var                      FEATURE_UDHCPD_BASE_IP_ON_MAC from                                FEATURE_UDHCPD_BASE_IP_ON_MAC to true  expression (496) FEATURE_UDHCPD_BASE_IP_ON_MAC
+2 We set var                                            LAST_ID from                                                      LAST_ID to false  expression (497) not LAST_ID
+1 We set var                                             EXPAND from                                                       EXPAND to true  expression (498) EXPAND
+2 We set var                                          ENVUIDGID from                                                    ENVUIDGID to false  expression (499) not ENVUIDGID
+1 We set var                                 FEATURE_DD_IBS_OBS from                                           FEATURE_DD_IBS_OBS to true  expression (500) FEATURE_DD_IBS_OBS
+1 We set var                             FEATURE_FBSET_READMODE from                                       FEATURE_FBSET_READMODE to true  expression (501) FEATURE_FBSET_READMODE
+2 We set var           FEATURE_HTTPD_CONFIG_WITH_SCRIPT_INTERPR from                     FEATURE_HTTPD_CONFIG_WITH_SCRIPT_INTERPR to false  expression (502) not FEATURE_HTTPD_CONFIG_WITH_SCRIPT_INTERPR
+1 We set var                                 FEATURE_SEAMLESS_Z from                                           FEATURE_SEAMLESS_Z to true  expression (503) FEATURE_SEAMLESS_Z
+2 We set var                                           ADDGROUP from                                                     ADDGROUP to false  expression (504) not ADDGROUP
+1 We set var                                                 DD from                                                           DD to true  expression (505) DD
+2 We set var                                              RMDIR from                                                        RMDIR to false  expression (506) not RMDIR
+1 We set var                                                LPQ from                                                          LPQ to true  expression (507) LPQ
+2 We set var                             FEATURE_BEEP_LENGTH_MS from                                       FEATURE_BEEP_LENGTH_MS to false  expression (508) not FEATURE_BEEP_LENGTH_MS
+2 We set var                                     MODPROBE_SMALL from                                               MODPROBE_SMALL to false  expression (509) not MODPROBE_SMALL
+2 We set var                              FEATURE_UDHCPC_ARPING from                                        FEATURE_UDHCPC_ARPING to false  expression (510) not FEATURE_UDHCPC_ARPING
+2 We set var                             FEATURE_REVERSE_SEARCH from                                       FEATURE_REVERSE_SEARCH to false  expression (511) not FEATURE_REVERSE_SEARCH
+2 We set var              FEATURE_INETD_SUPPORT_BUILTIN_DISCARD from                        FEATURE_INETD_SUPPORT_BUILTIN_DISCARD to false  expression (512) not FEATURE_INETD_SUPPORT_BUILTIN_DISCARD
+1 We set var                                              PSCAN from                                                        PSCAN to true  expression (513) PSCAN
+2 We set var                           INSTALL_APPLET_HARDLINKS from                                     INSTALL_APPLET_HARDLINKS to false  expression (514) not INSTALL_APPLET_HARDLINKS
+1 We set var                                          SOFTLIMIT from                                                    SOFTLIMIT to true  expression (515) SOFTLIMIT
+2 We set var                         FEATURE_DD_SIGNAL_HANDLING from                                   FEATURE_DD_SIGNAL_HANDLING to false  expression (516) not FEATURE_DD_SIGNAL_HANDLING
+2 We set var                                 FEATURE_UMOUNT_ALL from                                           FEATURE_UMOUNT_ALL to false  expression (517) not FEATURE_UMOUNT_ALL
+1 We set var                                           UUENCODE from                                                     UUENCODE to true  expression (518) UUENCODE
+2 We set var                                          MKFS_EXT2 from                                                    MKFS_EXT2 to false  expression (519) not MKFS_EXT2
+2 We set var                                             TUNCTL from                                                       TUNCTL to false  expression (520) not TUNCTL
+2 We set var                                 FEATURE_PIDOF_OMIT from                                           FEATURE_PIDOF_OMIT to false  expression (521) not FEATURE_PIDOF_OMIT
+2 We set var                                  FEATURE_OSF_LABEL from                                            FEATURE_OSF_LABEL to false  expression (522) not FEATURE_OSF_LABEL
+1 We set var                     INSTALL_APPLET_SCRIPT_WRAPPERS from                               INSTALL_APPLET_SCRIPT_WRAPPERS to true  expression (523) INSTALL_APPLET_SCRIPT_WRAPPERS
+2 We set var                                     LAST_SYSTEM_ID from                                               LAST_SYSTEM_ID to false  expression (524) not LAST_SYSTEM_ID
+2 We set var                          FEATURE_CHAT_SWALLOW_OPTS from                                    FEATURE_CHAT_SWALLOW_OPTS to false  expression (525) not FEATURE_CHAT_SWALLOW_OPTS
+2 We set var                                   FEATURE_FAST_TOP from                                             FEATURE_FAST_TOP to false  expression (526) not FEATURE_FAST_TOP
+2 We set var                                           NSLOOKUP from                                                     NSLOOKUP to false  expression (527) not NSLOOKUP
+1 We set var                               FEATURE_BASH_IS_NONE from                                         FEATURE_BASH_IS_NONE to true  expression (528) FEATURE_BASH_IS_NONE
+2 We set var                     FEATURE_FTPGETPUT_LONG_OPTIONS from                               FEATURE_FTPGETPUT_LONG_OPTIONS to false  expression (529) not FEATURE_FTPGETPUT_LONG_OPTIONS
+2 We set var                                 FEATURE_INDIVIDUAL from                                           FEATURE_INDIVIDUAL to false  expression (530) not FEATURE_INDIVIDUAL
+2 We set var                      FEATURE_PS_ADDITIONAL_COLUMNS from                                FEATURE_PS_ADDITIONAL_COLUMNS to false  expression (531) not FEATURE_PS_ADDITIONAL_COLUMNS
+2 We set var                                              PIDOF from                                                        PIDOF to false  expression (532) not PIDOF
+2 We set var                                              CHOWN from                                                        CHOWN to false  expression (533) not CHOWN
+1 We set var                                             CHROOT from                                                       CHROOT to true  expression (534) CHROOT
+1 We set var                                            CRYPTPW from                                                      CRYPTPW to true  expression (535) CRYPTPW
+2 We set var                         FEATURE_FTP_AUTHENTICATION from                                   FEATURE_FTP_AUTHENTICATION to false  expression (536) not FEATURE_FTP_AUTHENTICATION
+2 We set var                                     FLASH_ERASEALL from                                               FLASH_ERASEALL to false  expression (537) not FLASH_ERASEALL
+1 We set var                                FEATURE_SKIP_ROOTFS from                                          FEATURE_SKIP_ROOTFS to true  expression (538) FEATURE_SKIP_ROOTFS
+2 We set var                           FEATURE_SU_CHECKS_SHELLS from                                     FEATURE_SU_CHECKS_SHELLS to false  expression (539) not FEATURE_SU_CHECKS_SHELLS
+2 We set var                    FEATURE_IFCONFIG_BROADCAST_PLUS from                              FEATURE_IFCONFIG_BROADCAST_PLUS to false  expression (540) not FEATURE_IFCONFIG_BROADCAST_PLUS
+2 We set var                      FEATURE_HDPARM_HDIO_SCAN_HWIF from                                FEATURE_HDPARM_HDIO_SCAN_HWIF to false  expression (541) not FEATURE_HDPARM_HDIO_SCAN_HWIF
+1 We set var                                     DEVFSD_VERBOSE from                                               DEVFSD_VERBOSE to true  expression (542) DEVFSD_VERBOSE
+2 We set var                                         PIVOT_ROOT from                                                   PIVOT_ROOT to false  expression (543) not PIVOT_ROOT
+2 We set var                              FEATURE_IFUPDOWN_IPV6 from                                        FEATURE_IFUPDOWN_IPV6 to false  expression (544) not FEATURE_IFUPDOWN_IPV6
+2 We set var                           FEATURE_ADDUSER_TO_GROUP from                                     FEATURE_ADDUSER_TO_GROUP to false  expression (545) not FEATURE_ADDUSER_TO_GROUP
+2 We set var                           FEATURE_MODUTILS_SYMBOLS from                                     FEATURE_MODUTILS_SYMBOLS to false  expression (546) not FEATURE_MODUTILS_SYMBOLS
+2 We set var                                   FEATURE_LS_COLOR from                                             FEATURE_LS_COLOR to false  expression (547) not FEATURE_LS_COLOR
+2 We set var                            INSTALL_APPLET_SYMLINKS from                                      INSTALL_APPLET_SYMLINKS to false  expression (548) not INSTALL_APPLET_SYMLINKS
+1 We set var                                                 SU from                                                           SU to true  expression (549) SU
+2 We set var                     FEATURE_HDPARM_HDIO_GETSET_DMA from                               FEATURE_HDPARM_HDIO_GETSET_DMA to false  expression (550) not FEATURE_HDPARM_HDIO_GETSET_DMA
+2 We set var                              UNICODE_NEUTRAL_TABLE from                                        UNICODE_NEUTRAL_TABLE to false  expression (551) not UNICODE_NEUTRAL_TABLE
+2 We set var                                  MONOTONIC_SYSCALL from                                            MONOTONIC_SYSCALL to false  expression (552) not MONOTONIC_SYSCALL
+1 We set var                                         DUMPLEASES from                                                   DUMPLEASES to true  expression (553) DUMPLEASES
+2 We set var                         FEATURE_TRACEROUTE_VERBOSE from                                   FEATURE_TRACEROUTE_VERBOSE to false  expression (554) not FEATURE_TRACEROUTE_VERBOSE
+2 We set var                                              RUNSV from                                                        RUNSV to false  expression (555) not RUNSV
+2 We set var                                  FEATURE_AIX_LABEL from                                            FEATURE_AIX_LABEL to false  expression (556) not FEATURE_AIX_LABEL
+1 We set var                                           HOSTNAME from                                                     HOSTNAME to true  expression (557) HOSTNAME
+2 We set var                                              ROUTE from                                                        ROUTE to false  expression (558) not ROUTE
+1 We set var                                      USE_BB_SHADOW from                                                USE_BB_SHADOW to true  expression (559) USE_BB_SHADOW
+2 We set var              FEATURE_INETD_SUPPORT_BUILTIN_DAYTIME from                        FEATURE_INETD_SUPPORT_BUILTIN_DAYTIME to false  expression (560) not FEATURE_INETD_SUPPORT_BUILTIN_DAYTIME
+1 We set var                 FEATURE_INETD_SUPPORT_BUILTIN_ECHO from                           FEATURE_INETD_SUPPORT_BUILTIN_ECHO to true  expression (561) FEATURE_INETD_SUPPORT_BUILTIN_ECHO
+2 We set var                                 FEATURE_IPC_SYSLOG from                                           FEATURE_IPC_SYSLOG to false  expression (562) not FEATURE_IPC_SYSLOG
+2 We set var                  FEATURE_HDPARM_HDIO_TRISTATE_HWIF from                            FEATURE_HDPARM_HDIO_TRISTATE_HWIF to false  expression (563) not FEATURE_HDPARM_HDIO_TRISTATE_HWIF
+1 We set var                                            LOSETUP from                                                      LOSETUP to true  expression (564) LOSETUP
+1 We set var                                FEATURE_MKSWAP_UUID from                                          FEATURE_MKSWAP_UUID to true  expression (565) FEATURE_MKSWAP_UUID
+2 We set var                             FEATURE_SH_EXTRA_QUIET from                                       FEATURE_SH_EXTRA_QUIET to false  expression (566) not FEATURE_SH_EXTRA_QUIET
+2 We set var                         FEATURE_BUFFERS_USE_MALLOC from                                   FEATURE_BUFFERS_USE_MALLOC to false  expression (567) not FEATURE_BUFFERS_USE_MALLOC
+2 We set var                                           MAKEMIME from                                                     MAKEMIME to false  expression (568) not MAKEMIME
+1 We set var              UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_924 from                        UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_924 to true  expression (569) UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_924
+2 We set var                         FEATURE_CHAT_VAR_ABORT_LEN from                                   FEATURE_CHAT_VAR_ABORT_LEN to false  expression (570) not FEATURE_CHAT_VAR_ABORT_LEN
+1 We set var                                              IPCRM from                                                        IPCRM to true  expression (571) IPCRM
+2 We set var                        FEATURE_IFUPDOWN_IP_BUILTIN from                                  FEATURE_IFUPDOWN_IP_BUILTIN to false  expression (572) not FEATURE_IFUPDOWN_IP_BUILTIN
+2 We set var                                FEATURE_SUID_CONFIG from                                          FEATURE_SUID_CONFIG to false  expression (573) not FEATURE_SUID_CONFIG
+2 We set var                                           SETFILES from                                                     SETFILES to false  expression (574) not SETFILES
+1 We set var                               EXPR_MATH_SUPPORT_64 from                                         EXPR_MATH_SUPPORT_64 to true  expression (575) EXPR_MATH_SUPPORT_64
+1 We set var                                    SHA3_SMALL_EQ_1 from                                              SHA3_SMALL_EQ_1 to true  expression (576) SHA3_SMALL_EQ_1
+2 We set var                                   USE_BB_CRYPT_SHA from                                             USE_BB_CRYPT_SHA to false  expression (577) not USE_BB_CRYPT_SHA
+2 We set var                                    FEATURE_VERBOSE from                                              FEATURE_VERBOSE to false  expression (578) not FEATURE_VERBOSE
+1 We set var                                             FINDFS from                                                       FINDFS to true  expression (579) FINDFS
+1 We set var                                          REFORMIME from                                                    REFORMIME to true  expression (580) REFORMIME
+1 We set var                                             WHOAMI from                                                       WHOAMI to true  expression (581) WHOAMI
+1 We set var                                              INETD from                                                        INETD to true  expression (582) INETD
+2 We set var                            FEATURE_HEXDUMP_REVERSE from                                      FEATURE_HEXDUMP_REVERSE to false  expression (583) not FEATURE_HEXDUMP_REVERSE
+2 We set var                                FEATURE_IFCONFIG_HW from                                          FEATURE_IFCONFIG_HW to false  expression (584) not FEATURE_IFCONFIG_HW
+2 We set var                         FEATURE_PS_UNUSUAL_SYSTEMS from                                   FEATURE_PS_UNUSUAL_SYSTEMS to false  expression (585) not FEATURE_PS_UNUSUAL_SYSTEMS
+2 We set var                                FEATURE_KMSG_SYSLOG from                                          FEATURE_KMSG_SYSLOG to false  expression (586) not FEATURE_KMSG_SYSLOG
+1 We set var                             EXTRA_LDFLAGS_EQ_EMPTY from                                       EXTRA_LDFLAGS_EQ_EMPTY to true  expression (587) EXTRA_LDFLAGS_EQ_EMPTY
+1 We set var                                              GETTY from                                                        GETTY to true  expression (588) GETTY
+2 We set var                               FEATURE_DMESG_PRETTY from                                         FEATURE_DMESG_PRETTY to false  expression (589) not FEATURE_DMESG_PRETTY
+2 We set var                                  FEATURE_SH_NOFORK from                                            FEATURE_SH_NOFORK to false  expression (590) not FEATURE_SH_NOFORK
+1 We set var                                             FTPPUT from                                                       FTPPUT to true  expression (591) FTPPUT
+1 We set var                                         SETENFORCE from                                                   SETENFORCE to true  expression (592) SETENFORCE
+1 We set var                                          SWAPONOFF from                                                    SWAPONOFF to true  expression (593) SWAPONOFF
+1 We set var                           EXTRA_LDLIBS_EQ_OTHERVAL from                                     EXTRA_LDLIBS_EQ_OTHERVAL to true  expression (594) EXTRA_LDLIBS_EQ_OTHERVAL
+1 We set var                                                 SV from                                                           SV to true  expression (595) SV
+2 We set var                                 FEATURE_BLKID_TYPE from                                           FEATURE_BLKID_TYPE to false  expression (596) not FEATURE_BLKID_TYPE
+2 We set var                                            IFPLUGD from                                                      IFPLUGD to false  expression (597) not IFPLUGD
+2 We set var                        FEATURE_IPCALC_LONG_OPTIONS from                                  FEATURE_IPCALC_LONG_OPTIONS to false  expression (598) not FEATURE_IPCALC_LONG_OPTIONS
+2 We set var                                               NTPD from                                                         NTPD to false  expression (599) not NTPD
+2 We set var                                              DEBUG from                                                        DEBUG to false  expression (600) not DEBUG
+1 We set var                                          IFENSLAVE from                                                    IFENSLAVE to true  expression (601) IFENSLAVE
+1 We set var                           FEATURE_ENV_LONG_OPTIONS from                                     FEATURE_ENV_LONG_OPTIONS to true  expression (602) FEATURE_ENV_LONG_OPTIONS
+2 We set var                                       FLASH_UNLOCK from                                                 FLASH_UNLOCK to false  expression (603) not FLASH_UNLOCK
+1 We set var                                           UNEXPAND from                                                     UNEXPAND to true  expression (604) UNEXPAND
+2 We set var                                    FEATURE_PS_WIDE from                                              FEATURE_PS_WIDE to false  expression (605) not FEATURE_PS_WIDE
+1 We set var                                              EJECT from                                                        EJECT to true  expression (606) EJECT
+2 We set var                                                PIE from                                                          PIE to false  expression (607) not PIE
+1 We set var                                             SVLOGD from                                                       SVLOGD to true  expression (608) SVLOGD
+2 We set var                           FEATURE_TEE_USE_BLOCK_IO from                                     FEATURE_TEE_USE_BLOCK_IO to false  expression (609) not FEATURE_TEE_USE_BLOCK_IO
+1 We set var                                       EXTRA_COMPAT from                                                 EXTRA_COMPAT to true  expression (610) EXTRA_COMPAT
+1 We set var                                              CHCON from                                                        CHCON to true  expression (611) CHCON
+2 We set var        FEATURE_MODPROBE_SMALL_CHECK_ALREADY_LOADED from                  FEATURE_MODPROBE_SMALL_CHECK_ALREADY_LOADED to false  expression (612) not FEATURE_MODPROBE_SMALL_CHECK_ALREADY_LOADED
+1 We set var                                         POPMAILDIR from                                                   POPMAILDIR to true  expression (613) POPMAILDIR
+2 We set var                                               SORT from                                                         SORT to false  expression (614) not SORT
+2 We set var                                            IPROUTE from                                                      IPROUTE to false  expression (615) not IPROUTE
+1 We set var                                        READPROFILE from                                                  READPROFILE to true  expression (616) READPROFILE
+1 We set var                    FEATURE_INSMOD_VERSION_CHECKING from                              FEATURE_INSMOD_VERSION_CHECKING to true  expression (617) FEATURE_INSMOD_VERSION_CHECKING
+1 We set var                                             TCPSVD from                                                       TCPSVD to true  expression (618) TCPSVD
+2 We set var                             FEATURE_HUMAN_READABLE from                                       FEATURE_HUMAN_READABLE to false  expression (619) not FEATURE_HUMAN_READABLE
+1 We set var                                             UDHCPD from                                                       UDHCPD to true  expression (620) UDHCPD
+2 We set var                                               TIME from                                                         TIME to false  expression (621) not TIME
+2 We set var                         FEATURE_VERBOSE_CP_MESSAGE from                                   FEATURE_VERBOSE_CP_MESSAGE to false  expression (622) not FEATURE_VERBOSE_CP_MESSAGE
+1 We set var                                               STTY from                                                         STTY to true  expression (623) STTY
+1 We set var                                            TTYSIZE from                                                      TTYSIZE to true  expression (624) TTYSIZE
+2 We set var                                          READAHEAD from                                                    READAHEAD to false  expression (625) not READAHEAD
+2 We set var                                            SYSLOGD from                                                      SYSLOGD to false  expression (626) not SYSLOGD
+2 We set var                         FEATURE_CHOWN_LONG_OPTIONS from                                   FEATURE_CHOWN_LONG_OPTIONS to false  expression (627) not FEATURE_CHOWN_LONG_OPTIONS
+2 We set var                                       NO_DEBUG_LIB from                                                 NO_DEBUG_LIB to false  expression (628) not NO_DEBUG_LIB
+2 We set var                                             UDPSVD from                                                       UDPSVD to false  expression (629) not UDPSVD
+2 We set var                               FEATURE_SHOW_THREADS from                                         FEATURE_SHOW_THREADS to false  expression (630) not FEATURE_SHOW_THREADS
+1 We set var                                         GETENFORCE from                                                   GETENFORCE to true  expression (631) GETENFORCE
+2 We set var                                               FREE from                                                         FREE to false  expression (632) not FREE
+1 We set var                    FEATURE_HDPARM_HDIO_DRIVE_RESET from                              FEATURE_HDPARM_HDIO_DRIVE_RESET to true  expression (633) FEATURE_HDPARM_HDIO_DRIVE_RESET
+2 We set var                               FEATURE_IPCALC_FANCY from                                         FEATURE_IPCALC_FANCY to false  expression (634) not FEATURE_IPCALC_FANCY
+2 We set var                                FEATURE_FLOAT_SLEEP from                                          FEATURE_FLOAT_SLEEP to false  expression (635) not FEATURE_FLOAT_SLEEP
+1 We set var                                   FEATURE_DF_FANCY from                                             FEATURE_DF_FANCY to true  expression (636) FEATURE_DF_FANCY
+1 We set var                        FEATURE_PREFER_IPV4_ADDRESS from                                  FEATURE_PREFER_IPV4_ADDRESS to true  expression (637) FEATURE_PREFER_IPV4_ADDRESS
+1 We set var                                             ARPING from                                                       ARPING to true  expression (638) ARPING
+2 We set var                                FEATURE_CHAT_NOFAIL from                                          FEATURE_CHAT_NOFAIL to false  expression (639) not FEATURE_CHAT_NOFAIL
+2 We set var                                              ACPID from                                                        ACPID to false  expression (640) not ACPID
+1 We set var                                  BUSYBOX_EXEC_PATH from                                            BUSYBOX_EXEC_PATH to true  expression (671) BUSYBOX_EXEC_PATH
+1 We set var                              CROSS_COMPILER_PREFIX from                                        CROSS_COMPILER_PREFIX to true  expression (680) CROSS_COMPILER_PREFIX
+1 We set var                                            SYSROOT from                                                      SYSROOT to true  expression (683) SYSROOT
+1 We set var                                       EXTRA_CFLAGS from                                                 EXTRA_CFLAGS to true  expression (686) EXTRA_CFLAGS
+1 We set var                                      EXTRA_LDFLAGS from                                                EXTRA_LDFLAGS to true  expression (689) EXTRA_LDFLAGS
+1 We set var                                       EXTRA_LDLIBS from                                                 EXTRA_LDLIBS to true  expression (692) EXTRA_LDLIBS
+1 We set var                                             PREFIX from                                                       PREFIX to true  expression (699) PREFIX
+1 We set var                                    PASSWORD_MINLEN from                                              PASSWORD_MINLEN to true  expression (702) PASSWORD_MINLEN
+1 We set var                                          MD5_SMALL from                                                    MD5_SMALL to true  expression (710) MD5_SMALL
+1 We set var                                         SHA3_SMALL from                                                   SHA3_SMALL to true  expression (718) SHA3_SMALL
+1 We set var                                 FEATURE_COPYBUF_KB from                                           FEATURE_COPYBUF_KB to true  expression (756) FEATURE_COPYBUF_KB
+1 We set var                                        SUBST_WCHAR from                                                  SUBST_WCHAR to true  expression (641) SUBST_WCHAR
+2 We set var                            SUBST_WCHAR_EQ_OTHERVAL from                                      SUBST_WCHAR_EQ_OTHERVAL to false  expression (644) not SUBST_WCHAR_EQ_OTHERVAL
+1 We set var                               LAST_SUPPORTED_WCHAR from                                         LAST_SUPPORTED_WCHAR to true  expression (645) LAST_SUPPORTED_WCHAR
+2 We set var                   LAST_SUPPORTED_WCHAR_EQ_OTHERVAL from                             LAST_SUPPORTED_WCHAR_EQ_OTHERVAL to false  expression (648) not LAST_SUPPORTED_WCHAR_EQ_OTHERVAL
+1 We set var                                      PID_FILE_PATH from                                                PID_FILE_PATH to true  expression (649) PID_FILE_PATH
+2 We set var                          PID_FILE_PATH_EQ_/var/run from                                    PID_FILE_PATH_EQ_/var/run to false  expression (652) not PID_FILE_PATH_EQ_/var/run
+2 We set var                      BUSYBOX_EXEC_PATH_EQ_OTHERVAL from                                BUSYBOX_EXEC_PATH_EQ_OTHERVAL to false  expression (654) not BUSYBOX_EXEC_PATH_EQ_OTHERVAL
+2 We set var                  CROSS_COMPILER_PREFIX_EQ_OTHERVAL from                            CROSS_COMPILER_PREFIX_EQ_OTHERVAL to false  expression (656) not CROSS_COMPILER_PREFIX_EQ_OTHERVAL
+2 We set var                                   SYSROOT_EQ_EMPTY from                                             SYSROOT_EQ_EMPTY to false  expression (658) not SYSROOT_EQ_EMPTY
+2 We set var                              EXTRA_CFLAGS_EQ_EMPTY from                                        EXTRA_CFLAGS_EQ_EMPTY to false  expression (660) not EXTRA_CFLAGS_EQ_EMPTY
+2 We set var                          EXTRA_LDFLAGS_EQ_OTHERVAL from                                    EXTRA_LDFLAGS_EQ_OTHERVAL to false  expression (662) not EXTRA_LDFLAGS_EQ_OTHERVAL
+2 We set var                              EXTRA_LDLIBS_EQ_EMPTY from                                        EXTRA_LDLIBS_EQ_EMPTY to false  expression (664) not EXTRA_LDLIBS_EQ_EMPTY
+2 We set var                                 PREFIX_EQ_OTHERVAL from                                           PREFIX_EQ_OTHERVAL to false  expression (666) not PREFIX_EQ_OTHERVAL
+2 We set var                              PASSWORD_MINLEN_EQ_32 from                                        PASSWORD_MINLEN_EQ_32 to false  expression (669) not PASSWORD_MINLEN_EQ_32
+2 We set var                               PASSWORD_MINLEN_EQ_5 from                                         PASSWORD_MINLEN_EQ_5 to false  expression (670) not PASSWORD_MINLEN_EQ_5
+2 We set var                        PASSWORD_MINLEN_EQ_OTHERVAL from                                  PASSWORD_MINLEN_EQ_OTHERVAL to false  expression (673) not PASSWORD_MINLEN_EQ_OTHERVAL
+2 We set var                                     MD5_SMALL_EQ_0 from                                               MD5_SMALL_EQ_0 to false  expression (675) not MD5_SMALL_EQ_0
+2 We set var                                     MD5_SMALL_EQ_3 from                                               MD5_SMALL_EQ_3 to false  expression (677) not MD5_SMALL_EQ_3
+2 We set var                              MD5_SMALL_EQ_OTHERVAL from                                        MD5_SMALL_EQ_OTHERVAL to false  expression (679) not MD5_SMALL_EQ_OTHERVAL
+2 We set var                                    SHA3_SMALL_EQ_0 from                                              SHA3_SMALL_EQ_0 to false  expression (682) not SHA3_SMALL_EQ_0
+2 We set var                             SHA3_SMALL_EQ_OTHERVAL from                                       SHA3_SMALL_EQ_OTHERVAL to false  expression (684) not SHA3_SMALL_EQ_OTHERVAL
+2 We set var                    FEATURE_EDITING_MAX_LEN_EQ_1024 from                              FEATURE_EDITING_MAX_LEN_EQ_1024 to false  expression (685) not FEATURE_EDITING_MAX_LEN_EQ_1024
+2 We set var                     FEATURE_EDITING_MAX_LEN_EQ_128 from                               FEATURE_EDITING_MAX_LEN_EQ_128 to false  expression (686) not FEATURE_EDITING_MAX_LEN_EQ_128
+2 We set var                    FEATURE_EDITING_MAX_LEN_EQ_8192 from                              FEATURE_EDITING_MAX_LEN_EQ_8192 to false  expression (687) not FEATURE_EDITING_MAX_LEN_EQ_8192
+2 We set var                FEATURE_EDITING_MAX_LEN_EQ_OTHERVAL from                          FEATURE_EDITING_MAX_LEN_EQ_OTHERVAL to false  expression (688) not FEATURE_EDITING_MAX_LEN_EQ_OTHERVAL
+2 We set var                       FEATURE_EDITING_HISTORY_EQ_0 from                                 FEATURE_EDITING_HISTORY_EQ_0 to false  expression (695) not FEATURE_EDITING_HISTORY_EQ_0
+2 We set var                     FEATURE_EDITING_HISTORY_EQ_255 from                               FEATURE_EDITING_HISTORY_EQ_255 to false  expression (696) not FEATURE_EDITING_HISTORY_EQ_255
+2 We set var                    FEATURE_EDITING_HISTORY_EQ_9999 from                              FEATURE_EDITING_HISTORY_EQ_9999 to false  expression (697) not FEATURE_EDITING_HISTORY_EQ_9999
+2 We set var                FEATURE_EDITING_HISTORY_EQ_OTHERVAL from                          FEATURE_EDITING_HISTORY_EQ_OTHERVAL to false  expression (698) not FEATURE_EDITING_HISTORY_EQ_OTHERVAL
+2 We set var                         FEATURE_COPYBUF_KB_EQ_1024 from                                   FEATURE_COPYBUF_KB_EQ_1024 to false  expression (706) not FEATURE_COPYBUF_KB_EQ_1024
+2 We set var                            FEATURE_COPYBUF_KB_EQ_4 from                                      FEATURE_COPYBUF_KB_EQ_4 to false  expression (707) not FEATURE_COPYBUF_KB_EQ_4
+2 We set var                     FEATURE_COPYBUF_KB_EQ_OTHERVAL from                               FEATURE_COPYBUF_KB_EQ_OTHERVAL to false  expression (709) not FEATURE_COPYBUF_KB_EQ_OTHERVAL
+1 We set var                                DEFAULT_SETFONT_DIR from                                          DEFAULT_SETFONT_DIR to true  expression (712) DEFAULT_SETFONT_DIR
+2 We set var                    DEFAULT_SETFONT_DIR_EQ_OTHERVAL from                              DEFAULT_SETFONT_DIR_EQ_OTHERVAL to false  expression (715) not DEFAULT_SETFONT_DIR_EQ_OTHERVAL
+2 We set var                                   LAST_ID_EQ_60000 from                                             LAST_ID_EQ_60000 to false  expression (717) not LAST_ID_EQ_60000
+2 We set var                                LAST_ID_EQ_OTHERVAL from                                          LAST_ID_EQ_OTHERVAL to false  expression (718) not LAST_ID_EQ_OTHERVAL
+2 We set var                               FIRST_SYSTEM_ID_EQ_0 from                                         FIRST_SYSTEM_ID_EQ_0 to false  expression (720) not FIRST_SYSTEM_ID_EQ_0
+2 We set var                             FIRST_SYSTEM_ID_EQ_100 from                                       FIRST_SYSTEM_ID_EQ_100 to false  expression (721) not FIRST_SYSTEM_ID_EQ_100
+2 We set var                           FIRST_SYSTEM_ID_EQ_60000 from                                     FIRST_SYSTEM_ID_EQ_60000 to false  expression (722) not FIRST_SYSTEM_ID_EQ_60000
+2 We set var                        FIRST_SYSTEM_ID_EQ_OTHERVAL from                                  FIRST_SYSTEM_ID_EQ_OTHERVAL to false  expression (723) not FIRST_SYSTEM_ID_EQ_OTHERVAL
+2 We set var                                LAST_SYSTEM_ID_EQ_0 from                                          LAST_SYSTEM_ID_EQ_0 to false  expression (730) not LAST_SYSTEM_ID_EQ_0
+2 We set var                              LAST_SYSTEM_ID_EQ_100 from                                        LAST_SYSTEM_ID_EQ_100 to false  expression (731) not LAST_SYSTEM_ID_EQ_100
+2 We set var                            LAST_SYSTEM_ID_EQ_60000 from                                      LAST_SYSTEM_ID_EQ_60000 to false  expression (732) not LAST_SYSTEM_ID_EQ_60000
+2 We set var                              LAST_SYSTEM_ID_EQ_999 from                                        LAST_SYSTEM_ID_EQ_999 to false  expression (733) not LAST_SYSTEM_ID_EQ_999
+2 We set var                         LAST_SYSTEM_ID_EQ_OTHERVAL from                                   LAST_SYSTEM_ID_EQ_OTHERVAL to false  expression (734) not LAST_SYSTEM_ID_EQ_OTHERVAL
+1 We set var                        FEATURE_DEFAULT_PASSWD_ALGO from                                  FEATURE_DEFAULT_PASSWD_ALGO to true  expression (745) FEATURE_DEFAULT_PASSWD_ALGO
+2 We set var                 FEATURE_DEFAULT_PASSWD_ALGO_EQ_des from                           FEATURE_DEFAULT_PASSWD_ALGO_EQ_des to false  expression (748) not FEATURE_DEFAULT_PASSWD_ALGO_EQ_des
+1 We set var                                DEFAULT_MODULES_DIR from                                          DEFAULT_MODULES_DIR to true  expression (749) DEFAULT_MODULES_DIR
+2 We set var                DEFAULT_MODULES_DIR_EQ_/lib/modules from                          DEFAULT_MODULES_DIR_EQ_/lib/modules to false  expression (752) not DEFAULT_MODULES_DIR_EQ_/lib/modules
+1 We set var                                DEFAULT_DEPMOD_FILE from                                          DEFAULT_DEPMOD_FILE to true  expression (753) DEFAULT_DEPMOD_FILE
+2 We set var                    DEFAULT_DEPMOD_FILE_EQ_OTHERVAL from                              DEFAULT_DEPMOD_FILE_EQ_OTHERVAL to false  expression (756) not DEFAULT_DEPMOD_FILE_EQ_OTHERVAL
+2 We set var                             FEATURE_BEEP_FREQ_EQ_0 from                                       FEATURE_BEEP_FREQ_EQ_0 to false  expression (757) not FEATURE_BEEP_FREQ_EQ_0
+2 We set var                    FEATURE_BEEP_FREQ_EQ_2147483647 from                              FEATURE_BEEP_FREQ_EQ_2147483647 to false  expression (758) not FEATURE_BEEP_FREQ_EQ_2147483647
+2 We set var                          FEATURE_BEEP_FREQ_EQ_4000 from                                    FEATURE_BEEP_FREQ_EQ_4000 to false  expression (759) not FEATURE_BEEP_FREQ_EQ_4000
+2 We set var                      FEATURE_BEEP_FREQ_EQ_OTHERVAL from                                FEATURE_BEEP_FREQ_EQ_OTHERVAL to false  expression (760) not FEATURE_BEEP_FREQ_EQ_OTHERVAL
+2 We set var                        FEATURE_BEEP_LENGTH_MS_EQ_0 from                                  FEATURE_BEEP_LENGTH_MS_EQ_0 to false  expression (767) not FEATURE_BEEP_LENGTH_MS_EQ_0
+2 We set var               FEATURE_BEEP_LENGTH_MS_EQ_2147483647 from                         FEATURE_BEEP_LENGTH_MS_EQ_2147483647 to false  expression (768) not FEATURE_BEEP_LENGTH_MS_EQ_2147483647
+2 We set var                       FEATURE_BEEP_LENGTH_MS_EQ_30 from                                 FEATURE_BEEP_LENGTH_MS_EQ_30 to false  expression (769) not FEATURE_BEEP_LENGTH_MS_EQ_30
+2 We set var                 FEATURE_BEEP_LENGTH_MS_EQ_OTHERVAL from                           FEATURE_BEEP_LENGTH_MS_EQ_OTHERVAL to false  expression (770) not FEATURE_BEEP_LENGTH_MS_EQ_OTHERVAL
+2 We set var          IFUPDOWN_IFSTATE_PATH_EQ_/var/run/ifstate from                    IFUPDOWN_IFSTATE_PATH_EQ_/var/run/ifstate to false  expression (777) not IFUPDOWN_IFSTATE_PATH_EQ_/var/run/ifstate
+2 We set var                  IFUPDOWN_IFSTATE_PATH_EQ_OTHERVAL from                            IFUPDOWN_IFSTATE_PATH_EQ_OTHERVAL to false  expression (778) not IFUPDOWN_IFSTATE_PATH_EQ_OTHERVAL
+1 We set var                                  DHCPD_LEASES_FILE from                                            DHCPD_LEASES_FILE to true  expression (780) DHCPD_LEASES_FILE
+2 We set var                      DHCPD_LEASES_FILE_EQ_OTHERVAL from                                DHCPD_LEASES_FILE_EQ_OTHERVAL to false  expression (783) not DHCPD_LEASES_FILE_EQ_OTHERVAL
+1 We set var                                        UDHCP_DEBUG from                                                  UDHCP_DEBUG to true  expression (784) UDHCP_DEBUG
+2 We set var                                   UDHCP_DEBUG_EQ_0 from                                             UDHCP_DEBUG_EQ_0 to false  expression (789) not UDHCP_DEBUG_EQ_0
+2 We set var                                   UDHCP_DEBUG_EQ_9 from                                             UDHCP_DEBUG_EQ_9 to false  expression (790) not UDHCP_DEBUG_EQ_9
+1 We set var                              UDHCPC_DEFAULT_SCRIPT from                                        UDHCPC_DEFAULT_SCRIPT to true  expression (791) UDHCPC_DEFAULT_SCRIPT
+2 We set var UDHCPC_DEFAULT_SCRIPT_EQ_/usr/share/udhcpc/default.script from    UDHCPC_DEFAULT_SCRIPT_EQ_/usr/share/udhcpc/default.script to false  expression (794) not UDHCPC_DEFAULT_SCRIPT_EQ_/usr/share/udhcpc/default.script
+1 We set var                     UDHCPC_SLACK_FOR_BUGGY_SERVERS from                               UDHCPC_SLACK_FOR_BUGGY_SERVERS to true  expression (795) UDHCPC_SLACK_FOR_BUGGY_SERVERS
+2 We set var                UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_0 from                          UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_0 to false  expression (801) not UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_0
+2 We set var               UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_80 from                         UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_80 to false  expression (802) not UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_80
+2 We set var         UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_OTHERVAL from                   UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_OTHERVAL to false  expression (805) not UDHCPC_SLACK_FOR_BUGGY_SERVERS_EQ_OTHERVAL
+2 We set var               IFUPDOWN_UDHCPC_CMD_OPTIONS_EQ_-R_-n from                         IFUPDOWN_UDHCPC_CMD_OPTIONS_EQ_-R_-n to false  expression (806) not IFUPDOWN_UDHCPC_CMD_OPTIONS_EQ_-R_-n
+2 We set var            IFUPDOWN_UDHCPC_CMD_OPTIONS_EQ_OTHERVAL from                      IFUPDOWN_UDHCPC_CMD_OPTIONS_EQ_OTHERVAL to false  expression (807) not IFUPDOWN_UDHCPC_CMD_OPTIONS_EQ_OTHERVAL
+1 We set var                               FEATURE_MIME_CHARSET from                                         FEATURE_MIME_CHARSET to true  expression (809) FEATURE_MIME_CHARSET
+2 We set var                   FEATURE_MIME_CHARSET_EQ_OTHERVAL from                             FEATURE_MIME_CHARSET_EQ_OTHERVAL to false  expression (812) not FEATURE_MIME_CHARSET_EQ_OTHERVAL
+1 We set var                             SV_DEFAULT_SERVICE_DIR from                                       SV_DEFAULT_SERVICE_DIR to true  expression (813) SV_DEFAULT_SERVICE_DIR
+2 We set var                 SV_DEFAULT_SERVICE_DIR_EQ_OTHERVAL from                           SV_DEFAULT_SERVICE_DIR_EQ_OTHERVAL to false  expression (816) not SV_DEFAULT_SERVICE_DIR_EQ_OTHERVAL
+2 We set var          FEATURE_SYSLOGD_READ_BUFFER_SIZE_EQ_20000 from                    FEATURE_SYSLOGD_READ_BUFFER_SIZE_EQ_20000 to false  expression (829) not FEATURE_SYSLOGD_READ_BUFFER_SIZE_EQ_20000
+2 We set var            FEATURE_SYSLOGD_READ_BUFFER_SIZE_EQ_256 from                      FEATURE_SYSLOGD_READ_BUFFER_SIZE_EQ_256 to false  expression (830) not FEATURE_SYSLOGD_READ_BUFFER_SIZE_EQ_256
+2 We set var       FEATURE_SYSLOGD_READ_BUFFER_SIZE_EQ_OTHERVAL from                 FEATURE_SYSLOGD_READ_BUFFER_SIZE_EQ_OTHERVAL to false  expression (831) not FEATURE_SYSLOGD_READ_BUFFER_SIZE_EQ_OTHERVAL
+2 We set var               FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_16 from                         FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_16 to false  expression (835) not FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_16
+2 We set var       FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_2147483647 from                 FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_2147483647 to false  expression (836) not FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_2147483647
+2 We set var                FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_4 from                          FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_4 to false  expression (837) not FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_4
+2 We set var         FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_OTHERVAL from                   FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_OTHERVAL to false  expression (838) not FEATURE_IPC_SYSLOG_BUFFER_SIZE_EQ_OTHERVAL
+762 constraints 
+And now there are 762 expressions 
+735 components. Biggest 1 number of variables 735
+[22:35:34] Cnstr #     1   0% [    0  735    1]: HAVE_DOT_CONFIG                                              Nodes        2           3 ms. total           3 ms.
+[22:35:34] Cnstr #     2   0% [    0  735    1]: HAVE_DOT_CONFIG                                              Nodes        2           0 ms. total           3 ms.
+[22:35:34] Cnstr #     3   0% [    0  735    1]: DESKTOP                                                      Nodes        3           0 ms. total           3 ms.
+[22:35:34] Cnstr #     4   0% [    0  735    1]: EXTRA_COMPAT                                                 Nodes        4           0 ms. total           3 ms.
+[22:35:34] Cnstr #     5   0% [    0  735    1]: INCLUDE_SUSv2                                                Nodes        5           0 ms. total           3 ms.
+[22:35:34] Cnstr #     6   0% [    0  735    1]: USE_PORTABLE_CODE                                            Nodes        6           0 ms. total           3 ms.
+[22:35:34] Cnstr #     7   0% [    0  735    1]: PLATFORM_LINUX                                               Nodes        7           0 ms. total           3 ms.
+[22:35:34] Cnstr #     8   1% [    0  735    1]: not FEATURE_BUFFERS_USE_MALLOC                               Nodes        8           0 ms. total           3 ms.
+[22:35:34] Cnstr #     9   1% [    0  735    1]: FEATURE_BUFFERS_GO_ON_STACK                                  Nodes        9           0 ms. total           3 ms.
+[22:35:34] Cnstr #    10   1% [    0  735    1]: not FEATURE_BUFFERS_GO_IN_BSS                                Nodes       10           0 ms. total           3 ms.
+[22:35:34] Cnstr #    11   1% [    0  735    1]: not SHOW_USAGE                                               Nodes       11           0 ms. total           3 ms.
+[22:35:34] Cnstr #    12   1% [    0  735    1]: not FEATURE_VERBOSE_USAGE                                    Nodes       12           0 ms. total           3 ms.
+[22:35:34] Cnstr #    13   1% [    0  735    1]: not FEATURE_COMPRESS_USAGE                                   Nodes       13           0 ms. total           3 ms.
+[22:35:34] Cnstr #    14   1% [    0  735    1]: not FEATURE_INSTALLER                                        Nodes       14           0 ms. total           3 ms.
+[22:35:34] Cnstr #    15   1% [    0  735    1]: not INSTALL_NO_USR                                           Nodes       15           0 ms. total           3 ms.
+[22:35:34] Cnstr #    16   2% [    0  735    1]: not LOCALE_SUPPORT                                           Nodes       16           0 ms. total           3 ms.
+[22:35:34] Cnstr #    17   2% [    0  735    1]: UNICODE_SUPPORT                                              Nodes       17           0 ms. total           4 ms.
+[22:35:34] Cnstr #    18   2% [    0  735    1]: not UNICODE_USING_LOCALE                                     Nodes       18           0 ms. total           4 ms.
+[22:35:34] Cnstr #    19   2% [    0  735    1]: not FEATURE_CHECK_UNICODE_IN_ENV                             Nodes       19           0 ms. total           4 ms.
+[22:35:34] Cnstr #    20   2% [    0  735    1]: SUBST_WCHAR                                                  Nodes       20           0 ms. total           4 ms.
+[22:35:34] Cnstr #    21   2% [    0  735    1]: SUBST_WCHAR                                                  Nodes       20           0 ms. total           4 ms.
+[22:35:34] Cnstr #    22   2% [    0  735    1]: LAST_SUPPORTED_WCHAR                                         Nodes       21           0 ms. total           4 ms.
+[22:35:34] Cnstr #    23   3% [    0  735    1]: LAST_SUPPORTED_WCHAR                                         Nodes       21           0 ms. total           4 ms.
+[22:35:34] Cnstr #    24   3% [    0  735    1]: UNICODE_COMBINING_WCHARS                                     Nodes       22           0 ms. total           4 ms.
+[22:35:34] Cnstr #    25   3% [    0  735    1]: not UNICODE_WIDE_WCHARS                                      Nodes       23           0 ms. total           4 ms.
+[22:35:34] Cnstr #    26   3% [    0  735    1]: UNICODE_BIDI_SUPPORT                                         Nodes       24           0 ms. total           4 ms.
+[22:35:34] Cnstr #    27   3% [    0  735    1]: not UNICODE_NEUTRAL_TABLE                                    Nodes       25           0 ms. total           4 ms.
+[22:35:34] Cnstr #    28   3% [    0  735    1]: UNICODE_PRESERVE_BROKEN                                      Nodes       26           0 ms. total           4 ms.
+[22:35:34] Cnstr #    29   3% [    0  735    1]: PAM                                                          Nodes       27           0 ms. total           4 ms.
+[22:35:34] Cnstr #    30   3% [    0  735    1]: not FEATURE_USE_SENDFILE                                     Nodes       28           0 ms. total           4 ms.
+[22:35:34] Cnstr #    31   4% [    0  735    1]: LONG_OPTS                                                    Nodes       29           0 ms. total           4 ms.
+[22:35:34] Cnstr #    32   4% [    0  735    1]: FEATURE_DEVPTS                                               Nodes       30           0 ms. total           4 ms.
+[22:35:34] Cnstr #    33   4% [    0  735    1]: not FEATURE_CLEAN_UP                                         Nodes       31           1 ms. total           5 ms.
+[22:35:34] Cnstr #    34   4% [    0  735    1]: not FEATURE_UTMP                                             Nodes       32           0 ms. total           5 ms.
+[22:35:34] Cnstr #    35   4% [    0  735    1]: not FEATURE_WTMP                                             Nodes       33           0 ms. total           5 ms.
+[22:35:34] Cnstr #    36   4% [    0  735    1]: FEATURE_PIDFILE                                              Nodes       34           0 ms. total           5 ms.
+[22:35:34] Cnstr #    37   4% [    0  735    1]: PID_FILE_PATH                                                Nodes       35           0 ms. total           5 ms.
+[22:35:34] Cnstr #    38   4% [    0  735    1]: PID_FILE_PATH                                                Nodes       35           0 ms. total           5 ms.
+[22:35:34] Cnstr #    39   5% [    0  735    1]: not FEATURE_SUID                                             Nodes       36           2 ms. total           7 ms.
+[22:35:34] Cnstr #    40   5% [    0  735    1]: not FEATURE_SUID_CONFIG                                      Nodes       37           0 ms. total           7 ms.
+[22:35:34] Cnstr #    41   5% [    0  735    1]: not FEATURE_SUID_CONFIG_QUIET                                Nodes       38           1 ms. total           8 ms.
+[22:35:34] Cnstr #    42   5% [    0  735    1]: SELINUX                                                      Nodes       39           0 ms. total           8 ms.
+[22:35:34] Cnstr #    43   5% [    0  735    1]: FEATURE_PREFER_APPLETS                                       Nodes       40           0 ms. total           8 ms.
+[22:35:34] Cnstr #    44   5% [    0  735    1]: BUSYBOX_EXEC_PATH                                            Nodes       41           0 ms. total           8 ms.
+[22:35:34] Cnstr #    45   5% [    0  735    1]: FEATURE_SYSLOG                                               Nodes       42           0 ms. total           8 ms.
+[22:35:34] Cnstr #    46   6% [    0  735    1]: not FEATURE_HAVE_RPC                                         Nodes       43           0 ms. total           8 ms.
+[22:35:34] Cnstr #    47   6% [    0  735    1]: STATIC                                                       Nodes       44           0 ms. total           8 ms.
+[22:35:34] Cnstr #    48   6% [    0  735    1]: not PIE                                                      Nodes       45           0 ms. total           8 ms.
+[22:35:34] Cnstr #    49   6% [    0  735    1]: not NOMMU                                                    Nodes       46           0 ms. total           8 ms.
+[22:35:34] Cnstr #    50   6% [    0  735    1]: not BUILD_LIBBUSYBOX                                         Nodes       47           0 ms. total           8 ms.
+[22:35:34] Cnstr #    51   6% [    0  735    1]: not FEATURE_INDIVIDUAL                                       Nodes       48           1 ms. total           9 ms.
+[22:35:34] Cnstr #    52   6% [    0  735    1]: not FEATURE_SHARED_BUSYBOX                                   Nodes       49           0 ms. total           9 ms.
+[22:35:34] Cnstr #    53   6% [    0  735    1]: not LFS                                                      Nodes       50           0 ms. total           9 ms.
+[22:35:34] Cnstr #    54   7% [    0  735    1]: CROSS_COMPILER_PREFIX                                        Nodes       51           0 ms. total           9 ms.
+[22:35:34] Cnstr #    55   7% [    0  735    1]: SYSROOT                                                      Nodes       52           0 ms. total           9 ms.
+[22:35:34] Cnstr #    56   7% [    0  735    1]: EXTRA_CFLAGS                                                 Nodes       53           0 ms. total           9 ms.
+[22:35:34] Cnstr #    57   7% [    0  735    1]: EXTRA_LDFLAGS                                                Nodes       54           0 ms. total           9 ms.
+[22:35:34] Cnstr #    58   7% [    0  735    1]: EXTRA_LDLIBS                                                 Nodes       55           0 ms. total           9 ms.
+[22:35:34] Cnstr #    59   7% [    0  735    1]: not DEBUG                                                    Nodes       56           0 ms. total           9 ms.
+[22:35:34] Cnstr #    60   7% [    0  735    1]: not DEBUG_PESSIMIZE                                          Nodes       57           0 ms. total           9 ms.
+[22:35:34] Cnstr #    61   8% [    0  735    1]: not UNIT_TEST                                                Nodes       58           0 ms. total           9 ms.
+[22:35:34] Cnstr #    62   8% [    0  735    1]: WERROR                                                       Nodes       59           1 ms. total          10 ms.
+[22:35:34] Cnstr #    63   8% [    0  735    1]: not NO_DEBUG_LIB                                             Nodes       60           0 ms. total          10 ms.
+[22:35:34] Cnstr #    64   8% [    0  735    1]: not DMALLOC                                                  Nodes       61           0 ms. total          10 ms.
+[22:35:34] Cnstr #    65   8% [    0  735    1]: EFENCE                                                       Nodes       62           0 ms. total          10 ms.
+[22:35:34] Cnstr #    66   8% [    0  735    1]: not INSTALL_APPLET_SYMLINKS                                  Nodes       63           0 ms. total          10 ms.
+[22:35:34] Cnstr #    67   8% [    0  735    1]: not INSTALL_APPLET_HARDLINKS                                 Nodes       64           0 ms. total          10 ms.
+[22:35:34] Cnstr #    68   8% [    0  735    1]: not INSTALL_APPLET_DONT                                      Nodes       65           0 ms. total          10 ms.
+[22:35:34] Cnstr #    69   9% [    0  735    1]: INSTALL_APPLET_SCRIPT_WRAPPERS                               Nodes       66           0 ms. total          10 ms.
+[22:35:34] Cnstr #    70   9% [    0  735    1]: not INSTALL_SH_APPLET_SYMLINK                                Nodes       67           0 ms. total          10 ms.
+[22:35:34] Cnstr #    71   9% [    0  735    1]: INSTALL_SH_APPLET_HARDLINK                                   Nodes       68           0 ms. total          10 ms.
+[22:35:34] Cnstr #    72   9% [    0  735    1]: not INSTALL_SH_APPLET_SCRIPT_WRAPPER                         Nodes       69           0 ms. total          10 ms.
+[22:35:34] Cnstr #    73   9% [    0  735    1]: PREFIX                                                       Nodes       70           0 ms. total          10 ms.
+[22:35:34] Cnstr #    74   9% [    0  735    1]: PASSWORD_MINLEN                                              Nodes       71           0 ms. total          10 ms.
+[22:35:34] Cnstr #    75   9% [    0  735    1]: MD5_SMALL                                                    Nodes       72           1 ms. total          11 ms.
+[22:35:34] Cnstr #    76   9% [    0  735    1]: SHA3_SMALL                                                   Nodes       73           0 ms. total          11 ms.
+[22:35:34] Cnstr #    77  10% [    0  735    1]: not FEATURE_FAST_TOP                                         Nodes       74           0 ms. total          11 ms.
+[22:35:34] Cnstr #    78  10% [    0  735    1]: FEATURE_ETC_NETWORKS                                         Nodes       75           0 ms. total          11 ms.
+[22:35:34] Cnstr #    79  10% [    0  735    1]: FEATURE_USE_TERMIOS                                          Nodes       76           0 ms. total          11 ms.
+[22:35:34] Cnstr #    80  10% [    0  735    1]: not FEATURE_EDITING                                          Nodes       77           0 ms. total          11 ms.
+[22:35:34] Cnstr #    81  10% [    0  735    1]: not FEATURE_EDITING_MAX_LEN                                  Nodes       78           0 ms. total          11 ms.
+[22:35:34] Cnstr #    82  10% [    0  735    1]: not FEATURE_EDITING_VI                                       Nodes       79           0 ms. total          11 ms.
+[22:35:34] Cnstr #    83  10% [    0  735    1]: not FEATURE_EDITING_HISTORY                                  Nodes       80           0 ms. total          11 ms.
+[22:35:34] Cnstr #    84  11% [    0  735    1]: not FEATURE_EDITING_SAVEHISTORY                              Nodes       81           0 ms. total          11 ms.
+[22:35:34] Cnstr #    85  11% [    0  735    1]: not FEATURE_EDITING_SAVE_ON_EXIT                             Nodes       82           0 ms. total          11 ms.
+[22:35:34] Cnstr #    86  11% [    0  735    1]: not FEATURE_REVERSE_SEARCH                                   Nodes       83           0 ms. total          11 ms.
+[22:35:34] Cnstr #    87  11% [    0  735    1]: not FEATURE_TAB_COMPLETION                                   Nodes       84           0 ms. total          11 ms.
+[22:35:34] Cnstr #    88  11% [    0  735    1]: not FEATURE_USERNAME_COMPLETION                              Nodes       85           1 ms. total          12 ms.
+[22:35:34] Cnstr #    89  11% [    0  735    1]: not FEATURE_EDITING_FANCY_PROMPT                             Nodes       86           0 ms. total          12 ms.
+[22:35:34] Cnstr #    90  11% [    0  735    1]: not FEATURE_EDITING_ASK_TERMINAL                             Nodes       87           0 ms. total          12 ms.
+[22:35:34] Cnstr #    91  11% [    0  735    1]: not FEATURE_NON_POSIX_CP                                     Nodes       88           0 ms. total          12 ms.
+[22:35:34] Cnstr #    92  12% [    0  735    1]: not FEATURE_VERBOSE_CP_MESSAGE                               Nodes       89           0 ms. total          12 ms.
+[22:35:34] Cnstr #    93  12% [    0  735    1]: FEATURE_COPYBUF_KB                                           Nodes       90           0 ms. total          12 ms.
+[22:35:34] Cnstr #    94  12% [    0  735    1]: FEATURE_SKIP_ROOTFS                                          Nodes       91           0 ms. total          12 ms.
+[22:35:34] Cnstr #    95  12% [    0  735    1]: not MONOTONIC_SYSCALL                                        Nodes       92           0 ms. total          12 ms.
+[22:35:34] Cnstr #    96  12% [    0  735    1]: not IOCTL_HEX2STR_ERROR                                      Nodes       93           0 ms. total          12 ms.
+[22:35:34] Cnstr #    97  12% [    0  735    1]: not FEATURE_HWIB                                             Nodes       94           0 ms. total          12 ms.
+[22:35:34] Cnstr #    98  12% [    0  735    1]: FEATURE_SEAMLESS_XZ                                          Nodes       95           0 ms. total          12 ms.
+[22:35:34] Cnstr #    99  12% [    0  735    1]: not FEATURE_SEAMLESS_LZMA                                    Nodes       96           0 ms. total          13 ms.
+[22:35:34] Cnstr #   100  13% [    0  735    1]: not FEATURE_SEAMLESS_BZ2                                     Nodes       97           0 ms. total          13 ms.
+[22:35:34] Cnstr #   101  13% [    0  735    1]: FEATURE_SEAMLESS_GZ                                          Nodes       98           0 ms. total          13 ms.
+[22:35:34] Cnstr #   102  13% [    0  735    1]: FEATURE_SEAMLESS_Z                                           Nodes       99           0 ms. total          13 ms.
+[22:35:34] Cnstr #   103  13% [    0  735    1]: not CAL                                                      Nodes      100           0 ms. total          13 ms.
+[22:35:34] Cnstr #   104  13% [    0  735    1]: CATV                                                         Nodes      101           0 ms. total          13 ms.
+[22:35:34] Cnstr #   105  13% [    0  735    1]: not CHGRP                                                    Nodes      102           0 ms. total          13 ms.
+[22:35:34] Cnstr #   106  13% [    0  735    1]: CHMOD                                                        Nodes      103           0 ms. total          13 ms.
+[22:35:34] Cnstr #   107  14% [    0  735    1]: not CHOWN                                                    Nodes      104           0 ms. total          13 ms.
+[22:35:34] Cnstr #   108  14% [    0  735    1]: not FEATURE_CHOWN_LONG_OPTIONS                               Nodes      105           0 ms. total          13 ms.
+[22:35:34] Cnstr #   109  14% [    0  735    1]: CHROOT                                                       Nodes      106           0 ms. total          13 ms.
+[22:35:34] Cnstr #   110  14% [    0  735    1]: CKSUM                                                        Nodes      107           0 ms. total          13 ms.
+[22:35:34] Cnstr #   111  14% [    0  735    1]: not COMM                                                     Nodes      108           0 ms. total          13 ms.
+[22:35:34] Cnstr #   112  14% [    0  735    1]: not CP                                                       Nodes      109           1 ms. total          14 ms.
+[22:35:34] Cnstr #   113  14% [    0  735    1]: not FEATURE_CP_LONG_OPTIONS                                  Nodes      110           0 ms. total          14 ms.
+[22:35:34] Cnstr #   114  14% [    0  735    1]: not CUT                                                      Nodes      111           0 ms. total          14 ms.
+[22:35:34] Cnstr #   115  15% [    0  735    1]: DD                                                           Nodes      112           0 ms. total          14 ms.
+[22:35:34] Cnstr #   116  15% [    0  735    1]: not FEATURE_DD_SIGNAL_HANDLING                               Nodes      113           0 ms. total          14 ms.
+[22:35:34] Cnstr #   117  15% [    0  735    1]: not FEATURE_DD_THIRD_STATUS_LINE                             Nodes      114           0 ms. total          14 ms.
+[22:35:34] Cnstr #   118  15% [    0  735    1]: FEATURE_DD_IBS_OBS                                           Nodes      115           0 ms. total          14 ms.
+[22:35:34] Cnstr #   119  15% [    0  735    1]: DF                                                           Nodes      116           0 ms. total          14 ms.
+[22:35:34] Cnstr #   120  15% [    0  735    1]: FEATURE_DF_FANCY                                             Nodes      117           0 ms. total          14 ms.
+[22:35:34] Cnstr #   121  15% [    0  735    1]: DIRNAME                                                      Nodes      118           0 ms. total          14 ms.
+[22:35:34] Cnstr #   122  16% [    0  735    1]: not DOS2UNIX                                                 Nodes      119           1 ms. total          15 ms.
+[22:35:34] Cnstr #   123  16% [    0  735    1]: not UNIX2DOS                                                 Nodes      120           0 ms. total          15 ms.
+[22:35:34] Cnstr #   124  16% [    0  735    1]: DU                                                           Nodes      121           0 ms. total          15 ms.
+[22:35:34] Cnstr #   125  16% [    0  735    1]: not FEATURE_DU_DEFAULT_BLOCKSIZE_1K                          Nodes      122           0 ms. total          15 ms.
+[22:35:34] Cnstr #   126  16% [    0  735    1]: ECHO                                                         Nodes      123           0 ms. total          15 ms.
+[22:35:34] Cnstr #   127  16% [    0  735    1]: FEATURE_FANCY_ECHO                                           Nodes      124           0 ms. total          15 ms.
+[22:35:34] Cnstr #   128  16% [    0  735    1]: ENV                                                          Nodes      125           0 ms. total          15 ms.
+[22:35:34] Cnstr #   129  16% [    0  735    1]: FEATURE_ENV_LONG_OPTIONS                                     Nodes      126           0 ms. total          16 ms.
+[22:35:34] Cnstr #   130  17% [    0  735    1]: EXPAND                                                       Nodes      127           0 ms. total          16 ms.
+[22:35:34] Cnstr #   131  17% [    0  735    1]: FEATURE_EXPAND_LONG_OPTIONS                                  Nodes      128           0 ms. total          16 ms.
+[22:35:34] Cnstr #   132  17% [    0  735    1]: EXPR                                                         Nodes      129           0 ms. total          16 ms.
+[22:35:34] Cnstr #   133  17% [    0  735    1]: EXPR_MATH_SUPPORT_64                                         Nodes      130           0 ms. total          16 ms.
+[22:35:34] Cnstr #   134  17% [    0  735    1]: FALSE                                                        Nodes      131           0 ms. total          16 ms.
+[22:35:34] Cnstr #   135  17% [    0  735    1]: FOLD                                                         Nodes      132           0 ms. total          16 ms.
+[22:35:34] Cnstr #   136  17% [    0  735    1]: not FSYNC                                                    Nodes      133           0 ms. total          16 ms.
+[22:35:34] Cnstr #   137  17% [    0  735    1]: not HEAD                                                     Nodes      134           0 ms. total          16 ms.
+[22:35:34] Cnstr #   138  18% [    0  735    1]: not FEATURE_FANCY_HEAD                                       Nodes      135           0 ms. total          16 ms.
+[22:35:34] Cnstr #   139  18% [    0  735    1]: INSTALL                                                      Nodes      136           1 ms. total          17 ms.
+[22:35:34] Cnstr #   140  18% [    0  735    1]: FEATURE_INSTALL_LONG_OPTIONS                                 Nodes      137           0 ms. total          17 ms.
+[22:35:34] Cnstr #   141  18% [    0  735    1]: not LN                                                       Nodes      138           0 ms. total          17 ms.
+[22:35:34] Cnstr #   142  18% [    0  735    1]: LOGNAME                                                      Nodes      139           0 ms. total          17 ms.
+[22:35:34] Cnstr #   143  18% [    0  735    1]: not LS                                                       Nodes      140           0 ms. total          17 ms.
+[22:35:34] Cnstr #   144  18% [    0  735    1]: not FEATURE_LS_FILETYPES                                     Nodes      141           0 ms. total          17 ms.
+[22:35:34] Cnstr #   145  19% [    0  735    1]: not FEATURE_LS_FOLLOWLINKS                                   Nodes      142           0 ms. total          17 ms.
+[22:35:34] Cnstr #   146  19% [    0  735    1]: not FEATURE_LS_RECURSIVE                                     Nodes      143           1 ms. total          18 ms.
+[22:35:34] Cnstr #   147  19% [    0  735    1]: not FEATURE_LS_SORTFILES                                     Nodes      144           0 ms. total          18 ms.
+[22:35:34] Cnstr #   148  19% [    0  735    1]: not FEATURE_LS_TIMESTAMPS                                    Nodes      145           1 ms. total          19 ms.
+[22:35:34] Cnstr #   149  19% [    0  735    1]: not FEATURE_LS_USERNAME                                      Nodes      146           0 ms. total          19 ms.
+[22:35:34] Cnstr #   150  19% [    0  735    1]: not FEATURE_LS_COLOR                                         Nodes      147           0 ms. total          19 ms.
+[22:35:34] Cnstr #   151  19% [    0  735    1]: not FEATURE_LS_COLOR_IS_DEFAULT                              Nodes      148           0 ms. total          23 ms.
+[22:35:34] Cnstr #   152  19% [    0  735    1]: MD5SUM                                                       Nodes      149           1 ms. total          24 ms.
+[22:35:34] Cnstr #   153  20% [    0  735    1]: MKDIR                                                        Nodes      150           0 ms. total          24 ms.
+[22:35:34] Cnstr #   154  20% [    0  735    1]: not FEATURE_MKDIR_LONG_OPTIONS                               Nodes      151           6 ms. total          30 ms.
+[22:35:34] Cnstr #   155  20% [    0  735    1]: not MKFIFO                                                   Nodes      152           1 ms. total          32 ms.
+[22:35:34] Cnstr #   156  20% [    0  735    1]: MKNOD                                                        Nodes      153           0 ms. total          32 ms.
+[22:35:34] Cnstr #   157  20% [    0  735    1]: MV                                                           Nodes      154           1 ms. total          33 ms.
+[22:35:34] Cnstr #   158  20% [    0  735    1]: not FEATURE_MV_LONG_OPTIONS                                  Nodes      155           0 ms. total          33 ms.
+[22:35:34] Cnstr #   159  20% [    0  735    1]: not NICE                                                     Nodes      156           1 ms. total          34 ms.
+[22:35:34] Cnstr #   160  20% [    0  735    1]: NOHUP                                                        Nodes      157           0 ms. total          34 ms.
+[22:35:34] Cnstr #   161  21% [    0  735    1]: OD                                                           Nodes      158           2 ms. total          36 ms.
+[22:35:34] Cnstr #   162  21% [    0  735    1]: PRINTENV                                                     Nodes      159           7 ms. total          43 ms.
+[22:35:34] Cnstr #   163  21% [    0  735    1]: PRINTF                                                       Nodes      160           1 ms. total          46 ms.
+[22:35:34] Cnstr #   164  21% [    0  735    1]: PWD                                                          Nodes      161           0 ms. total          46 ms.
+[22:35:34] Cnstr #   165  21% [    0  735    1]: READLINK                                                     Nodes      162           1 ms. total          47 ms.
+[22:35:34] Cnstr #   166  21% [    0  735    1]: FEATURE_READLINK_FOLLOW                                      Nodes      163           1 ms. total          48 ms.
+[22:35:34] Cnstr #   167  21% [    0  735    1]: REALPATH                                                     Nodes      164           0 ms. total          48 ms.
+[22:35:34] Cnstr #   168  22% [    0  735    1]: not RM                                                       Nodes      165           1 ms. total          49 ms.
+[22:35:34] Cnstr #   169  22% [    0  735    1]: not RMDIR                                                    Nodes      166           1 ms. total          50 ms.

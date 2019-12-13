@@ -1,0 +1,42 @@
+config FREETZ_PACKAGE_SQUID
+	bool "Squid 3.0.STABLE26 (unstable)"
+	default n
+	select FREETZ_LIB_STDCXXLIB
+	help
+		Squid is a caching proxy for the Web supporting HTTP, HTTPS,
+		FTP, and more. It reduces bandwidth and improves response
+		times by caching and reusing frequently-requested web pages.
+		Squid has extensive access controls and makes a great server
+		accelerator.
+
+config FREETZ_PACKAGE_SQUID_TRANSPARENT
+	bool "build with transparent proxy support (iptables)"
+	depends on FREETZ_PACKAGE_SQUID && \
+		FREETZ_KERNEL_VERSION_2_6_19 && \
+		FREETZ_SHOW_ADVANCED && \
+		FREETZ_PACKAGE_IPTABLES_IS_SELECTABLE
+	default n
+
+	# Activate group menus for modules and libs before selecting sub-entries
+	# Note: no need to select FREETZ_SHOW_EXPERT because
+	# FREETZ_PACKAGE_IPTABLES_IS_SELECTABLE (a few lines above) already does
+	select FREETZ_PACKAGE_IPTABLES
+	select FREETZ_PACKAGE_IPTABLES_KERNEL_MODULES
+	select FREETZ_PACKAGE_IPTABLES_SHARED_LIBS
+
+	# Kernel modules
+	select FREETZ_MODULE_ip_conntrack
+	select FREETZ_MODULE_x_tables
+	select FREETZ_MODULE_ip_nat
+	select FREETZ_MODULE_ipt_REDIRECT
+
+	# Shared libs
+	select FREETZ_LIB_libxt_standard
+	select FREETZ_LIB_libxt_tcp
+	select FREETZ_LIB_libxt_udp
+	select FREETZ_LIB_libxt_conntrack
+	select FREETZ_LIB_libipt_REDIRECT
+
+	help
+		This option enables transparent Proxy support for SQUID
+		and IPTables. Increases size of squid binary aprox. 192KB.

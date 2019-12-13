@@ -1,0 +1,18 @@
+--- configure
++++ configure
+@@ -25304,6 +25304,7 @@
+ 	LDFLAGS_orig="$LDFLAGS"
+ 	LIBS="$G_MODULE_LIBS $LIBS"
+ 	LDFLAGS="$LDFLAGS $G_MODULE_LDFLAGS"
++if test "$cross_compiling" != yes; then
+ 	echo "void glib_plugin_test(void) { }" > plugin.c
+ 	${SHELL} ./libtool --mode=compile --tag=CC ${CC} ${CFLAGS} \
+ 		${CPPFLAGS} -c -o plugin.lo plugin.c >/dev/null 2>&1
+@@ -25312,6 +25313,7 @@
+ 		-shrext ".o" -avoid-version plugin.lo \
+ 		-rpath /dont/care >/dev/null 2>&1
+ 	eval `./libtool --config | grep ^objdir`
++fi
+ 	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for RTLD_GLOBAL brokenness" >&5
+ $as_echo_n "checking for RTLD_GLOBAL brokenness... " >&6; }
+ if ${glib_cv_rtldglobal_broken+:} false; then :

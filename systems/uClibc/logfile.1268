@@ -1,0 +1,154 @@
+KCONFIG_SEED=0x2D256A34
+Generated value m68k for environment config DESIRED_TARGET_ARCH
+Generated value OTHERVAL for environment config VERSION
+.config:13:warning: unexpected data
+.config:37:warning: unexpected data
+.config:38:warning: unexpected data
+.config:39:warning: unexpected data
+.config:41:warning: unexpected data
+.config:44:warning: unexpected data
+.config:45:warning: unexpected data
+.config:50:warning: unexpected data
+.config:55:warning: unexpected data
+.config:56:warning: unexpected data
+.config:58:warning: unexpected data
+.config:59:warning: unexpected data
+.config:60:warning: unexpected data
+.config:61:warning: unexpected data
+.config:62:warning: unexpected data
+.config:67:warning: unexpected data
+.config:68:warning: unexpected data
+.config:69:warning: unexpected data
+.config:71:warning: unexpected data
+.config:77:warning: unexpected data
+.config:79:warning: unexpected data
+.config:84:warning: unexpected data
+.config:85:warning: unexpected data
+.config:87:warning: unexpected data
+.config:88:warning: unexpected data
+.config:90:warning: unexpected data
+.config:91:warning: unexpected data
+.config:93:warning: unexpected data
+.config:96:warning: unexpected data
+.config:98:warning: unexpected data
+.config:104:warning: unexpected data
+.config:105:warning: unexpected data
+.config:110:warning: unexpected data
+.config:111:warning: unexpected data
+.config:112:warning: unexpected data
+.config:113:warning: unexpected data
+.config:115:warning: unexpected data
+.config:116:warning: unexpected data
+.config:119:warning: unexpected data
+.config:122:warning: unexpected data
+.config:125:warning: unexpected data
+.config:126:warning: unexpected data
+.config:134:warning: unexpected data
+.config:137:warning: unexpected data
+.config:139:warning: unexpected data
+.config:140:warning: unexpected data
+.config:141:warning: unexpected data
+.config:144:warning: unexpected data
+.config:145:warning: unexpected data
+.config:148:warning: unexpected data
+.config:155:warning: unexpected data
+.config:158:warning: unexpected data
+.config:159:warning: unexpected data
+.config:162:warning: unexpected data
+.config:163:warning: unexpected data
+.config:165:warning: unexpected data
+.config:166:warning: unexpected data
+.config:167:warning: unexpected data
+.config:170:warning: unexpected data
+.config:171:warning: unexpected data
+.config:172:warning: unexpected data
+.config:179:warning: unexpected data
+.config:180:warning: unexpected data
+.config:185:warning: unexpected data
+.config:186:warning: unexpected data
+.config:187:warning: unexpected data
+.config:193:warning: unexpected data
+.config:195:warning: unexpected data
+.config:196:warning: unexpected data
+.config:198:warning: unexpected data
+.config:200:warning: unexpected data
+.config:201:warning: unexpected data
+.config:206:warning: unexpected data
+.config:207:warning: unexpected data
+.config:208:warning: unexpected data
+.config:210:warning: unexpected data
+.config:211:warning: unexpected data
+*
+* uClibc OTHERVAL C Library Configuration
+*
+Target Architecture
+  1. alpha (TARGET_alpha) (NEW)
+  2. arc (TARGET_arc) (NEW)
+  3. arm (TARGET_arm) (NEW)
+  4. avr32 (TARGET_avr32) (NEW)
+  5. bfin (TARGET_bfin) (NEW)
+  6. c6x (TARGET_c6x) (NEW)
+  7. cris (TARGET_cris) (NEW)
+  8. e1 (BROKEN) (TARGET_e1) (NEW)
+  9. frv (BROKEN) (TARGET_frv) (NEW)
+  10. h8300 (BROKEN) (TARGET_h8300) (NEW)
+  11. hppa (TARGET_hppa) (NEW)
+  12. i386 (TARGET_i386) (NEW)
+  13. i960 (BROKEN) (TARGET_i960) (NEW)
+  14. ia64 (TARGET_ia64) (NEW)
+> 15. m68k (TARGET_m68k) (NEW)
+  16. metag (TARGET_metag) (NEW)
+  17. microblaze (TARGET_microblaze) (NEW)
+  18. mips (TARGET_mips) (NEW)
+  19. nios (TARGET_nios) (NEW)
+  20. nios2 (TARGET_nios2) (NEW)
+  21. powerpc (TARGET_powerpc) (NEW)
+  22. superh (TARGET_sh) (NEW)
+  23. sh64 (TARGET_sh64) (NEW)
+  24. sparc (TARGET_sparc) (NEW)
+  25. v850 (BROKEN) (TARGET_v850) (NEW)
+  26. vax (TARGET_vax) (NEW)
+  27. x86_64 (TARGET_x86_64) (NEW)
+  28. xtensa (TARGET_xtensa) (NEW)
+choice[1-28?]: Related 
+28
+*
+* Target Architecture Features and Options
+*
+*
+* Using ELF file format
+*
+Target CPU has a memory management unit (MMU) (ARCH_HAS_MMU) [Y/n/?] y
+  Do you want to utilize the MMU? (ARCH_USE_MMU) [Y/n/?] n
+Enable floating point number support (UCLIBC_HAS_FLOATS) [Y/n/?] y
+Target CPU has a floating point unit (FPU) (UCLIBC_HAS_FPU) [Y/n/?] y
+Enable full C99 math library support (DO_C99_MATH) [N/y/?] y
+Enable XSI math extensions to the ISO C standard (bessel) (DO_XSI_MATH) [N/y/?] n
+Enable C99 Floating-point environment (UCLIBC_HAS_FENV) [N/y/?] y
+Linux kernel header location (KERNEL_HEADERS) [] OTHERVAL
+*
+* General Library Settings
+*
+Generate only Position Independent Code (PIC) (DOPIC) [Y/n/?] n
+Support global constructors and destructors (UCLIBC_CTOR_DTOR) [Y/n/?] n
+Thread support
+> 1. none (HAS_NO_THREADS) (NEW)
+  2. older (stable) version of linuxthreads (LINUXTHREADS_OLD) (NEW)
+  3. slightly newer version of linuxthreads (LINUXTHREADS_NEW) (NEW)
+  4. Native POSIX Threading (NPTL) (UCLIBC_HAS_THREADS_NATIVE) (NEW)
+choice[1-4?]: 1
+Syslog support (UCLIBC_HAS_SYSLOG) [Y/n/?] n
+Large File Support (UCLIBC_HAS_LFS) [Y/n/?] y
+Malloc Implementation
+> 1. malloc (MALLOC) (NEW)
+  2. malloc-simple (MALLOC_SIMPLE) (NEW)
+choice[1-2]: Related /etc/TZ
+Related 256
+Related 12
+Related 1024
+Related 256
+Related 12
+Related 1024
+Related 256
+Related 12
+Related 1024
