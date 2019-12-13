@@ -1,6 +1,6 @@
 # Kconfig2logic: A Kconfig-to-Propositional Logic Translation
 
-# Software artifact accompanying the paper "Validating Variability Modeling Translations to Logic Applied to Kconfig" submitted to the Empirical Software Engineering journal
+*Software artifact accompanying the paper "Validating Variability Modeling Translations to Logic Applied to Kconfig" submitted to the Empirical Software Engineering journal*
 
 Requires recent versions of flex, bison, gperf and GNU xargs. Tested on Linux and macOS.
 Compilation instructions:
