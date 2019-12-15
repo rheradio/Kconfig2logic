@@ -1,12 +1,12 @@
-Kconfig2Logic /Users/david/product_lines/Implementacion/myKconf/systems/fiasco 
-simplifyDependency JDB_LOGGING file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
-simplifyDependency JDB_DISASM file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
-simplifyDependency JDB_GZIP file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
-simplifyDependency JDB_ACCOUNTING file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
-simplifyDependency JDB_MISC file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
+/Users/david/product_lines/Articulos/ESE2019/artifacts/code/bin/Kconfig2Logic /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco 
+simplifyDependency JDB_LOGGING file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
+simplifyDependency JDB_DISASM file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
+simplifyDependency JDB_GZIP file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
+simplifyDependency JDB_ACCOUNTING file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
+simplifyDependency JDB_MISC file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig is Symbol 1 type is 1 depstack size 1
 Before treatment. 85 variables
 ------------------------------------------------
-Name KERNELVERSION file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name KERNELVERSION file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 1
 Depends synTrue
 defaultList size is 0
@@ -18,7 +18,7 @@ innerIf KERNELVERSION
 outerIf KERNELVERSION
 3 KERNELVERSION_EQ_OTHERVAL -> KERNELVERSION
 ------------------------------------------------
-Name INCLUDE_PPC32 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name INCLUDE_PPC32 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 1
 *******
@@ -30,7 +30,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name INCLUDE_SPARC file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name INCLUDE_SPARC file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 1
 *******
@@ -45,7 +45,7 @@ choice nmtot not (AMD64 and IA32) and not (ARM and IA32) and not (ARM and AMD64)
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : not (AMD64 and IA32) and not (ARM and IA32) and not (ARM and AMD64) and not (PPC32 and IA32) and not (PPC32 and AMD64) and not (PPC32 and ARM) and not (SPARC and IA32) and not (SPARC and AMD64) and not (SPARC and ARM) and not (SPARC and PPC32) and (IA32 or AMD64 or ARM or PPC32 or SPARC)
 ------------------------------------------------
-Name BIG_ENDIAN file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name BIG_ENDIAN file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 Intersection is 
 3.5 selector PPC32 declared 1 times  selectorSelectable 0 dropSelectorDeps 1 select size 1
@@ -68,7 +68,7 @@ choice nmtot not (PF_UX and PF_PC)
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : if IA32 or AMD64 or IA32 then not (PF_UX and PF_PC) and (PF_PC or PF_UX) else not PF_PC and not PF_UX
 ------------------------------------------------
-Name ABI_VF file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ABI_VF file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -83,7 +83,7 @@ depStack
 innerIf  ABI_VF
 outerIf  ABI_VF
 ------------------------------------------------
-Name PF_ARM_MP_CAPABLE file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name PF_ARM_MP_CAPABLE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -98,7 +98,7 @@ depStack
 innerIf  if ARM_MPCORE or ARM_CORTEX_A7 or ARM_CORTEX_A9 or ARM_CORTEX_A15 then (if ARM_MPCORE or ARM_CORTEX_A7 or ARM_CORTEX_A9 or ARM_CORTEX_A15 then PF_ARM_MP_CAPABLE else not PF_ARM_MP_CAPABLE) else not PF_ARM_MP_CAPABLE
 outerIf  if ARM_MPCORE or ARM_CORTEX_A7 or ARM_CORTEX_A9 or ARM_CORTEX_A15 then (if ARM_MPCORE or ARM_CORTEX_A7 or ARM_CORTEX_A9 or ARM_CORTEX_A15 then PF_ARM_MP_CAPABLE else not PF_ARM_MP_CAPABLE) else not PF_ARM_MP_CAPABLE
 ------------------------------------------------
-Name CAN_ARM_CPU_SA1100 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_SA1100 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -113,7 +113,7 @@ depStack
 innerIf  not CAN_ARM_CPU_SA1100
 outerIf  not CAN_ARM_CPU_SA1100
 ------------------------------------------------
-Name CAN_ARM_CPU_XSCALE file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_XSCALE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -128,7 +128,7 @@ depStack
 innerIf  not CAN_ARM_CPU_XSCALE
 outerIf  not CAN_ARM_CPU_XSCALE
 ------------------------------------------------
-Name CAN_ARM_CPU_920T file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_920T file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -143,7 +143,7 @@ depStack
 innerIf  not CAN_ARM_CPU_920T
 outerIf  not CAN_ARM_CPU_920T
 ------------------------------------------------
-Name CAN_ARM_CPU_926 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_926 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -158,7 +158,7 @@ depStack
 innerIf  not CAN_ARM_CPU_926
 outerIf  not CAN_ARM_CPU_926
 ------------------------------------------------
-Name CAN_ARM_CPU_1136 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_1136 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -173,7 +173,7 @@ depStack
 innerIf  not CAN_ARM_CPU_1136
 outerIf  not CAN_ARM_CPU_1136
 ------------------------------------------------
-Name CAN_ARM_CPU_1176 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_1176 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -188,7 +188,7 @@ depStack
 innerIf  not CAN_ARM_CPU_1176
 outerIf  not CAN_ARM_CPU_1176
 ------------------------------------------------
-Name CAN_ARM_CPU_MPCORE file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_MPCORE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -203,7 +203,7 @@ depStack
 innerIf  not CAN_ARM_CPU_MPCORE
 outerIf  not CAN_ARM_CPU_MPCORE
 ------------------------------------------------
-Name CAN_ARM_CPU_CORTEX_A5 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_CORTEX_A5 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -218,7 +218,7 @@ depStack
 innerIf  not CAN_ARM_CPU_CORTEX_A5
 outerIf  not CAN_ARM_CPU_CORTEX_A5
 ------------------------------------------------
-Name CAN_ARM_CPU_CORTEX_A7 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_CORTEX_A7 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -233,7 +233,7 @@ depStack
 innerIf  not CAN_ARM_CPU_CORTEX_A7
 outerIf  not CAN_ARM_CPU_CORTEX_A7
 ------------------------------------------------
-Name CAN_ARM_CPU_CORTEX_A8 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_CORTEX_A8 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -248,7 +248,7 @@ depStack
 innerIf  not CAN_ARM_CPU_CORTEX_A8
 outerIf  not CAN_ARM_CPU_CORTEX_A8
 ------------------------------------------------
-Name CAN_ARM_CPU_CORTEX_A9 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_CORTEX_A9 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -263,7 +263,7 @@ depStack
 innerIf  not CAN_ARM_CPU_CORTEX_A9
 outerIf  not CAN_ARM_CPU_CORTEX_A9
 ------------------------------------------------
-Name CAN_ARM_CPU_CORTEX_A15 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CPU_CORTEX_A15 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -278,7 +278,7 @@ depStack
 innerIf  not CAN_ARM_CPU_CORTEX_A15
 outerIf  not CAN_ARM_CPU_CORTEX_A15
 ------------------------------------------------
-Name CAN_ARM_CACHE_L2CXX0 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CAN_ARM_CACHE_L2CXX0 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -296,7 +296,7 @@ choice nmtot not (ARM_SA and ARM_PXA) and not (ARM_920T and ARM_PXA) and not (AR
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : if CAN_ARM_CPU_926 or CAN_ARM_CPU_1136 or CAN_ARM_CPU_1176 or CAN_ARM_CPU_MPCORE or CAN_ARM_CPU_CORTEX_A5 or CAN_ARM_CPU_CORTEX_A7 or CAN_ARM_CPU_CORTEX_A8 or CAN_ARM_CPU_CORTEX_A9 or CAN_ARM_CPU_CORTEX_A15 or IA32 or AMD64 or PPC32 or SPARC then not (ARM_SA and ARM_PXA) and not (ARM_920T and ARM_PXA) and not (ARM_920T and ARM_SA) and not (ARM_926 and ARM_PXA) and not (ARM_926 and ARM_SA) and not (ARM_926 and ARM_920T) and not (ARM_1136 and ARM_PXA) and not (ARM_1136 and ARM_SA) and not (ARM_1136 and ARM_920T) and not (ARM_1136 and ARM_926) and not (ARM_1176 and ARM_PXA) and not (ARM_1176 and ARM_SA) and not (ARM_1176 and ARM_920T) and not (ARM_1176 and ARM_926) and not (ARM_1176 and ARM_1136) and not (ARM_MPCORE and ARM_PXA) and not (ARM_MPCORE and ARM_SA) and not (ARM_MPCORE and ARM_920T) and not (ARM_MPCORE and ARM_926) and not (ARM_MPCORE and ARM_1136) and not (ARM_MPCORE and ARM_1176) and not (ARM_CORTEX_A5 and ARM_PXA) and not (ARM_CORTEX_A5 and ARM_SA) and not (ARM_CORTEX_A5 and ARM_920T) and not (ARM_CORTEX_A5 and ARM_926) and not (ARM_CORTEX_A5 and ARM_1136) and not (ARM_CORTEX_A5 and ARM_1176) and not (ARM_CORTEX_A5 and ARM_MPCORE) and not (ARM_CORTEX_A7 and ARM_PXA) and not (ARM_CORTEX_A7 and ARM_SA) and not (ARM_CORTEX_A7 and ARM_920T) and not (ARM_CORTEX_A7 and ARM_926) and not (ARM_CORTEX_A7 and ARM_1136) and not (ARM_CORTEX_A7 and ARM_1176) and not (ARM_CORTEX_A7 and ARM_MPCORE) and not (ARM_CORTEX_A7 and ARM_CORTEX_A5) and not (ARM_CORTEX_A8 and ARM_PXA) and not (ARM_CORTEX_A8 and ARM_SA) and not (ARM_CORTEX_A8 and ARM_920T) and not (ARM_CORTEX_A8 and ARM_926) and not (ARM_CORTEX_A8 and ARM_1136) and not (ARM_CORTEX_A8 and ARM_1176) and not (ARM_CORTEX_A8 and ARM_MPCORE) and not (ARM_CORTEX_A8 and ARM_CORTEX_A5) and not (ARM_CORTEX_A8 and ARM_CORTEX_A7) and not (ARM_CORTEX_A9 and ARM_PXA) and not (ARM_CORTEX_A9 and ARM_SA) and not (ARM_CORTEX_A9 and ARM_920T) and not (ARM_CORTEX_A9 and ARM_926) and not (ARM_CORTEX_A9 and ARM_1136) and not (ARM_CORTEX_A9 and ARM_1176) and not (ARM_CORTEX_A9 and ARM_MPCORE) and not (ARM_CORTEX_A9 and ARM_CORTEX_A5) and not (ARM_CORTEX_A9 and ARM_CORTEX_A7) and not (ARM_CORTEX_A9 and ARM_CORTEX_A8) and not (ARM_CORTEX_A15 and ARM_PXA) and not (ARM_CORTEX_A15 and ARM_SA) and not (ARM_CORTEX_A15 and ARM_920T) and not (ARM_CORTEX_A15 and ARM_926) and not (ARM_CORTEX_A15 and ARM_1136) and not (ARM_CORTEX_A15 and ARM_1176) and not (ARM_CORTEX_A15 and ARM_MPCORE) and not (ARM_CORTEX_A15 and ARM_CORTEX_A5) and not (ARM_CORTEX_A15 and ARM_CORTEX_A7) and not (ARM_CORTEX_A15 and ARM_CORTEX_A8) and not (ARM_CORTEX_A15 and ARM_CORTEX_A9) and not (IA32_486 and ARM_PXA) and not (IA32_486 and ARM_SA) and not (IA32_486 and ARM_920T) and not (IA32_486 and ARM_926) and not (IA32_486 and ARM_1136) and not (IA32_486 and ARM_1176) and not (IA32_486 and ARM_MPCORE) and not (IA32_486 and ARM_CORTEX_A5) and not (IA32_486 and ARM_CORTEX_A7) and not (IA32_486 and ARM_CORTEX_A8) and not (IA32_486 and ARM_CORTEX_A9) and not (IA32_486 and ARM_CORTEX_A15) and not (IA32_586 and ARM_PXA) and not (IA32_586 and ARM_SA) and not (IA32_586 and ARM_920T) and not (IA32_586 and ARM_926) and not (IA32_586 and ARM_1136) and not (IA32_586 and ARM_1176) and not (IA32_586 and ARM_MPCORE) and not (IA32_586 and ARM_CORTEX_A5) and not (IA32_586 and ARM_CORTEX_A7) and not (IA32_586 and ARM_CORTEX_A8) and not (IA32_586 and ARM_CORTEX_A9) and not (IA32_586 and ARM_CORTEX_A15) and not (IA32_586 and IA32_486) and not (IA32_686 and ARM_PXA) and not (IA32_686 and ARM_SA) and not (IA32_686 and ARM_920T) and not (IA32_686 and ARM_926) and not (IA32_686 and ARM_1136) and not (IA32_686 and ARM_1176) and not (IA32_686 and ARM_MPCORE) and not (IA32_686 and ARM_CORTEX_A5) and not (IA32_686 and ARM_CORTEX_A7) and not (IA32_686 and ARM_CORTEX_A8) and not (IA32_686 and ARM_CORTEX_A9) and not (IA32_686 and ARM_CORTEX_A15) and not (IA32_686 and IA32_486) and not (IA32_686 and IA32_586) and not (IA32_P2 and ARM_PXA) and not (IA32_P2 and ARM_SA) and not (IA32_P2 and ARM_920T) and not (IA32_P2 and ARM_926) and not (IA32_P2 and ARM_1136) and not (IA32_P2 and ARM_1176) and not (IA32_P2 and ARM_MPCORE) and not (IA32_P2 and ARM_CORTEX_A5) and not (IA32_P2 and ARM_CORTEX_A7) and not (IA32_P2 and ARM_CORTEX_A8) and not (IA32_P2 and ARM_CORTEX_A9) and not (IA32_P2 and ARM_CORTEX_A15) and not (IA32_P2 and IA32_486) and not (IA32_P2 and IA32_586) and not (IA32_P2 and IA32_686) and not (IA32_P3 and ARM_PXA) and not (IA32_P3 and ARM_SA) and not (IA32_P3 and ARM_920T) and not (IA32_P3 and ARM_926) and not (IA32_P3 and ARM_1136) and not (IA32_P3 and ARM_1176) and not (IA32_P3 and ARM_MPCORE) and not (IA32_P3 and ARM_CORTEX_A5) and not (IA32_P3 and ARM_CORTEX_A7) and not (IA32_P3 and ARM_CORTEX_A8) and not (IA32_P3 and ARM_CORTEX_A9) and not (IA32_P3 and ARM_CORTEX_A15) and not (IA32_P3 and IA32_486) and not (IA32_P3 and IA32_586) and not (IA32_P3 and IA32_686) and not (IA32_P3 and IA32_P2) and not (IA32_P4 and ARM_PXA) and not (IA32_P4 and ARM_SA) and not (IA32_P4 and ARM_920T) and not (IA32_P4 and ARM_926) and not (IA32_P4 and ARM_1136) and not (IA32_P4 and ARM_1176) and not (IA32_P4 and ARM_MPCORE) and not (IA32_P4 and ARM_CORTEX_A5) and not (IA32_P4 and ARM_CORTEX_A7) and not (IA32_P4 and ARM_CORTEX_A8) and not (IA32_P4 and ARM_CORTEX_A9) and not (IA32_P4 and ARM_CORTEX_A15) and not (IA32_P4 and IA32_486) and not (IA32_P4 and IA32_586) and not (IA32_P4 and IA32_686) and not (IA32_P4 and IA32_P2) and not (IA32_P4 and IA32_P3) and not (IA32_PM and ARM_PXA) and not (IA32_PM and ARM_SA) and not (IA32_PM and ARM_920T) and not (IA32_PM and ARM_926) and not (IA32_PM and ARM_1136) and not (IA32_PM and ARM_1176) and not (IA32_PM and ARM_MPCORE) and not (IA32_PM and ARM_CORTEX_A5) and not (IA32_PM and ARM_CORTEX_A7) and not (IA32_PM and ARM_CORTEX_A8) and not (IA32_PM and ARM_CORTEX_A9) and not (IA32_PM and ARM_CORTEX_A15) and not (IA32_PM and IA32_486) and not (IA32_PM and IA32_586) and not (IA32_PM and IA32_686) and not (IA32_PM and IA32_P2) and not (IA32_PM and IA32_P3) and not (IA32_PM and IA32_P4) and not (IA32_CORE2 and ARM_PXA) and not (IA32_CORE2 and ARM_SA) and not (IA32_CORE2 and ARM_920T) and not (IA32_CORE2 and ARM_926) and not (IA32_CORE2 and ARM_1136) and not (IA32_CORE2 and ARM_1176) and not (IA32_CORE2 and ARM_MPCORE) and not (IA32_CORE2 and ARM_CORTEX_A5) and not (IA32_CORE2 and ARM_CORTEX_A7) and not (IA32_CORE2 and ARM_CORTEX_A8) and not (IA32_CORE2 and ARM_CORTEX_A9) and not (IA32_CORE2 and ARM_CORTEX_A15) and not (IA32_CORE2 and IA32_486) and not (IA32_CORE2 and IA32_586) and not (IA32_CORE2 and IA32_686) and not (IA32_CORE2 and IA32_P2) and not (IA32_CORE2 and IA32_P3) and not (IA32_CORE2 and IA32_P4) and not (IA32_CORE2 and IA32_PM) and not (IA32_CORE_I and ARM_PXA) and not (IA32_CORE_I and ARM_SA) and not (IA32_CORE_I and ARM_920T) and not (IA32_CORE_I and ARM_926) and not (IA32_CORE_I and ARM_1136) and not (IA32_CORE_I and ARM_1176) and not (IA32_CORE_I and ARM_MPCORE) and not (IA32_CORE_I and ARM_CORTEX_A5) and not (IA32_CORE_I and ARM_CORTEX_A7) and not (IA32_CORE_I and ARM_CORTEX_A8) and not (IA32_CORE_I and ARM_CORTEX_A9) and not (IA32_CORE_I and ARM_CORTEX_A15) and not (IA32_CORE_I and IA32_486) and not (IA32_CORE_I and IA32_586) and not (IA32_CORE_I and IA32_686) and not (IA32_CORE_I and IA32_P2) and not (IA32_CORE_I and IA32_P3) and not (IA32_CORE_I and IA32_P4) and not (IA32_CORE_I and IA32_PM) and not (IA32_CORE_I and IA32_CORE2) and not (IA32_ATOM and ARM_PXA) and not (IA32_ATOM and ARM_SA) and not (IA32_ATOM and ARM_920T) and not (IA32_ATOM and ARM_926) and not (IA32_ATOM and ARM_1136) and not (IA32_ATOM and ARM_1176) and not (IA32_ATOM and ARM_MPCORE) and not (IA32_ATOM and ARM_CORTEX_A5) and not (IA32_ATOM and ARM_CORTEX_A7) and not (IA32_ATOM and ARM_CORTEX_A8) and not (IA32_ATOM and ARM_CORTEX_A9) and not (IA32_ATOM and ARM_CORTEX_A15) and not (IA32_ATOM and IA32_486) and not (IA32_ATOM and IA32_586) and not (IA32_ATOM and IA32_686) and not (IA32_ATOM and IA32_P2) and not (IA32_ATOM and IA32_P3) and not (IA32_ATOM and IA32_P4) and not (IA32_ATOM and IA32_PM) and not (IA32_ATOM and IA32_CORE2) and not (IA32_ATOM and IA32_CORE_I) and not (IA32_K6 and ARM_PXA) and not (IA32_K6 and ARM_SA) and not (IA32_K6 and ARM_920T) and not (IA32_K6 and ARM_926) and not (IA32_K6 and ARM_1136) and not (IA32_K6 and ARM_1176) and not (IA32_K6 and ARM_MPCORE) and not (IA32_K6 and ARM_CORTEX_A5) and not (IA32_K6 and ARM_CORTEX_A7) and not (IA32_K6 and ARM_CORTEX_A8) and not (IA32_K6 and ARM_CORTEX_A9) and not (IA32_K6 and ARM_CORTEX_A15) and not (IA32_K6 and IA32_486) and not (IA32_K6 and IA32_586) and not (IA32_K6 and IA32_686) and not (IA32_K6 and IA32_P2) and not (IA32_K6 and IA32_P3) and not (IA32_K6 and IA32_P4) and not (IA32_K6 and IA32_PM) and not (IA32_K6 and IA32_CORE2) and not (IA32_K6 and IA32_CORE_I) and not (IA32_K6 and IA32_ATOM) and not (IA32_K7 and ARM_PXA) and not (IA32_K7 and ARM_SA) and not (IA32_K7 and ARM_920T) and not (IA32_K7 and ARM_926) and not (IA32_K7 and ARM_1136) and not (IA32_K7 and ARM_1176) and not (IA32_K7 and ARM_MPCORE) and not (IA32_K7 and ARM_CORTEX_A5) and not (IA32_K7 and ARM_CORTEX_A7) and not (IA32_K7 and ARM_CORTEX_A8) and not (IA32_K7 and ARM_CORTEX_A9) and not (IA32_K7 and ARM_CORTEX_A15) and not (IA32_K7 and IA32_486) and not (IA32_K7 and IA32_586) and not (IA32_K7 and IA32_686) and not (IA32_K7 and IA32_P2) and not (IA32_K7 and IA32_P3) and not (IA32_K7 and IA32_P4) and not (IA32_K7 and IA32_PM) and not (IA32_K7 and IA32_CORE2) and not (IA32_K7 and IA32_CORE_I) and not (IA32_K7 and IA32_ATOM) and not (IA32_K7 and IA32_K6) and not (IA32_K8 and ARM_PXA) and not (IA32_K8 and ARM_SA) and not (IA32_K8 and ARM_920T) and not (IA32_K8 and ARM_926) and not (IA32_K8 and ARM_1136) and not (IA32_K8 and ARM_1176) and not (IA32_K8 and ARM_MPCORE) and not (IA32_K8 and ARM_CORTEX_A5) and not (IA32_K8 and ARM_CORTEX_A7) and not (IA32_K8 and ARM_CORTEX_A8) and not (IA32_K8 and ARM_CORTEX_A9) and not (IA32_K8 and ARM_CORTEX_A15) and not (IA32_K8 and IA32_486) and not (IA32_K8 and IA32_586) and not (IA32_K8 and IA32_686) and not (IA32_K8 and IA32_P2) and not (IA32_K8 and IA32_P3) and not (IA32_K8 and IA32_P4) and not (IA32_K8 and IA32_PM) and not (IA32_K8 and IA32_CORE2) and not (IA32_K8 and IA32_CORE_I) and not (IA32_K8 and IA32_ATOM) and not (IA32_K8 and IA32_K6) and not (IA32_K8 and IA32_K7) and not (IA32_K10 and ARM_PXA) and not (IA32_K10 and ARM_SA) and not (IA32_K10 and ARM_920T) and not (IA32_K10 and ARM_926) and not (IA32_K10 and ARM_1136) and not (IA32_K10 and ARM_1176) and not (IA32_K10 and ARM_MPCORE) and not (IA32_K10 and ARM_CORTEX_A5) and not (IA32_K10 and ARM_CORTEX_A7) and not (IA32_K10 and ARM_CORTEX_A8) and not (IA32_K10 and ARM_CORTEX_A9) and not (IA32_K10 and ARM_CORTEX_A15) and not (IA32_K10 and IA32_486) and not (IA32_K10 and IA32_586) and not (IA32_K10 and IA32_686) and not (IA32_K10 and IA32_P2) and not (IA32_K10 and IA32_P3) and not (IA32_K10 and IA32_P4) and not (IA32_K10 and IA32_PM) and not (IA32_K10 and IA32_CORE2) and not (IA32_K10 and IA32_CORE_I) and not (IA32_K10 and IA32_ATOM) and not (IA32_K10 and IA32_K6) and not (IA32_K10 and IA32_K7) and not (IA32_K10 and IA32_K8) and not (AMD64_K8 and ARM_PXA) and not (AMD64_K8 and ARM_SA) and not (AMD64_K8 and ARM_920T) and not (AMD64_K8 and ARM_926) and not (AMD64_K8 and ARM_1136) and not (AMD64_K8 and ARM_1176) and not (AMD64_K8 and ARM_MPCORE) and not (AMD64_K8 and ARM_CORTEX_A5) and not (AMD64_K8 and ARM_CORTEX_A7) and not (AMD64_K8 and ARM_CORTEX_A8) and not (AMD64_K8 and ARM_CORTEX_A9) and not (AMD64_K8 and ARM_CORTEX_A15) and not (AMD64_K8 and IA32_486) and not (AMD64_K8 and IA32_586) and not (AMD64_K8 and IA32_686) and not (AMD64_K8 and IA32_P2) and not (AMD64_K8 and IA32_P3) and not (AMD64_K8 and IA32_P4) and not (AMD64_K8 and IA32_PM) and not (AMD64_K8 and IA32_CORE2) and not (AMD64_K8 and IA32_CORE_I) and not (AMD64_K8 and IA32_ATOM) and not (AMD64_K8 and IA32_K6) and not (AMD64_K8 and IA32_K7) and not (AMD64_K8 and IA32_K8) and not (AMD64_K8 and IA32_K10) and not (AMD64_CORE2 and ARM_PXA) and not (AMD64_CORE2 and ARM_SA) and not (AMD64_CORE2 and ARM_920T) and not (AMD64_CORE2 and ARM_926) and not (AMD64_CORE2 and ARM_1136) and not (AMD64_CORE2 and ARM_1176) and not (AMD64_CORE2 and ARM_MPCORE) and not (AMD64_CORE2 and ARM_CORTEX_A5) and not (AMD64_CORE2 and ARM_CORTEX_A7) and not (AMD64_CORE2 and ARM_CORTEX_A8) and not (AMD64_CORE2 and ARM_CORTEX_A9) and not (AMD64_CORE2 and ARM_CORTEX_A15) and not (AMD64_CORE2 and IA32_486) and not (AMD64_CORE2 and IA32_586) and not (AMD64_CORE2 and IA32_686) and not (AMD64_CORE2 and IA32_P2) and not (AMD64_CORE2 and IA32_P3) and not (AMD64_CORE2 and IA32_P4) and not (AMD64_CORE2 and IA32_PM) and not (AMD64_CORE2 and IA32_CORE2) and not (AMD64_CORE2 and IA32_CORE_I) and not (AMD64_CORE2 and IA32_ATOM) and not (AMD64_CORE2 and IA32_K6) and not (AMD64_CORE2 and IA32_K7) and not (AMD64_CORE2 and IA32_K8) and not (AMD64_CORE2 and IA32_K10) and not (AMD64_CORE2 and AMD64_K8) and not (AMD64_CORE_I and ARM_PXA) and not (AMD64_CORE_I and ARM_SA) and not (AMD64_CORE_I and ARM_920T) and not (AMD64_CORE_I and ARM_926) and not (AMD64_CORE_I and ARM_1136) and not (AMD64_CORE_I and ARM_1176) and not (AMD64_CORE_I and ARM_MPCORE) and not (AMD64_CORE_I and ARM_CORTEX_A5) and not (AMD64_CORE_I and ARM_CORTEX_A7) and not (AMD64_CORE_I and ARM_CORTEX_A8) and not (AMD64_CORE_I and ARM_CORTEX_A9) and not (AMD64_CORE_I and ARM_CORTEX_A15) and not (AMD64_CORE_I and IA32_486) and not (AMD64_CORE_I and IA32_586) and not (AMD64_CORE_I and IA32_686) and not (AMD64_CORE_I and IA32_P2) and not (AMD64_CORE_I and IA32_P3) and not (AMD64_CORE_I and IA32_P4) and not (AMD64_CORE_I and IA32_PM) and not (AMD64_CORE_I and IA32_CORE2) and not (AMD64_CORE_I and IA32_CORE_I) and not (AMD64_CORE_I and IA32_ATOM) and not (AMD64_CORE_I and IA32_K6) and not (AMD64_CORE_I and IA32_K7) and not (AMD64_CORE_I and IA32_K8) and not (AMD64_CORE_I and IA32_K10) and not (AMD64_CORE_I and AMD64_K8) and not (AMD64_CORE_I and AMD64_CORE2) and not (AMD64_ATOM and ARM_PXA) and not (AMD64_ATOM and ARM_SA) and not (AMD64_ATOM and ARM_920T) and not (AMD64_ATOM and ARM_926) and not (AMD64_ATOM and ARM_1136) and not (AMD64_ATOM and ARM_1176) and not (AMD64_ATOM and ARM_MPCORE) and not (AMD64_ATOM and ARM_CORTEX_A5) and not (AMD64_ATOM and ARM_CORTEX_A7) and not (AMD64_ATOM and ARM_CORTEX_A8) and not (AMD64_ATOM and ARM_CORTEX_A9) and not (AMD64_ATOM and ARM_CORTEX_A15) and not (AMD64_ATOM and IA32_486) and not (AMD64_ATOM and IA32_586) and not (AMD64_ATOM and IA32_686) and not (AMD64_ATOM and IA32_P2) and not (AMD64_ATOM and IA32_P3) and not (AMD64_ATOM and IA32_P4) and not (AMD64_ATOM and IA32_PM) and not (AMD64_ATOM and IA32_CORE2) and not (AMD64_ATOM and IA32_CORE_I) and not (AMD64_ATOM and IA32_ATOM) and not (AMD64_ATOM and IA32_K6) and not (AMD64_ATOM and IA32_K7) and not (AMD64_ATOM and IA32_K8) and not (AMD64_ATOM and IA32_K10) and not (AMD64_ATOM and AMD64_K8) and not (AMD64_ATOM and AMD64_CORE2) and not (AMD64_ATOM and AMD64_CORE_I) and not (AMD64_K10 and ARM_PXA) and not (AMD64_K10 and ARM_SA) and not (AMD64_K10 and ARM_920T) and not (AMD64_K10 and ARM_926) and not (AMD64_K10 and ARM_1136) and not (AMD64_K10 and ARM_1176) and not (AMD64_K10 and ARM_MPCORE) and not (AMD64_K10 and ARM_CORTEX_A5) and not (AMD64_K10 and ARM_CORTEX_A7) and not (AMD64_K10 and ARM_CORTEX_A8) and not (AMD64_K10 and ARM_CORTEX_A9) and not (AMD64_K10 and ARM_CORTEX_A15) and not (AMD64_K10 and IA32_486) and not (AMD64_K10 and IA32_586) and not (AMD64_K10 and IA32_686) and not (AMD64_K10 and IA32_P2) and not (AMD64_K10 and IA32_P3) and not (AMD64_K10 and IA32_P4) and not (AMD64_K10 and IA32_PM) and not (AMD64_K10 and IA32_CORE2) and not (AMD64_K10 and IA32_CORE_I) and not (AMD64_K10 and IA32_ATOM) and not (AMD64_K10 and IA32_K6) and not (AMD64_K10 and IA32_K7) and not (AMD64_K10 and IA32_K8) and not (AMD64_K10 and IA32_K10) and not (AMD64_K10 and AMD64_K8) and not (AMD64_K10 and AMD64_CORE2) and not (AMD64_K10 and AMD64_CORE_I) and not (AMD64_K10 and AMD64_ATOM) and not (PPC32_603e and ARM_PXA) and not (PPC32_603e and ARM_SA) and not (PPC32_603e and ARM_920T) and not (PPC32_603e and ARM_926) and not (PPC32_603e and ARM_1136) and not (PPC32_603e and ARM_1176) and not (PPC32_603e and ARM_MPCORE) and not (PPC32_603e and ARM_CORTEX_A5) and not (PPC32_603e and ARM_CORTEX_A7) and not (PPC32_603e and ARM_CORTEX_A8) and not (PPC32_603e and ARM_CORTEX_A9) and not (PPC32_603e and ARM_CORTEX_A15) and not (PPC32_603e and IA32_486) and not (PPC32_603e and IA32_586) and not (PPC32_603e and IA32_686) and not (PPC32_603e and IA32_P2) and not (PPC32_603e and IA32_P3) and not (PPC32_603e and IA32_P4) and not (PPC32_603e and IA32_PM) and not (PPC32_603e and IA32_CORE2) and not (PPC32_603e and IA32_CORE_I) and not (PPC32_603e and IA32_ATOM) and not (PPC32_603e and IA32_K6) and not (PPC32_603e and IA32_K7) and not (PPC32_603e and IA32_K8) and not (PPC32_603e and IA32_K10) and not (PPC32_603e and AMD64_K8) and not (PPC32_603e and AMD64_CORE2) and not (PPC32_603e and AMD64_CORE_I) and not (PPC32_603e and AMD64_ATOM) and not (PPC32_603e and AMD64_K10) and not (LEON3 and ARM_PXA) and not (LEON3 and ARM_SA) and not (LEON3 and ARM_920T) and not (LEON3 and ARM_926) and not (LEON3 and ARM_1136) and not (LEON3 and ARM_1176) and not (LEON3 and ARM_MPCORE) and not (LEON3 and ARM_CORTEX_A5) and not (LEON3 and ARM_CORTEX_A7) and not (LEON3 and ARM_CORTEX_A8) and not (LEON3 and ARM_CORTEX_A9) and not (LEON3 and ARM_CORTEX_A15) and not (LEON3 and IA32_486) and not (LEON3 and IA32_586) and not (LEON3 and IA32_686) and not (LEON3 and IA32_P2) and not (LEON3 and IA32_P3) and not (LEON3 and IA32_P4) and not (LEON3 and IA32_PM) and not (LEON3 and IA32_CORE2) and not (LEON3 and IA32_CORE_I) and not (LEON3 and IA32_ATOM) and not (LEON3 and IA32_K6) and not (LEON3 and IA32_K7) and not (LEON3 and IA32_K8) and not (LEON3 and IA32_K10) and not (LEON3 and AMD64_K8) and not (LEON3 and AMD64_CORE2) and not (LEON3 and AMD64_CORE_I) and not (LEON3 and AMD64_ATOM) and not (LEON3 and AMD64_K10) and not (LEON3 and PPC32_603e) and (ARM_PXA or ARM_SA or ARM_920T or ARM_926 or ARM_1136 or ARM_1176 or ARM_MPCORE or ARM_CORTEX_A5 or ARM_CORTEX_A7 or ARM_CORTEX_A8 or ARM_CORTEX_A9 or ARM_CORTEX_A15 or IA32_486 or IA32_586 or IA32_686 or IA32_P2 or IA32_P3 or IA32_P4 or IA32_PM or IA32_CORE2 or IA32_CORE_I or IA32_ATOM or IA32_K6 or IA32_K7 or IA32_K8 or IA32_K10 or AMD64_K8 or AMD64_CORE2 or AMD64_CORE_I or AMD64_ATOM or AMD64_K10 or PPC32_603e or LEON3) else not ARM_PXA and not ARM_SA and not ARM_920T and not ARM_926 and not ARM_1136 and not ARM_1176 and not ARM_MPCORE and not ARM_CORTEX_A5 and not ARM_CORTEX_A7 and not ARM_CORTEX_A8 and not ARM_CORTEX_A9 and not ARM_CORTEX_A15 and not IA32_486 and not IA32_586 and not IA32_686 and not IA32_P2 and not IA32_P3 and not IA32_P4 and not IA32_PM and not IA32_CORE2 and not IA32_CORE_I and not IA32_ATOM and not IA32_K6 and not IA32_K7 and not IA32_K8 and not IA32_K10 and not AMD64_K8 and not AMD64_CORE2 and not AMD64_CORE_I and not AMD64_ATOM and not AMD64_K10 and not PPC32_603e and not LEON3
 ------------------------------------------------
-Name CPU_VIRT file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CPU_VIRT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_PC or (ARM_EM_NS and ARM_LPAE)
@@ -311,7 +311,7 @@ depStack
 innerIf  if CPU_VIRT then PF_PC or (ARM_EM_NS and ARM_LPAE)
 outerIf  if CPU_VIRT then PF_PC or (ARM_EM_NS and ARM_LPAE)
 ------------------------------------------------
-Name ARM_ALIGNMENT_CHECK file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ARM_ALIGNMENT_CHECK file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies ARM
@@ -332,7 +332,7 @@ choice nmtot not (ARM_SECMONIF_MC and ARM_SECMONIF_NONE) and not (ARM_SECMONIF_T
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : if ARM_EM_NS then not (ARM_SECMONIF_MC and ARM_SECMONIF_NONE) and not (ARM_SECMONIF_TL and ARM_SECMONIF_NONE) and not (ARM_SECMONIF_TL and ARM_SECMONIF_MC) and (ARM_SECMONIF_NONE or ARM_SECMONIF_MC or ARM_SECMONIF_TL) else not ARM_SECMONIF_NONE and not ARM_SECMONIF_MC and not ARM_SECMONIF_TL
 ------------------------------------------------
-Name ARM_ENABLE_SWP file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ARM_ENABLE_SWP file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies ARM_CORTEX_A9 or ARM_CORTEX_A15 or ARM_CORTEX_A7 or ARM_CORTEX_A5
@@ -347,7 +347,7 @@ depStack
 innerIf  if ARM_ENABLE_SWP then ARM_CORTEX_A9 or ARM_CORTEX_A15 or ARM_CORTEX_A7 or ARM_CORTEX_A5
 outerIf  if ARM_ENABLE_SWP then ARM_CORTEX_A9 or ARM_CORTEX_A15 or ARM_CORTEX_A7 or ARM_CORTEX_A5
 ------------------------------------------------
-Name ARM_LPAE file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ARM_LPAE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies ARM_CORTEX_A15 or ARM_CORTEX_A7
@@ -362,7 +362,7 @@ depStack
 innerIf  if ARM_LPAE then ARM_CORTEX_A15 or ARM_CORTEX_A7
 outerIf  if ARM_LPAE then ARM_CORTEX_A15 or ARM_CORTEX_A7
 ------------------------------------------------
-Name ARM_CACHE_L2CXX0 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ARM_CACHE_L2CXX0 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CAN_ARM_CACHE_L2CXX0
@@ -380,7 +380,7 @@ choice nmtot not (SCHED_RTC and SCHED_PIT) and not (SCHED_APIC and SCHED_PIT) an
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : if (((PF_PC or PF_UX) and not MP) or (PF_PC and not MP) or PF_PC or (PF_PC and not MP and EXPERIMENTAL)) and (PF_PC or PF_UX) then not (SCHED_RTC and SCHED_PIT) and not (SCHED_APIC and SCHED_PIT) and not (SCHED_APIC and SCHED_RTC) and not (SCHED_HPET and SCHED_PIT) and not (SCHED_HPET and SCHED_RTC) and not (SCHED_HPET and SCHED_APIC) and (SCHED_PIT or SCHED_RTC or SCHED_APIC or SCHED_HPET) else not SCHED_PIT and not SCHED_RTC and not SCHED_APIC and not SCHED_HPET
 ------------------------------------------------
-Name WORKAROUND_AMD_FPU_LEAK file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name WORKAROUND_AMD_FPU_LEAK file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_PC
@@ -395,7 +395,7 @@ depStack
 innerIf  if WORKAROUND_AMD_FPU_LEAK then PF_PC
 outerIf  if WORKAROUND_AMD_FPU_LEAK then PF_PC
 ------------------------------------------------
-Name REGPARM3 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name REGPARM3 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies IA32 and PF_PC
@@ -410,7 +410,7 @@ depStack
 innerIf  if not (IA32 and PF_PC) then (if IA32 and PF_PC then REGPARM3 else not REGPARM3)
 outerIf  if not (IA32 and PF_PC) then (if IA32 and PF_PC then REGPARM3 else not REGPARM3)
 ------------------------------------------------
-Name FPU file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name FPU file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard not CPU_VIRT dependencies ARM
@@ -425,7 +425,7 @@ depStack
 innerIf  if not (ARM and not CPU_VIRT) then (if ARM then FPU else not FPU)
 outerIf  if not (ARM and not CPU_VIRT) then (if ARM then FPU else not FPU)
 ------------------------------------------------
-Name ARM_1176_CACHE_ALIAS_FIX file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ARM_1176_CACHE_ALIAS_FIX file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies ARM_1176
@@ -440,7 +440,7 @@ depStack
 innerIf  if ARM_1176_CACHE_ALIAS_FIX then ARM_1176
 outerIf  if ARM_1176_CACHE_ALIAS_FIX then ARM_1176
 ------------------------------------------------
-Name ARM_CPU_ERRATA file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ARM_CPU_ERRATA file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies ARM
@@ -455,7 +455,7 @@ depStack
 innerIf  if ARM_CPU_ERRATA then ARM
 outerIf  if ARM_CPU_ERRATA then ARM
 ------------------------------------------------
-Name MP file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name MP file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies (PF_PC or PF_ARM_MP_CAPABLE) and not PF_UX
@@ -474,7 +474,7 @@ It is a string
 Processing range member "128"
 It is a string
 ------------------------------------------------
-Name MP_MAX_CPUS file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name MP_MAX_CPUS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies MP
 otherBit MP
@@ -490,7 +490,7 @@ outerIf if MP then (if MP then MP_MAX_CPUS else not MP_MAX_CPUS) else not MP_MAX
 3 MP_MAX_CPUS_EQ_4 -> MP_MAX_CPUS
 3 MP_MAX_CPUS_EQ_OTHERVAL -> MP_MAX_CPUS
 ------------------------------------------------
-Name CONTEXT_8K file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CONTEXT_8K file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 Intersection is 
 3.5 selector AMD64 declared 1 times  selectorSelectable 0 dropSelectorDeps 1 select size 1
@@ -510,7 +510,7 @@ depStack
 innerIf  not CONTEXT_8K
 outerIf  if AMD64 then CONTEXT_8K else not CONTEXT_8K
 ------------------------------------------------
-Name CONTEXT_4K file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CONTEXT_4K file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 Intersection is 
 3.5 selector PPC32 declared 1 times  selectorSelectable 0 dropSelectorDeps 1 select size 1
@@ -535,7 +535,7 @@ depStack
 innerIf  if not CONTEXT_8K then (if not CONTEXT_8K then CONTEXT_4K else not CONTEXT_4K) else not CONTEXT_4K
 outerIf  if PPC32 or SPARC then CONTEXT_4K else if not CONTEXT_8K then (if not CONTEXT_8K then CONTEXT_4K else not CONTEXT_4K) else not CONTEXT_4K
 ------------------------------------------------
-Name SLOW_RTC file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name SLOW_RTC file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies SCHED_RTC
@@ -550,7 +550,7 @@ depStack
 innerIf  if SLOW_RTC then SCHED_RTC
 outerIf  if SLOW_RTC then SCHED_RTC
 ------------------------------------------------
-Name ONE_SHOT file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ONE_SHOT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies SCHED_APIC and SYNC_TSC
@@ -565,7 +565,7 @@ depStack
 innerIf  if ONE_SHOT then SCHED_APIC and SYNC_TSC
 outerIf  if ONE_SHOT then SCHED_APIC and SYNC_TSC
 ------------------------------------------------
-Name SYNC_TSC file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name SYNC_TSC file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_PC and (IA32 or AMD64)
@@ -580,7 +580,7 @@ depStack
 innerIf  if SYNC_TSC then PF_PC and (IA32 or AMD64)
 outerIf  if SYNC_TSC then PF_PC and (IA32 or AMD64)
 ------------------------------------------------
-Name FINE_GRAINED_CPUTIME file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name FINE_GRAINED_CPUTIME file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -595,7 +595,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name UX_CON file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name UX_CON file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_UX
@@ -610,7 +610,7 @@ depStack
 innerIf  if UX_CON then PF_UX
 outerIf  if UX_CON then PF_UX
 ------------------------------------------------
-Name UX_NET file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name UX_NET file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_UX
@@ -628,7 +628,7 @@ choice nmtot not (SCHED_WFQ and SCHED_FIXED_PRIO) and not (SCHED_FP_WFQ and SCHE
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : not (SCHED_WFQ and SCHED_FIXED_PRIO) and not (SCHED_FP_WFQ and SCHED_FIXED_PRIO) and not (SCHED_FP_WFQ and SCHED_WFQ) and (SCHED_FIXED_PRIO or SCHED_WFQ or SCHED_FP_WFQ)
 ------------------------------------------------
-Name DISABLE_VIRT_OBJ_SPACE file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name DISABLE_VIRT_OBJ_SPACE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies (PF_PC or (ARM and not CPU_VIRT)) and EXPERIMENTAL
@@ -643,7 +643,7 @@ depStack
 innerIf  if DISABLE_VIRT_OBJ_SPACE then (PF_PC or (ARM and not CPU_VIRT)) and EXPERIMENTAL
 outerIf  if DISABLE_VIRT_OBJ_SPACE then (PF_PC or (ARM and not CPU_VIRT)) and EXPERIMENTAL
 ------------------------------------------------
-Name VIRT_OBJ_SPACE file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name VIRT_OBJ_SPACE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies not DISABLE_VIRT_OBJ_SPACE and not (CPU_VIRT and ARM) and (not ARM or (ARM_V6PLUS and (not ARM_1176 or ARM_1176_CACHE_ALIAS_FIX)))
@@ -658,7 +658,7 @@ depStack
 innerIf  if not DISABLE_VIRT_OBJ_SPACE and not (CPU_VIRT and ARM) and (not ARM or (ARM_V6PLUS and (not ARM_1176 or ARM_1176_CACHE_ALIAS_FIX))) then VIRT_OBJ_SPACE else not VIRT_OBJ_SPACE
 outerIf  if not DISABLE_VIRT_OBJ_SPACE and not (CPU_VIRT and ARM) and (not ARM or (ARM_V6PLUS and (not ARM_1176 or ARM_1176_CACHE_ALIAS_FIX))) then VIRT_OBJ_SPACE else not VIRT_OBJ_SPACE
 ------------------------------------------------
-Name INLINE file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name INLINE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -673,7 +673,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name NDEBUG file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name NDEBUG file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -688,7 +688,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name NO_FRAME_PTR file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name NO_FRAME_PTR file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -703,7 +703,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name STACK_DEPTH file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name STACK_DEPTH file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -718,7 +718,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name LIST_ALLOC_SANITY file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name LIST_ALLOC_SANITY file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -733,7 +733,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name BEFORE_IRET_SANITY file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name BEFORE_IRET_SANITY file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_PC
@@ -748,7 +748,7 @@ depStack
 innerIf  if BEFORE_IRET_SANITY then PF_PC
 outerIf  if BEFORE_IRET_SANITY then PF_PC
 ------------------------------------------------
-Name GSTABS file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name GSTABS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synFalse
@@ -763,7 +763,7 @@ depStack
 innerIf  not GSTABS
 outerIf  not GSTABS
 ------------------------------------------------
-Name IRQ_SPINNER file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name IRQ_SPINNER file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_PC
@@ -778,7 +778,7 @@ depStack
 innerIf  if IRQ_SPINNER then PF_PC
 outerIf  if IRQ_SPINNER then PF_PC
 ------------------------------------------------
-Name WATCHDOG file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name WATCHDOG file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_PC
@@ -793,7 +793,7 @@ depStack
 innerIf  if not PF_PC then (if PF_PC then WATCHDOG else not WATCHDOG)
 outerIf  if not PF_PC then (if PF_PC then WATCHDOG else not WATCHDOG)
 ------------------------------------------------
-Name SERIAL file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name SERIAL file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_PC or ARM or PPC32 or SPARC
@@ -808,7 +808,7 @@ depStack
 innerIf  if not (PF_PC or ARM or PPC32 or SPARC) then (if PF_PC or ARM or PPC32 or SPARC then SERIAL else not SERIAL)
 outerIf  if not (PF_PC or ARM or PPC32 or SPARC) then (if PF_PC or ARM or PPC32 or SPARC then SERIAL else not SERIAL)
 ------------------------------------------------
-Name JDB file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name JDB file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 Intersection is 
 3.5 selector PF_UX declared 1 times  selectorSelectable 0 dropSelectorDeps 1 select size 1
@@ -828,7 +828,7 @@ depStack
 innerIf  synTrue
 outerIf  if PF_UX then JDB
 ------------------------------------------------
-Name JDB_LOGGING file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name JDB_LOGGING file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies JDB
@@ -843,7 +843,7 @@ depStack JDB
 innerIf  if JDB_LOGGING then JDB
 outerIf  if JDB_LOGGING then JDB
 ------------------------------------------------
-Name JDB_DISASM file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name JDB_DISASM file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies JDB
@@ -858,7 +858,7 @@ depStack JDB
 innerIf  if not JDB then (if JDB and not ARM then (if not ARM then JDB_DISASM else not JDB_DISASM) else not JDB_DISASM)
 outerIf  if not JDB then (if JDB and not ARM then (if not ARM then JDB_DISASM else not JDB_DISASM) else not JDB_DISASM)
 ------------------------------------------------
-Name JDB_GZIP file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name JDB_GZIP file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies JDB
@@ -873,7 +873,7 @@ depStack JDB
 innerIf  if not JDB then (if JDB and not ARM then (if not ARM then JDB_GZIP else not JDB_GZIP) else not JDB_GZIP)
 outerIf  if not JDB then (if JDB and not ARM then (if not ARM then JDB_GZIP else not JDB_GZIP) else not JDB_GZIP)
 ------------------------------------------------
-Name JDB_ACCOUNTING file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name JDB_ACCOUNTING file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies JDB
@@ -888,7 +888,7 @@ depStack JDB
 innerIf  if JDB_ACCOUNTING then JDB
 outerIf  if JDB_ACCOUNTING then JDB
 ------------------------------------------------
-Name JDB_MISC file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name JDB_MISC file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies JDB and (PF_UX or PF_PC)
@@ -903,7 +903,7 @@ depStack JDB
 innerIf  if JDB_MISC then JDB and (PF_UX or PF_PC)
 outerIf  if JDB_MISC then JDB and (PF_UX or PF_PC)
 ------------------------------------------------
-Name VMEM_ALLOC_TEST file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name VMEM_ALLOC_TEST file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies ARM
@@ -918,7 +918,7 @@ depStack
 innerIf  if VMEM_ALLOC_TEST then ARM
 outerIf  if VMEM_ALLOC_TEST then ARM
 ------------------------------------------------
-Name DEBUG_KERNEL_PAGE_FAULTS file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name DEBUG_KERNEL_PAGE_FAULTS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies ARM
@@ -933,7 +933,7 @@ depStack
 innerIf  if DEBUG_KERNEL_PAGE_FAULTS then ARM
 outerIf  if DEBUG_KERNEL_PAGE_FAULTS then ARM
 ------------------------------------------------
-Name POWERSAVE_GETCHAR file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name POWERSAVE_GETCHAR file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies PF_PC
@@ -951,7 +951,7 @@ choice nmtot not (WARN_WARNING and WARN_NONE) and not (WARN_ANY and WARN_NONE) a
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : not (WARN_WARNING and WARN_NONE) and not (WARN_ANY and WARN_NONE) and not (WARN_ANY and WARN_WARNING) and (WARN_NONE or WARN_WARNING or WARN_ANY)
 ------------------------------------------------
-Name CC file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CC file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -965,7 +965,7 @@ outerIf CC
 3 CC_EQ_OTHERVAL -> CC
 3 CC_EQ_gcc -> CC
 ------------------------------------------------
-Name CXX file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name CXX file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -979,7 +979,7 @@ outerIf CXX
 3 CXX_EQ_OTHERVAL -> CXX
 3 CXX_EQ_g++ -> CXX
 ------------------------------------------------
-Name HOST_CC file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name HOST_CC file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -993,7 +993,7 @@ outerIf HOST_CC
 3 HOST_CC_EQ_OTHERVAL -> HOST_CC
 3 HOST_CC_EQ_gcc -> HOST_CC
 ------------------------------------------------
-Name HOST_CXX file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name HOST_CXX file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -1007,7 +1007,7 @@ outerIf HOST_CXX
 3 HOST_CXX_EQ_OTHERVAL -> HOST_CXX
 3 HOST_CXX_EQ_g++ -> HOST_CXX
 ------------------------------------------------
-Name MAINTAINER_MODE file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name MAINTAINER_MODE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -1022,7 +1022,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name LABEL file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name LABEL file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -1035,7 +1035,7 @@ innerIf LABEL
 outerIf LABEL
 3 LABEL_EQ_OTHERVAL -> LABEL
 ------------------------------------------------
-Name EXPERIMENTAL file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name EXPERIMENTAL file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -1050,7 +1050,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name PERF_CNT file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name PERF_CNT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -1065,7 +1065,7 @@ depStack
 innerIf  if JDB and (IA32 or AMD64 or ARM) then (if JDB and (IA32 or AMD64 or ARM) then PERF_CNT else not PERF_CNT) else not PERF_CNT
 outerIf  if JDB and (IA32 or AMD64 or ARM) then (if JDB and (IA32 or AMD64 or ARM) then PERF_CNT else not PERF_CNT) else not PERF_CNT
 ------------------------------------------------
-Name BIT32 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name BIT32 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -1080,7 +1080,7 @@ depStack
 innerIf  if ARM or IA32 or PPC32 or SPARC then (if ARM or IA32 or PPC32 or SPARC then BIT32 else not BIT32) else not BIT32
 outerIf  if ARM or IA32 or PPC32 or SPARC then (if ARM or IA32 or PPC32 or SPARC then BIT32 else not BIT32) else not BIT32
 ------------------------------------------------
-Name BIT64 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name BIT64 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -1095,7 +1095,7 @@ depStack
 innerIf  if AMD64 then (if AMD64 then BIT64 else not BIT64) else not BIT64
 outerIf  if AMD64 then (if AMD64 then BIT64 else not BIT64) else not BIT64
 ------------------------------------------------
-Name ARM_V6 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ARM_V6 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -1110,7 +1110,7 @@ depStack
 innerIf  if ARM_1136 or ARM_1176 or ARM_MPCORE then (if ARM_1136 or ARM_1176 or ARM_MPCORE then ARM_V6 else not ARM_V6) else not ARM_V6
 outerIf  if ARM_1136 or ARM_1176 or ARM_MPCORE then (if ARM_1136 or ARM_1176 or ARM_MPCORE then ARM_V6 else not ARM_V6) else not ARM_V6
 ------------------------------------------------
-Name ARM_V7 file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ARM_V7 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -1125,7 +1125,7 @@ depStack
 innerIf  if ARM_CORTEX_A8 or ARM_CORTEX_A9 or ARM_CORTEX_A5 or ARM_CORTEX_A7 or ARM_CORTEX_A15 then (if ARM_CORTEX_A8 or ARM_CORTEX_A9 or ARM_CORTEX_A5 or ARM_CORTEX_A7 or ARM_CORTEX_A15 then ARM_V7 else not ARM_V7) else not ARM_V7
 outerIf  if ARM_CORTEX_A8 or ARM_CORTEX_A9 or ARM_CORTEX_A5 or ARM_CORTEX_A7 or ARM_CORTEX_A15 then (if ARM_CORTEX_A8 or ARM_CORTEX_A9 or ARM_CORTEX_A5 or ARM_CORTEX_A7 or ARM_CORTEX_A15 then ARM_V7 else not ARM_V7) else not ARM_V7
 ------------------------------------------------
-Name ARM_V6PLUS file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ARM_V6PLUS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -1140,7 +1140,7 @@ depStack
 innerIf  if ARM_V6 or ARM_V7 then (if ARM_V6 or ARM_V7 then ARM_V6PLUS else not ARM_V6PLUS) else not ARM_V6PLUS
 outerIf  if ARM_V6 or ARM_V7 then (if ARM_V6 or ARM_V7 then ARM_V6PLUS else not ARM_V6PLUS) else not ARM_V6PLUS
 ------------------------------------------------
-Name WARN_LEVEL file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name WARN_LEVEL file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
 otherBit synFalse
@@ -1157,7 +1157,7 @@ outerIf if WARN_ANY then WARN_LEVEL_EQ_2 else if WARN_WARNING then WARN_LEVEL_EQ
 3 WARN_LEVEL_EQ_1 -> WARN_LEVEL
 3 WARN_LEVEL_EQ_2 -> WARN_LEVEL
 ------------------------------------------------
-Name XARCH file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name XARCH file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
 otherBit synFalse
@@ -1177,7 +1177,7 @@ outerIf if ARM then XARCH_EQ_arm else if PF_UX then XARCH_EQ_ux else if AMD64 an
 3 XARCH_EQ_sparc -> XARCH
 3 XARCH_EQ_ux -> XARCH
 ------------------------------------------------
-Name IA32_TARGET file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name IA32_TARGET file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
 otherBit synFalse
@@ -1204,7 +1204,7 @@ outerIf if IA32_486 then IA32_TARGET_EQ_Intel_80486 else if IA32_586 then IA32_T
 3 IA32_TARGET_EQ_Intel_Pentium_Pro -> IA32_TARGET
 3 IA32_TARGET_EQ_Pentium_M -> IA32_TARGET
 ------------------------------------------------
-Name ABI file definition /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig
+Name ABI file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/Kconfig
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
 otherBit synFalse
@@ -1256,7 +1256,7 @@ At least 15 variables are always false
 Writing variables in order of occurrence to fiasco.var
 Writing expressions to fiasco.exp
 Symbols in symbolTable 170
-Symbols file /Users/david/product_lines/Implementacion/myKconf/systems/fiasco/symbols
+Symbols file /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/fiasco/symbols
 
 Files processed      : 1
 If blocks processed  : 1
@@ -1270,11 +1270,4 @@ Menuconfig processed : 0
  boolean:    122 variables
      int:      2 variables
   string:      9 variables
-Time:  83 ms. (83 ms)
-Error: signal 11:
-0   Kconfig2Logic                       0x0000000106259737 _Z7handleri + 39
-1   libsystem_platform.dylib            0x00007fff701bbb5d _sigtramp + 29
-2   ???                                 0x0ae1a3002b4a2a3c 0x0 + 784087031260785212
-3   Kconfig2Logic                       0x000000010625ab93 main + 5155
-4   libdyld.dylib                       0x00007fff6ffd03d5 start + 1
-5   ???                                 0x0000000000000002 0x0 + 2
+Time:  86 ms. (86 ms)

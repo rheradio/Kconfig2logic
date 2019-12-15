@@ -1,50 +1,50 @@
-Kconfig2Logic /Users/david/product_lines/Implementacion/myKconf/systems/axtls 
-simplifyDependency choice_1 file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_VISUAL_STUDIO_7_0_BASE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_VISUAL_STUDIO_8_0_BASE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_VISUAL_STUDIO_10_0_BASE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_STATIC_BUILD file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_PORT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_HTTPS_PORT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_SESSION_CACHE_SIZE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_WEBROOT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_TIMEOUT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_HAS_CGI file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
-simplifyDependency CONFIG_HTTP_HAS_CGI file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
-simplifyDependency CONFIG_HTTP_CGI_EXTENSIONS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
-simplifyDependency CONFIG_HTTP_CGI_EXTENSIONS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
-simplifyDependency CONFIG_HTTP_ENABLE_LUA file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
-simplifyDependency CONFIG_HTTP_ENABLE_LUA file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
-simplifyDependency CONFIG_HTTP_LUA_PREFIX file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
-simplifyDependency CONFIG_HTTP_LUA_PREFIX file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
-simplifyDependency CONFIG_HTTP_BUILD_LUA file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
-simplifyDependency CONFIG_HTTP_BUILD_LUA file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
-simplifyDependency CONFIG_HTTP_CGI_LAUNCHER file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
-simplifyDependency CONFIG_HTTP_CGI_LAUNCHER file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
-simplifyDependency CONFIG_HTTP_DIRECTORIES file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_HAS_AUTHORIZATION file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_HAS_IPV6 file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_ENABLE_DIFFERENT_USER file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_USER file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_VERBOSE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_HTTP_IS_DAEMON file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_DOT_NET_FRAMEWORK_BASE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency CONFIG_JAVA_HOME file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency CONFIG_PERL_CORE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency CONFIG_PERL_LIB file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency CONFIG_LUA_CORE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in is Symbol 1 type is 1 depstack size 1
-simplifyDependency choice_4 file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency CONFIG_BIGINT_CRT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency CONFIG_BIGINT_KARATSUBA file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency MUL_KARATSUBA_THRESH file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency SQU_KARATSUBA_THRESH file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency CONFIG_BIGINT_SLIDING_WINDOW file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency CONFIG_BIGINT_SQUARE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency CONFIG_BIGINT_CHECK_ON file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
-simplifyDependency choice_5 file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
+/Users/david/product_lines/Articulos/ESE2019/artifacts/code/bin/Kconfig2Logic /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls 
+simplifyDependency choice_1 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_VISUAL_STUDIO_7_0_BASE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_VISUAL_STUDIO_8_0_BASE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_VISUAL_STUDIO_10_0_BASE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_STATIC_BUILD file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_PORT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_HTTPS_PORT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_SESSION_CACHE_SIZE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_WEBROOT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_TIMEOUT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_HAS_CGI file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
+simplifyDependency CONFIG_HTTP_HAS_CGI file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
+simplifyDependency CONFIG_HTTP_CGI_EXTENSIONS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
+simplifyDependency CONFIG_HTTP_CGI_EXTENSIONS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
+simplifyDependency CONFIG_HTTP_ENABLE_LUA file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
+simplifyDependency CONFIG_HTTP_ENABLE_LUA file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
+simplifyDependency CONFIG_HTTP_LUA_PREFIX file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
+simplifyDependency CONFIG_HTTP_LUA_PREFIX file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
+simplifyDependency CONFIG_HTTP_BUILD_LUA file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
+simplifyDependency CONFIG_HTTP_BUILD_LUA file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
+simplifyDependency CONFIG_HTTP_CGI_LAUNCHER file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 0 type is 2 depstack size 2
+simplifyDependency CONFIG_HTTP_CGI_LAUNCHER file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 2
+simplifyDependency CONFIG_HTTP_DIRECTORIES file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_HAS_AUTHORIZATION file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_HAS_IPV6 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_ENABLE_DIFFERENT_USER file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_USER file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_VERBOSE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_HTTP_IS_DAEMON file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_DOT_NET_FRAMEWORK_BASE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency CONFIG_JAVA_HOME file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency CONFIG_PERL_CORE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency CONFIG_PERL_LIB file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency CONFIG_LUA_CORE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in is Symbol 1 type is 1 depstack size 1
+simplifyDependency choice_4 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency CONFIG_BIGINT_CRT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency CONFIG_BIGINT_KARATSUBA file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency MUL_KARATSUBA_THRESH file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency SQU_KARATSUBA_THRESH file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency CONFIG_BIGINT_SLIDING_WINDOW file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency CONFIG_BIGINT_SQUARE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency CONFIG_BIGINT_CHECK_ON file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
+simplifyDependency choice_5 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in is Symbol 0 type is 2 depstack size 1
 Before treatment. 81 variables
 ------------------------------------------------
-Name HAVE_DOT_CONFIG file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name HAVE_DOT_CONFIG file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -62,7 +62,7 @@ choice nmtot not (CONFIG_PLATFORM_CYGWIN and CONFIG_PLATFORM_LINUX) and not (CON
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : not (CONFIG_PLATFORM_CYGWIN and CONFIG_PLATFORM_LINUX) and not (CONFIG_PLATFORM_WIN32 and CONFIG_PLATFORM_LINUX) and not (CONFIG_PLATFORM_WIN32 and CONFIG_PLATFORM_CYGWIN) and (CONFIG_PLATFORM_LINUX or CONFIG_PLATFORM_CYGWIN or CONFIG_PLATFORM_WIN32)
 ------------------------------------------------
-Name PREFIX file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name PREFIX file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_PLATFORM_WIN32
 otherBit not CONFIG_PLATFORM_WIN32
@@ -76,7 +76,7 @@ outerIf if not CONFIG_PLATFORM_WIN32 then (if not CONFIG_PLATFORM_WIN32 then PRE
 3 PREFIX_EQ_/usr/local -> PREFIX
 3 PREFIX_EQ_OTHERVAL -> PREFIX
 ------------------------------------------------
-Name CONFIG_DEBUG file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name CONFIG_DEBUG file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -91,7 +91,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name CONFIG_STRIP_UNWANTED_SECTIONS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name CONFIG_STRIP_UNWANTED_SECTIONS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_PLATFORM_WIN32 and not CONFIG_DEBUG
@@ -109,7 +109,7 @@ choice nmtot not (CONFIG_VISUAL_STUDIO_8_0 and CONFIG_VISUAL_STUDIO_7_0) and not
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : if CONFIG_PLATFORM_WIN32 then not (CONFIG_VISUAL_STUDIO_8_0 and CONFIG_VISUAL_STUDIO_7_0) and not (CONFIG_VISUAL_STUDIO_10_0 and CONFIG_VISUAL_STUDIO_7_0) and not (CONFIG_VISUAL_STUDIO_10_0 and CONFIG_VISUAL_STUDIO_8_0) and (CONFIG_VISUAL_STUDIO_7_0 or CONFIG_VISUAL_STUDIO_8_0 or CONFIG_VISUAL_STUDIO_10_0) else not CONFIG_VISUAL_STUDIO_7_0 and not CONFIG_VISUAL_STUDIO_8_0 and not CONFIG_VISUAL_STUDIO_10_0
 ------------------------------------------------
-Name CONFIG_VISUAL_STUDIO_7_0_BASE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name CONFIG_VISUAL_STUDIO_7_0_BASE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_PLATFORM_WIN32 and CONFIG_VISUAL_STUDIO_7_0
 otherBit CONFIG_PLATFORM_WIN32 and CONFIG_VISUAL_STUDIO_7_0
@@ -123,7 +123,7 @@ outerIf if CONFIG_PLATFORM_WIN32 and CONFIG_VISUAL_STUDIO_7_0 then (if CONFIG_PL
 3 CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_OTHERVAL -> CONFIG_VISUAL_STUDIO_7_0_BASE
 3 CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_.NET_2003 -> CONFIG_VISUAL_STUDIO_7_0_BASE
 ------------------------------------------------
-Name CONFIG_VISUAL_STUDIO_8_0_BASE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name CONFIG_VISUAL_STUDIO_8_0_BASE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_PLATFORM_WIN32 and CONFIG_VISUAL_STUDIO_8_0
 otherBit CONFIG_PLATFORM_WIN32 and CONFIG_VISUAL_STUDIO_8_0
@@ -137,7 +137,7 @@ outerIf if CONFIG_PLATFORM_WIN32 and CONFIG_VISUAL_STUDIO_8_0 then (if CONFIG_PL
 3 CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_OTHERVAL -> CONFIG_VISUAL_STUDIO_8_0_BASE
 3 CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_8 -> CONFIG_VISUAL_STUDIO_8_0_BASE
 ------------------------------------------------
-Name CONFIG_VISUAL_STUDIO_10_0_BASE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name CONFIG_VISUAL_STUDIO_10_0_BASE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_PLATFORM_WIN32 and CONFIG_VISUAL_STUDIO_10_0
 otherBit CONFIG_PLATFORM_WIN32 and CONFIG_VISUAL_STUDIO_10_0
@@ -151,7 +151,7 @@ outerIf if CONFIG_PLATFORM_WIN32 and CONFIG_VISUAL_STUDIO_10_0 then (if CONFIG_P
 3 CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_OTHERVAL -> CONFIG_VISUAL_STUDIO_10_0_BASE
 3 CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_10.0 -> CONFIG_VISUAL_STUDIO_10_0_BASE
 ------------------------------------------------
-Name CONFIG_EXTRA_CFLAGS_OPTIONS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name CONFIG_EXTRA_CFLAGS_OPTIONS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -164,7 +164,7 @@ innerIf CONFIG_EXTRA_CFLAGS_OPTIONS
 outerIf CONFIG_EXTRA_CFLAGS_OPTIONS
 3 CONFIG_EXTRA_CFLAGS_OPTIONS_EQ_OTHERVAL -> CONFIG_EXTRA_CFLAGS_OPTIONS
 ------------------------------------------------
-Name CONFIG_EXTRA_LDFLAGS_OPTIONS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name CONFIG_EXTRA_LDFLAGS_OPTIONS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -183,7 +183,7 @@ choice nmtot not (CONFIG_SSL_PROT_MEDIUM and CONFIG_SSL_PROT_LOW) and not (CONFI
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : if not CONFIG_SSL_SKELETON_MODE then not (CONFIG_SSL_PROT_MEDIUM and CONFIG_SSL_PROT_LOW) and not (CONFIG_SSL_PROT_HIGH and CONFIG_SSL_PROT_LOW) and not (CONFIG_SSL_PROT_HIGH and CONFIG_SSL_PROT_MEDIUM) and (CONFIG_SSL_PROT_LOW or CONFIG_SSL_PROT_MEDIUM or CONFIG_SSL_PROT_HIGH) else not CONFIG_SSL_PROT_LOW and not CONFIG_SSL_PROT_MEDIUM and not CONFIG_SSL_PROT_HIGH
 ------------------------------------------------
-Name CONFIG_SSL_USE_DEFAULT_KEY file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_USE_DEFAULT_KEY file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE
@@ -198,7 +198,7 @@ depStack
 innerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then CONFIG_SSL_USE_DEFAULT_KEY else not CONFIG_SSL_USE_DEFAULT_KEY)
 outerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then CONFIG_SSL_USE_DEFAULT_KEY else not CONFIG_SSL_USE_DEFAULT_KEY)
 ------------------------------------------------
-Name CONFIG_SSL_PRIVATE_KEY_LOCATION file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_PRIVATE_KEY_LOCATION file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_USE_DEFAULT_KEY and not CONFIG_SSL_SKELETON_MODE
 otherBit not CONFIG_SSL_USE_DEFAULT_KEY and not CONFIG_SSL_SKELETON_MODE
@@ -211,7 +211,7 @@ innerIf if not CONFIG_SSL_USE_DEFAULT_KEY and not CONFIG_SSL_SKELETON_MODE then 
 outerIf if not CONFIG_SSL_USE_DEFAULT_KEY and not CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_USE_DEFAULT_KEY and not CONFIG_SSL_SKELETON_MODE then CONFIG_SSL_PRIVATE_KEY_LOCATION else not CONFIG_SSL_PRIVATE_KEY_LOCATION) else not CONFIG_SSL_PRIVATE_KEY_LOCATION
 3 CONFIG_SSL_PRIVATE_KEY_LOCATION_EQ_OTHERVAL -> CONFIG_SSL_PRIVATE_KEY_LOCATION
 ------------------------------------------------
-Name CONFIG_SSL_PRIVATE_KEY_PASSWORD file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_PRIVATE_KEY_PASSWORD file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_USE_DEFAULT_KEY and CONFIG_SSL_HAS_PEM
 otherBit not CONFIG_SSL_USE_DEFAULT_KEY and CONFIG_SSL_HAS_PEM
@@ -224,7 +224,7 @@ innerIf if not CONFIG_SSL_USE_DEFAULT_KEY and CONFIG_SSL_HAS_PEM then CONFIG_SSL
 outerIf if not CONFIG_SSL_USE_DEFAULT_KEY and CONFIG_SSL_HAS_PEM then (if not CONFIG_SSL_USE_DEFAULT_KEY and CONFIG_SSL_HAS_PEM then CONFIG_SSL_PRIVATE_KEY_PASSWORD else not CONFIG_SSL_PRIVATE_KEY_PASSWORD) else not CONFIG_SSL_PRIVATE_KEY_PASSWORD
 3 CONFIG_SSL_PRIVATE_KEY_PASSWORD_EQ_OTHERVAL -> CONFIG_SSL_PRIVATE_KEY_PASSWORD
 ------------------------------------------------
-Name CONFIG_SSL_X509_CERT_LOCATION file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_X509_CERT_LOCATION file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_GENERATE_X509_CERT and not CONFIG_SSL_USE_DEFAULT_KEY and not CONFIG_SSL_SKELETON_MODE
 otherBit not CONFIG_SSL_GENERATE_X509_CERT and not CONFIG_SSL_USE_DEFAULT_KEY and not CONFIG_SSL_SKELETON_MODE
@@ -237,7 +237,7 @@ innerIf if not CONFIG_SSL_GENERATE_X509_CERT and not CONFIG_SSL_USE_DEFAULT_KEY 
 outerIf if not CONFIG_SSL_GENERATE_X509_CERT and not CONFIG_SSL_USE_DEFAULT_KEY and not CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_GENERATE_X509_CERT and not CONFIG_SSL_USE_DEFAULT_KEY and not CONFIG_SSL_SKELETON_MODE then CONFIG_SSL_X509_CERT_LOCATION else not CONFIG_SSL_X509_CERT_LOCATION) else not CONFIG_SSL_X509_CERT_LOCATION
 3 CONFIG_SSL_X509_CERT_LOCATION_EQ_OTHERVAL -> CONFIG_SSL_X509_CERT_LOCATION
 ------------------------------------------------
-Name CONFIG_SSL_GENERATE_X509_CERT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_GENERATE_X509_CERT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -252,7 +252,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name CONFIG_SSL_X509_COMMON_NAME file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_X509_COMMON_NAME file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SSL_GENERATE_X509_CERT
 otherBit CONFIG_SSL_GENERATE_X509_CERT
@@ -265,7 +265,7 @@ innerIf if CONFIG_SSL_GENERATE_X509_CERT then CONFIG_SSL_X509_COMMON_NAME else n
 outerIf if CONFIG_SSL_GENERATE_X509_CERT then (if CONFIG_SSL_GENERATE_X509_CERT then CONFIG_SSL_X509_COMMON_NAME else not CONFIG_SSL_X509_COMMON_NAME) else not CONFIG_SSL_X509_COMMON_NAME
 3 CONFIG_SSL_X509_COMMON_NAME_EQ_OTHERVAL -> CONFIG_SSL_X509_COMMON_NAME
 ------------------------------------------------
-Name CONFIG_SSL_X509_ORGANIZATION_NAME file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_X509_ORGANIZATION_NAME file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SSL_GENERATE_X509_CERT
 otherBit CONFIG_SSL_GENERATE_X509_CERT
@@ -278,7 +278,7 @@ innerIf if CONFIG_SSL_GENERATE_X509_CERT then CONFIG_SSL_X509_ORGANIZATION_NAME 
 outerIf if CONFIG_SSL_GENERATE_X509_CERT then (if CONFIG_SSL_GENERATE_X509_CERT then CONFIG_SSL_X509_ORGANIZATION_NAME else not CONFIG_SSL_X509_ORGANIZATION_NAME) else not CONFIG_SSL_X509_ORGANIZATION_NAME
 3 CONFIG_SSL_X509_ORGANIZATION_NAME_EQ_OTHERVAL -> CONFIG_SSL_X509_ORGANIZATION_NAME
 ------------------------------------------------
-Name CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SSL_GENERATE_X509_CERT
 otherBit CONFIG_SSL_GENERATE_X509_CERT
@@ -291,7 +291,7 @@ innerIf if CONFIG_SSL_GENERATE_X509_CERT then CONFIG_SSL_X509_ORGANIZATION_UNIT_
 outerIf if CONFIG_SSL_GENERATE_X509_CERT then (if CONFIG_SSL_GENERATE_X509_CERT then CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME else not CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME) else not CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME
 3 CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME_EQ_OTHERVAL -> CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME
 ------------------------------------------------
-Name CONFIG_SSL_ENABLE_V23_HANDSHAKE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_ENABLE_V23_HANDSHAKE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -306,7 +306,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name CONFIG_SSL_HAS_PEM file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_HAS_PEM file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE
@@ -321,7 +321,7 @@ depStack
 innerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_FULL_MODE then not CONFIG_SSL_HAS_PEM else if CONFIG_SSL_FULL_MODE then CONFIG_SSL_HAS_PEM else not CONFIG_SSL_HAS_PEM) else not CONFIG_SSL_HAS_PEM)
 outerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_FULL_MODE then not CONFIG_SSL_HAS_PEM else if CONFIG_SSL_FULL_MODE then CONFIG_SSL_HAS_PEM else not CONFIG_SSL_HAS_PEM) else not CONFIG_SSL_HAS_PEM)
 ------------------------------------------------
-Name CONFIG_SSL_USE_PKCS12 file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_USE_PKCS12 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE
@@ -336,7 +336,7 @@ depStack
 innerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_FULL_MODE then not CONFIG_SSL_USE_PKCS12 else if CONFIG_SSL_FULL_MODE then CONFIG_SSL_USE_PKCS12 else not CONFIG_SSL_USE_PKCS12) else not CONFIG_SSL_USE_PKCS12)
 outerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_FULL_MODE then not CONFIG_SSL_USE_PKCS12 else if CONFIG_SSL_FULL_MODE then CONFIG_SSL_USE_PKCS12 else not CONFIG_SSL_USE_PKCS12) else not CONFIG_SSL_USE_PKCS12)
 ------------------------------------------------
-Name CONFIG_SSL_EXPIRY_TIME file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_EXPIRY_TIME file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE
 otherBit not CONFIG_SSL_SKELETON_MODE
@@ -350,7 +350,7 @@ outerIf if not CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE th
 3 CONFIG_SSL_EXPIRY_TIME_EQ_24 -> CONFIG_SSL_EXPIRY_TIME
 3 CONFIG_SSL_EXPIRY_TIME_EQ_OTHERVAL -> CONFIG_SSL_EXPIRY_TIME
 ------------------------------------------------
-Name CONFIG_X509_MAX_CA_CERTS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_X509_MAX_CA_CERTS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SERVER_ONLY and not CONFIG_SSL_SKELETON_MODE
 otherBit not CONFIG_SSL_SERVER_ONLY and not CONFIG_SSL_SKELETON_MODE
@@ -364,7 +364,7 @@ outerIf if not CONFIG_SSL_SERVER_ONLY and not CONFIG_SSL_SKELETON_MODE then (if 
 3 CONFIG_X509_MAX_CA_CERTS_EQ_150 -> CONFIG_X509_MAX_CA_CERTS
 3 CONFIG_X509_MAX_CA_CERTS_EQ_OTHERVAL -> CONFIG_X509_MAX_CA_CERTS
 ------------------------------------------------
-Name CONFIG_SSL_MAX_CERTS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_MAX_CERTS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -378,7 +378,7 @@ outerIf CONFIG_SSL_MAX_CERTS
 3 CONFIG_SSL_MAX_CERTS_EQ_3 -> CONFIG_SSL_MAX_CERTS
 3 CONFIG_SSL_MAX_CERTS_EQ_OTHERVAL -> CONFIG_SSL_MAX_CERTS
 ------------------------------------------------
-Name CONFIG_SSL_CTX_MUTEXING file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_CTX_MUTEXING file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -393,7 +393,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name CONFIG_USE_DEV_URANDOM file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_USE_DEV_URANDOM file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_PLATFORM_WIN32
@@ -408,7 +408,7 @@ depStack
 innerIf  if CONFIG_PLATFORM_WIN32 then (if not CONFIG_PLATFORM_WIN32 then CONFIG_USE_DEV_URANDOM else not CONFIG_USE_DEV_URANDOM)
 outerIf  if CONFIG_PLATFORM_WIN32 then (if not CONFIG_PLATFORM_WIN32 then CONFIG_USE_DEV_URANDOM else not CONFIG_USE_DEV_URANDOM)
 ------------------------------------------------
-Name CONFIG_WIN32_USE_CRYPTO_LIB file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_WIN32_USE_CRYPTO_LIB file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_PLATFORM_WIN32
@@ -423,7 +423,7 @@ depStack
 innerIf  if CONFIG_WIN32_USE_CRYPTO_LIB then CONFIG_PLATFORM_WIN32
 outerIf  if CONFIG_WIN32_USE_CRYPTO_LIB then CONFIG_PLATFORM_WIN32
 ------------------------------------------------
-Name CONFIG_OPENSSL_COMPATIBLE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_OPENSSL_COMPATIBLE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -438,7 +438,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name CONFIG_PERFORMANCE_TESTING file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_PERFORMANCE_TESTING file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SSL_CERT_VERIFICATION
@@ -453,7 +453,7 @@ depStack
 innerIf  if CONFIG_PERFORMANCE_TESTING then CONFIG_SSL_CERT_VERIFICATION
 outerIf  if CONFIG_PERFORMANCE_TESTING then CONFIG_SSL_CERT_VERIFICATION
 ------------------------------------------------
-Name CONFIG_SSL_TEST file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/Config.in
+Name CONFIG_SSL_TEST file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SSL_FULL_MODE and not CONFIG_SSL_GENERATE_X509_CERT
@@ -468,7 +468,7 @@ depStack
 innerIf  if CONFIG_SSL_TEST then CONFIG_SSL_FULL_MODE and not CONFIG_SSL_GENERATE_X509_CERT
 outerIf  if CONFIG_SSL_TEST then CONFIG_SSL_FULL_MODE and not CONFIG_SSL_GENERATE_X509_CERT
 ------------------------------------------------
-Name CONFIG_AXTLSWRAP file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name CONFIG_AXTLSWRAP file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_PLATFORM_WIN32
@@ -483,7 +483,7 @@ depStack
 innerIf  if CONFIG_PLATFORM_WIN32 then not CONFIG_AXTLSWRAP
 outerIf  if CONFIG_PLATFORM_WIN32 then not CONFIG_AXTLSWRAP
 ------------------------------------------------
-Name CONFIG_AXHTTPD file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/config/Config.in
+Name CONFIG_AXHTTPD file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/config/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -498,7 +498,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name CONFIG_HTTP_STATIC_BUILD file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_STATIC_BUILD file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD
@@ -513,7 +513,7 @@ depStack CONFIG_AXHTTPD
 innerIf  if CONFIG_HTTP_STATIC_BUILD then CONFIG_AXHTTPD
 outerIf  if CONFIG_HTTP_STATIC_BUILD then CONFIG_AXHTTPD
 ------------------------------------------------
-Name CONFIG_HTTP_PORT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_PORT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD
 otherBit CONFIG_AXHTTPD
@@ -527,7 +527,7 @@ outerIf if CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then CONFIG_HTTP_PORT else not
 3 CONFIG_HTTP_PORT_EQ_80 -> CONFIG_HTTP_PORT
 3 CONFIG_HTTP_PORT_EQ_OTHERVAL -> CONFIG_HTTP_PORT
 ------------------------------------------------
-Name CONFIG_HTTP_HTTPS_PORT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_HTTPS_PORT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD
 otherBit CONFIG_AXHTTPD
@@ -541,7 +541,7 @@ outerIf if CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then CONFIG_HTTP_HTTPS_PORT el
 3 CONFIG_HTTP_HTTPS_PORT_EQ_443 -> CONFIG_HTTP_HTTPS_PORT
 3 CONFIG_HTTP_HTTPS_PORT_EQ_OTHERVAL -> CONFIG_HTTP_HTTPS_PORT
 ------------------------------------------------
-Name CONFIG_HTTP_SESSION_CACHE_SIZE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_SESSION_CACHE_SIZE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD
 otherBit CONFIG_AXHTTPD
@@ -555,7 +555,7 @@ outerIf if CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then CONFIG_HTTP_SESSION_CACHE
 3 CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_5 -> CONFIG_HTTP_SESSION_CACHE_SIZE
 3 CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_OTHERVAL -> CONFIG_HTTP_SESSION_CACHE_SIZE
 ------------------------------------------------
-Name CONFIG_HTTP_WEBROOT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_WEBROOT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD
 otherBit CONFIG_AXHTTPD
@@ -570,7 +570,7 @@ outerIf if CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then CONFIG_HTTP_WEBROOT else 
 3 CONFIG_HTTP_WEBROOT_EQ_..\www -> CONFIG_HTTP_WEBROOT
 3 CONFIG_HTTP_WEBROOT_EQ_OTHERVAL -> CONFIG_HTTP_WEBROOT
 ------------------------------------------------
-Name CONFIG_HTTP_TIMEOUT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_TIMEOUT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD
 otherBit CONFIG_AXHTTPD
@@ -584,7 +584,7 @@ outerIf if CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then CONFIG_HTTP_TIMEOUT else 
 3 CONFIG_HTTP_TIMEOUT_EQ_300 -> CONFIG_HTTP_TIMEOUT
 3 CONFIG_HTTP_TIMEOUT_EQ_OTHERVAL -> CONFIG_HTTP_TIMEOUT
 ------------------------------------------------
-Name CONFIG_HTTP_HAS_CGI file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_HAS_CGI file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and not CONFIG_PLATFORM_WIN32
@@ -599,7 +599,7 @@ depStack not CONFIG_PLATFORM_WIN32 CONFIG_AXHTTPD
 innerIf  if not (CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and not CONFIG_PLATFORM_WIN32) then (if CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and not CONFIG_PLATFORM_WIN32 then CONFIG_HTTP_HAS_CGI else not CONFIG_HTTP_HAS_CGI)
 outerIf  if not (CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and not CONFIG_PLATFORM_WIN32) then (if CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and not CONFIG_PLATFORM_WIN32 then CONFIG_HTTP_HAS_CGI else not CONFIG_HTTP_HAS_CGI)
 ------------------------------------------------
-Name CONFIG_HTTP_CGI_EXTENSIONS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_CGI_EXTENSIONS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI
 otherBit CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI
@@ -613,7 +613,7 @@ outerIf if CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI 
 3 CONFIG_HTTP_CGI_EXTENSIONS_EQ_.lua,.lp,.php -> CONFIG_HTTP_CGI_EXTENSIONS
 3 CONFIG_HTTP_CGI_EXTENSIONS_EQ_OTHERVAL -> CONFIG_HTTP_CGI_EXTENSIONS
 ------------------------------------------------
-Name CONFIG_HTTP_ENABLE_LUA file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_ENABLE_LUA file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI
@@ -628,7 +628,7 @@ depStack not CONFIG_PLATFORM_WIN32 CONFIG_AXHTTPD
 innerIf  if not (CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI) then (if CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI then CONFIG_HTTP_ENABLE_LUA else not CONFIG_HTTP_ENABLE_LUA)
 outerIf  if not (CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI) then (if CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI then CONFIG_HTTP_ENABLE_LUA else not CONFIG_HTTP_ENABLE_LUA)
 ------------------------------------------------
-Name CONFIG_HTTP_LUA_PREFIX file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_LUA_PREFIX file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_ENABLE_LUA
 otherBit CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_ENABLE_LUA
@@ -642,7 +642,7 @@ outerIf if CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_ENABLE_L
 3 CONFIG_HTTP_LUA_PREFIX_EQ_/usr -> CONFIG_HTTP_LUA_PREFIX
 3 CONFIG_HTTP_LUA_PREFIX_EQ_OTHERVAL -> CONFIG_HTTP_LUA_PREFIX
 ------------------------------------------------
-Name CONFIG_HTTP_BUILD_LUA file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_BUILD_LUA file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_ENABLE_LUA
@@ -657,7 +657,7 @@ depStack not CONFIG_PLATFORM_WIN32 CONFIG_AXHTTPD
 innerIf  if CONFIG_HTTP_BUILD_LUA then CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_ENABLE_LUA
 outerIf  if CONFIG_HTTP_BUILD_LUA then CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_ENABLE_LUA
 ------------------------------------------------
-Name CONFIG_HTTP_CGI_LAUNCHER file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_CGI_LAUNCHER file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI
 otherBit CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI
@@ -671,7 +671,7 @@ outerIf if CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32 and CONFIG_HTTP_HAS_CGI 
 3 CONFIG_HTTP_CGI_LAUNCHER_EQ_/usr/bin/cgi -> CONFIG_HTTP_CGI_LAUNCHER
 3 CONFIG_HTTP_CGI_LAUNCHER_EQ_OTHERVAL -> CONFIG_HTTP_CGI_LAUNCHER
 ------------------------------------------------
-Name CONFIG_HTTP_DIRECTORIES file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_DIRECTORIES file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD
@@ -686,7 +686,7 @@ depStack CONFIG_AXHTTPD
 innerIf  if not CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then CONFIG_HTTP_DIRECTORIES else not CONFIG_HTTP_DIRECTORIES)
 outerIf  if not CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then CONFIG_HTTP_DIRECTORIES else not CONFIG_HTTP_DIRECTORIES)
 ------------------------------------------------
-Name CONFIG_HTTP_HAS_AUTHORIZATION file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_HAS_AUTHORIZATION file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD
@@ -701,7 +701,7 @@ depStack CONFIG_AXHTTPD
 innerIf  if not CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then CONFIG_HTTP_HAS_AUTHORIZATION else not CONFIG_HTTP_HAS_AUTHORIZATION)
 outerIf  if not CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then CONFIG_HTTP_HAS_AUTHORIZATION else not CONFIG_HTTP_HAS_AUTHORIZATION)
 ------------------------------------------------
-Name CONFIG_HTTP_HAS_IPV6 file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_HAS_IPV6 file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32
@@ -716,7 +716,7 @@ depStack CONFIG_AXHTTPD
 innerIf  if CONFIG_HTTP_HAS_IPV6 then CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32
 outerIf  if CONFIG_HTTP_HAS_IPV6 then CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32
 ------------------------------------------------
-Name CONFIG_HTTP_ENABLE_DIFFERENT_USER file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_ENABLE_DIFFERENT_USER file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32
@@ -731,7 +731,7 @@ depStack CONFIG_AXHTTPD
 innerIf  if CONFIG_HTTP_ENABLE_DIFFERENT_USER then CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32
 outerIf  if CONFIG_HTTP_ENABLE_DIFFERENT_USER then CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32
 ------------------------------------------------
-Name CONFIG_HTTP_USER file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_USER file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and CONFIG_HTTP_ENABLE_DIFFERENT_USER
 otherBit CONFIG_AXHTTPD and CONFIG_HTTP_ENABLE_DIFFERENT_USER
@@ -745,7 +745,7 @@ outerIf if CONFIG_AXHTTPD and CONFIG_HTTP_ENABLE_DIFFERENT_USER then (if CONFIG_
 3 CONFIG_HTTP_USER_EQ_OTHERVAL -> CONFIG_HTTP_USER
 3 CONFIG_HTTP_USER_EQ_nobody -> CONFIG_HTTP_USER
 ------------------------------------------------
-Name CONFIG_HTTP_VERBOSE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_VERBOSE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD
@@ -760,7 +760,7 @@ depStack CONFIG_AXHTTPD
 innerIf  if not CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then (if CONFIG_SSL_FULL_MODE then CONFIG_HTTP_VERBOSE else not CONFIG_HTTP_VERBOSE) else not CONFIG_HTTP_VERBOSE)
 outerIf  if not CONFIG_AXHTTPD then (if CONFIG_AXHTTPD then (if CONFIG_SSL_FULL_MODE then CONFIG_HTTP_VERBOSE else not CONFIG_HTTP_VERBOSE) else not CONFIG_HTTP_VERBOSE)
 ------------------------------------------------
-Name CONFIG_HTTP_IS_DAEMON file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/httpd/Config.in
+Name CONFIG_HTTP_IS_DAEMON file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/httpd/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32
@@ -775,7 +775,7 @@ depStack CONFIG_AXHTTPD
 innerIf  if CONFIG_HTTP_IS_DAEMON then CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32
 outerIf  if CONFIG_HTTP_IS_DAEMON then CONFIG_AXHTTPD and not CONFIG_PLATFORM_WIN32
 ------------------------------------------------
-Name CONFIG_BINDINGS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_BINDINGS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -790,7 +790,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name CONFIG_CSHARP_BINDINGS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_CSHARP_BINDINGS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_BINDINGS
@@ -805,7 +805,7 @@ depStack
 innerIf  if CONFIG_CSHARP_BINDINGS then CONFIG_BINDINGS
 outerIf  if CONFIG_CSHARP_BINDINGS then CONFIG_BINDINGS
 ------------------------------------------------
-Name CONFIG_VBNET_BINDINGS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_VBNET_BINDINGS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_BINDINGS
@@ -820,7 +820,7 @@ depStack
 innerIf  if CONFIG_VBNET_BINDINGS then CONFIG_BINDINGS
 outerIf  if CONFIG_VBNET_BINDINGS then CONFIG_BINDINGS
 ------------------------------------------------
-Name CONFIG_DOT_NET_FRAMEWORK_BASE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_DOT_NET_FRAMEWORK_BASE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_CSHARP_BINDINGS or CONFIG_VBNET_BINDINGS
 otherBit CONFIG_CSHARP_BINDINGS or CONFIG_VBNET_BINDINGS
@@ -834,7 +834,7 @@ outerIf if CONFIG_CSHARP_BINDINGS or CONFIG_VBNET_BINDINGS then (if CONFIG_CSHAR
 3 CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_OTHERVAL -> CONFIG_DOT_NET_FRAMEWORK_BASE
 3 CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727 -> CONFIG_DOT_NET_FRAMEWORK_BASE
 ------------------------------------------------
-Name CONFIG_JAVA_BINDINGS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_JAVA_BINDINGS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_BINDINGS
@@ -849,7 +849,7 @@ depStack
 innerIf  if CONFIG_JAVA_BINDINGS then CONFIG_BINDINGS
 outerIf  if CONFIG_JAVA_BINDINGS then CONFIG_BINDINGS
 ------------------------------------------------
-Name CONFIG_JAVA_HOME file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_JAVA_HOME file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_JAVA_BINDINGS
 otherBit CONFIG_JAVA_BINDINGS
@@ -864,7 +864,7 @@ outerIf if CONFIG_JAVA_BINDINGS then (if CONFIG_JAVA_BINDINGS then CONFIG_JAVA_H
 3 CONFIG_JAVA_HOME_EQ_OTHERVAL -> CONFIG_JAVA_HOME
 3 CONFIG_JAVA_HOME_EQ_c:\Program_Files\Java\jdk1.5.0_06 -> CONFIG_JAVA_HOME
 ------------------------------------------------
-Name CONFIG_PERL_BINDINGS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_PERL_BINDINGS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_BINDINGS
@@ -879,7 +879,7 @@ depStack
 innerIf  if CONFIG_PERL_BINDINGS then CONFIG_BINDINGS
 outerIf  if CONFIG_PERL_BINDINGS then CONFIG_BINDINGS
 ------------------------------------------------
-Name CONFIG_PERL_CORE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_PERL_CORE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_PERL_BINDINGS and CONFIG_PLATFORM_WIN32
 otherBit CONFIG_PERL_BINDINGS and CONFIG_PLATFORM_WIN32
@@ -893,7 +893,7 @@ outerIf if CONFIG_PERL_BINDINGS and CONFIG_PLATFORM_WIN32 then (if CONFIG_PERL_B
 3 CONFIG_PERL_CORE_EQ_OTHERVAL -> CONFIG_PERL_CORE
 3 CONFIG_PERL_CORE_EQ_c:\perl\lib\CORE -> CONFIG_PERL_CORE
 ------------------------------------------------
-Name CONFIG_PERL_LIB file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_PERL_LIB file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_PERL_BINDINGS and CONFIG_PLATFORM_WIN32
 otherBit CONFIG_PERL_BINDINGS and CONFIG_PLATFORM_WIN32
@@ -907,7 +907,7 @@ outerIf if CONFIG_PERL_BINDINGS and CONFIG_PLATFORM_WIN32 then (if CONFIG_PERL_B
 3 CONFIG_PERL_LIB_EQ_OTHERVAL -> CONFIG_PERL_LIB
 3 CONFIG_PERL_LIB_EQ_perl58.lib -> CONFIG_PERL_LIB
 ------------------------------------------------
-Name CONFIG_LUA_BINDINGS file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_LUA_BINDINGS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_BINDINGS and not CONFIG_PLATFORM_WIN32
@@ -922,7 +922,7 @@ depStack
 innerIf  if CONFIG_LUA_BINDINGS then CONFIG_BINDINGS and not CONFIG_PLATFORM_WIN32
 outerIf  if CONFIG_LUA_BINDINGS then CONFIG_BINDINGS and not CONFIG_PLATFORM_WIN32
 ------------------------------------------------
-Name CONFIG_LUA_CORE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/bindings/Config.in
+Name CONFIG_LUA_CORE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/bindings/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_LUA_BINDINGS
 otherBit CONFIG_LUA_BINDINGS
@@ -936,7 +936,7 @@ outerIf if CONFIG_LUA_BINDINGS then (if CONFIG_LUA_BINDINGS then CONFIG_LUA_CORE
 3 CONFIG_LUA_CORE_EQ_/usr/local -> CONFIG_LUA_CORE
 3 CONFIG_LUA_CORE_EQ_OTHERVAL -> CONFIG_LUA_CORE
 ------------------------------------------------
-Name CONFIG_SAMPLES file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/samples/Config.in
+Name CONFIG_SAMPLES file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/samples/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -951,7 +951,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name CONFIG_C_SAMPLES file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/samples/Config.in
+Name CONFIG_C_SAMPLES file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/samples/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SAMPLES
@@ -966,7 +966,7 @@ depStack
 innerIf  if not CONFIG_SAMPLES then (if CONFIG_SAMPLES then CONFIG_C_SAMPLES else not CONFIG_C_SAMPLES)
 outerIf  if not CONFIG_SAMPLES then (if CONFIG_SAMPLES then CONFIG_C_SAMPLES else not CONFIG_C_SAMPLES)
 ------------------------------------------------
-Name CONFIG_CSHARP_SAMPLES file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/samples/Config.in
+Name CONFIG_CSHARP_SAMPLES file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/samples/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SAMPLES and CONFIG_CSHARP_BINDINGS
@@ -981,7 +981,7 @@ depStack
 innerIf  if not (CONFIG_SAMPLES and CONFIG_CSHARP_BINDINGS) then (if CONFIG_SAMPLES and CONFIG_CSHARP_BINDINGS then CONFIG_CSHARP_SAMPLES else not CONFIG_CSHARP_SAMPLES)
 outerIf  if not (CONFIG_SAMPLES and CONFIG_CSHARP_BINDINGS) then (if CONFIG_SAMPLES and CONFIG_CSHARP_BINDINGS then CONFIG_CSHARP_SAMPLES else not CONFIG_CSHARP_SAMPLES)
 ------------------------------------------------
-Name CONFIG_VBNET_SAMPLES file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/samples/Config.in
+Name CONFIG_VBNET_SAMPLES file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/samples/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SAMPLES and CONFIG_VBNET_BINDINGS
@@ -996,7 +996,7 @@ depStack
 innerIf  if not (CONFIG_SAMPLES and CONFIG_VBNET_BINDINGS) then (if CONFIG_SAMPLES and CONFIG_VBNET_BINDINGS then CONFIG_VBNET_SAMPLES else not CONFIG_VBNET_SAMPLES)
 outerIf  if not (CONFIG_SAMPLES and CONFIG_VBNET_BINDINGS) then (if CONFIG_SAMPLES and CONFIG_VBNET_BINDINGS then CONFIG_VBNET_SAMPLES else not CONFIG_VBNET_SAMPLES)
 ------------------------------------------------
-Name CONFIG_JAVA_SAMPLES file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/samples/Config.in
+Name CONFIG_JAVA_SAMPLES file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/samples/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SAMPLES and CONFIG_JAVA_BINDINGS
@@ -1011,7 +1011,7 @@ depStack
 innerIf  if not (CONFIG_SAMPLES and CONFIG_JAVA_BINDINGS) then (if CONFIG_SAMPLES and CONFIG_JAVA_BINDINGS then CONFIG_JAVA_SAMPLES else not CONFIG_JAVA_SAMPLES)
 outerIf  if not (CONFIG_SAMPLES and CONFIG_JAVA_BINDINGS) then (if CONFIG_SAMPLES and CONFIG_JAVA_BINDINGS then CONFIG_JAVA_SAMPLES else not CONFIG_JAVA_SAMPLES)
 ------------------------------------------------
-Name CONFIG_PERL_SAMPLES file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/samples/Config.in
+Name CONFIG_PERL_SAMPLES file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/samples/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SAMPLES and CONFIG_PERL_BINDINGS
@@ -1026,7 +1026,7 @@ depStack
 innerIf  if not (CONFIG_SAMPLES and CONFIG_PERL_BINDINGS) then (if CONFIG_SAMPLES and CONFIG_PERL_BINDINGS then CONFIG_PERL_SAMPLES else not CONFIG_PERL_SAMPLES)
 outerIf  if not (CONFIG_SAMPLES and CONFIG_PERL_BINDINGS) then (if CONFIG_SAMPLES and CONFIG_PERL_BINDINGS then CONFIG_PERL_SAMPLES else not CONFIG_PERL_SAMPLES)
 ------------------------------------------------
-Name CONFIG_LUA_SAMPLES file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/samples/Config.in
+Name CONFIG_LUA_SAMPLES file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/samples/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies CONFIG_SAMPLES and CONFIG_LUA_BINDINGS
@@ -1044,7 +1044,7 @@ choice nmtot not (CONFIG_BIGINT_MONTGOMERY and CONFIG_BIGINT_CLASSICAL) and not 
 choice visibility synTrue prompt synTrue guard synTrue
 choice inner if : if not CONFIG_SSL_SKELETON_MODE then not (CONFIG_BIGINT_MONTGOMERY and CONFIG_BIGINT_CLASSICAL) and not (CONFIG_BIGINT_BARRETT and CONFIG_BIGINT_CLASSICAL) and not (CONFIG_BIGINT_BARRETT and CONFIG_BIGINT_MONTGOMERY) and (CONFIG_BIGINT_CLASSICAL or CONFIG_BIGINT_MONTGOMERY or CONFIG_BIGINT_BARRETT) else not CONFIG_BIGINT_CLASSICAL and not CONFIG_BIGINT_MONTGOMERY and not CONFIG_BIGINT_BARRETT
 ------------------------------------------------
-Name CONFIG_BIGINT_CRT file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in
+Name CONFIG_BIGINT_CRT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE
@@ -1059,7 +1059,7 @@ depStack not CONFIG_SSL_SKELETON_MODE
 innerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then CONFIG_BIGINT_CRT else not CONFIG_BIGINT_CRT)
 outerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then CONFIG_BIGINT_CRT else not CONFIG_BIGINT_CRT)
 ------------------------------------------------
-Name CONFIG_BIGINT_KARATSUBA file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in
+Name CONFIG_BIGINT_KARATSUBA file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE
@@ -1074,7 +1074,7 @@ depStack not CONFIG_SSL_SKELETON_MODE
 innerIf  if CONFIG_SSL_SKELETON_MODE then not CONFIG_BIGINT_KARATSUBA
 outerIf  if CONFIG_SSL_SKELETON_MODE then not CONFIG_BIGINT_KARATSUBA
 ------------------------------------------------
-Name MUL_KARATSUBA_THRESH file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in
+Name MUL_KARATSUBA_THRESH file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE and CONFIG_BIGINT_KARATSUBA
 otherBit not CONFIG_SSL_SKELETON_MODE and CONFIG_BIGINT_KARATSUBA
@@ -1088,7 +1088,7 @@ outerIf if not CONFIG_SSL_SKELETON_MODE and CONFIG_BIGINT_KARATSUBA then (if not
 3 MUL_KARATSUBA_THRESH_EQ_20 -> MUL_KARATSUBA_THRESH
 3 MUL_KARATSUBA_THRESH_EQ_OTHERVAL -> MUL_KARATSUBA_THRESH
 ------------------------------------------------
-Name SQU_KARATSUBA_THRESH file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in
+Name SQU_KARATSUBA_THRESH file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE and CONFIG_BIGINT_KARATSUBA and CONFIG_BIGINT_SQUARE
 otherBit not CONFIG_SSL_SKELETON_MODE and CONFIG_BIGINT_KARATSUBA and CONFIG_BIGINT_SQUARE
@@ -1102,7 +1102,7 @@ outerIf if not CONFIG_SSL_SKELETON_MODE and CONFIG_BIGINT_KARATSUBA and CONFIG_B
 3 SQU_KARATSUBA_THRESH_EQ_40 -> SQU_KARATSUBA_THRESH
 3 SQU_KARATSUBA_THRESH_EQ_OTHERVAL -> SQU_KARATSUBA_THRESH
 ------------------------------------------------
-Name CONFIG_BIGINT_SLIDING_WINDOW file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in
+Name CONFIG_BIGINT_SLIDING_WINDOW file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE
@@ -1117,7 +1117,7 @@ depStack not CONFIG_SSL_SKELETON_MODE
 innerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then CONFIG_BIGINT_SLIDING_WINDOW else not CONFIG_BIGINT_SLIDING_WINDOW)
 outerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then CONFIG_BIGINT_SLIDING_WINDOW else not CONFIG_BIGINT_SLIDING_WINDOW)
 ------------------------------------------------
-Name CONFIG_BIGINT_SQUARE file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in
+Name CONFIG_BIGINT_SQUARE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE
@@ -1132,7 +1132,7 @@ depStack not CONFIG_SSL_SKELETON_MODE
 innerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then CONFIG_BIGINT_SQUARE else not CONFIG_BIGINT_SQUARE)
 outerIf  if CONFIG_SSL_SKELETON_MODE then (if not CONFIG_SSL_SKELETON_MODE then CONFIG_BIGINT_SQUARE else not CONFIG_BIGINT_SQUARE)
 ------------------------------------------------
-Name CONFIG_BIGINT_CHECK_ON file definition /Users/david/product_lines/Implementacion/myKconf/systems/axtls/ssl/BigIntConfig.in
+Name CONFIG_BIGINT_CHECK_ON file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/ssl/BigIntConfig.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies not CONFIG_SSL_SKELETON_MODE
@@ -1167,7 +1167,7 @@ At least 0 variables are always false
 Writing variables in order of occurrence to axtls.var
 Writing expressions to axtls.exp
 Symbols in symbolTable 151
-Symbols file /Users/david/product_lines/Implementacion/myKconf/systems/axtls/symbols
+Symbols file /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/axtls/symbols
 
 Files processed      : 11
 If blocks processed  : 0
@@ -1181,11 +1181,4 @@ Menuconfig processed : 0
  boolean:     64 variables
      int:      9 variables
   string:     22 variables
-Time:  49 ms. (49 ms)
-Error: signal 11:
-0   Kconfig2Logic                       0x00000001077fa737 _Z7handleri + 39
-1   libsystem_platform.dylib            0x00007fff701bbb5d _sigtramp + 29
-2   ???                                 0x0252417fe05649a2 0x0 + 167268153646533026
-3   Kconfig2Logic                       0x00000001077fbb93 main + 5155
-4   libdyld.dylib                       0x00007fff6ffd03d5 start + 1
-5   ???                                 0x0000000000000002 0x0 + 2
+Time:  54 ms. (54 ms)

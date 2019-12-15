@@ -1,4 +1,4 @@
-_OBJ=looseVars.o ObjectiveTerm.o ZeroObjectiveTerm.o SingleObjectiveTerm.o DoubleObjectiveTerm.o TripleObjectiveTerm.o cuddAdapter.o humanNums.o mytime.o synExp.o SemanticsCudd.o cuddAlgo.o TravInfo.o OneComponent.o MultiComponents.o Distribution.o Objective.o
+_OBJ=looseVars.o cuddAdapter.o humanNums.o mytime.o synExp.o SemanticsCudd.o cuddAlgo.o TravInfo.o OneComponent.o MultiComponents.o 
 
 OBJ = $(patsubst %,../obj/%,$(_OBJ))
 DEP = $(OBJ:.o=.d)  # one dependency file for each source

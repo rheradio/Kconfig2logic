@@ -1,7 +1,7 @@
-Kconfig2Logic /Users/david/product_lines/Implementacion/myKconf/systems/toybox 
+/Users/david/product_lines/Articulos/ESE2019/artifacts/code/bin/Kconfig2Logic /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox 
 Before treatment. 12 variables
 ------------------------------------------------
-Name TOYBOX file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synFalse promptguard synFalse dependencies synTrue
@@ -16,7 +16,7 @@ depStack
 innerIf  TOYBOX
 outerIf  TOYBOX
 ------------------------------------------------
-Name TOYBOX_SUID file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_SUID file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -31,7 +31,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name TOYBOX_SELINUX file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_SELINUX file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -46,7 +46,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name TOYBOX_FLOAT file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_FLOAT file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -61,7 +61,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name TOYBOX_HELP file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_HELP file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -76,7 +76,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name TOYBOX_HELP_DASHDASH file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_HELP_DASHDASH file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies TOYBOX_HELP
@@ -91,7 +91,7 @@ depStack
 innerIf  if not TOYBOX_HELP then (if TOYBOX_HELP then TOYBOX_HELP_DASHDASH else not TOYBOX_HELP_DASHDASH)
 outerIf  if not TOYBOX_HELP then (if TOYBOX_HELP then TOYBOX_HELP_DASHDASH else not TOYBOX_HELP_DASHDASH)
 ------------------------------------------------
-Name TOYBOX_I18N file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_I18N file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -106,7 +106,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name TOYBOX_FREE file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_FREE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -121,7 +121,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name TOYBOX_NORECURSE file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_NORECURSE file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -136,7 +136,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name TOYBOX_DEBUG file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_DEBUG file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 mapAlternative size 1
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
@@ -151,7 +151,7 @@ depStack
 innerIf  synTrue
 outerIf  synTrue
 ------------------------------------------------
-Name TOYBOX_UID_SYS file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_UID_SYS file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -165,7 +165,7 @@ outerIf TOYBOX_UID_SYS
 3 TOYBOX_UID_SYS_EQ_100 -> TOYBOX_UID_SYS
 3 TOYBOX_UID_SYS_EQ_OTHERVAL -> TOYBOX_UID_SYS
 ------------------------------------------------
-Name TOYBOX_UID_USR file definition /Users/david/product_lines/Implementacion/myKconf/systems/toybox/Config.in
+Name TOYBOX_UID_USR file definition /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/Config.in
 comesFromEnvironment 0
  vis synTrue prompt synTrue promptguard synTrue dependencies synTrue
 otherBit synTrue
@@ -192,7 +192,7 @@ At least 0 variables are always false
 Writing variables in order of occurrence to toybox.var
 Writing expressions to toybox.exp
 Symbols in symbolTable 16
-Symbols file /Users/david/product_lines/Implementacion/myKconf/systems/toybox/symbols
+Symbols file /Users/david/product_lines/Articulos/ESE2019/artifacts/systems/toybox/symbols
 
 Files processed      : 5
 If blocks processed  : 0
@@ -205,11 +205,4 @@ Menuconfig processed : 0
 
  boolean:     10 variables
      int:      2 variables
-Time:   6 ms. (6 ms)
-Error: signal 11:
-0   Kconfig2Logic                       0x00000001015a7737 _Z7handleri + 39
-1   libsystem_platform.dylib            0x00007fff701bbb5d _sigtramp + 29
-2   ???                                 0x322d8b7028831149 0x0 + 3615699389680652617
-3   Kconfig2Logic                       0x00000001015a8b93 main + 5155
-4   libdyld.dylib                       0x00007fff6ffd03d5 start + 1
-5   ???                                 0x0000000000000002 0x0 + 2
+Time:   5 ms. (5 ms)

@@ -1,4 +1,4 @@
-_OBJ=parser.o mytime.o varInfo.o ifInfo.o configInfo.o choiceInfo.o synExp.o  symbolTable.o humanNums.o eval.o MenuBlock.o maxOccSorter.o Scorer.o PermScorer.o SiftScorer.o RandomScorer.o forceScorer.o BlockScorer.o forceBlockScorer.o OtherScorer.o MultiComponents.o OneComponent.o DynamicScorer.o Distribution.o Objective.o ObjectiveTerm.o SingleObjectiveTerm.o DoubleObjectiveTerm.o TripleObjectiveTerm.o ZeroObjectiveTerm.o
+_OBJ=parser.o mytime.o varInfo.o ifInfo.o configInfo.o choiceInfo.o synExp.o  symbolTable.o humanNums.o eval.o MenuBlock.o maxOccSorter.o Scorer.o PermScorer.o SiftScorer.o RandomScorer.o forceScorer.o BlockScorer.o forceBlockScorer.o OtherScorer.o MultiComponents.o OneComponent.o DynamicScorer.o
 
 OBJ = $(patsubst %,../obj/%,$(_OBJ))
 DEP = $(OBJ:.o=.d)  # one dependency file for each source

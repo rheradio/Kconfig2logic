@@ -3,17 +3,15 @@
 # $2 -> number of generated tests
 # $3 -> number of simultaneous tests
 function generateAndTest() {
-#    echo Generate and test $1" "$2" "$3
     printf "Creating instance number %5d for %s\n" $1 $2
-    #echo "randomconf $1 $3 "
     if ! $KCONF/code/bin/randomconf $1 $3 >logfile.$1 2>&1; then
         cat logfile.$1
         echo randomconf execution $1 failed
         kill $$
         exit
     fi
-    cat configuration.$1 $KCONF/Kconfig2Logic/$2.exp >$2.$1.exp
-    if ! $KCONF/code/bin/Logic2BDD $EXTRA -base $2.$1 -min-nodes 1000000  -cudd -constraint-reorder minspan    $KCONF/translation/Kconfig2Logic/$2.var $2.$1.exp  >>logfile.$1 2>&1; then
+    cat configuration.$1 $KCONF/translations/Kconfig2Logic/$2.exp >$2.$1.exp
+    if ! $KCONF/code/bin/Logic2BDD $EXTRA -base $2.$1 -min-nodes 1000000  -cudd -constraint-reorder minspan    $KCONF/translations/Kconfig2Logic/$2.var $2.$1.exp  >>logfile.$1 2>&1; then
       cat logfile.$1
       kill $$
       exit

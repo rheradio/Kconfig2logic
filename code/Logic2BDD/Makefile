@@ -1,4 +1,4 @@
-_OBJ=Logic2BDD.o ObjectiveTerm.o ZeroObjectiveTerm.o SingleObjectiveTerm.o DoubleObjectiveTerm.o TripleObjectiveTerm.o Transform.o synExp.o mytime.o SemanticsCudd.o bddBuilder.o humanNums.o eval.o BDDAdapter.o cuddAdapter.o cuddAlgo.o constraintSorter.o minspanSorter.o RememberSorter.o MenuBlock.o maxOccSorter.o expSorter.o Scorer.o PermScorer.o SiftScorer.o RandomScorer.o forceScorer.o BlockScorer.o forceBlockScorer.o OtherScorer.o MultiComponents.o OneComponent.o compSorter.o DynamicScorer.o symbolTable.o configInfo.o choiceInfo.o varInfo.o Distribution.o Objective.o
+_OBJ=Logic2BDD.o Transform.o synExp.o mytime.o SemanticsCudd.o bddBuilder.o humanNums.o eval.o BDDAdapter.o cuddAdapter.o cuddAlgo.o constraintSorter.o minspanSorter.o RememberSorter.o MenuBlock.o maxOccSorter.o expSorter.o Scorer.o PermScorer.o SiftScorer.o RandomScorer.o forceScorer.o BlockScorer.o forceBlockScorer.o OtherScorer.o MultiComponents.o OneComponent.o compSorter.o DynamicScorer.o symbolTable.o configInfo.o choiceInfo.o varInfo.o 
 
 OBJ = $(patsubst %,../obj/%,$(_OBJ))
 DEP = $(OBJ:.o=.d)  # one dependency file for each source
