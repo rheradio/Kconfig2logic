@@ -41,8 +41,9 @@ for i in `seq $2`; do
     else 
         printf "\n"
         let "right+=1"
+        rm -f  configuration logfile $1.$i.data $1.$i.reorder $1.$i.var $1.$i.exp $1.$i.dddmp 2>/dev/null
     fi
     
-rm -f  configuration logfile $1.$i.data $1.$i.reorder $1.$i.var $1.$i.exp $1.$i.dddmp 2>/dev/null
+
 done
 echo right $right" " wrong results $wrong

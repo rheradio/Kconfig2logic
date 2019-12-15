@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 if [ x$KCONF = x ]
   then
     echo variable KCONF not set

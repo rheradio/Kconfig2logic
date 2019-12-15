@@ -17,7 +17,7 @@ else
        CXXFLAGS=-DKBUILD_NO_NLS -Wno-format-security -O3 -g -I. -I/usr/local/include  -L/opt/local/lib  
     endif
     ifeq ($(UNAME_S),Darwin)
-        CXXFLAGS=-DKBUILD_NO_NLS -I/opt/local/include -I.  -L/opt/local/lib  -Wno-format-security -fcolor-diagnostics -O3 -Wno-deprecated-register -g 
+        CXXFLAGS=-DKBUILD_NO_NLS -I/opt/local/include -I.  -L/opt/local/lib  -Wno-format-security -fcolor-diagnostics -O3  
     endif
     UNAME_P := $(shell uname -p)
     ifeq ($(UNAME_P),x86_64)

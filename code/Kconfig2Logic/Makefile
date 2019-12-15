@@ -51,7 +51,7 @@ CC=c++
 .PHONY: clean
 
 clean:
-	-@rm -f ${OBJ} ${DEP} ../bin/Kconfig2Logic src/tokens.hash.cpp src/parser.hpp src/parser.cpp src/scanner.cpp src/location.hh src/stack.hh src/position.hh src/parser.output 
+	-@rm -f ${OBJ} ${DEP} ../bin/Kconfig2Logic ../obj/Kconfig2Logic.o ../obj/driver.o ../obj/scanner.o ../obj/tokens.hash.o src/tokens.hash.cpp src/parser.hpp src/parser.cpp src/scanner.cpp src/location.hh src/stack.hh src/position.hh src/parser.output 
 
 ifneq ($(MAKECMDGOALS),clean)
 -include $(DEP)
