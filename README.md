@@ -1,6 +1,6 @@
 # Kconfig2logic: A Kconfig-to-Propositional Logic Translation
 
-**Software artifact accompanying the paper "Validating Variability Modeling Translations to Logic Applied to Kconfig" submitted to the Empirical Software Engineering journal**
+**Software artifact accompanying the paper "A Validating Approach to Translating Kconfig-Based Systems to Propositional Logic" submitted to the Empirical Software Engineering journal**
 
 The artifact has been tested on Linux and macOS.
 
