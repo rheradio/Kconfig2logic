@@ -1,0 +1,174 @@
+#
+# Automatically generated file; DO NOT EDIT.
+# Embedded systems toolkit - v - configuration 
+#
+EMBTK_DOTCONFIG=y
+
+#
+# Target OS Selection
+#
+EMBTK_OS_LINUX=y
+
+#
+# Target Architecture/variants/options Selection
+#
+# EMBTK_ARCH_ARM is not set
+EMBTK_ARCH_MIPS=y
+EMBTK_TARGET_ARCH_64BITS=y
+EMBTK_64BITS_FS=y
+EMBTK_TARGET_ARCH_LITTLE_ENDIAN=y
+EMBTK_TARGET_ARCH_MAYUSE_FPU=y
+# EMBTK_ARCH_ARM_LITTLE_ENDIAN is not set
+# EMBTK_ARCH_ARM_BIG_ENDIAN is not set
+# EMBTK_ARCH_ARM_ABI_EABI is not set
+# EMBTK_ARCH_ARM_FAMILY_ARM7TDMI is not set
+# EMBTK_ARCH_ARM_FAMILY_STRONGARM is not set
+# EMBTK_ARCH_ARM_FAMILY_ARM8 is not set
+# EMBTK_ARCH_ARM_FAMILY_ARM9TDMI is not set
+# EMBTK_ARCH_ARM_FAMILY_ARM9E is not set
+# EMBTK_ARCH_ARM_FAMILY_ARM10E is not set
+# EMBTK_ARCH_ARM_FAMILY_XSCALE is not set
+# EMBTK_ARCH_ARM_FAMILY_ARM11 is not set
+# EMBTK_ARCH_ARM_FAMILY_CORTEX is not set
+# EMBTK_ARCH_ARM_FAMILY_IWMMXT is not set
+# EMBTK_ARCH_ARM_FAMILY_ARM9TDMI_ARM9TDMI is not set
+# EMBTK_ARCH_ARM_FAMILY_ARM9TDMI_ARM920T is not set
+# EMBTK_ARCH_ARM_FAMILY_ARM9TDMI_ARM922T is not set
+EMBTK_ARCH_MIPS_LITTLE_ENDIAN=y
+# EMBTK_ARCH_MIPS_BIG_ENDIAN is not set
+# EMBTK_ARCH_MIPS_MIPS1 is not set
+# EMBTK_ARCH_MIPS_MIPS2 is not set
+EMBTK_ARCH_MIPS_MIPS3=y
+# EMBTK_ARCH_MIPS_MIPS4 is not set
+# EMBTK_ARCH_MIPS_MIPS32 is not set
+# EMBTK_ARCH_MIPS_MIPS32R2 is not set
+# EMBTK_ARCH_MIPS_MIPS64 is not set
+# EMBTK_ARCH_MIPS_MIPS64R2 is not set
+# EMBTK_ARCH_MIPS_OCTEON is not set
+# EMBTK_ARCH_MIPS_OCTEON_PLUS is not set
+# EMBTK_ARCH_MIPS_OCTEON2 is not set
+# EMBTK_ARCH_MIPS_ABI_O32 is not set
+# EMBTK_ARCH_MIPS_ABI_N32 is not set
+EMBTK_ARCH_MIPS_ABI_N64=y
+# EMBTK_SOFTFLOAT is not set
+EMBTK_HARDFLOAT=y
+EMBTK_OLDPACKAGES=y
+
+#
+# Toolchain configuration
+#
+
+#
+# Cross Compiler environment
+#
+EMBTK_GCC_ONLY_TOOLCHAIN=y
+# EMBTK_LLVM_ONLY_TOOLCHAIN is not set
+# EMBTK_GCC_AND_LLVM_TOOLCHAIN is not set
+
+#
+# ------------------------------------------
+#
+
+#
+# --- GCC versions
+#
+
+#
+# ------------------------------------------
+#
+EMBTK_HAVE_GCC=y
+# EMBTK_GCC_VERSION_4_9_X is not set
+EMBTK_GCC_VERSION_4_8_X=y
+# EMBTK_GCC_VERSION_4_7_X is not set
+# EMBTK_GCC_VERSION_GIT is not set
+# EMBTK_GCC_VERSION_4_9_2 is not set
+EMBTK_GCC_VERSION_4_8_3=y
+EMBTK_GCC_REFSPEC="toolchain"
+EMBTK_GCC_VERSION_STRING="4.8.3"
+EMBTK_GCC_NEED_PATCH=y
+EMBTK_GCC1_LANGUAGE_OBJECTIVEC=y
+EMBTK_GCC1_REFSPEC="toolchain"
+EMBTK_GCC1_VERSION_STRING="4.8.3"
+EMBTK_GCC1_NEED_PATCH=y
+EMBTK_GCC2_LANGUAGE_OBJECTIVEC=y
+EMBTK_GCC2_REFSPEC="toolchain"
+EMBTK_GCC2_VERSION_STRING="4.8.3"
+EMBTK_GCC2_NEED_PATCH=y
+EMBTK_GCC3_LANGUAGE_OBJECTIVEC=y
+EMBTK_GCC3_REFSPEC="toolchain"
+EMBTK_GCC3_VERSION_STRING="4.8.3"
+EMBTK_GCC3_NEED_PATCH=y
+
+#
+# ------------------------------------------
+#
+
+#
+# --- Additional programming languages
+#
+
+#
+# ------------------------------------------
+#
+# EMBTK_GCC_LANGUAGE_CPP is not set
+EMBTK_LIBCXX_REFSPEC="toolchain"
+EMBTK_LIBCXXRT_REFSPEC="toolchain"
+EMBTK_GCC_LANGUAGE_OBJECTIVEC=y
+# EMBTK_GCC_LANGUAGE_OBJECTIVECPP is not set
+# EMBTK_GCC_LANGUAGE_FORTRAN is not set
+
+#
+# C library to use
+#
+EMBTK_CLIB_EGLIBC=y
+# EMBTK_CLIB_GLIBC is not set
+# EMBTK_CLIB_MUSL is not set
+# EMBTK_CLIB_UCLIBC is not set
+EMBTK_EGLIBC_VERSION_SVN=y
+EMBTK_EGLIBC_REFSPEC="toolchain"
+EMBTK_EGLIBC_VERSION_2_19=y
+# EMBTK_EGLIBC_VERSION_2_17 is not set
+# EMBTK_EGLIBC_VERSION_TRUNK is not set
+EMBTK_EGLIBC_SVN_REVISION=25892
+
+#
+# At EmbToolkit release, valid eglibc svn revisions are:
+#
+
+#
+# svn revision 25890	for eglibc-2.19
+#
+
+#
+# svn revision 25892	for eglibc-2.17
+#
+
+#
+# svn revision 25237	for eglibc-trunk (development version)
+#
+
+#
+# 
+#
+EMBTK_EGLIBC_SVN_BRANCH="branches/eglibc-2_19"
+EMBTK_EGLIBC_VERSION_STRING="2.19"
+EMBTK_EGLIBC_NEED_PATCH=y
+EMBTK_EGLIBC_HEADERS_SVN_REVISION=25892
+EMBTK_EGLIBC_HEADERS_SVN_BRANCH="branches/eglibc-2_19"
+EMBTK_EGLIBC_HEADEERS_VERSION_STRING="2.19"
+EMBTK_EGLIBC_HEADERS_NEED_PATCH=y
+EMBTK_EGLIBC_HEADERS_VERSION_SVN=y
+
+#
+# ------------------------------------
+#
+
+#
+# ----- EGLIBC options configuration
+#
+
+#
+# ------------------------------------
+#
+# KEMBTK_EGLIBC_OPTION_EGLIBC_BACKTRACE is not set
+# KEMBTK_EGLIBC_OPTIO
