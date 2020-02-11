@@ -21,7 +21,7 @@ for i in `seq $2`; do
         exit
     fi
     cat configuration ../../translations/Kconfig2Logic/$1.exp >$1.$i.exp
-    if ! ../../code/bin/Logic2BDD $EXTRA -min-nodes 10000 -base $1.$i  -cudd -constraint-reorder  minspan  ../../code/bin/translations/Kconfig2Logic/$1.var $1.$i.exp  >>logfile 2>&1; then
+    if ! ../../code/bin/Logic2BDD $EXTRA -min-nodes 10000 -base $1.$i  -cudd -constraint-reorder  minspan  ../../translations/Kconfig2Logic/$1.var $1.$i.exp  >>logfile 2>&1; then
        cat logfile
        exit
     fi
