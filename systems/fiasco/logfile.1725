@@ -1,6 +1,0 @@
-KCONFIG_SEED=0x22267698
-Generated value OTHERVAL for environment config KERNELVERSION
-Generated value (null) for environment config INCLUDE_PPC32
-/Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig:9:warning: environment variable INCLUDE_PPC32 undefined
-Generated value (null) for environment config INCLUDE_SPARC
-/Users/david/product_lines/Implementacion/myKconf/systems/fiasco/Kconfig:15:warning: environment variable INCLUDE_SPARC undefined
