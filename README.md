@@ -12,23 +12,25 @@ sudo apt install flex bison gperf libgmp-dev libfl-dev
 Compilation instructions:
 
 ```
-export KCONF=`pwd` (in artifacts)
-cd code
+cd translations/KconfigReader
+unzip freetz.zip
+cd ../../code
 make
-enter root password to install CUDD libraries.
 cd ..
+
 ```
 
 Use scripts at will. Examples:
 
 ```
-./scripts/createVarorderings.sh (to translate the systems using Kconfig2Logic)
-./scripts/validateTranslation.sh <system name> <number of configs> to validate random configurations of Kconfig2Logic translation
-for instance ./scripts/validateTranslation.sh axtls
-./scripts/validaTranslationConcurrent.sh <system name> <number of configs> <number of threads> to validate random configurations of Kconfig2Logic translation using several threads
-for instance, ./scripts/validateTranslationConcurrent.sh busybox 100 5
-./scripts/validateKconfigReader.sh <system name> <number of configs> to validate KconfigReader translation
+./createVarorderings.sh (to translate the systems using Kconfig2Logic)
+./validateTranslation.sh <system name> <number of configs> to validate random configurations of Kconfig2Logic translation
+for instance ./validateTranslation.sh axtls
+./validaTranslationConcurrent.sh <system name> <number of configs> <number of threads> to validate random configurations of Kconfig2Logic translation using several threads
+for instance, ./validateTranslationConcurrent.sh busybox 100 5
+./validateKconfigReader.sh <system name> <number of configs> to validate KconfigReader translation
 for instance, ./scripts/validateKconfigReader.sh axtls 100.
+
 Say instance 62 failed because of too many solutions. You can see what happened typing:
 ./code/bin/looseVars systems/axtls/axtls.62
 Variable    CONFIG_X509_MAX_CA_CERTS_EQ_0 can be true or false 
