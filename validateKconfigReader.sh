@@ -2,43 +2,40 @@
 # $1 -> name of the system
 # $2 -> number of generated tests
 
-if [ x$KCONF == x ]
-then
-echo variable KCONF not set
-exit -1;
+POSSIBILITIES="Config.in Config.src Kconfig config/Config.in config/Config.src src/Config.in src/Config.src src/Kconfig extra/Configs/Config.in"
+for ONE in $POSSIBILITIES; do
+    if [ -f systems/$1/$ONE ]; then
+        FILE=$ONE
+    fi
+done
+if [ x$FILE == x ]; then
+    echo Could not find a Kconfig file
+    exit
 fi
-
-cd $KCONF/../../kaestner
+cd systems/$1
 for i in `seq $2`; do
-    printf "Creating instance number %5d for %s\n" $i $1
-#echo Creating instance number $i for $1
-    if ! randomconf $1 >logfile 2>&1; then
+    printf "Creating instance number %5d for %s " $i $1
+    if ! BR2_EXTERNAL=support/dummy-external ../../code/bin/randomconf $FILE >logfile 2>&1; then
         cat logfile
         echo conf execution failed
         exit
     fi
-    grep "=y" .config | sed 's/=y//;s/^CONFIG_//' >positive
-    grep "=\"\"" .config | sed 's/=\"\"//;s/^CONFIG_//' >>positive
-    #grep "is not set" .config | awk '{ print "not "$2}' | sed 's/=y//;s/CONFIG_//' >negated
-    while read line; do
-    for word in $line; do
-        if ! grep $word positive >/dev/null 2>&1; then
-            echo "not $word" >>negated
-        fi
-        done
-    done<$KCONF/orderings/$1.var
-    cat positive negated $KCONF/orderings/$1.exp >$1.$i.exp 2>/dev/null
-    if ! $KCONF/Logic2BDD $EXTRA -min-nodes 10000 -base $1.$i  -cudd -constraint-reorder  minspan  $KCONF/orderings/$1.var $1.$i.exp >>logfile 2>&1; then
+    cat configuration ../../translations/KconfigReader/$1.exp >$1.$i.exp
+    ../../code/bin/extractVariables $1.$i.exp >$1.$i.var
+    if ! ../../code/bin/Logic2BDD $EXTRA -min-nodes 10000 -base $1.$i  -cudd -constraint-reorder  minspan  $1.$i.var $1.$i.exp  >>logfile 2>&1; then
        cat logfile
-       exit -1
+       exit
     fi
 
-    solutions=`$KCONF/counter $1.$i`
+    solutions=`../../code/bin/counter $1.$i`
     if [ x$solutions != x1 ]; then
-        cat logfile
-        echo The test failed, solutions=$solutions
-        exit -1
+        echo " "The test failed, solutions=$solutions
+        let "wrong+=1"
+    else 
+        printf "\n"
+        let "right+=1"
     fi
-rm -f  positive negated logfile $1.$i.data $1.$i.reorder $1.$i.exp $1.$i.dddmp 2>/dev/null
+    
+rm -f  positive negated logfile $1.$i.data $1.$i.reorder $1.$i.var $1.$i.exp $1.$i.dddmp 2>/dev/null
 done
-echo All test passed!!
+echo right $right" " wrong $wrong
