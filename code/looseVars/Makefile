@@ -6,7 +6,7 @@ DEP = $(OBJ:.o=.d)  # one dependency file for each source
 
 INCLUDEFLAGS=-I../tools/src -Isrc -I/opt/local/include -I/usr/local/include 
 
-LDFLAGS=-lgmp -lgmpxx  -lcudd -L/usr/local/lib -L/opt/local/lib 
+LDFLAGS=-lgmp -lgmpxx  -lcudd -L../lib -L/usr/local/lib -L/opt/local/lib 
 
 ifeq ($(OS),Windows_NT)
     CCFLAGS += -D WIN32
