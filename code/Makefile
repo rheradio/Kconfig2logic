@@ -2,10 +2,10 @@ DIRS=Kconfig2Logic Logic2BDD counter looseVars extractVariables randomconf
 
 UNAME_S := $(shell uname -s)
     ifeq ($(UNAME_S),Linux)
-	CONFPARM=CFLAGS="-g -O3" CXXFLAGS="-O3 -std=c++11 -g" --enable-shared --enable-obj --enable-dddmp
+	CONFPARM=--libdir=`pwd`/../lib --includedir=`pwd`/../include CFLAGS="-g -O3" CXXFLAGS="-O3 -std=c++11 -g" --enable-shared --enable-obj --enable-dddmp
     endif
     ifeq ($(UNAME_S),Darwin)
-        CONFPARM=CFLAGS="-g -O2" CC=clang CXX=clang++ CXXFLAGS="-O2 -std=c++11 -stdlib=libc++ -g" --enable-shared --enable-obj --enable-dddmp
+        CONFPARM=--libdir=`pwd`/../lib --includedir=`pwd`/../include CFLAGS="-g -O2" CC=clang CXX=clang++ CXXFLAGS="-O2 -std=c++11 -stdlib=libc++ -g" --enable-shared --enable-obj --enable-dddmp
     endif
 
 all:
