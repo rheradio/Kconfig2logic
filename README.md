@@ -2,6 +2,8 @@
 
 **Software artifact accompanying the paper "A Validating Approach to Translating Kconfig-Based Systems to Propositional Logic" submitted to the Empirical Software Engineering journal**
 
+## Artifact
+
 The artifact has been tested on Linux and macOS.
 
 It requires recent versions of flex, bison, gperf and GNU xargs. You can get them in Linux by typing:
@@ -45,3 +47,7 @@ You can also use ./scripts/cleanResults.sh to delete the wrong instances.
 
 The programs in the bin directory can also be used. Type the name to see the documentation. BDD file names must not include the extension (.dddmp)
 
+
+## Acknowledgements
+
+This software artifact has been funded by the Spanish Ministry of Science and Innovation, under grant with reference DPI2016-77677-P.
